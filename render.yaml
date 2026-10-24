@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: conclave-smart-hospital
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python run_system.py
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0

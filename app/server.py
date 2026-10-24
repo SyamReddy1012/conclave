@@ -680,18 +680,22 @@ class HospitalRequestHandler(SimpleHTTPRequestHandler):
             self.send_json({"error": "Endpoint not found"}, 404)
             conn.close()
 
-def run_server(port=8080):
+def run_server(host=None, port=None):
+    if host is None:
+        host = os.environ.get("HOST", "0.0.0.0")
+    if port is None:
+        port = int(os.environ.get("PORT", 8080))
     os.chdir(WORKSPACE_DIR)
     # Ensure DB is ready
     import app.database
     app.database.init_db()
 
-    server_address = ("127.0.0.1", port)
+    server_address = (host, port)
     httpd = ThreadedHTTPServer(server_address, HospitalRequestHandler)
     print(f"================================================================")
     print(f"  Smart Hospital Optimization & Emergency Response System")
     print(f"  Team TechHunters · Innovative Conclave")
-    print(f"  Live Web Server running at: http://127.0.0.1:{port}")
+    print(f"  Live Web Server running at: http://{host}:{port}")
     print(f"================================================================")
     try:
         httpd.serve_forever()
@@ -700,7 +704,8 @@ def run_server(port=8080):
         httpd.server_close()
 
 if __name__ == "__main__":
-    port = 8080
+    port = int(os.environ.get("PORT", 8080))
     if len(sys.argv) > 1:
         port = int(sys.argv[1])
-    run_server(port)
+    host = os.environ.get("HOST", "0.0.0.0")
+    run_server(host=host, port=port)
