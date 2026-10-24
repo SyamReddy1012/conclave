@@ -1,0 +1,2001 @@
+Order_ID,Date,Drug_Name,Category,Region,Distributor,Quantity,Unit_Price,Expiry_Days_Left,Total_Sales,Expired_Stock
+1001,2025-01-01,Amoxicillin,Injection,Maharashtra,Apollo Pharmacy,358,66.43,190,23781.94,No
+1002,2025-01-01,Insulin,Syrup,Delhi,Netmeds,452,286.67,115,129574.84,No
+1003,2025-01-01,Metformin,Syrup,Karnataka,MedPlus,330,15.8,353,5214.0,No
+1004,2025-01-01,Insulin,Capsule,Delhi,MedPlus,77,247.73,94,19075.21,No
+1005,2025-01-02,Insulin,Tablet,Delhi,Wellness Forever,37,298.62,354,11048.94,No
+1006,2025-01-02,Azithromycin,Capsule,Gujarat,Netmeds,283,79.74,51,22566.42,No
+1007,2025-01-02,Metformin,Tablet,Gujarat,Wellness Forever,291,34.69,366,10094.79,No
+1008,2025-01-02,Metformin,Tablet,Karnataka,Wellness Forever,369,13.41,70,4948.29,No
+1009,2025-01-03,Metformin,Syrup,Tamil Nadu,MedPlus,412,27.38,259,11280.56,No
+1010,2025-01-03,Insulin,Injection,Gujarat,Wellness Forever,320,251.08,211,80345.6,No
+1011,2025-01-03,Amoxicillin,Tablet,Tamil Nadu,Apollo Pharmacy,128,55.69,309,7128.32,No
+1012,2025-01-03,Metformin,Tablet,Maharashtra,Wellness Forever,389,27.94,-6,10868.66,Yes
+1013,2025-01-04,Insulin,Capsule,Gujarat,Netmeds,450,323.11,381,145399.5,No
+1014,2025-01-04,Azithromycin,Tablet,Gujarat,Apollo Pharmacy,143,119.3,368,17059.9,No
+1015,2025-01-04,Amoxicillin,Syrup,Karnataka,MedPlus,138,37.7,339,5202.6,No
+1016,2025-01-04,Azithromycin,Syrup,Tamil Nadu,Netmeds,17,48.33,272,821.61,No
+1017,2025-01-05,Amoxicillin,Syrup,Gujarat,Apollo Pharmacy,490,73.46,96,35995.4,No
+1018,2025-01-05,Insulin,Syrup,Gujarat,Netmeds,60,294.6,8,17676.0,No
+1019,2025-01-05,Paracetamol,Tablet,Karnataka,Apollo Pharmacy,350,9.11,275,3188.5,No
+1020,2025-01-05,Amoxicillin,Syrup,Karnataka,Netmeds,481,34.77,323,16724.37,No
+1021,2025-01-06,Azithromycin,Tablet,Tamil Nadu,Netmeds,290,46.85,310,13586.5,No
+1022,2025-01-06,Insulin,Injection,Maharashtra,Apollo Pharmacy,184,373.55,152,68733.2,No
+1023,2025-01-06,Amoxicillin,Tablet,Maharashtra,MedPlus,192,41.51,93,7969.92,No
+1024,2025-01-06,Paracetamol,Syrup,Delhi,MedPlus,201,9.85,174,1979.85,No
+1025,2025-01-07,Paracetamol,Tablet,Gujarat,Netmeds,258,8.4,339,2167.2,No
+1026,2025-01-07,Metformin,Tablet,Tamil Nadu,Netmeds,244,18.87,180,4604.28,No
+1027,2025-01-07,Metformin,Tablet,Gujarat,MedPlus,92,11.74,17,1080.08,No
+1028,2025-01-07,Azithromycin,Tablet,Tamil Nadu,MedPlus,102,81.52,189,8315.04,No
+1029,2025-01-08,Amoxicillin,Capsule,Tamil Nadu,Wellness Forever,382,34.06,296,13010.92,No
+1030,2025-01-08,Amoxicillin,Tablet,Tamil Nadu,MedPlus,403,78.02,166,31442.06,No
+1031,2025-01-08,Metformin,Capsule,Gujarat,Netmeds,321,15.84,131,5084.64,No
+1032,2025-01-08,Amoxicillin,Capsule,Karnataka,Apollo Pharmacy,277,62.4,252,17284.8,No
+1033,2025-01-09,Amoxicillin,Syrup,Gujarat,MedPlus,426,82.8,-5,35272.8,Yes
+1034,2025-01-09,Paracetamol,Tablet,Tamil Nadu,Wellness Forever,129,14.76,54,1904.04,No
+1035,2025-01-09,Metformin,Tablet,Delhi,Wellness Forever,80,23.32,240,1865.6,No
+1036,2025-01-09,Insulin,Injection,Maharashtra,Wellness Forever,26,231.08,380,6008.08,No
+1037,2025-01-10,Metformin,Tablet,Tamil Nadu,Apollo Pharmacy,262,18.33,203,4802.46,No
+1038,2025-01-10,Insulin,Tablet,Delhi,MedPlus,454,317.37,281,144085.98,No
+1039,2025-01-10,Paracetamol,Syrup,Karnataka,MedPlus,131,19.91,393,2608.21,No
+1040,2025-01-10,Azithromycin,Capsule,Tamil Nadu,MedPlus,389,92.95,346,36157.55,No
+1041,2025-01-11,Amoxicillin,Injection,Delhi,Apollo Pharmacy,19,63.47,243,1205.93,No
+1042,2025-01-11,Paracetamol,Tablet,Tamil Nadu,Apollo Pharmacy,296,15.96,-13,4724.16,Yes
+1043,2025-01-11,Amoxicillin,Injection,Gujarat,Netmeds,325,57.91,68,18820.75,No
+1044,2025-01-11,Azithromycin,Tablet,Delhi,Wellness Forever,335,44.81,140,15011.35,No
+1045,2025-01-12,Azithromycin,Tablet,Gujarat,Wellness Forever,282,84.98,135,23964.36,No
+1046,2025-01-12,Paracetamol,Capsule,Gujarat,MedPlus,315,19.36,160,6098.4,No
+1047,2025-01-12,Azithromycin,Tablet,Delhi,Apollo Pharmacy,302,54.02,179,16314.04,No
+1048,2025-01-12,Insulin,Tablet,Maharashtra,Apollo Pharmacy,219,322.5,91,70627.5,No
+1049,2025-01-13,Azithromycin,Tablet,Delhi,MedPlus,455,56.07,118,25511.85,No
+1050,2025-01-13,Amoxicillin,Capsule,Maharashtra,MedPlus,227,62.15,260,14108.05,No
+1051,2025-01-13,Amoxicillin,Injection,Tamil Nadu,Netmeds,250,35.8,379,8950.0,No
+1052,2025-01-13,Amoxicillin,Syrup,Tamil Nadu,Wellness Forever,383,57.02,336,21838.66,No
+1053,2025-01-14,Amoxicillin,Injection,Delhi,Wellness Forever,473,75.37,364,35650.01,No
+1054,2025-01-14,Insulin,Tablet,Tamil Nadu,Wellness Forever,209,236.89,139,49510.01,No
+1055,2025-01-14,Metformin,Syrup,Karnataka,Netmeds,225,26.62,261,5989.5,No
+1056,2025-01-14,Paracetamol,Tablet,Gujarat,MedPlus,214,16.93,220,3623.02,No
+1057,2025-01-15,Amoxicillin,Tablet,Gujarat,MedPlus,422,85.63,224,36135.86,No
+1058,2025-01-15,Azithromycin,Syrup,Maharashtra,Wellness Forever,425,58.77,354,24977.25,No
+1059,2025-01-15,Amoxicillin,Capsule,Tamil Nadu,Wellness Forever,225,53.96,-3,12141.0,Yes
+1060,2025-01-15,Azithromycin,Tablet,Maharashtra,Netmeds,89,52.19,326,4644.91,No
+1061,2025-01-16,Azithromycin,Tablet,Gujarat,Apollo Pharmacy,276,119.4,19,32954.4,No
+1062,2025-01-16,Amoxicillin,Tablet,Gujarat,Apollo Pharmacy,489,85.62,31,41868.18,No
+1063,2025-01-16,Insulin,Tablet,Tamil Nadu,Wellness Forever,399,284.99,198,113711.01,No
+1064,2025-01-16,Azithromycin,Capsule,Karnataka,Netmeds,388,107.36,396,41655.68,No
+1065,2025-01-17,Azithromycin,Syrup,Karnataka,Wellness Forever,44,81.68,389,3593.92,No
+1066,2025-01-17,Amoxicillin,Syrup,Tamil Nadu,Apollo Pharmacy,298,67.42,130,20091.16,No
+1067,2025-01-17,Azithromycin,Injection,Tamil Nadu,Wellness Forever,27,47.13,143,1272.51,No
+1068,2025-01-17,Azithromycin,Tablet,Maharashtra,Apollo Pharmacy,174,100.42,109,17473.08,No
+1069,2025-01-18,Amoxicillin,Syrup,Tamil Nadu,Apollo Pharmacy,22,37.66,94,828.52,No
+1070,2025-01-18,Amoxicillin,Tablet,Karnataka,Apollo Pharmacy,211,79.56,21,16787.16,No
+1071,2025-01-18,Paracetamol,Syrup,Tamil Nadu,MedPlus,238,16.73,261,3981.74,No
+1072,2025-01-18,Insulin,Capsule,Maharashtra,MedPlus,355,327.19,-2,116152.45,Yes
+1073,2025-01-19,Insulin,Injection,Maharashtra,Wellness Forever,375,159.04,331,59640.0,No
+1074,2025-01-19,Azithromycin,Tablet,Maharashtra,Apollo Pharmacy,474,64.25,216,30454.5,No
+1075,2025-01-19,Insulin,Capsule,Maharashtra,MedPlus,457,215.78,300,98611.46,No
+1076,2025-01-19,Azithromycin,Tablet,Delhi,Wellness Forever,10,68.81,108,688.1,No
+1077,2025-01-20,Paracetamol,Tablet,Tamil Nadu,Wellness Forever,328,6.31,263,2069.68,No
+1078,2025-01-20,Amoxicillin,Tablet,Gujarat,Wellness Forever,226,86.22,95,19485.72,No
+1079,2025-01-20,Amoxicillin,Tablet,Tamil Nadu,Wellness Forever,43,63.23,108,2718.89,No
+1080,2025-01-20,Amoxicillin,Syrup,Delhi,Wellness Forever,368,48.33,397,17785.44,No
+1081,2025-01-21,Insulin,Syrup,Maharashtra,Netmeds,275,249.25,14,68543.75,No
+1082,2025-01-21,Paracetamol,Capsule,Delhi,Apollo Pharmacy,137,11.71,99,1604.27,No
+1083,2025-01-21,Insulin,Syrup,Karnataka,Wellness Forever,221,300.15,74,66333.15,No
+1084,2025-01-21,Insulin,Syrup,Karnataka,Netmeds,272,278.92,196,75866.24,No
+1085,2025-01-22,Paracetamol,Tablet,Tamil Nadu,Apollo Pharmacy,321,18.79,22,6031.59,No
+1086,2025-01-22,Paracetamol,Tablet,Tamil Nadu,MedPlus,89,12.45,67,1108.05,No
+1087,2025-01-22,Paracetamol,Syrup,Gujarat,Wellness Forever,174,19.88,11,3459.12,No
+1088,2025-01-22,Paracetamol,Tablet,Gujarat,Netmeds,422,17.77,201,7498.94,No
+1089,2025-01-23,Amoxicillin,Capsule,Karnataka,MedPlus,261,42.51,344,11095.11,No
+1090,2025-01-23,Metformin,Tablet,Maharashtra,Netmeds,21,33.26,356,698.46,No
+1091,2025-01-23,Metformin,Tablet,Delhi,Apollo Pharmacy,410,12.91,199,5293.1,No
+1092,2025-01-23,Paracetamol,Tablet,Gujarat,Apollo Pharmacy,313,17.26,205,5402.38,No
+1093,2025-01-24,Metformin,Tablet,Gujarat,MedPlus,221,19.52,-1,4313.92,Yes
+1094,2025-01-24,Metformin,Tablet,Maharashtra,Netmeds,291,31.95,243,9297.45,No
+1095,2025-01-24,Paracetamol,Injection,Maharashtra,Wellness Forever,121,18.02,250,2180.42,No
+1096,2025-01-24,Metformin,Tablet,Tamil Nadu,Wellness Forever,220,30.15,104,6633.0,No
+1097,2025-01-25,Insulin,Syrup,Delhi,MedPlus,387,347.51,385,134486.37,No
+1098,2025-01-25,Azithromycin,Tablet,Maharashtra,MedPlus,248,64.37,112,15963.76,No
+1099,2025-01-25,Azithromycin,Tablet,Gujarat,MedPlus,277,46.47,195,12872.19,No
+1100,2025-01-25,Paracetamol,Tablet,Gujarat,Netmeds,414,11.04,-5,4570.56,Yes
+1101,2025-01-26,Amoxicillin,Capsule,Karnataka,Wellness Forever,307,40.41,160,12405.87,No
+1102,2025-01-26,Paracetamol,Tablet,Maharashtra,Wellness Forever,326,15.42,117,5026.92,No
+1103,2025-01-26,Amoxicillin,Injection,Tamil Nadu,Wellness Forever,67,50.77,309,3401.59,No
+1104,2025-01-26,Azithromycin,Tablet,Delhi,MedPlus,447,118.05,304,52768.35,No
+1105,2025-01-27,Paracetamol,Injection,Tamil Nadu,Wellness Forever,43,14.61,-2,628.23,Yes
+1106,2025-01-27,Insulin,Tablet,Gujarat,Apollo Pharmacy,272,355.62,34,96728.64,No
+1107,2025-01-27,Metformin,Injection,Tamil Nadu,MedPlus,374,13.31,394,4977.94,No
+1108,2025-01-27,Amoxicillin,Syrup,Gujarat,Wellness Forever,44,81.72,56,3595.68,No
+1109,2025-01-28,Metformin,Capsule,Gujarat,Netmeds,280,33.07,53,9259.6,No
+1110,2025-01-28,Metformin,Tablet,Gujarat,MedPlus,458,22.18,375,10158.44,No
+1111,2025-01-28,Paracetamol,Tablet,Gujarat,Apollo Pharmacy,483,14.09,367,6805.47,No
+1112,2025-01-28,Metformin,Tablet,Gujarat,Apollo Pharmacy,236,29.12,0,6872.32,No
+1113,2025-01-29,Insulin,Capsule,Karnataka,Netmeds,34,193.71,318,6586.14,No
+1114,2025-01-29,Metformin,Syrup,Tamil Nadu,Netmeds,243,22.56,341,5482.08,No
+1115,2025-01-29,Paracetamol,Injection,Karnataka,MedPlus,68,10.98,40,746.64,No
+1116,2025-01-29,Insulin,Tablet,Karnataka,MedPlus,260,186.59,89,48513.4,No
+1117,2025-01-30,Azithromycin,Tablet,Maharashtra,Apollo Pharmacy,344,69.4,116,23873.6,No
+1118,2025-01-30,Metformin,Tablet,Maharashtra,Netmeds,95,11.7,32,1111.5,No
+1119,2025-01-30,Paracetamol,Capsule,Maharashtra,MedPlus,260,5.39,232,1401.4,No
+1120,2025-01-30,Azithromycin,Injection,Delhi,Apollo Pharmacy,399,50.81,257,20273.19,No
+1121,2025-01-31,Azithromycin,Capsule,Maharashtra,Netmeds,189,117.05,95,22122.45,No
+1122,2025-01-31,Amoxicillin,Tablet,Tamil Nadu,Apollo Pharmacy,216,62.97,310,13601.52,No
+1123,2025-01-31,Insulin,Syrup,Karnataka,Wellness Forever,353,391.46,320,138185.38,No
+1124,2025-01-31,Metformin,Injection,Tamil Nadu,Netmeds,158,20.81,333,3287.98,No
+1125,2025-02-01,Paracetamol,Tablet,Maharashtra,MedPlus,80,9.68,22,774.4,No
+1126,2025-02-01,Amoxicillin,Capsule,Delhi,MedPlus,130,60.37,341,7848.1,No
+1127,2025-02-01,Insulin,Capsule,Delhi,Wellness Forever,262,259.88,224,68088.56,No
+1128,2025-02-01,Amoxicillin,Capsule,Karnataka,Netmeds,102,36.34,302,3706.68,No
+1129,2025-02-02,Insulin,Injection,Tamil Nadu,Apollo Pharmacy,265,310.21,105,82205.65,No
+1130,2025-02-02,Insulin,Tablet,Gujarat,MedPlus,263,204.01,32,53654.63,No
+1131,2025-02-02,Metformin,Tablet,Tamil Nadu,Wellness Forever,361,25.49,-6,9201.89,Yes
+1132,2025-02-02,Insulin,Capsule,Maharashtra,Wellness Forever,297,312.55,217,92827.35,No
+1133,2025-02-03,Amoxicillin,Tablet,Gujarat,Netmeds,318,39.12,20,12440.16,No
+1134,2025-02-03,Insulin,Injection,Delhi,Netmeds,68,165.34,397,11243.12,No
+1135,2025-02-03,Metformin,Injection,Karnataka,MedPlus,78,29.52,-12,2302.56,Yes
+1136,2025-02-03,Metformin,Syrup,Karnataka,Wellness Forever,455,21.5,28,9782.5,No
+1137,2025-02-04,Amoxicillin,Capsule,Delhi,Apollo Pharmacy,397,33.49,40,13295.53,No
+1138,2025-02-04,Azithromycin,Tablet,Maharashtra,Wellness Forever,95,119.59,26,11361.05,No
+1139,2025-02-04,Azithromycin,Tablet,Delhi,Apollo Pharmacy,283,44.62,239,12627.46,No
+1140,2025-02-04,Insulin,Tablet,Maharashtra,Apollo Pharmacy,236,323.76,212,76407.36,No
+1141,2025-02-05,Paracetamol,Tablet,Gujarat,MedPlus,90,19.76,98,1778.4,No
+1142,2025-02-05,Insulin,Tablet,Delhi,Wellness Forever,123,209.8,221,25805.4,No
+1143,2025-02-05,Amoxicillin,Tablet,Maharashtra,Apollo Pharmacy,193,38.53,381,7436.29,No
+1144,2025-02-05,Amoxicillin,Capsule,Gujarat,Netmeds,289,37.28,158,10773.92,No
+1145,2025-02-06,Amoxicillin,Capsule,Delhi,Apollo Pharmacy,331,48.2,239,15954.2,No
+1146,2025-02-06,Amoxicillin,Tablet,Karnataka,Netmeds,406,36.06,261,14640.36,No
+1147,2025-02-06,Amoxicillin,Tablet,Delhi,Netmeds,327,71.53,319,23390.31,No
+1148,2025-02-06,Metformin,Capsule,Tamil Nadu,Wellness Forever,63,11.56,53,728.28,No
+1149,2025-02-07,Azithromycin,Tablet,Delhi,Netmeds,408,80.75,310,32946.0,No
+1150,2025-02-07,Amoxicillin,Tablet,Tamil Nadu,Apollo Pharmacy,206,89.8,214,18498.8,No
+1151,2025-02-07,Paracetamol,Tablet,Gujarat,Netmeds,396,17.21,51,6815.16,No
+1152,2025-02-07,Paracetamol,Syrup,Delhi,Wellness Forever,302,14.23,288,4297.46,No
+1153,2025-02-08,Paracetamol,Tablet,Gujarat,MedPlus,302,9.59,20,2896.18,No
+1154,2025-02-08,Paracetamol,Capsule,Gujarat,Apollo Pharmacy,494,14.36,143,7093.84,No
+1155,2025-02-08,Metformin,Tablet,Maharashtra,Apollo Pharmacy,396,23.18,133,9179.28,No
+1156,2025-02-08,Paracetamol,Syrup,Gujarat,Wellness Forever,456,11.39,11,5193.84,No
+1157,2025-02-09,Amoxicillin,Tablet,Gujarat,Wellness Forever,300,37.84,56,11352.0,No
+1158,2025-02-09,Insulin,Syrup,Delhi,Wellness Forever,189,371.65,232,70241.85,No
+1159,2025-02-09,Paracetamol,Injection,Delhi,Wellness Forever,480,11.75,85,5640.0,No
+1160,2025-02-09,Metformin,Injection,Karnataka,Apollo Pharmacy,389,14.87,174,5784.43,No
+1161,2025-02-10,Metformin,Injection,Maharashtra,MedPlus,421,19.19,80,8078.99,No
+1162,2025-02-10,Paracetamol,Syrup,Gujarat,Netmeds,231,11.21,368,2589.51,No
+1163,2025-02-10,Insulin,Capsule,Maharashtra,Netmeds,283,356.88,266,100997.04,No
+1164,2025-02-10,Paracetamol,Capsule,Tamil Nadu,MedPlus,387,16.0,306,6192.0,No
+1165,2025-02-11,Metformin,Injection,Gujarat,MedPlus,253,29.23,380,7395.19,No
+1166,2025-02-11,Azithromycin,Tablet,Maharashtra,MedPlus,429,40.88,262,17537.52,No
+1167,2025-02-11,Amoxicillin,Tablet,Karnataka,Wellness Forever,426,54.97,1,23417.22,No
+1168,2025-02-11,Metformin,Tablet,Karnataka,Apollo Pharmacy,457,22.03,247,10067.71,No
+1169,2025-02-12,Paracetamol,Injection,Gujarat,Apollo Pharmacy,163,5.29,91,862.27,No
+1170,2025-02-12,Amoxicillin,Tablet,Tamil Nadu,Apollo Pharmacy,313,45.59,52,14269.67,No
+1171,2025-02-12,Paracetamol,Tablet,Karnataka,Wellness Forever,433,16.4,112,7101.2,No
+1172,2025-02-12,Paracetamol,Capsule,Karnataka,Apollo Pharmacy,282,7.06,277,1990.92,No
+1173,2025-02-13,Azithromycin,Capsule,Tamil Nadu,Wellness Forever,433,82.82,278,35861.06,No
+1174,2025-02-13,Amoxicillin,Capsule,Maharashtra,Apollo Pharmacy,144,42.91,80,6179.04,No
+1175,2025-02-13,Amoxicillin,Tablet,Karnataka,MedPlus,322,30.73,379,9895.06,No
+1176,2025-02-13,Azithromycin,Injection,Delhi,Netmeds,17,59.3,-15,1008.1,Yes
+1177,2025-02-14,Metformin,Tablet,Karnataka,Netmeds,137,34.4,393,4712.8,No
+1178,2025-02-14,Paracetamol,Tablet,Maharashtra,Wellness Forever,382,17.02,282,6501.64,No
+1179,2025-02-14,Insulin,Tablet,Maharashtra,Apollo Pharmacy,65,389.89,164,25342.85,No
+1180,2025-02-14,Paracetamol,Tablet,Gujarat,Netmeds,135,12.32,392,1663.2,No
+1181,2025-02-15,Paracetamol,Tablet,Delhi,MedPlus,168,6.65,165,1117.2,No
+1182,2025-02-15,Metformin,Capsule,Maharashtra,MedPlus,68,23.7,219,1611.6,No
+1183,2025-02-15,Paracetamol,Tablet,Tamil Nadu,MedPlus,67,11.82,303,791.94,No
+1184,2025-02-15,Azithromycin,Injection,Delhi,Wellness Forever,149,107.55,321,16024.95,No
+1185,2025-02-16,Azithromycin,Syrup,Delhi,Wellness Forever,185,47.85,-8,8852.25,Yes
+1186,2025-02-16,Amoxicillin,Tablet,Tamil Nadu,Apollo Pharmacy,424,59.29,11,25138.96,No
+1187,2025-02-16,Insulin,Syrup,Karnataka,MedPlus,117,187.51,292,21938.67,No
+1188,2025-02-16,Paracetamol,Tablet,Tamil Nadu,Apollo Pharmacy,220,9.87,130,2171.4,No
+1189,2025-02-17,Paracetamol,Syrup,Tamil Nadu,Apollo Pharmacy,456,16.06,75,7323.36,No
+1190,2025-02-17,Metformin,Tablet,Karnataka,MedPlus,83,21.9,326,1817.7,No
+1191,2025-02-17,Azithromycin,Tablet,Karnataka,Apollo Pharmacy,176,70.07,256,12332.32,No
+1192,2025-02-17,Insulin,Tablet,Karnataka,Netmeds,469,248.62,306,116602.78,No
+1193,2025-02-18,Amoxicillin,Syrup,Karnataka,Wellness Forever,413,57.57,-11,23776.41,Yes
+1194,2025-02-18,Azithromycin,Capsule,Karnataka,Apollo Pharmacy,366,102.8,66,37624.8,No
+1195,2025-02-18,Amoxicillin,Tablet,Tamil Nadu,MedPlus,313,83.53,371,26144.89,No
+1196,2025-02-18,Metformin,Injection,Gujarat,Wellness Forever,242,33.88,203,8198.96,No
+1197,2025-02-19,Metformin,Injection,Gujarat,Wellness Forever,336,29.67,102,9969.12,No
+1198,2025-02-19,Paracetamol,Capsule,Maharashtra,Apollo Pharmacy,381,9.73,65,3707.13,No
+1199,2025-02-19,Insulin,Capsule,Gujarat,Netmeds,191,322.03,54,61507.73,No
+1200,2025-02-19,Amoxicillin,Syrup,Gujarat,Apollo Pharmacy,131,56.26,99,7370.06,No
+1201,2025-02-20,Azithromycin,Injection,Tamil Nadu,Netmeds,343,60.37,247,20706.91,No
+1202,2025-02-20,Metformin,Capsule,Karnataka,Wellness Forever,212,31.02,290,6576.24,No
+1203,2025-02-20,Paracetamol,Tablet,Karnataka,Apollo Pharmacy,464,5.58,126,2589.12,No
+1204,2025-02-20,Paracetamol,Tablet,Tamil Nadu,MedPlus,38,18.53,191,704.14,No
+1205,2025-02-21,Amoxicillin,Tablet,Gujarat,Apollo Pharmacy,211,57.69,95,12172.59,No
+1206,2025-02-21,Metformin,Capsule,Tamil Nadu,Netmeds,102,25.93,287,2644.86,No
+1207,2025-02-21,Insulin,Capsule,Maharashtra,Netmeds,338,314.84,96,106415.92,No
+1208,2025-02-21,Metformin,Tablet,Karnataka,Apollo Pharmacy,365,32.38,27,11818.7,No
+1209,2025-02-22,Amoxicillin,Syrup,Delhi,Netmeds,185,68.2,331,12617.0,No
+1210,2025-02-22,Amoxicillin,Syrup,Maharashtra,Wellness Forever,339,66.84,269,22658.76,No
+1211,2025-02-22,Metformin,Tablet,Maharashtra,Apollo Pharmacy,220,11.67,112,2567.4,No
+1212,2025-02-22,Amoxicillin,Capsule,Tamil Nadu,Netmeds,193,61.1,169,11792.3,No
+1213,2025-02-23,Metformin,Tablet,Gujarat,Apollo Pharmacy,104,13.75,213,1430.0,No
+1214,2025-02-23,Azithromycin,Tablet,Karnataka,Apollo Pharmacy,282,98.99,373,27915.18,No
+1215,2025-02-23,Metformin,Syrup,Delhi,MedPlus,146,22.81,205,3330.26,No
+1216,2025-02-23,Metformin,Injection,Maharashtra,Apollo Pharmacy,246,27.01,336,6644.46,No
+1217,2025-02-24,Amoxicillin,Tablet,Delhi,MedPlus,362,32.5,101,11765.0,No
+1218,2025-02-24,Amoxicillin,Injection,Gujarat,Netmeds,427,35.09,54,14983.43,No
+1219,2025-02-24,Paracetamol,Syrup,Gujarat,MedPlus,438,15.74,370,6894.12,No
+1220,2025-02-24,Paracetamol,Tablet,Delhi,MedPlus,481,6.08,54,2924.48,No
+1221,2025-02-25,Azithromycin,Tablet,Karnataka,MedPlus,274,45.7,94,12521.8,No
+1222,2025-02-25,Paracetamol,Syrup,Gujarat,Wellness Forever,144,5.18,116,745.92,No
+1223,2025-02-25,Metformin,Tablet,Delhi,MedPlus,153,33.91,40,5188.23,No
+1224,2025-02-25,Amoxicillin,Capsule,Maharashtra,Apollo Pharmacy,28,74.25,73,2079.0,No
+1225,2025-02-26,Paracetamol,Capsule,Delhi,MedPlus,240,10.3,121,2472.0,No
+1226,2025-02-26,Paracetamol,Capsule,Delhi,Apollo Pharmacy,143,9.45,115,1351.35,No
+1227,2025-02-26,Azithromycin,Tablet,Tamil Nadu,MedPlus,123,67.98,202,8361.54,No
+1228,2025-02-26,Azithromycin,Capsule,Gujarat,Wellness Forever,148,101.97,160,15091.56,No
+1229,2025-02-27,Metformin,Tablet,Karnataka,Netmeds,134,26.53,155,3555.02,No
+1230,2025-02-27,Amoxicillin,Tablet,Karnataka,MedPlus,213,41.11,84,8756.43,No
+1231,2025-02-27,Azithromycin,Tablet,Tamil Nadu,MedPlus,70,53.93,113,3775.1,No
+1232,2025-02-27,Paracetamol,Tablet,Karnataka,Wellness Forever,259,6.48,41,1678.32,No
+1233,2025-02-28,Amoxicillin,Injection,Delhi,MedPlus,307,69.62,165,21373.34,No
+1234,2025-02-28,Amoxicillin,Syrup,Tamil Nadu,Apollo Pharmacy,22,75.86,230,1668.92,No
+1235,2025-02-28,Paracetamol,Tablet,Maharashtra,MedPlus,405,8.98,128,3636.9,No
+1236,2025-02-28,Azithromycin,Syrup,Gujarat,MedPlus,264,41.68,35,11003.52,No
+1237,2025-03-01,Paracetamol,Tablet,Gujarat,Netmeds,94,6.23,352,585.62,No
+1238,2025-03-01,Amoxicillin,Syrup,Gujarat,Netmeds,467,88.07,202,41128.69,No
+1239,2025-03-01,Insulin,Tablet,Delhi,MedPlus,29,223.86,88,6491.94,No
+1240,2025-03-01,Insulin,Capsule,Maharashtra,Wellness Forever,59,342.31,367,20196.29,No
+1241,2025-03-02,Metformin,Capsule,Tamil Nadu,Netmeds,173,25.62,39,4432.26,No
+1242,2025-03-02,Paracetamol,Syrup,Tamil Nadu,MedPlus,101,10.73,241,1083.73,No
+1243,2025-03-02,Paracetamol,Tablet,Gujarat,Netmeds,97,8.09,330,784.73,No
+1244,2025-03-02,Metformin,Tablet,Maharashtra,MedPlus,78,13.03,140,1016.34,No
+1245,2025-03-03,Metformin,Capsule,Maharashtra,Netmeds,46,25.38,37,1167.48,No
+1246,2025-03-03,Metformin,Tablet,Maharashtra,Netmeds,262,29.37,313,7694.94,No
+1247,2025-03-03,Amoxicillin,Tablet,Karnataka,Apollo Pharmacy,261,68.63,171,17912.43,No
+1248,2025-03-03,Paracetamol,Tablet,Karnataka,MedPlus,149,12.95,348,1929.55,No
+1249,2025-03-04,Amoxicillin,Syrup,Gujarat,MedPlus,364,32.52,134,11837.28,No
+1250,2025-03-04,Metformin,Syrup,Maharashtra,MedPlus,390,34.21,248,13341.9,No
+1251,2025-03-04,Paracetamol,Capsule,Maharashtra,MedPlus,177,16.98,234,3005.46,No
+1252,2025-03-04,Amoxicillin,Tablet,Tamil Nadu,Netmeds,63,47.57,282,2996.91,No
+1253,2025-03-05,Amoxicillin,Tablet,Tamil Nadu,Apollo Pharmacy,395,88.8,395,35076.0,No
+1254,2025-03-05,Metformin,Capsule,Gujarat,Apollo Pharmacy,187,25.05,195,4684.35,No
+1255,2025-03-05,Paracetamol,Capsule,Maharashtra,Wellness Forever,306,13.74,9,4204.44,No
+1256,2025-03-05,Metformin,Tablet,Gujarat,MedPlus,310,28.7,278,8897.0,No
+1257,2025-03-06,Paracetamol,Syrup,Tamil Nadu,Wellness Forever,368,17.18,325,6322.24,No
+1258,2025-03-06,Insulin,Tablet,Tamil Nadu,Netmeds,115,314.12,136,36123.8,No
+1259,2025-03-06,Azithromycin,Capsule,Karnataka,Wellness Forever,146,50.25,8,7336.5,No
+1260,2025-03-06,Azithromycin,Tablet,Gujarat,MedPlus,199,67.06,236,13344.94,No
+1261,2025-03-07,Azithromycin,Capsule,Gujarat,Apollo Pharmacy,137,114.25,44,15652.25,No
+1262,2025-03-07,Metformin,Injection,Maharashtra,Apollo Pharmacy,351,15.62,351,5482.62,No
+1263,2025-03-07,Insulin,Syrup,Maharashtra,MedPlus,56,243.04,50,13610.24,No
+1264,2025-03-07,Paracetamol,Tablet,Karnataka,Netmeds,14,11.48,382,160.72,No
+1265,2025-03-08,Amoxicillin,Syrup,Delhi,MedPlus,469,56.36,37,26432.84,No
+1266,2025-03-08,Paracetamol,Tablet,Delhi,Netmeds,266,14.19,90,3774.54,No
+1267,2025-03-08,Amoxicillin,Tablet,Delhi,Apollo Pharmacy,309,86.58,80,26753.22,No
+1268,2025-03-08,Paracetamol,Injection,Gujarat,Netmeds,159,8.61,160,1368.99,No
+1269,2025-03-09,Insulin,Capsule,Gujarat,MedPlus,303,180.38,23,54655.14,No
+1270,2025-03-09,Amoxicillin,Syrup,Tamil Nadu,MedPlus,252,41.85,152,10546.2,No
+1271,2025-03-09,Metformin,Injection,Gujarat,MedPlus,284,32.17,26,9136.28,No
+1272,2025-03-09,Paracetamol,Tablet,Gujarat,Netmeds,217,14.69,351,3187.73,No
+1273,2025-03-10,Paracetamol,Tablet,Gujarat,Netmeds,424,9.29,88,3938.96,No
+1274,2025-03-10,Amoxicillin,Tablet,Karnataka,Netmeds,124,78.96,317,9791.04,No
+1275,2025-03-10,Metformin,Syrup,Gujarat,Apollo Pharmacy,204,31.53,188,6432.12,No
+1276,2025-03-10,Metformin,Capsule,Maharashtra,Wellness Forever,352,31.16,-8,10968.32,Yes
+1277,2025-03-11,Insulin,Injection,Maharashtra,Wellness Forever,179,379.73,266,67971.67,No
+1278,2025-03-11,Metformin,Tablet,Tamil Nadu,MedPlus,388,16.31,380,6328.28,No
+1279,2025-03-11,Metformin,Tablet,Karnataka,Apollo Pharmacy,91,28.88,27,2628.08,No
+1280,2025-03-11,Metformin,Syrup,Maharashtra,Netmeds,163,21.51,94,3506.13,No
+1281,2025-03-12,Azithromycin,Tablet,Karnataka,MedPlus,150,107.36,194,16104.0,No
+1282,2025-03-12,Insulin,Capsule,Karnataka,Apollo Pharmacy,323,332.12,221,107274.76,No
+1283,2025-03-12,Paracetamol,Capsule,Tamil Nadu,MedPlus,155,16.65,340,2580.75,No
+1284,2025-03-12,Amoxicillin,Syrup,Karnataka,Apollo Pharmacy,332,69.37,303,23030.84,No
+1285,2025-03-13,Paracetamol,Tablet,Gujarat,Apollo Pharmacy,131,7.66,33,1003.46,No
+1286,2025-03-13,Insulin,Tablet,Karnataka,Wellness Forever,261,286.26,99,74713.86,No
+1287,2025-03-13,Amoxicillin,Tablet,Tamil Nadu,MedPlus,352,89.08,139,31356.16,No
+1288,2025-03-13,Insulin,Tablet,Tamil Nadu,Netmeds,396,384.35,121,152202.6,No
+1289,2025-03-14,Metformin,Tablet,Tamil Nadu,Wellness Forever,320,11.08,151,3545.6,No
+1290,2025-03-14,Amoxicillin,Injection,Maharashtra,Wellness Forever,98,39.89,305,3909.22,No
+1291,2025-03-14,Metformin,Injection,Gujarat,Netmeds,484,13.29,183,6432.36,No
+1292,2025-03-14,Paracetamol,Tablet,Maharashtra,Apollo Pharmacy,67,15.89,55,1064.63,No
+1293,2025-03-15,Paracetamol,Tablet,Delhi,Netmeds,72,17.27,-9,1243.44,Yes
+1294,2025-03-15,Amoxicillin,Tablet,Gujarat,MedPlus,356,42.81,184,15240.36,No
+1295,2025-03-15,Amoxicillin,Tablet,Karnataka,Netmeds,317,60.35,320,19130.95,No
+1296,2025-03-15,Insulin,Capsule,Tamil Nadu,Apollo Pharmacy,496,360.18,51,178649.28,No
+1297,2025-03-16,Insulin,Tablet,Delhi,Netmeds,482,333.2,122,160602.4,No
+1298,2025-03-16,Metformin,Tablet,Gujarat,Apollo Pharmacy,391,23.56,226,9211.96,No
+1299,2025-03-16,Amoxicillin,Tablet,Maharashtra,Apollo Pharmacy,289,65.42,197,18906.38,No
+1300,2025-03-16,Paracetamol,Capsule,Tamil Nadu,MedPlus,81,12.63,165,1023.03,No
+1301,2025-03-17,Insulin,Syrup,Maharashtra,Netmeds,18,224.39,238,4039.02,No
+1302,2025-03-17,Insulin,Tablet,Gujarat,Netmeds,375,291.26,85,109222.5,No
+1303,2025-03-17,Paracetamol,Syrup,Gujarat,MedPlus,430,15.33,335,6591.9,No
+1304,2025-03-17,Insulin,Injection,Delhi,Apollo Pharmacy,103,368.33,71,37937.99,No
+1305,2025-03-18,Metformin,Capsule,Karnataka,Netmeds,382,25.91,169,9897.62,No
+1306,2025-03-18,Amoxicillin,Tablet,Maharashtra,MedPlus,348,75.67,75,26333.16,No
+1307,2025-03-18,Paracetamol,Capsule,Delhi,Apollo Pharmacy,446,7.4,232,3300.4,No
+1308,2025-03-18,Amoxicillin,Capsule,Tamil Nadu,MedPlus,345,57.69,198,19903.05,No
+1309,2025-03-19,Insulin,Capsule,Karnataka,Netmeds,161,152.33,343,24525.13,No
+1310,2025-03-19,Insulin,Syrup,Delhi,MedPlus,414,211.67,233,87631.38,No
+1311,2025-03-19,Paracetamol,Syrup,Maharashtra,Wellness Forever,365,15.9,110,5803.5,No
+1312,2025-03-19,Metformin,Tablet,Gujarat,Apollo Pharmacy,49,34.8,395,1705.2,No
+1313,2025-03-20,Azithromycin,Injection,Tamil Nadu,Wellness Forever,368,47.93,353,17638.24,No
+1314,2025-03-20,Paracetamol,Syrup,Maharashtra,Wellness Forever,71,11.02,-12,782.42,Yes
+1315,2025-03-20,Azithromycin,Injection,Karnataka,Apollo Pharmacy,263,104.01,72,27354.63,No
+1316,2025-03-20,Azithromycin,Tablet,Karnataka,Apollo Pharmacy,463,56.32,135,26076.16,No
+1317,2025-03-21,Metformin,Injection,Gujarat,MedPlus,78,23.88,160,1862.64,No
+1318,2025-03-21,Azithromycin,Capsule,Gujarat,Apollo Pharmacy,407,98.65,195,40150.55,No
+1319,2025-03-21,Azithromycin,Tablet,Tamil Nadu,Wellness Forever,254,89.28,243,22677.12,No
+1320,2025-03-21,Metformin,Capsule,Tamil Nadu,Wellness Forever,374,14.7,75,5497.8,No
+1321,2025-03-22,Azithromycin,Syrup,Gujarat,Netmeds,179,68.43,243,12248.97,No
+1322,2025-03-22,Azithromycin,Capsule,Gujarat,Apollo Pharmacy,187,102.7,396,19204.9,No
+1323,2025-03-22,Azithromycin,Tablet,Karnataka,Wellness Forever,198,84.34,175,16699.32,No
+1324,2025-03-22,Paracetamol,Tablet,Gujarat,Netmeds,269,5.08,65,1366.52,No
+1325,2025-03-23,Paracetamol,Capsule,Delhi,Netmeds,81,16.41,399,1329.21,No
+1326,2025-03-23,Paracetamol,Tablet,Maharashtra,MedPlus,481,5.53,122,2659.93,No
+1327,2025-03-23,Metformin,Capsule,Gujarat,Wellness Forever,468,28.64,334,13403.52,No
+1328,2025-03-23,Insulin,Syrup,Tamil Nadu,MedPlus,26,200.62,110,5216.12,No
+1329,2025-03-24,Azithromycin,Syrup,Delhi,Wellness Forever,379,116.65,353,44210.35,No
+1330,2025-03-24,Azithromycin,Tablet,Tamil Nadu,MedPlus,350,69.44,389,24304.0,No
+1331,2025-03-24,Metformin,Syrup,Delhi,MedPlus,66,18.17,340,1199.22,No
+1332,2025-03-24,Azithromycin,Tablet,Gujarat,Apollo Pharmacy,227,51.91,293,11783.57,No
+1333,2025-03-25,Paracetamol,Tablet,Maharashtra,MedPlus,116,9.58,327,1111.28,No
+1334,2025-03-25,Insulin,Tablet,Tamil Nadu,Apollo Pharmacy,313,369.16,214,115547.08,No
+1335,2025-03-25,Amoxicillin,Tablet,Delhi,Netmeds,437,89.78,329,39233.86,No
+1336,2025-03-25,Azithromycin,Capsule,Karnataka,Wellness Forever,182,69.46,294,12641.72,No
+1337,2025-03-26,Paracetamol,Capsule,Gujarat,Netmeds,228,11.73,4,2674.44,No
+1338,2025-03-26,Amoxicillin,Tablet,Maharashtra,Wellness Forever,473,73.32,353,34680.36,No
+1339,2025-03-26,Insulin,Injection,Gujarat,Netmeds,256,371.55,33,95116.8,No
+1340,2025-03-26,Amoxicillin,Tablet,Karnataka,Wellness Forever,227,65.58,119,14886.66,No
+1341,2025-03-27,Paracetamol,Injection,Maharashtra,MedPlus,382,10.87,13,4152.34,No
+1342,2025-03-27,Amoxicillin,Capsule,Karnataka,Wellness Forever,426,54.76,32,23327.76,No
+1343,2025-03-27,Metformin,Capsule,Gujarat,Wellness Forever,40,27.39,253,1095.6,No
+1344,2025-03-27,Amoxicillin,Tablet,Delhi,Netmeds,377,30.19,-13,11381.63,Yes
+1345,2025-03-28,Azithromycin,Injection,Gujarat,Netmeds,56,89.57,242,5015.92,No
+1346,2025-03-28,Azithromycin,Tablet,Gujarat,Netmeds,143,68.44,0,9786.92,No
+1347,2025-03-28,Metformin,Capsule,Gujarat,Apollo Pharmacy,117,29.85,78,3492.45,No
+1348,2025-03-28,Paracetamol,Tablet,Tamil Nadu,Apollo Pharmacy,81,6.39,342,517.59,No
+1349,2025-03-29,Azithromycin,Syrup,Karnataka,Wellness Forever,336,87.06,118,29252.16,No
+1350,2025-03-29,Insulin,Injection,Karnataka,Wellness Forever,427,270.24,285,115392.48,No
+1351,2025-03-29,Azithromycin,Injection,Karnataka,MedPlus,117,91.39,311,10692.63,No
+1352,2025-03-29,Azithromycin,Tablet,Tamil Nadu,MedPlus,318,45.19,117,14370.42,No
+1353,2025-03-30,Paracetamol,Capsule,Delhi,Wellness Forever,407,13.7,296,5575.9,No
+1354,2025-03-30,Amoxicillin,Tablet,Gujarat,Apollo Pharmacy,281,63.69,367,17896.89,No
+1355,2025-03-30,Azithromycin,Syrup,Delhi,Wellness Forever,180,84.85,16,15273.0,No
+1356,2025-03-30,Metformin,Tablet,Tamil Nadu,MedPlus,125,25.09,289,3136.25,No
+1357,2025-03-31,Amoxicillin,Tablet,Karnataka,Apollo Pharmacy,338,70.59,253,23859.42,No
+1358,2025-03-31,Insulin,Syrup,Gujarat,Apollo Pharmacy,83,351.25,398,29153.75,No
+1359,2025-03-31,Paracetamol,Tablet,Maharashtra,MedPlus,265,9.05,9,2398.25,No
+1360,2025-03-31,Insulin,Tablet,Maharashtra,Wellness Forever,90,356.26,300,32063.4,No
+1361,2025-04-01,Amoxicillin,Tablet,Delhi,Netmeds,277,59.9,43,16592.3,No
+1362,2025-04-01,Amoxicillin,Tablet,Karnataka,Wellness Forever,137,34.62,197,4742.94,No
+1363,2025-04-01,Amoxicillin,Injection,Maharashtra,Wellness Forever,335,33.51,140,11225.85,No
+1364,2025-04-01,Insulin,Capsule,Delhi,MedPlus,412,233.56,298,96226.72,No
+1365,2025-04-02,Amoxicillin,Tablet,Tamil Nadu,Apollo Pharmacy,244,77.09,260,18809.96,No
+1366,2025-04-02,Insulin,Tablet,Delhi,MedPlus,50,326.92,373,16346.0,No
+1367,2025-04-02,Amoxicillin,Tablet,Delhi,Wellness Forever,190,77.32,194,14690.8,No
+1368,2025-04-02,Metformin,Tablet,Delhi,Netmeds,166,22.93,41,3806.38,No
+1369,2025-04-03,Amoxicillin,Injection,Gujarat,Netmeds,463,56.41,169,26117.83,No
+1370,2025-04-03,Insulin,Syrup,Delhi,Netmeds,68,186.86,38,12706.48,No
+1371,2025-04-03,Azithromycin,Tablet,Delhi,MedPlus,354,66.26,193,23456.04,No
+1372,2025-04-03,Amoxicillin,Tablet,Gujarat,Apollo Pharmacy,258,56.04,352,14458.32,No
+1373,2025-04-04,Azithromycin,Tablet,Gujarat,MedPlus,201,47.09,326,9465.09,No
+1374,2025-04-04,Metformin,Capsule,Tamil Nadu,Netmeds,33,15.52,277,512.16,No
+1375,2025-04-04,Paracetamol,Capsule,Karnataka,Wellness Forever,482,13.97,324,6733.54,No
+1376,2025-04-04,Metformin,Tablet,Maharashtra,Apollo Pharmacy,409,28.39,288,11611.51,No
+1377,2025-04-05,Amoxicillin,Tablet,Maharashtra,MedPlus,445,89.9,236,40005.5,No
+1378,2025-04-05,Azithromycin,Capsule,Delhi,MedPlus,89,114.65,358,10203.85,No
+1379,2025-04-05,Azithromycin,Capsule,Tamil Nadu,Apollo Pharmacy,143,91.41,288,13071.63,No
+1380,2025-04-05,Insulin,Tablet,Delhi,Apollo Pharmacy,430,255.31,96,109783.3,No
+1381,2025-04-06,Azithromycin,Tablet,Maharashtra,Wellness Forever,222,90.89,350,20177.58,No
+1382,2025-04-06,Insulin,Tablet,Gujarat,Apollo Pharmacy,397,346.41,-10,137524.77,Yes
+1383,2025-04-06,Paracetamol,Syrup,Karnataka,Wellness Forever,491,6.78,175,3328.98,No
+1384,2025-04-06,Amoxicillin,Tablet,Tamil Nadu,Netmeds,357,54.59,318,19488.63,No
+1385,2025-04-07,Insulin,Tablet,Gujarat,Netmeds,175,359.95,263,62991.25,No
+1386,2025-04-07,Paracetamol,Syrup,Karnataka,MedPlus,434,10.76,366,4669.84,No
+1387,2025-04-07,Azithromycin,Tablet,Tamil Nadu,Netmeds,357,85.75,324,30612.75,No
+1388,2025-04-07,Azithromycin,Injection,Tamil Nadu,Netmeds,346,87.02,-3,30108.92,Yes
+1389,2025-04-08,Paracetamol,Tablet,Maharashtra,Wellness Forever,407,7.77,287,3162.39,No
+1390,2025-04-08,Azithromycin,Tablet,Gujarat,MedPlus,80,68.98,28,5518.4,No
+1391,2025-04-08,Paracetamol,Syrup,Tamil Nadu,Apollo Pharmacy,223,10.02,89,2234.46,No
+1392,2025-04-08,Insulin,Tablet,Tamil Nadu,MedPlus,444,156.55,144,69508.2,No
+1393,2025-04-09,Insulin,Capsule,Karnataka,Netmeds,74,156.05,138,11547.7,No
+1394,2025-04-09,Paracetamol,Syrup,Maharashtra,Apollo Pharmacy,230,17.48,226,4020.4,No
+1395,2025-04-09,Insulin,Tablet,Delhi,MedPlus,317,218.27,165,69191.59,No
+1396,2025-04-09,Insulin,Injection,Maharashtra,MedPlus,488,279.52,-2,136405.76,Yes
+1397,2025-04-10,Insulin,Tablet,Delhi,MedPlus,295,224.68,164,66280.6,No
+1398,2025-04-10,Metformin,Capsule,Gujarat,MedPlus,194,33.52,361,6502.88,No
+1399,2025-04-10,Amoxicillin,Tablet,Gujarat,Wellness Forever,216,45.56,276,9840.96,No
+1400,2025-04-10,Azithromycin,Syrup,Tamil Nadu,MedPlus,475,74.37,248,35325.75,No
+1401,2025-04-11,Metformin,Tablet,Gujarat,Netmeds,108,31.82,152,3436.56,No
+1402,2025-04-11,Insulin,Tablet,Tamil Nadu,Netmeds,251,360.48,198,90480.48,No
+1403,2025-04-11,Paracetamol,Capsule,Maharashtra,Wellness Forever,167,7.79,134,1300.93,No
+1404,2025-04-11,Insulin,Capsule,Gujarat,Apollo Pharmacy,107,350.66,0,37520.62,No
+1405,2025-04-12,Amoxicillin,Tablet,Maharashtra,Apollo Pharmacy,51,57.49,75,2931.99,No
+1406,2025-04-12,Insulin,Tablet,Maharashtra,Netmeds,148,270.74,104,40069.52,No
+1407,2025-04-12,Paracetamol,Capsule,Gujarat,Netmeds,292,7.0,237,2044.0,No
+1408,2025-04-12,Amoxicillin,Capsule,Maharashtra,Wellness Forever,417,34.84,44,14528.28,No
+1409,2025-04-13,Insulin,Tablet,Gujarat,Apollo Pharmacy,236,331.98,250,78347.28,No
+1410,2025-04-13,Amoxicillin,Syrup,Gujarat,Apollo Pharmacy,432,59.79,393,25829.28,No
+1411,2025-04-13,Azithromycin,Tablet,Gujarat,MedPlus,81,74.95,15,6070.95,No
+1412,2025-04-13,Azithromycin,Capsule,Delhi,MedPlus,252,98.36,5,24786.72,No
+1413,2025-04-14,Insulin,Tablet,Maharashtra,MedPlus,27,341.38,203,9217.26,No
+1414,2025-04-14,Amoxicillin,Tablet,Karnataka,Wellness Forever,86,39.53,65,3399.58,No
+1415,2025-04-14,Paracetamol,Injection,Gujarat,Netmeds,54,14.15,273,764.1,No
+1416,2025-04-14,Insulin,Tablet,Maharashtra,Wellness Forever,481,183.84,15,88427.04,No
+1417,2025-04-15,Azithromycin,Syrup,Tamil Nadu,Apollo Pharmacy,380,100.11,218,38041.8,No
+1418,2025-04-15,Azithromycin,Tablet,Gujarat,Netmeds,352,92.56,389,32581.12,No
+1419,2025-04-15,Insulin,Tablet,Gujarat,MedPlus,149,389.15,20,57983.35,No
+1420,2025-04-15,Amoxicillin,Tablet,Karnataka,Wellness Forever,186,34.14,116,6350.04,No
+1421,2025-04-16,Azithromycin,Syrup,Delhi,Wellness Forever,231,44.56,308,10293.36,No
+1422,2025-04-16,Amoxicillin,Tablet,Delhi,MedPlus,424,46.93,330,19898.32,No
+1423,2025-04-16,Azithromycin,Syrup,Gujarat,Wellness Forever,101,60.94,116,6154.94,No
+1424,2025-04-16,Azithromycin,Capsule,Maharashtra,MedPlus,31,59.76,-7,1852.56,Yes
+1425,2025-04-17,Metformin,Injection,Tamil Nadu,Apollo Pharmacy,181,32.66,14,5911.46,No
+1426,2025-04-17,Azithromycin,Tablet,Tamil Nadu,Netmeds,101,59.96,99,6055.96,No
+1427,2025-04-17,Paracetamol,Tablet,Maharashtra,Apollo Pharmacy,201,9.08,285,1825.08,No
+1428,2025-04-17,Insulin,Tablet,Gujarat,Apollo Pharmacy,86,339.85,-12,29227.1,Yes
+1429,2025-04-18,Insulin,Tablet,Tamil Nadu,MedPlus,290,262.43,309,76104.7,No
+1430,2025-04-18,Amoxicillin,Tablet,Delhi,Wellness Forever,373,76.6,221,28571.8,No
+1431,2025-04-18,Azithromycin,Injection,Maharashtra,Apollo Pharmacy,188,45.23,7,8503.24,No
+1432,2025-04-18,Paracetamol,Tablet,Karnataka,Apollo Pharmacy,247,12.31,0,3040.57,No
+1433,2025-04-19,Amoxicillin,Tablet,Gujarat,Apollo Pharmacy,144,32.02,6,4610.88,No
+1434,2025-04-19,Metformin,Tablet,Maharashtra,Wellness Forever,374,11.57,56,4327.18,No
+1435,2025-04-19,Amoxicillin,Injection,Tamil Nadu,Wellness Forever,399,84.39,288,33671.61,No
+1436,2025-04-19,Amoxicillin,Tablet,Gujarat,MedPlus,289,38.35,214,11083.15,No
+1437,2025-04-20,Azithromycin,Syrup,Delhi,Apollo Pharmacy,28,82.59,91,2312.52,No
+1438,2025-04-20,Metformin,Tablet,Gujarat,Netmeds,92,20.28,192,1865.76,No
+1439,2025-04-20,Amoxicillin,Capsule,Gujarat,Wellness Forever,237,50.84,373,12049.08,No
+1440,2025-04-20,Paracetamol,Capsule,Delhi,MedPlus,380,18.5,192,7030.0,No
+1441,2025-04-21,Paracetamol,Tablet,Delhi,Apollo Pharmacy,274,5.33,247,1460.42,No
+1442,2025-04-21,Insulin,Tablet,Gujarat,Netmeds,121,315.95,35,38229.95,No
+1443,2025-04-21,Metformin,Tablet,Delhi,Wellness Forever,260,34.08,49,8860.8,No
+1444,2025-04-21,Metformin,Tablet,Maharashtra,Netmeds,173,24.0,249,4152.0,No
+1445,2025-04-22,Insulin,Injection,Delhi,Wellness Forever,367,384.21,322,141005.07,No
+1446,2025-04-22,Amoxicillin,Capsule,Delhi,MedPlus,177,33.14,285,5865.78,No
+1447,2025-04-22,Metformin,Injection,Gujarat,Netmeds,230,20.47,362,4708.1,No
+1448,2025-04-22,Paracetamol,Capsule,Maharashtra,Apollo Pharmacy,417,8.9,159,3711.3,No
+1449,2025-04-23,Paracetamol,Tablet,Karnataka,Apollo Pharmacy,313,15.96,136,4995.48,No
+1450,2025-04-23,Azithromycin,Tablet,Karnataka,Wellness Forever,200,118.5,250,23700.0,No
+1451,2025-04-23,Metformin,Injection,Tamil Nadu,Apollo Pharmacy,334,16.41,313,5480.94,No
+1452,2025-04-23,Amoxicillin,Tablet,Delhi,Netmeds,446,69.25,288,30885.5,No
+1453,2025-04-24,Insulin,Injection,Delhi,MedPlus,447,199.52,147,89185.44,No
+1454,2025-04-24,Insulin,Tablet,Maharashtra,Wellness Forever,179,291.33,327,52148.07,No
+1455,2025-04-24,Amoxicillin,Tablet,Karnataka,Netmeds,384,57.84,351,22210.56,No
+1456,2025-04-24,Azithromycin,Capsule,Tamil Nadu,Wellness Forever,54,117.76,222,6359.04,No
+1457,2025-04-25,Insulin,Tablet,Maharashtra,MedPlus,390,302.13,183,117830.7,No
+1458,2025-04-25,Metformin,Capsule,Delhi,Wellness Forever,483,18.74,0,9051.42,No
+1459,2025-04-25,Azithromycin,Capsule,Karnataka,Apollo Pharmacy,23,49.13,293,1129.99,No
+1460,2025-04-25,Metformin,Injection,Tamil Nadu,Apollo Pharmacy,240,13.78,280,3307.2,No
+1461,2025-04-26,Paracetamol,Injection,Gujarat,Wellness Forever,166,8.38,340,1391.08,No
+1462,2025-04-26,Azithromycin,Syrup,Karnataka,MedPlus,143,60.08,260,8591.44,No
+1463,2025-04-26,Insulin,Capsule,Tamil Nadu,MedPlus,400,362.65,223,145060.0,No
+1464,2025-04-26,Azithromycin,Tablet,Maharashtra,Apollo Pharmacy,46,84.9,53,3905.4,No
+1465,2025-04-27,Azithromycin,Syrup,Gujarat,MedPlus,62,81.87,285,5075.94,No
+1466,2025-04-27,Azithromycin,Syrup,Tamil Nadu,Wellness Forever,27,49.18,-10,1327.86,Yes
+1467,2025-04-27,Azithromycin,Tablet,Tamil Nadu,Netmeds,480,108.81,204,52228.8,No
+1468,2025-04-27,Metformin,Tablet,Delhi,Wellness Forever,47,28.07,238,1319.29,No
+1469,2025-04-28,Paracetamol,Tablet,Karnataka,Apollo Pharmacy,196,6.02,279,1179.92,No
+1470,2025-04-28,Amoxicillin,Syrup,Delhi,Apollo Pharmacy,394,72.47,342,28553.18,No
+1471,2025-04-28,Azithromycin,Capsule,Gujarat,Apollo Pharmacy,205,83.48,370,17113.4,No
+1472,2025-04-28,Insulin,Tablet,Tamil Nadu,MedPlus,252,170.43,91,42948.36,No
+1473,2025-04-29,Azithromycin,Capsule,Delhi,Wellness Forever,309,76.66,279,23687.94,No
+1474,2025-04-29,Insulin,Injection,Karnataka,Netmeds,312,271.17,102,84605.04,No
+1475,2025-04-29,Metformin,Capsule,Gujarat,Wellness Forever,44,14.14,389,622.16,No
+1476,2025-04-29,Insulin,Syrup,Maharashtra,Netmeds,224,386.42,152,86558.08,No
+1477,2025-04-30,Amoxicillin,Injection,Delhi,Wellness Forever,228,81.0,235,18468.0,No
+1478,2025-04-30,Paracetamol,Tablet,Gujarat,Apollo Pharmacy,325,15.04,66,4888.0,No
+1479,2025-04-30,Insulin,Capsule,Maharashtra,Netmeds,99,265.57,38,26291.43,No
+1480,2025-04-30,Insulin,Tablet,Delhi,Wellness Forever,317,252.94,224,80181.98,No
+1481,2025-05-01,Paracetamol,Capsule,Gujarat,MedPlus,261,14.76,350,3852.36,No
+1482,2025-05-01,Amoxicillin,Capsule,Gujarat,MedPlus,17,62.73,-4,1066.41,Yes
+1483,2025-05-01,Azithromycin,Tablet,Delhi,Wellness Forever,265,44.98,193,11919.7,No
+1484,2025-05-01,Insulin,Tablet,Gujarat,Apollo Pharmacy,372,278.13,149,103464.36,No
+1485,2025-05-02,Paracetamol,Injection,Tamil Nadu,Netmeds,217,17.1,350,3710.7,No
+1486,2025-05-02,Metformin,Tablet,Delhi,Wellness Forever,434,21.48,278,9322.32,No
+1487,2025-05-02,Paracetamol,Capsule,Gujarat,MedPlus,140,5.78,383,809.2,No
+1488,2025-05-02,Metformin,Tablet,Maharashtra,Netmeds,233,29.66,-9,6910.78,Yes
+1489,2025-05-03,Amoxicillin,Tablet,Maharashtra,MedPlus,206,42.08,62,8668.48,No
+1490,2025-05-03,Azithromycin,Capsule,Tamil Nadu,MedPlus,477,60.69,49,28949.13,No
+1491,2025-05-03,Paracetamol,Injection,Delhi,Wellness Forever,151,7.47,86,1127.97,No
+1492,2025-05-03,Insulin,Capsule,Gujarat,MedPlus,261,232.55,341,60695.55,No
+1493,2025-05-04,Amoxicillin,Tablet,Gujarat,Netmeds,105,75.41,284,7918.05,No
+1494,2025-05-04,Paracetamol,Injection,Maharashtra,Apollo Pharmacy,35,12.79,271,447.65,No
+1495,2025-05-04,Insulin,Syrup,Tamil Nadu,Wellness Forever,120,201.22,155,24146.4,No
+1496,2025-05-04,Paracetamol,Syrup,Maharashtra,Netmeds,463,18.17,61,8412.71,No
+1497,2025-05-05,Metformin,Injection,Maharashtra,Wellness Forever,132,31.99,32,4222.68,No
+1498,2025-05-05,Paracetamol,Syrup,Tamil Nadu,MedPlus,195,18.06,239,3521.7,No
+1499,2025-05-05,Paracetamol,Tablet,Delhi,MedPlus,493,8.58,66,4229.94,No
+1500,2025-05-05,Paracetamol,Tablet,Gujarat,Netmeds,177,11.77,367,2083.29,No
+1501,2025-05-06,Amoxicillin,Injection,Delhi,Netmeds,60,89.1,193,5346.0,No
+1502,2025-05-06,Paracetamol,Tablet,Karnataka,Apollo Pharmacy,388,16.58,193,6433.04,No
+1503,2025-05-06,Insulin,Injection,Karnataka,Netmeds,14,156.79,68,2195.06,No
+1504,2025-05-06,Metformin,Tablet,Karnataka,Netmeds,86,11.63,-6,1000.18,Yes
+1505,2025-05-07,Metformin,Syrup,Tamil Nadu,Wellness Forever,169,21.6,13,3650.4,No
+1506,2025-05-07,Paracetamol,Injection,Maharashtra,MedPlus,217,18.64,288,4044.88,No
+1507,2025-05-07,Amoxicillin,Tablet,Delhi,Netmeds,266,62.32,100,16577.12,No
+1508,2025-05-07,Amoxicillin,Tablet,Gujarat,Apollo Pharmacy,214,59.87,253,12812.18,No
+1509,2025-05-08,Insulin,Tablet,Karnataka,Netmeds,264,176.37,31,46561.68,No
+1510,2025-05-08,Paracetamol,Syrup,Delhi,MedPlus,447,14.85,343,6637.95,No
+1511,2025-05-08,Metformin,Capsule,Karnataka,Netmeds,20,30.55,75,611.0,No
+1512,2025-05-08,Amoxicillin,Tablet,Karnataka,Wellness Forever,446,52.83,37,23562.18,No
+1513,2025-05-09,Paracetamol,Injection,Gujarat,MedPlus,17,16.63,202,282.71,No
+1514,2025-05-09,Amoxicillin,Tablet,Tamil Nadu,Netmeds,418,87.87,332,36729.66,No
+1515,2025-05-09,Amoxicillin,Syrup,Maharashtra,Wellness Forever,433,42.23,61,18285.59,No
+1516,2025-05-09,Metformin,Capsule,Tamil Nadu,MedPlus,41,23.08,188,946.28,No
+1517,2025-05-10,Azithromycin,Tablet,Delhi,Netmeds,481,62.97,28,30288.57,No
+1518,2025-05-10,Insulin,Syrup,Tamil Nadu,Wellness Forever,37,348.21,140,12883.77,No
+1519,2025-05-10,Insulin,Tablet,Delhi,Apollo Pharmacy,215,294.4,-14,63296.0,Yes
+1520,2025-05-10,Metformin,Tablet,Delhi,Wellness Forever,396,25.86,341,10240.56,No
+1521,2025-05-11,Amoxicillin,Tablet,Maharashtra,Apollo Pharmacy,237,77.87,297,18455.19,No
+1522,2025-05-11,Paracetamol,Tablet,Gujarat,Netmeds,137,10.94,41,1498.78,No
+1523,2025-05-11,Amoxicillin,Syrup,Maharashtra,Wellness Forever,264,84.91,274,22416.24,No
+1524,2025-05-11,Metformin,Tablet,Tamil Nadu,Apollo Pharmacy,484,23.33,42,11291.72,No
+1525,2025-05-12,Insulin,Syrup,Delhi,MedPlus,221,189.49,238,41877.29,No
+1526,2025-05-12,Amoxicillin,Tablet,Karnataka,Wellness Forever,248,71.75,164,17794.0,No
+1527,2025-05-12,Insulin,Tablet,Karnataka,Netmeds,216,348.32,141,75237.12,No
+1528,2025-05-12,Paracetamol,Injection,Delhi,MedPlus,327,9.75,19,3188.25,No
+1529,2025-05-13,Insulin,Capsule,Maharashtra,Apollo Pharmacy,292,364.29,59,106372.68,No
+1530,2025-05-13,Insulin,Tablet,Gujarat,Wellness Forever,254,376.54,273,95641.16,No
+1531,2025-05-13,Azithromycin,Capsule,Maharashtra,Wellness Forever,54,62.15,355,3356.1,No
+1532,2025-05-13,Azithromycin,Syrup,Delhi,Netmeds,114,118.68,59,13529.52,No
+1533,2025-05-14,Azithromycin,Syrup,Delhi,MedPlus,357,51.26,313,18299.82,No
+1534,2025-05-14,Insulin,Syrup,Gujarat,Wellness Forever,290,200.5,62,58145.0,No
+1535,2025-05-14,Metformin,Tablet,Tamil Nadu,Wellness Forever,243,14.61,239,3550.23,No
+1536,2025-05-14,Insulin,Tablet,Tamil Nadu,MedPlus,198,373.5,249,73953.0,No
+1537,2025-05-15,Metformin,Syrup,Gujarat,Wellness Forever,53,26.36,288,1397.08,No
+1538,2025-05-15,Metformin,Tablet,Tamil Nadu,MedPlus,234,13.8,51,3229.2,No
+1539,2025-05-15,Azithromycin,Capsule,Karnataka,MedPlus,439,75.23,205,33025.97,No
+1540,2025-05-15,Amoxicillin,Tablet,Tamil Nadu,MedPlus,151,66.92,148,10104.92,No
+1541,2025-05-16,Paracetamol,Tablet,Tamil Nadu,Netmeds,145,6.25,359,906.25,No
+1542,2025-05-16,Azithromycin,Injection,Tamil Nadu,MedPlus,185,110.59,204,20459.15,No
+1543,2025-05-16,Azithromycin,Tablet,Karnataka,MedPlus,151,104.29,156,15747.79,No
+1544,2025-05-16,Amoxicillin,Syrup,Tamil Nadu,Apollo Pharmacy,458,60.31,238,27621.98,No
+1545,2025-05-17,Paracetamol,Injection,Karnataka,Apollo Pharmacy,89,19.51,194,1736.39,No
+1546,2025-05-17,Insulin,Capsule,Gujarat,Netmeds,91,254.44,172,23154.04,No
+1547,2025-05-17,Insulin,Injection,Maharashtra,MedPlus,144,396.03,175,57028.32,No
+1548,2025-05-17,Azithromycin,Injection,Gujarat,Apollo Pharmacy,216,93.43,373,20180.88,No
+1549,2025-05-18,Paracetamol,Injection,Maharashtra,Apollo Pharmacy,353,14.52,199,5125.56,No
+1550,2025-05-18,Azithromycin,Capsule,Gujarat,Wellness Forever,186,53.28,359,9910.08,No
+1551,2025-05-18,Metformin,Tablet,Maharashtra,MedPlus,392,32.05,70,12563.6,No
+1552,2025-05-18,Azithromycin,Tablet,Maharashtra,Apollo Pharmacy,252,74.2,90,18698.4,No
+1553,2025-05-19,Azithromycin,Tablet,Delhi,Netmeds,64,52.98,316,3390.72,No
+1554,2025-05-19,Insulin,Tablet,Maharashtra,Wellness Forever,150,153.15,280,22972.5,No
+1555,2025-05-19,Insulin,Injection,Maharashtra,Wellness Forever,466,289.94,3,135112.04,No
+1556,2025-05-19,Insulin,Syrup,Delhi,MedPlus,449,281.85,31,126550.65,No
+1557,2025-05-20,Metformin,Syrup,Tamil Nadu,MedPlus,65,27.98,49,1818.7,No
+1558,2025-05-20,Insulin,Tablet,Tamil Nadu,Wellness Forever,24,372.56,130,8941.44,No
+1559,2025-05-20,Paracetamol,Injection,Delhi,Netmeds,194,6.19,270,1200.86,No
+1560,2025-05-20,Amoxicillin,Tablet,Karnataka,MedPlus,323,73.89,366,23866.47,No
+1561,2025-05-21,Paracetamol,Injection,Maharashtra,MedPlus,428,7.81,50,3342.68,No
+1562,2025-05-21,Paracetamol,Syrup,Maharashtra,Wellness Forever,97,17.87,-11,1733.39,Yes
+1563,2025-05-21,Insulin,Tablet,Delhi,Wellness Forever,106,354.77,77,37605.62,No
+1564,2025-05-21,Amoxicillin,Tablet,Delhi,MedPlus,153,62.45,337,9554.85,No
+1565,2025-05-22,Amoxicillin,Tablet,Karnataka,Apollo Pharmacy,17,72.61,78,1234.37,No
+1566,2025-05-22,Amoxicillin,Capsule,Tamil Nadu,MedPlus,486,48.86,90,23745.96,No
+1567,2025-05-22,Metformin,Capsule,Gujarat,Apollo Pharmacy,224,21.78,117,4878.72,No
+1568,2025-05-22,Insulin,Syrup,Tamil Nadu,Wellness Forever,182,355.41,325,64684.62,No
+1569,2025-05-23,Amoxicillin,Tablet,Maharashtra,Apollo Pharmacy,232,57.56,298,13353.92,No
+1570,2025-05-23,Metformin,Tablet,Delhi,Netmeds,49,18.94,63,928.06,No
+1571,2025-05-23,Azithromycin,Injection,Karnataka,Wellness Forever,191,79.54,196,15192.14,No
+1572,2025-05-23,Azithromycin,Injection,Tamil Nadu,MedPlus,279,106.26,-8,29646.54,Yes
+1573,2025-05-24,Metformin,Tablet,Karnataka,MedPlus,196,18.38,143,3602.48,No
+1574,2025-05-24,Metformin,Tablet,Tamil Nadu,Wellness Forever,254,14.34,252,3642.36,No
+1575,2025-05-24,Insulin,Injection,Maharashtra,Wellness Forever,487,328.0,133,159736.0,No
+1576,2025-05-24,Insulin,Tablet,Gujarat,Netmeds,318,356.49,334,113363.82,No
+1577,2025-05-25,Azithromycin,Tablet,Karnataka,Wellness Forever,240,48.05,75,11532.0,No
+1578,2025-05-25,Amoxicillin,Tablet,Karnataka,MedPlus,392,44.39,220,17400.88,No
+1579,2025-05-25,Azithromycin,Syrup,Gujarat,Netmeds,164,51.36,273,8423.04,No
+1580,2025-05-25,Amoxicillin,Capsule,Karnataka,MedPlus,184,50.88,394,9361.92,No
+1581,2025-05-26,Amoxicillin,Capsule,Karnataka,Apollo Pharmacy,345,57.02,340,19671.9,No
+1582,2025-05-26,Insulin,Syrup,Tamil Nadu,Wellness Forever,124,337.21,152,41814.04,No
+1583,2025-05-26,Paracetamol,Syrup,Tamil Nadu,Apollo Pharmacy,399,14.77,177,5893.23,No
+1584,2025-05-26,Paracetamol,Tablet,Gujarat,MedPlus,320,14.31,171,4579.2,No
+1585,2025-05-27,Metformin,Syrup,Maharashtra,Apollo Pharmacy,490,18.81,255,9216.9,No
+1586,2025-05-27,Insulin,Tablet,Karnataka,Apollo Pharmacy,309,360.36,98,111351.24,No
+1587,2025-05-27,Amoxicillin,Syrup,Maharashtra,MedPlus,27,58.28,369,1573.56,No
+1588,2025-05-27,Paracetamol,Tablet,Gujarat,MedPlus,281,19.69,-5,5532.89,Yes
+1589,2025-05-28,Amoxicillin,Tablet,Gujarat,Wellness Forever,21,68.05,39,1429.05,No
+1590,2025-05-28,Paracetamol,Tablet,Tamil Nadu,Apollo Pharmacy,413,6.89,242,2845.57,No
+1591,2025-05-28,Paracetamol,Tablet,Karnataka,Netmeds,310,15.14,49,4693.4,No
+1592,2025-05-28,Paracetamol,Tablet,Delhi,Netmeds,201,9.88,156,1985.88,No
+1593,2025-05-29,Insulin,Tablet,Gujarat,MedPlus,241,321.58,256,77500.78,No
+1594,2025-05-29,Azithromycin,Capsule,Karnataka,MedPlus,452,45.57,134,20597.64,No
+1595,2025-05-29,Amoxicillin,Tablet,Maharashtra,Apollo Pharmacy,102,40.49,346,4129.98,No
+1596,2025-05-29,Insulin,Syrup,Tamil Nadu,MedPlus,487,363.93,130,177233.91,No
+1597,2025-05-30,Insulin,Capsule,Maharashtra,Netmeds,227,206.79,193,46941.33,No
+1598,2025-05-30,Insulin,Capsule,Gujarat,Wellness Forever,287,359.26,270,103107.62,No
+1599,2025-05-30,Insulin,Syrup,Gujarat,Wellness Forever,362,219.82,-6,79574.84,Yes
+1600,2025-05-30,Insulin,Capsule,Maharashtra,Apollo Pharmacy,496,310.72,211,154117.12,No
+1601,2025-05-31,Metformin,Tablet,Gujarat,Wellness Forever,312,27.35,170,8533.2,No
+1602,2025-05-31,Amoxicillin,Tablet,Karnataka,MedPlus,38,60.76,46,2308.88,No
+1603,2025-05-31,Insulin,Tablet,Gujarat,MedPlus,479,226.33,69,108412.07,No
+1604,2025-05-31,Amoxicillin,Injection,Tamil Nadu,MedPlus,310,42.76,118,13255.6,No
+1605,2025-06-01,Metformin,Injection,Karnataka,MedPlus,86,10.83,307,931.38,No
+1606,2025-06-01,Metformin,Tablet,Delhi,Apollo Pharmacy,18,17.6,281,316.8,No
+1607,2025-06-01,Amoxicillin,Tablet,Gujarat,Wellness Forever,33,69.19,155,2283.27,No
+1608,2025-06-01,Paracetamol,Syrup,Gujarat,Netmeds,24,19.07,197,457.68,No
+1609,2025-06-02,Azithromycin,Tablet,Tamil Nadu,Wellness Forever,173,109.7,2,18978.1,No
+1610,2025-06-02,Paracetamol,Syrup,Tamil Nadu,MedPlus,22,16.49,298,362.78,No
+1611,2025-06-02,Paracetamol,Injection,Maharashtra,Netmeds,356,16.83,44,5991.48,No
+1612,2025-06-02,Paracetamol,Injection,Maharashtra,Apollo Pharmacy,181,14.97,72,2709.57,No
+1613,2025-06-03,Insulin,Injection,Maharashtra,MedPlus,366,215.07,11,78715.62,No
+1614,2025-06-03,Metformin,Capsule,Tamil Nadu,MedPlus,336,32.68,52,10980.48,No
+1615,2025-06-03,Paracetamol,Syrup,Maharashtra,Netmeds,209,15.06,262,3147.54,No
+1616,2025-06-03,Metformin,Injection,Maharashtra,Apollo Pharmacy,494,24.01,392,11860.94,No
+1617,2025-06-04,Amoxicillin,Syrup,Delhi,Netmeds,498,36.66,24,18256.68,No
+1618,2025-06-04,Azithromycin,Tablet,Maharashtra,Apollo Pharmacy,471,75.76,93,35682.96,No
+1619,2025-06-04,Amoxicillin,Tablet,Gujarat,MedPlus,387,57.62,58,22298.94,No
+1620,2025-06-04,Amoxicillin,Tablet,Tamil Nadu,Wellness Forever,85,81.87,50,6958.95,No
+1621,2025-06-05,Insulin,Tablet,Karnataka,MedPlus,173,286.66,152,49592.18,No
+1622,2025-06-05,Azithromycin,Syrup,Delhi,Wellness Forever,381,70.43,246,26833.83,No
+1623,2025-06-05,Amoxicillin,Capsule,Tamil Nadu,Wellness Forever,70,88.61,352,6202.7,No
+1624,2025-06-05,Amoxicillin,Tablet,Tamil Nadu,Apollo Pharmacy,497,36.64,258,18210.08,No
+1625,2025-06-06,Azithromycin,Tablet,Gujarat,Netmeds,474,73.8,321,34981.2,No
+1626,2025-06-06,Azithromycin,Capsule,Maharashtra,Apollo Pharmacy,433,43.36,342,18774.88,No
+1627,2025-06-06,Amoxicillin,Tablet,Gujarat,MedPlus,254,74.39,221,18895.06,No
+1628,2025-06-06,Azithromycin,Syrup,Maharashtra,Netmeds,486,113.45,199,55136.7,No
+1629,2025-06-07,Amoxicillin,Syrup,Maharashtra,Wellness Forever,391,46.8,350,18298.8,No
+1630,2025-06-07,Amoxicillin,Syrup,Tamil Nadu,Wellness Forever,164,81.5,270,13366.0,No
+1631,2025-06-07,Insulin,Tablet,Maharashtra,MedPlus,266,223.05,362,59331.3,No
+1632,2025-06-07,Paracetamol,Tablet,Delhi,Netmeds,253,18.66,133,4720.98,No
+1633,2025-06-08,Amoxicillin,Tablet,Delhi,MedPlus,171,75.24,302,12866.04,No
+1634,2025-06-08,Metformin,Syrup,Delhi,MedPlus,77,30.12,378,2319.24,No
+1635,2025-06-08,Paracetamol,Syrup,Tamil Nadu,Apollo Pharmacy,353,5.27,360,1860.31,No
+1636,2025-06-08,Paracetamol,Tablet,Gujarat,MedPlus,286,19.44,91,5559.84,No
+1637,2025-06-09,Paracetamol,Syrup,Karnataka,Netmeds,170,15.9,125,2703.0,No
+1638,2025-06-09,Insulin,Capsule,Maharashtra,MedPlus,400,226.19,60,90476.0,No
+1639,2025-06-09,Amoxicillin,Tablet,Karnataka,Netmeds,458,79.76,-7,36530.08,Yes
+1640,2025-06-09,Insulin,Syrup,Gujarat,Wellness Forever,498,220.38,180,109749.24,No
+1641,2025-06-10,Amoxicillin,Injection,Gujarat,MedPlus,268,82.37,279,22075.16,No
+1642,2025-06-10,Insulin,Tablet,Tamil Nadu,Netmeds,316,178.15,264,56295.4,No
+1643,2025-06-10,Insulin,Tablet,Delhi,Wellness Forever,344,325.92,365,112116.48,No
+1644,2025-06-10,Metformin,Syrup,Delhi,Netmeds,104,23.52,102,2446.08,No
+1645,2025-06-11,Insulin,Capsule,Gujarat,Wellness Forever,447,174.13,274,77836.11,No
+1646,2025-06-11,Azithromycin,Capsule,Tamil Nadu,Apollo Pharmacy,473,59.35,45,28072.55,No
+1647,2025-06-11,Metformin,Syrup,Tamil Nadu,MedPlus,467,10.31,373,4814.77,No
+1648,2025-06-11,Insulin,Injection,Maharashtra,MedPlus,255,267.19,319,68133.45,No
+1649,2025-06-12,Paracetamol,Tablet,Delhi,Wellness Forever,230,9.52,290,2189.6,No
+1650,2025-06-12,Azithromycin,Syrup,Gujarat,Apollo Pharmacy,132,87.87,372,11598.84,No
+1651,2025-06-12,Azithromycin,Syrup,Karnataka,Netmeds,196,63.78,35,12500.88,No
+1652,2025-06-12,Azithromycin,Tablet,Delhi,Apollo Pharmacy,271,63.99,36,17341.29,No
+1653,2025-06-13,Metformin,Injection,Maharashtra,Netmeds,422,28.58,106,12060.76,No
+1654,2025-06-13,Insulin,Syrup,Tamil Nadu,Netmeds,282,162.04,151,45695.28,No
+1655,2025-06-13,Insulin,Tablet,Gujarat,MedPlus,382,375.72,-8,143525.04,Yes
+1656,2025-06-13,Paracetamol,Capsule,Delhi,Wellness Forever,69,17.78,353,1226.82,No
+1657,2025-06-14,Paracetamol,Tablet,Karnataka,MedPlus,415,15.02,29,6233.3,No
+1658,2025-06-14,Azithromycin,Tablet,Maharashtra,MedPlus,417,87.46,328,36470.82,No
+1659,2025-06-14,Paracetamol,Tablet,Maharashtra,MedPlus,134,18.38,229,2462.92,No
+1660,2025-06-14,Metformin,Injection,Delhi,Netmeds,346,14.63,268,5061.98,No
+1661,2025-06-15,Insulin,Injection,Karnataka,MedPlus,350,169.74,359,59409.0,No
+1662,2025-06-15,Azithromycin,Tablet,Maharashtra,Netmeds,60,59.16,91,3549.6,No
+1663,2025-06-15,Paracetamol,Injection,Gujarat,Wellness Forever,187,16.92,11,3164.04,No
+1664,2025-06-15,Metformin,Tablet,Maharashtra,Netmeds,148,10.87,177,1608.76,No
+1665,2025-06-16,Metformin,Injection,Karnataka,Netmeds,449,24.57,321,11031.93,No
+1666,2025-06-16,Paracetamol,Syrup,Tamil Nadu,Apollo Pharmacy,336,19.93,341,6696.48,No
+1667,2025-06-16,Insulin,Tablet,Tamil Nadu,MedPlus,179,363.92,46,65141.68,No
+1668,2025-06-16,Paracetamol,Capsule,Delhi,MedPlus,48,12.82,46,615.36,No
+1669,2025-06-17,Azithromycin,Tablet,Karnataka,MedPlus,78,45.09,266,3517.02,No
+1670,2025-06-17,Paracetamol,Tablet,Maharashtra,MedPlus,245,17.47,105,4280.15,No
+1671,2025-06-17,Metformin,Syrup,Maharashtra,Apollo Pharmacy,57,24.97,264,1423.29,No
+1672,2025-06-17,Paracetamol,Capsule,Tamil Nadu,Apollo Pharmacy,390,6.72,23,2620.8,No
+1673,2025-06-18,Insulin,Tablet,Tamil Nadu,Apollo Pharmacy,66,173.46,364,11448.36,No
+1674,2025-06-18,Amoxicillin,Tablet,Gujarat,Apollo Pharmacy,286,84.58,261,24189.88,No
+1675,2025-06-18,Paracetamol,Tablet,Tamil Nadu,MedPlus,347,15.04,78,5218.88,No
+1676,2025-06-18,Insulin,Syrup,Gujarat,Netmeds,108,357.32,99,38590.56,No
+1677,2025-06-19,Insulin,Tablet,Maharashtra,Wellness Forever,413,369.74,160,152702.62,No
+1678,2025-06-19,Metformin,Injection,Gujarat,Apollo Pharmacy,24,24.29,105,582.96,No
+1679,2025-06-19,Insulin,Capsule,Gujarat,Netmeds,334,279.36,-3,93306.24,Yes
+1680,2025-06-19,Insulin,Syrup,Delhi,Apollo Pharmacy,470,257.61,371,121076.7,No
+1681,2025-06-20,Insulin,Tablet,Tamil Nadu,MedPlus,188,229.24,147,43097.12,No
+1682,2025-06-20,Insulin,Tablet,Gujarat,MedPlus,341,258.65,259,88199.65,No
+1683,2025-06-20,Azithromycin,Tablet,Maharashtra,Netmeds,71,101.91,382,7235.61,No
+1684,2025-06-20,Azithromycin,Capsule,Karnataka,Netmeds,128,88.15,160,11283.2,No
+1685,2025-06-21,Metformin,Tablet,Gujarat,Netmeds,478,32.31,321,15444.18,No
+1686,2025-06-21,Paracetamol,Tablet,Tamil Nadu,MedPlus,46,11.65,363,535.9,No
+1687,2025-06-21,Insulin,Injection,Delhi,MedPlus,143,301.77,308,43153.11,No
+1688,2025-06-21,Paracetamol,Tablet,Maharashtra,Wellness Forever,464,14.47,157,6714.08,No
+1689,2025-06-22,Paracetamol,Syrup,Delhi,Netmeds,35,13.88,259,485.8,No
+1690,2025-06-22,Metformin,Tablet,Karnataka,Wellness Forever,499,27.57,48,13757.43,No
+1691,2025-06-22,Insulin,Capsule,Gujarat,Apollo Pharmacy,17,209.36,85,3559.12,No
+1692,2025-06-22,Insulin,Capsule,Gujarat,Wellness Forever,466,278.09,306,129589.94,No
+1693,2025-06-23,Amoxicillin,Syrup,Tamil Nadu,Apollo Pharmacy,484,36.25,50,17545.0,No
+1694,2025-06-23,Paracetamol,Capsule,Gujarat,Apollo Pharmacy,13,10.77,315,140.01,No
+1695,2025-06-23,Paracetamol,Tablet,Maharashtra,Wellness Forever,30,12.32,29,369.6,No
+1696,2025-06-23,Azithromycin,Syrup,Karnataka,Netmeds,424,92.18,71,39084.32,No
+1697,2025-06-24,Amoxicillin,Syrup,Delhi,Apollo Pharmacy,158,87.03,51,13750.74,No
+1698,2025-06-24,Azithromycin,Syrup,Karnataka,Netmeds,497,88.05,243,43760.85,No
+1699,2025-06-24,Azithromycin,Tablet,Gujarat,MedPlus,34,99.49,189,3382.66,No
+1700,2025-06-24,Azithromycin,Tablet,Delhi,Apollo Pharmacy,496,80.5,162,39928.0,No
+1701,2025-06-25,Metformin,Tablet,Tamil Nadu,MedPlus,152,25.85,264,3929.2,No
+1702,2025-06-25,Metformin,Tablet,Karnataka,Wellness Forever,254,11.77,328,2989.58,No
+1703,2025-06-25,Azithromycin,Tablet,Delhi,Netmeds,428,60.35,1,25829.8,No
+1704,2025-06-25,Amoxicillin,Injection,Delhi,Wellness Forever,442,51.71,280,22855.82,No
+1705,2025-06-26,Paracetamol,Tablet,Delhi,Apollo Pharmacy,52,12.09,186,628.68,No
+1706,2025-06-26,Amoxicillin,Tablet,Maharashtra,MedPlus,434,32.74,156,14209.16,No
+1707,2025-06-26,Insulin,Syrup,Karnataka,Apollo Pharmacy,302,185.01,391,55873.02,No
+1708,2025-06-26,Metformin,Syrup,Delhi,Wellness Forever,194,16.92,246,3282.48,No
+1709,2025-06-27,Paracetamol,Capsule,Karnataka,Netmeds,51,19.57,178,998.07,No
+1710,2025-06-27,Paracetamol,Syrup,Delhi,Netmeds,440,9.97,133,4386.8,No
+1711,2025-06-27,Insulin,Tablet,Tamil Nadu,Apollo Pharmacy,101,270.51,359,27321.51,No
+1712,2025-06-27,Insulin,Capsule,Tamil Nadu,Apollo Pharmacy,326,199.02,360,64880.52,No
+1713,2025-06-28,Azithromycin,Syrup,Tamil Nadu,MedPlus,407,88.86,19,36166.02,No
+1714,2025-06-28,Metformin,Tablet,Gujarat,Wellness Forever,333,17.02,353,5667.66,No
+1715,2025-06-28,Metformin,Syrup,Delhi,Apollo Pharmacy,62,15.17,13,940.54,No
+1716,2025-06-28,Amoxicillin,Capsule,Gujarat,MedPlus,93,60.99,247,5672.07,No
+1717,2025-06-29,Azithromycin,Tablet,Karnataka,Apollo Pharmacy,43,40.44,205,1738.92,No
+1718,2025-06-29,Azithromycin,Tablet,Gujarat,Netmeds,85,40.61,37,3451.85,No
+1719,2025-06-29,Azithromycin,Tablet,Karnataka,MedPlus,362,57.53,263,20825.86,No
+1720,2025-06-29,Azithromycin,Tablet,Karnataka,MedPlus,417,42.94,337,17905.98,No
+1721,2025-06-30,Metformin,Tablet,Karnataka,Apollo Pharmacy,413,12.7,376,5245.1,No
+1722,2025-06-30,Metformin,Syrup,Gujarat,Wellness Forever,206,18.47,60,3804.82,No
+1723,2025-06-30,Azithromycin,Tablet,Delhi,Netmeds,495,104.21,160,51583.95,No
+1724,2025-06-30,Amoxicillin,Capsule,Gujarat,Wellness Forever,295,64.32,-6,18974.4,Yes
+1725,2025-07-01,Paracetamol,Injection,Delhi,MedPlus,97,12.69,101,1230.93,No
+1726,2025-07-01,Paracetamol,Syrup,Delhi,Wellness Forever,244,9.4,264,2293.6,No
+1727,2025-07-01,Amoxicillin,Capsule,Karnataka,MedPlus,241,85.91,202,20704.31,No
+1728,2025-07-01,Azithromycin,Tablet,Gujarat,Wellness Forever,16,71.76,159,1148.16,No
+1729,2025-07-02,Metformin,Syrup,Delhi,Apollo Pharmacy,301,12.18,218,3666.18,No
+1730,2025-07-02,Paracetamol,Syrup,Tamil Nadu,Wellness Forever,47,14.26,236,670.22,No
+1731,2025-07-02,Insulin,Capsule,Delhi,MedPlus,473,178.46,279,84411.58,No
+1732,2025-07-02,Insulin,Injection,Tamil Nadu,Netmeds,61,236.31,306,14414.91,No
+1733,2025-07-03,Amoxicillin,Tablet,Gujarat,Netmeds,152,60.44,-10,9186.88,Yes
+1734,2025-07-03,Azithromycin,Capsule,Gujarat,Netmeds,439,109.94,5,48263.66,No
+1735,2025-07-03,Paracetamol,Tablet,Gujarat,MedPlus,416,12.4,57,5158.4,No
+1736,2025-07-03,Azithromycin,Capsule,Delhi,Wellness Forever,405,96.18,314,38952.9,No
+1737,2025-07-04,Paracetamol,Capsule,Maharashtra,Netmeds,230,19.89,20,4574.7,No
+1738,2025-07-04,Amoxicillin,Tablet,Delhi,Netmeds,437,37.89,371,16557.93,No
+1739,2025-07-04,Amoxicillin,Injection,Delhi,Netmeds,249,46.48,217,11573.52,No
+1740,2025-07-04,Insulin,Tablet,Karnataka,Apollo Pharmacy,152,248.64,200,37793.28,No
+1741,2025-07-05,Azithromycin,Tablet,Karnataka,MedPlus,358,73.75,190,26402.5,No
+1742,2025-07-05,Insulin,Syrup,Delhi,MedPlus,372,252.76,28,94026.72,No
+1743,2025-07-05,Azithromycin,Syrup,Tamil Nadu,MedPlus,391,112.61,75,44030.51,No
+1744,2025-07-05,Insulin,Capsule,Karnataka,MedPlus,58,328.51,300,19053.58,No
+1745,2025-07-06,Metformin,Injection,Delhi,MedPlus,286,25.2,77,7207.2,No
+1746,2025-07-06,Metformin,Syrup,Maharashtra,Apollo Pharmacy,280,17.73,323,4964.4,No
+1747,2025-07-06,Metformin,Capsule,Tamil Nadu,Wellness Forever,23,30.59,67,703.57,No
+1748,2025-07-06,Metformin,Capsule,Gujarat,Apollo Pharmacy,307,33.88,317,10401.16,No
+1749,2025-07-07,Paracetamol,Tablet,Delhi,Netmeds,473,17.32,266,8192.36,No
+1750,2025-07-07,Metformin,Capsule,Delhi,Apollo Pharmacy,24,10.04,5,240.96,No
+1751,2025-07-07,Amoxicillin,Tablet,Tamil Nadu,MedPlus,243,68.18,212,16567.74,No
+1752,2025-07-07,Amoxicillin,Capsule,Karnataka,Apollo Pharmacy,72,33.07,360,2381.04,No
+1753,2025-07-08,Paracetamol,Tablet,Karnataka,MedPlus,205,8.86,114,1816.3,No
+1754,2025-07-08,Metformin,Tablet,Karnataka,Apollo Pharmacy,36,11.49,159,413.64,No
+1755,2025-07-08,Metformin,Tablet,Gujarat,MedPlus,480,25.09,92,12043.2,No
+1756,2025-07-08,Metformin,Syrup,Tamil Nadu,Netmeds,102,27.16,398,2770.32,No
+1757,2025-07-09,Insulin,Tablet,Tamil Nadu,MedPlus,114,178.62,267,20362.68,No
+1758,2025-07-09,Azithromycin,Tablet,Karnataka,Apollo Pharmacy,318,70.71,55,22485.78,No
+1759,2025-07-09,Insulin,Syrup,Karnataka,Netmeds,61,264.06,388,16107.66,No
+1760,2025-07-09,Azithromycin,Capsule,Maharashtra,Apollo Pharmacy,328,69.52,34,22802.56,No
+1761,2025-07-10,Metformin,Tablet,Maharashtra,Netmeds,466,13.03,79,6071.98,No
+1762,2025-07-10,Metformin,Tablet,Delhi,Wellness Forever,190,20.47,263,3889.3,No
+1763,2025-07-10,Insulin,Tablet,Delhi,Wellness Forever,66,337.79,381,22294.14,No
+1764,2025-07-10,Insulin,Tablet,Tamil Nadu,Wellness Forever,129,167.75,321,21639.75,No
+1765,2025-07-11,Azithromycin,Capsule,Tamil Nadu,Apollo Pharmacy,317,46.41,116,14711.97,No
+1766,2025-07-11,Amoxicillin,Capsule,Gujarat,Apollo Pharmacy,372,51.29,382,19079.88,No
+1767,2025-07-11,Azithromycin,Syrup,Gujarat,Netmeds,52,115.34,260,5997.68,No
+1768,2025-07-11,Insulin,Tablet,Maharashtra,Netmeds,144,317.14,364,45668.16,No
+1769,2025-07-12,Insulin,Injection,Delhi,Netmeds,382,319.67,-3,122113.94,Yes
+1770,2025-07-12,Paracetamol,Syrup,Maharashtra,Netmeds,435,10.43,-13,4537.05,Yes
+1771,2025-07-12,Insulin,Capsule,Maharashtra,MedPlus,269,298.42,208,80274.98,No
+1772,2025-07-12,Paracetamol,Syrup,Delhi,Wellness Forever,206,5.15,159,1060.9,No
+1773,2025-07-13,Amoxicillin,Injection,Gujarat,MedPlus,142,68.17,371,9680.14,No
+1774,2025-07-13,Azithromycin,Syrup,Delhi,MedPlus,468,113.06,369,52912.08,No
+1775,2025-07-13,Azithromycin,Tablet,Karnataka,MedPlus,264,89.01,74,23498.64,No
+1776,2025-07-13,Paracetamol,Capsule,Karnataka,MedPlus,498,18.11,392,9018.78,No
+1777,2025-07-14,Azithromycin,Syrup,Karnataka,Wellness Forever,229,97.92,225,22423.68,No
+1778,2025-07-14,Insulin,Syrup,Tamil Nadu,MedPlus,345,180.14,19,62148.3,No
+1779,2025-07-14,Metformin,Tablet,Gujarat,Netmeds,50,32.56,-2,1628.0,Yes
+1780,2025-07-14,Paracetamol,Syrup,Gujarat,Apollo Pharmacy,487,6.0,179,2922.0,No
+1781,2025-07-15,Azithromycin,Syrup,Tamil Nadu,Netmeds,397,82.72,381,32839.84,No
+1782,2025-07-15,Paracetamol,Tablet,Maharashtra,Apollo Pharmacy,264,7.13,290,1882.32,No
+1783,2025-07-15,Paracetamol,Tablet,Karnataka,Netmeds,11,5.18,318,56.98,No
+1784,2025-07-15,Metformin,Syrup,Karnataka,Netmeds,204,20.55,197,4192.2,No
+1785,2025-07-16,Insulin,Injection,Maharashtra,Apollo Pharmacy,251,223.76,394,56163.76,No
+1786,2025-07-16,Paracetamol,Syrup,Delhi,Wellness Forever,158,12.29,-13,1941.82,Yes
+1787,2025-07-16,Azithromycin,Tablet,Delhi,MedPlus,207,86.18,163,17839.26,No
+1788,2025-07-16,Amoxicillin,Injection,Gujarat,Netmeds,308,32.62,24,10046.96,No
+1789,2025-07-17,Paracetamol,Tablet,Tamil Nadu,Wellness Forever,254,6.85,148,1739.9,No
+1790,2025-07-17,Paracetamol,Tablet,Gujarat,MedPlus,347,13.38,291,4642.86,No
+1791,2025-07-17,Metformin,Tablet,Delhi,Wellness Forever,117,18.58,219,2173.86,No
+1792,2025-07-17,Insulin,Tablet,Maharashtra,Wellness Forever,462,332.29,241,153517.98,No
+1793,2025-07-18,Amoxicillin,Tablet,Gujarat,MedPlus,402,69.14,344,27794.28,No
+1794,2025-07-18,Azithromycin,Tablet,Karnataka,Netmeds,221,107.65,375,23790.65,No
+1795,2025-07-18,Amoxicillin,Tablet,Karnataka,Wellness Forever,165,71.55,357,11805.75,No
+1796,2025-07-18,Azithromycin,Tablet,Maharashtra,Netmeds,35,74.39,100,2603.65,No
+1797,2025-07-19,Insulin,Syrup,Delhi,Netmeds,91,318.24,36,28959.84,No
+1798,2025-07-19,Azithromycin,Syrup,Karnataka,Netmeds,92,62.03,360,5706.76,No
+1799,2025-07-19,Metformin,Tablet,Karnataka,MedPlus,140,17.66,379,2472.4,No
+1800,2025-07-19,Metformin,Capsule,Tamil Nadu,Apollo Pharmacy,338,29.72,395,10045.36,No
+1801,2025-07-20,Metformin,Tablet,Gujarat,Netmeds,109,21.16,126,2306.44,No
+1802,2025-07-20,Metformin,Syrup,Delhi,Apollo Pharmacy,265,29.96,70,7939.4,No
+1803,2025-07-20,Amoxicillin,Tablet,Gujarat,Apollo Pharmacy,488,79.35,30,38722.8,No
+1804,2025-07-20,Insulin,Tablet,Delhi,Wellness Forever,58,364.39,316,21134.62,No
+1805,2025-07-21,Azithromycin,Syrup,Karnataka,Netmeds,410,113.33,222,46465.3,No
+1806,2025-07-21,Azithromycin,Syrup,Tamil Nadu,Netmeds,72,74.48,-6,5362.56,Yes
+1807,2025-07-21,Metformin,Capsule,Gujarat,Netmeds,320,17.97,136,5750.4,No
+1808,2025-07-21,Metformin,Syrup,Karnataka,Apollo Pharmacy,416,24.55,45,10212.8,No
+1809,2025-07-22,Paracetamol,Capsule,Delhi,MedPlus,299,10.57,2,3160.43,No
+1810,2025-07-22,Insulin,Tablet,Gujarat,Apollo Pharmacy,114,300.27,70,34230.78,No
+1811,2025-07-22,Amoxicillin,Tablet,Gujarat,Netmeds,114,72.34,121,8246.76,No
+1812,2025-07-22,Azithromycin,Tablet,Karnataka,Netmeds,334,95.07,385,31753.38,No
+1813,2025-07-23,Paracetamol,Tablet,Gujarat,Netmeds,24,10.62,214,254.88,No
+1814,2025-07-23,Paracetamol,Syrup,Tamil Nadu,Apollo Pharmacy,184,7.5,112,1380.0,No
+1815,2025-07-23,Azithromycin,Syrup,Tamil Nadu,Netmeds,268,74.44,88,19949.92,No
+1816,2025-07-23,Amoxicillin,Tablet,Karnataka,Wellness Forever,220,38.56,170,8483.2,No
+1817,2025-07-24,Paracetamol,Capsule,Delhi,Netmeds,421,18.35,381,7725.35,No
+1818,2025-07-24,Paracetamol,Capsule,Karnataka,MedPlus,268,10.19,162,2730.92,No
+1819,2025-07-24,Insulin,Tablet,Tamil Nadu,Wellness Forever,111,188.61,341,20935.71,No
+1820,2025-07-24,Amoxicillin,Tablet,Maharashtra,Netmeds,269,31.53,-10,8481.57,Yes
+1821,2025-07-25,Paracetamol,Tablet,Maharashtra,Wellness Forever,353,14.69,325,5185.57,No
+1822,2025-07-25,Amoxicillin,Tablet,Gujarat,Netmeds,168,68.21,291,11459.28,No
+1823,2025-07-25,Azithromycin,Tablet,Gujarat,MedPlus,54,67.25,20,3631.5,No
+1824,2025-07-25,Metformin,Syrup,Maharashtra,Netmeds,452,11.79,311,5329.08,No
+1825,2025-07-26,Paracetamol,Tablet,Tamil Nadu,Wellness Forever,310,11.14,340,3453.4,No
+1826,2025-07-26,Insulin,Tablet,Gujarat,MedPlus,260,227.8,265,59228.0,No
+1827,2025-07-26,Azithromycin,Capsule,Karnataka,Apollo Pharmacy,340,94.17,379,32017.8,No
+1828,2025-07-26,Amoxicillin,Injection,Karnataka,MedPlus,174,66.35,284,11544.9,No
+1829,2025-07-27,Azithromycin,Capsule,Tamil Nadu,MedPlus,202,69.17,-2,13972.34,Yes
+1830,2025-07-27,Paracetamol,Tablet,Gujarat,MedPlus,18,8.27,221,148.86,No
+1831,2025-07-27,Amoxicillin,Tablet,Karnataka,Wellness Forever,410,89.28,269,36604.8,No
+1832,2025-07-27,Metformin,Syrup,Gujarat,MedPlus,383,21.35,314,8177.05,No
+1833,2025-07-28,Azithromycin,Tablet,Gujarat,Netmeds,74,95.06,34,7034.44,No
+1834,2025-07-28,Paracetamol,Tablet,Karnataka,MedPlus,396,7.11,245,2815.56,No
+1835,2025-07-28,Insulin,Injection,Maharashtra,MedPlus,291,271.4,94,78977.4,No
+1836,2025-07-28,Amoxicillin,Syrup,Karnataka,Netmeds,190,31.65,181,6013.5,No
+1837,2025-07-29,Azithromycin,Tablet,Tamil Nadu,Netmeds,424,80.44,362,34106.56,No
+1838,2025-07-29,Azithromycin,Syrup,Delhi,Apollo Pharmacy,291,117.12,236,34081.92,No
+1839,2025-07-29,Metformin,Tablet,Karnataka,MedPlus,288,19.61,72,5647.68,No
+1840,2025-07-29,Metformin,Tablet,Gujarat,Wellness Forever,39,10.97,297,427.83,No
+1841,2025-07-30,Insulin,Tablet,Gujarat,MedPlus,275,157.74,10,43378.5,No
+1842,2025-07-30,Insulin,Tablet,Karnataka,MedPlus,337,247.0,246,83239.0,No
+1843,2025-07-30,Paracetamol,Tablet,Delhi,Netmeds,226,7.4,128,1672.4,No
+1844,2025-07-30,Paracetamol,Capsule,Karnataka,Apollo Pharmacy,329,5.35,44,1760.15,No
+1845,2025-07-31,Insulin,Syrup,Delhi,MedPlus,415,339.05,340,140705.75,No
+1846,2025-07-31,Insulin,Injection,Delhi,Wellness Forever,408,264.63,252,107969.04,No
+1847,2025-07-31,Amoxicillin,Tablet,Tamil Nadu,MedPlus,388,47.35,59,18371.8,No
+1848,2025-07-31,Metformin,Tablet,Gujarat,Wellness Forever,114,32.5,-13,3705.0,Yes
+1849,2025-08-01,Paracetamol,Tablet,Gujarat,Netmeds,193,6.74,47,1300.82,No
+1850,2025-08-01,Metformin,Tablet,Delhi,Apollo Pharmacy,339,33.9,220,11492.1,No
+1851,2025-08-01,Metformin,Tablet,Gujarat,MedPlus,157,17.85,213,2802.45,No
+1852,2025-08-01,Insulin,Injection,Maharashtra,Apollo Pharmacy,114,372.1,374,42419.4,No
+1853,2025-08-02,Amoxicillin,Injection,Delhi,MedPlus,56,66.18,259,3706.08,No
+1854,2025-08-02,Azithromycin,Syrup,Gujarat,Wellness Forever,96,106.14,2,10189.44,No
+1855,2025-08-02,Amoxicillin,Syrup,Maharashtra,Apollo Pharmacy,318,89.04,64,28314.72,No
+1856,2025-08-02,Amoxicillin,Capsule,Tamil Nadu,MedPlus,446,47.3,199,21095.8,No
+1857,2025-08-03,Metformin,Tablet,Gujarat,Netmeds,138,34.03,155,4696.14,No
+1858,2025-08-03,Amoxicillin,Tablet,Maharashtra,Wellness Forever,267,53.37,313,14249.79,No
+1859,2025-08-03,Paracetamol,Tablet,Karnataka,Apollo Pharmacy,323,10.78,239,3481.94,No
+1860,2025-08-03,Metformin,Injection,Karnataka,MedPlus,156,18.51,371,2887.56,No
+1861,2025-08-04,Paracetamol,Capsule,Maharashtra,Apollo Pharmacy,455,13.12,110,5969.6,No
+1862,2025-08-04,Azithromycin,Tablet,Delhi,MedPlus,471,52.33,239,24647.43,No
+1863,2025-08-04,Metformin,Capsule,Delhi,Wellness Forever,81,23.84,56,1931.04,No
+1864,2025-08-04,Azithromycin,Capsule,Gujarat,Netmeds,495,83.34,22,41253.3,No
+1865,2025-08-05,Metformin,Tablet,Karnataka,Wellness Forever,149,29.05,308,4328.45,No
+1866,2025-08-05,Insulin,Tablet,Delhi,Apollo Pharmacy,419,358.41,188,150173.79,No
+1867,2025-08-05,Amoxicillin,Tablet,Delhi,Apollo Pharmacy,36,56.43,156,2031.48,No
+1868,2025-08-05,Insulin,Capsule,Karnataka,MedPlus,38,225.58,207,8572.04,No
+1869,2025-08-06,Azithromycin,Tablet,Tamil Nadu,Wellness Forever,280,60.75,201,17010.0,No
+1870,2025-08-06,Amoxicillin,Injection,Delhi,MedPlus,183,41.68,229,7627.44,No
+1871,2025-08-06,Metformin,Tablet,Maharashtra,Wellness Forever,262,11.44,320,2997.28,No
+1872,2025-08-06,Amoxicillin,Injection,Gujarat,Apollo Pharmacy,394,50.55,175,19916.7,No
+1873,2025-08-07,Paracetamol,Tablet,Delhi,MedPlus,69,9.05,282,624.45,No
+1874,2025-08-07,Amoxicillin,Syrup,Delhi,MedPlus,116,87.99,304,10206.84,No
+1875,2025-08-07,Paracetamol,Capsule,Tamil Nadu,Wellness Forever,229,13.37,166,3061.73,No
+1876,2025-08-07,Amoxicillin,Capsule,Maharashtra,Netmeds,450,50.84,318,22878.0,No
+1877,2025-08-08,Paracetamol,Capsule,Gujarat,Wellness Forever,268,13.71,367,3674.28,No
+1878,2025-08-08,Azithromycin,Tablet,Delhi,Netmeds,380,51.14,189,19433.2,No
+1879,2025-08-08,Insulin,Injection,Gujarat,Wellness Forever,155,261.01,345,40456.55,No
+1880,2025-08-08,Metformin,Tablet,Karnataka,Apollo Pharmacy,61,25.66,183,1565.26,No
+1881,2025-08-09,Amoxicillin,Tablet,Delhi,MedPlus,69,59.33,316,4093.77,No
+1882,2025-08-09,Insulin,Syrup,Delhi,Wellness Forever,43,250.44,149,10768.92,No
+1883,2025-08-09,Metformin,Tablet,Karnataka,Apollo Pharmacy,105,34.85,226,3659.25,No
+1884,2025-08-09,Metformin,Syrup,Tamil Nadu,Wellness Forever,486,32.01,372,15556.86,No
+1885,2025-08-10,Paracetamol,Capsule,Delhi,MedPlus,98,14.35,114,1406.3,No
+1886,2025-08-10,Azithromycin,Tablet,Gujarat,Wellness Forever,325,85.55,211,27803.75,No
+1887,2025-08-10,Azithromycin,Injection,Maharashtra,Netmeds,419,89.65,106,37563.35,No
+1888,2025-08-10,Insulin,Tablet,Gujarat,MedPlus,240,200.33,28,48079.2,No
+1889,2025-08-11,Azithromycin,Tablet,Tamil Nadu,Netmeds,465,71.61,180,33298.65,No
+1890,2025-08-11,Amoxicillin,Tablet,Maharashtra,Apollo Pharmacy,284,32.37,342,9193.08,No
+1891,2025-08-11,Azithromycin,Capsule,Gujarat,Apollo Pharmacy,255,78.04,188,19900.2,No
+1892,2025-08-11,Insulin,Capsule,Gujarat,Wellness Forever,120,285.76,302,34291.2,No
+1893,2025-08-12,Azithromycin,Capsule,Karnataka,Netmeds,243,58.22,241,14147.46,No
+1894,2025-08-12,Amoxicillin,Capsule,Tamil Nadu,Netmeds,287,87.84,1,25210.08,No
+1895,2025-08-12,Paracetamol,Tablet,Karnataka,MedPlus,486,18.64,256,9059.04,No
+1896,2025-08-12,Insulin,Tablet,Maharashtra,Netmeds,426,330.54,-7,140810.04,Yes
+1897,2025-08-13,Paracetamol,Injection,Karnataka,Netmeds,175,13.0,233,2275.0,No
+1898,2025-08-13,Paracetamol,Syrup,Tamil Nadu,MedPlus,137,18.05,185,2472.85,No
+1899,2025-08-13,Paracetamol,Tablet,Delhi,MedPlus,246,6.96,43,1712.16,No
+1900,2025-08-13,Metformin,Tablet,Delhi,Netmeds,300,29.76,359,8928.0,No
+1901,2025-08-14,Metformin,Syrup,Maharashtra,Wellness Forever,116,13.12,377,1521.92,No
+1902,2025-08-14,Paracetamol,Syrup,Delhi,MedPlus,137,16.91,124,2316.67,No
+1903,2025-08-14,Insulin,Tablet,Karnataka,MedPlus,204,218.94,103,44663.76,No
+1904,2025-08-14,Amoxicillin,Syrup,Maharashtra,Netmeds,348,82.63,25,28755.24,No
+1905,2025-08-15,Amoxicillin,Syrup,Tamil Nadu,Netmeds,403,86.64,383,34915.92,No
+1906,2025-08-15,Azithromycin,Syrup,Maharashtra,MedPlus,484,51.9,306,25119.6,No
+1907,2025-08-15,Insulin,Tablet,Maharashtra,Netmeds,152,265.67,315,40381.84,No
+1908,2025-08-15,Metformin,Injection,Gujarat,MedPlus,404,34.52,251,13946.08,No
+1909,2025-08-16,Paracetamol,Tablet,Gujarat,Wellness Forever,120,12.25,-8,1470.0,Yes
+1910,2025-08-16,Azithromycin,Tablet,Maharashtra,Wellness Forever,99,109.08,167,10798.92,No
+1911,2025-08-16,Amoxicillin,Injection,Delhi,MedPlus,260,65.32,118,16983.2,No
+1912,2025-08-16,Metformin,Syrup,Gujarat,MedPlus,289,19.38,165,5600.82,No
+1913,2025-08-17,Metformin,Tablet,Tamil Nadu,Apollo Pharmacy,342,17.14,388,5861.88,No
+1914,2025-08-17,Paracetamol,Injection,Karnataka,Apollo Pharmacy,233,8.05,339,1875.65,No
+1915,2025-08-17,Amoxicillin,Syrup,Gujarat,Netmeds,110,75.71,56,8328.1,No
+1916,2025-08-17,Insulin,Injection,Maharashtra,Netmeds,141,246.64,97,34776.24,No
+1917,2025-08-18,Metformin,Injection,Delhi,MedPlus,22,22.78,91,501.16,No
+1918,2025-08-18,Paracetamol,Syrup,Karnataka,MedPlus,466,12.38,274,5769.08,No
+1919,2025-08-18,Insulin,Syrup,Gujarat,Apollo Pharmacy,450,294.32,297,132444.0,No
+1920,2025-08-18,Amoxicillin,Tablet,Delhi,Apollo Pharmacy,107,81.93,101,8766.51,No
+1921,2025-08-19,Metformin,Tablet,Delhi,MedPlus,129,34.52,104,4453.08,No
+1922,2025-08-19,Insulin,Tablet,Delhi,Wellness Forever,302,251.9,131,76073.8,No
+1923,2025-08-19,Insulin,Syrup,Maharashtra,Wellness Forever,313,356.88,311,111703.44,No
+1924,2025-08-19,Insulin,Syrup,Tamil Nadu,Netmeds,208,341.13,399,70955.04,No
+1925,2025-08-20,Metformin,Tablet,Delhi,MedPlus,10,24.34,194,243.4,No
+1926,2025-08-20,Metformin,Tablet,Karnataka,MedPlus,69,33.9,280,2339.1,No
+1927,2025-08-20,Azithromycin,Syrup,Gujarat,Netmeds,259,56.04,382,14514.36,No
+1928,2025-08-20,Amoxicillin,Tablet,Karnataka,Apollo Pharmacy,149,36.56,87,5447.44,No
+1929,2025-08-21,Paracetamol,Injection,Maharashtra,Apollo Pharmacy,158,17.81,108,2813.98,No
+1930,2025-08-21,Insulin,Tablet,Maharashtra,Wellness Forever,404,259.79,229,104955.16,No
+1931,2025-08-21,Azithromycin,Syrup,Karnataka,MedPlus,53,107.76,363,5711.28,No
+1932,2025-08-21,Paracetamol,Capsule,Tamil Nadu,Apollo Pharmacy,380,18.4,340,6992.0,No
+1933,2025-08-22,Azithromycin,Tablet,Maharashtra,Wellness Forever,195,45.0,193,8775.0,No
+1934,2025-08-22,Metformin,Syrup,Maharashtra,Wellness Forever,117,32.09,377,3754.53,No
+1935,2025-08-22,Insulin,Tablet,Karnataka,Wellness Forever,53,262.08,298,13890.24,No
+1936,2025-08-22,Paracetamol,Syrup,Maharashtra,Apollo Pharmacy,87,12.66,388,1101.42,No
+1937,2025-08-23,Paracetamol,Syrup,Tamil Nadu,Apollo Pharmacy,235,14.4,93,3384.0,No
+1938,2025-08-23,Paracetamol,Tablet,Tamil Nadu,MedPlus,171,18.9,361,3231.9,No
+1939,2025-08-23,Paracetamol,Syrup,Tamil Nadu,MedPlus,290,5.29,332,1534.1,No
+1940,2025-08-23,Paracetamol,Capsule,Gujarat,Wellness Forever,262,12.15,34,3183.3,No
+1941,2025-08-24,Azithromycin,Tablet,Tamil Nadu,Wellness Forever,141,95.02,388,13397.82,No
+1942,2025-08-24,Insulin,Tablet,Tamil Nadu,Apollo Pharmacy,457,330.68,89,151120.76,No
+1943,2025-08-24,Metformin,Capsule,Gujarat,Apollo Pharmacy,381,27.31,357,10405.11,No
+1944,2025-08-24,Metformin,Syrup,Delhi,MedPlus,384,13.36,11,5130.24,No
+1945,2025-08-25,Metformin,Capsule,Maharashtra,MedPlus,483,17.48,272,8442.84,No
+1946,2025-08-25,Metformin,Syrup,Tamil Nadu,Netmeds,153,18.97,241,2902.41,No
+1947,2025-08-25,Azithromycin,Capsule,Maharashtra,MedPlus,275,104.35,257,28696.25,No
+1948,2025-08-25,Amoxicillin,Tablet,Karnataka,Apollo Pharmacy,118,46.73,121,5514.14,No
+1949,2025-08-26,Insulin,Injection,Maharashtra,Wellness Forever,203,202.68,324,41144.04,No
+1950,2025-08-26,Paracetamol,Capsule,Gujarat,Netmeds,44,19.36,285,851.84,No
+1951,2025-08-26,Amoxicillin,Syrup,Maharashtra,MedPlus,476,30.53,306,14532.28,No
+1952,2025-08-26,Metformin,Tablet,Maharashtra,MedPlus,399,34.95,16,13945.05,No
+1953,2025-08-27,Amoxicillin,Tablet,Maharashtra,Apollo Pharmacy,284,70.61,29,20053.24,No
+1954,2025-08-27,Insulin,Tablet,Delhi,Netmeds,196,357.12,249,69995.52,No
+1955,2025-08-27,Paracetamol,Tablet,Delhi,MedPlus,446,9.42,14,4201.32,No
+1956,2025-08-27,Paracetamol,Tablet,Karnataka,Wellness Forever,252,5.21,68,1312.92,No
+1957,2025-08-28,Insulin,Syrup,Gujarat,Apollo Pharmacy,273,334.47,150,91310.31,No
+1958,2025-08-28,Insulin,Syrup,Maharashtra,Netmeds,471,358.54,300,168872.34,No
+1959,2025-08-28,Metformin,Tablet,Maharashtra,MedPlus,19,28.51,-15,541.69,Yes
+1960,2025-08-28,Paracetamol,Syrup,Maharashtra,MedPlus,460,7.14,233,3284.4,No
+1961,2025-08-29,Amoxicillin,Tablet,Maharashtra,Netmeds,175,75.21,245,13161.75,No
+1962,2025-08-29,Azithromycin,Tablet,Delhi,Apollo Pharmacy,38,101.51,47,3857.38,No
+1963,2025-08-29,Azithromycin,Tablet,Karnataka,Netmeds,280,92.68,148,25950.4,No
+1964,2025-08-29,Insulin,Syrup,Tamil Nadu,Netmeds,96,341.53,305,32786.88,No
+1965,2025-08-30,Metformin,Tablet,Gujarat,Apollo Pharmacy,32,31.15,318,996.8,No
+1966,2025-08-30,Azithromycin,Tablet,Maharashtra,MedPlus,219,89.09,185,19510.71,No
+1967,2025-08-30,Paracetamol,Tablet,Karnataka,Wellness Forever,55,6.33,206,348.15,No
+1968,2025-08-30,Insulin,Capsule,Tamil Nadu,Apollo Pharmacy,476,271.91,136,129429.16,No
+1969,2025-08-31,Amoxicillin,Tablet,Karnataka,Wellness Forever,37,34.66,116,1282.42,No
+1970,2025-08-31,Insulin,Syrup,Delhi,MedPlus,35,251.89,98,8816.15,No
+1971,2025-08-31,Amoxicillin,Injection,Tamil Nadu,Netmeds,275,54.43,201,14968.25,No
+1972,2025-08-31,Insulin,Injection,Karnataka,Wellness Forever,184,166.5,180,30636.0,No
+1973,2025-09-01,Insulin,Capsule,Delhi,MedPlus,13,237.21,265,3083.73,No
+1974,2025-09-01,Insulin,Tablet,Karnataka,MedPlus,320,177.75,186,56880.0,No
+1975,2025-09-01,Amoxicillin,Tablet,Karnataka,Netmeds,331,78.49,119,25980.19,No
+1976,2025-09-01,Amoxicillin,Capsule,Tamil Nadu,Netmeds,76,86.86,218,6601.36,No
+1977,2025-09-02,Insulin,Syrup,Delhi,MedPlus,144,168.08,125,24203.52,No
+1978,2025-09-02,Azithromycin,Syrup,Maharashtra,MedPlus,64,116.41,180,7450.24,No
+1979,2025-09-02,Metformin,Injection,Gujarat,Wellness Forever,473,23.06,27,10907.38,No
+1980,2025-09-02,Metformin,Injection,Tamil Nadu,MedPlus,40,17.49,41,699.6,No
+1981,2025-09-03,Metformin,Capsule,Delhi,MedPlus,83,11.92,126,989.36,No
+1982,2025-09-03,Amoxicillin,Capsule,Karnataka,Wellness Forever,28,60.04,194,1681.12,No
+1983,2025-09-03,Amoxicillin,Injection,Delhi,Apollo Pharmacy,165,77.67,56,12815.55,No
+1984,2025-09-03,Azithromycin,Tablet,Gujarat,Wellness Forever,346,96.57,208,33413.22,No
+1985,2025-09-04,Metformin,Capsule,Gujarat,Wellness Forever,165,11.26,11,1857.9,No
+1986,2025-09-04,Metformin,Tablet,Maharashtra,Netmeds,156,11.82,112,1843.92,No
+1987,2025-09-04,Insulin,Tablet,Maharashtra,Wellness Forever,494,250.72,90,123855.68,No
+1988,2025-09-04,Amoxicillin,Capsule,Gujarat,MedPlus,96,47.72,149,4581.12,No
+1989,2025-09-05,Metformin,Tablet,Tamil Nadu,MedPlus,29,15.81,199,458.49,No
+1990,2025-09-05,Azithromycin,Tablet,Tamil Nadu,MedPlus,278,62.48,55,17369.44,No
+1991,2025-09-05,Azithromycin,Tablet,Karnataka,Apollo Pharmacy,342,104.28,188,35663.76,No
+1992,2025-09-05,Metformin,Capsule,Maharashtra,MedPlus,52,33.23,137,1727.96,No
+1993,2025-09-06,Amoxicillin,Syrup,Karnataka,Apollo Pharmacy,404,54.31,51,21941.24,No
+1994,2025-09-06,Azithromycin,Injection,Maharashtra,MedPlus,441,112.49,74,49608.09,No
+1995,2025-09-06,Insulin,Tablet,Gujarat,Wellness Forever,408,230.37,244,93990.96,No
+1996,2025-09-06,Azithromycin,Injection,Tamil Nadu,Netmeds,410,78.11,346,32025.1,No
+1997,2025-09-07,Paracetamol,Injection,Tamil Nadu,MedPlus,447,8.39,212,3750.33,No
+1998,2025-09-07,Paracetamol,Tablet,Gujarat,Apollo Pharmacy,315,14.61,63,4602.15,No
+1999,2025-09-07,Amoxicillin,Tablet,Karnataka,Apollo Pharmacy,37,88.74,80,3283.38,No
+2000,2025-09-07,Metformin,Tablet,Karnataka,Netmeds,476,25.09,333,11942.84,No
+2001,2025-09-08,Amoxicillin,Capsule,Delhi,MedPlus,269,51.47,314,13845.43,No
+2002,2025-09-08,Amoxicillin,Syrup,Maharashtra,Wellness Forever,31,68.87,366,2134.97,No
+2003,2025-09-08,Amoxicillin,Capsule,Karnataka,MedPlus,479,37.38,230,17905.02,No
+2004,2025-09-08,Amoxicillin,Tablet,Gujarat,MedPlus,384,83.32,256,31994.88,No
+2005,2025-09-09,Insulin,Injection,Karnataka,Netmeds,110,275.77,387,30334.7,No
+2006,2025-09-09,Insulin,Injection,Tamil Nadu,MedPlus,48,262.34,141,12592.32,No
+2007,2025-09-09,Azithromycin,Injection,Maharashtra,Wellness Forever,299,86.87,100,25974.13,No
+2008,2025-09-09,Paracetamol,Capsule,Delhi,Apollo Pharmacy,362,14.37,2,5201.94,No
+2009,2025-09-10,Amoxicillin,Tablet,Maharashtra,Netmeds,309,34.31,156,10601.79,No
+2010,2025-09-10,Azithromycin,Tablet,Tamil Nadu,Wellness Forever,179,94.61,0,16935.19,No
+2011,2025-09-10,Paracetamol,Injection,Tamil Nadu,Apollo Pharmacy,305,8.63,224,2632.15,No
+2012,2025-09-10,Metformin,Injection,Tamil Nadu,Netmeds,362,27.85,370,10081.7,No
+2013,2025-09-11,Insulin,Syrup,Tamil Nadu,Netmeds,405,355.63,40,144030.15,No
+2014,2025-09-11,Paracetamol,Tablet,Gujarat,Apollo Pharmacy,139,17.06,63,2371.34,No
+2015,2025-09-11,Metformin,Syrup,Delhi,Apollo Pharmacy,165,23.81,87,3928.65,No
+2016,2025-09-11,Paracetamol,Tablet,Tamil Nadu,Wellness Forever,83,12.8,268,1062.4,No
+2017,2025-09-12,Insulin,Tablet,Tamil Nadu,MedPlus,351,185.72,177,65187.72,No
+2018,2025-09-12,Insulin,Syrup,Karnataka,MedPlus,474,343.84,-11,162980.16,Yes
+2019,2025-09-12,Azithromycin,Injection,Delhi,MedPlus,99,61.71,90,6109.29,No
+2020,2025-09-12,Amoxicillin,Tablet,Maharashtra,MedPlus,76,59.8,262,4544.8,No
+2021,2025-09-13,Paracetamol,Tablet,Delhi,MedPlus,464,9.26,357,4296.64,No
+2022,2025-09-13,Paracetamol,Tablet,Delhi,Wellness Forever,245,7.01,84,1717.45,No
+2023,2025-09-13,Metformin,Tablet,Delhi,Netmeds,209,25.74,222,5379.66,No
+2024,2025-09-13,Insulin,Injection,Tamil Nadu,Wellness Forever,477,163.58,253,78027.66,No
+2025,2025-09-14,Paracetamol,Capsule,Tamil Nadu,Wellness Forever,341,16.23,305,5534.43,No
+2026,2025-09-14,Insulin,Tablet,Gujarat,Wellness Forever,236,229.4,384,54138.4,No
+2027,2025-09-14,Paracetamol,Injection,Maharashtra,Netmeds,474,5.0,70,2370.0,No
+2028,2025-09-14,Azithromycin,Capsule,Karnataka,Wellness Forever,357,80.89,304,28877.73,No
+2029,2025-09-15,Amoxicillin,Capsule,Delhi,Wellness Forever,242,32.81,16,7940.02,No
+2030,2025-09-15,Paracetamol,Tablet,Maharashtra,Netmeds,275,9.14,320,2513.5,No
+2031,2025-09-15,Insulin,Capsule,Maharashtra,Wellness Forever,95,326.74,35,31040.3,No
+2032,2025-09-15,Azithromycin,Tablet,Gujarat,MedPlus,111,45.02,63,4997.22,No
+2033,2025-09-16,Paracetamol,Tablet,Karnataka,Apollo Pharmacy,450,17.59,170,7915.5,No
+2034,2025-09-16,Metformin,Tablet,Delhi,Wellness Forever,490,10.1,158,4949.0,No
+2035,2025-09-16,Amoxicillin,Syrup,Karnataka,Apollo Pharmacy,223,44.81,90,9992.63,No
+2036,2025-09-16,Paracetamol,Tablet,Gujarat,Wellness Forever,117,16.11,47,1884.87,No
+2037,2025-09-17,Azithromycin,Tablet,Tamil Nadu,Wellness Forever,174,65.3,60,11362.2,No
+2038,2025-09-17,Metformin,Tablet,Maharashtra,MedPlus,470,12.55,300,5898.5,No
+2039,2025-09-17,Azithromycin,Capsule,Delhi,Netmeds,100,68.82,305,6882.0,No
+2040,2025-09-17,Azithromycin,Capsule,Tamil Nadu,Apollo Pharmacy,201,61.63,357,12387.63,No
+2041,2025-09-18,Metformin,Tablet,Gujarat,Netmeds,344,31.07,65,10688.08,No
+2042,2025-09-18,Azithromycin,Capsule,Karnataka,MedPlus,95,65.07,345,6181.65,No
+2043,2025-09-18,Metformin,Capsule,Maharashtra,MedPlus,231,29.72,112,6865.32,No
+2044,2025-09-18,Paracetamol,Injection,Delhi,Apollo Pharmacy,372,18.38,167,6837.36,No
+2045,2025-09-19,Metformin,Tablet,Tamil Nadu,Netmeds,433,20.85,227,9028.05,No
+2046,2025-09-19,Metformin,Injection,Tamil Nadu,MedPlus,110,32.75,169,3602.5,No
+2047,2025-09-19,Amoxicillin,Capsule,Maharashtra,Wellness Forever,235,52.64,204,12370.4,No
+2048,2025-09-19,Metformin,Injection,Karnataka,Wellness Forever,373,34.1,55,12719.3,No
+2049,2025-09-20,Metformin,Tablet,Gujarat,Wellness Forever,69,12.23,326,843.87,No
+2050,2025-09-20,Paracetamol,Syrup,Karnataka,Netmeds,491,15.31,138,7517.21,No
+2051,2025-09-20,Amoxicillin,Syrup,Karnataka,Wellness Forever,259,59.63,229,15444.17,No
+2052,2025-09-20,Insulin,Syrup,Karnataka,Wellness Forever,57,246.91,124,14073.87,No
+2053,2025-09-21,Paracetamol,Tablet,Maharashtra,MedPlus,126,14.49,55,1825.74,No
+2054,2025-09-21,Paracetamol,Tablet,Maharashtra,MedPlus,236,15.56,30,3672.16,No
+2055,2025-09-21,Insulin,Capsule,Gujarat,Wellness Forever,371,151.09,31,56054.39,No
+2056,2025-09-21,Metformin,Capsule,Karnataka,Wellness Forever,412,14.17,63,5838.04,No
+2057,2025-09-22,Azithromycin,Tablet,Maharashtra,MedPlus,465,97.04,133,45123.6,No
+2058,2025-09-22,Amoxicillin,Capsule,Gujarat,Apollo Pharmacy,496,69.98,382,34710.08,No
+2059,2025-09-22,Azithromycin,Tablet,Gujarat,Netmeds,42,117.28,114,4925.76,No
+2060,2025-09-22,Insulin,Injection,Karnataka,Netmeds,53,340.26,111,18033.78,No
+2061,2025-09-23,Paracetamol,Injection,Delhi,MedPlus,485,19.26,349,9341.1,No
+2062,2025-09-23,Paracetamol,Capsule,Karnataka,Netmeds,174,15.54,103,2703.96,No
+2063,2025-09-23,Amoxicillin,Capsule,Delhi,MedPlus,377,47.88,341,18050.76,No
+2064,2025-09-23,Paracetamol,Tablet,Gujarat,MedPlus,354,6.58,246,2329.32,No
+2065,2025-09-24,Paracetamol,Capsule,Maharashtra,MedPlus,301,16.73,228,5035.73,No
+2066,2025-09-24,Amoxicillin,Tablet,Tamil Nadu,MedPlus,346,68.65,366,23752.9,No
+2067,2025-09-24,Amoxicillin,Injection,Gujarat,Apollo Pharmacy,353,32.89,87,11610.17,No
+2068,2025-09-24,Insulin,Injection,Maharashtra,Wellness Forever,414,240.01,21,99364.14,No
+2069,2025-09-25,Paracetamol,Injection,Gujarat,Wellness Forever,395,19.35,126,7643.25,No
+2070,2025-09-25,Paracetamol,Tablet,Karnataka,Apollo Pharmacy,296,12.51,21,3702.96,No
+2071,2025-09-25,Insulin,Capsule,Delhi,Netmeds,373,258.18,-8,96301.14,Yes
+2072,2025-09-25,Metformin,Tablet,Gujarat,Netmeds,234,21.44,215,5016.96,No
+2073,2025-09-26,Metformin,Tablet,Maharashtra,Wellness Forever,295,15.22,317,4489.9,No
+2074,2025-09-26,Metformin,Injection,Karnataka,Netmeds,213,19.22,381,4093.86,No
+2075,2025-09-26,Insulin,Syrup,Tamil Nadu,Wellness Forever,181,242.45,280,43883.45,No
+2076,2025-09-26,Paracetamol,Capsule,Karnataka,Wellness Forever,21,5.79,91,121.59,No
+2077,2025-09-27,Insulin,Tablet,Delhi,Apollo Pharmacy,316,341.89,332,108037.24,No
+2078,2025-09-27,Insulin,Tablet,Karnataka,Netmeds,130,254.13,2,33036.9,No
+2079,2025-09-27,Metformin,Capsule,Tamil Nadu,Apollo Pharmacy,442,30.55,297,13503.1,No
+2080,2025-09-27,Azithromycin,Syrup,Maharashtra,Wellness Forever,253,108.03,67,27331.59,No
+2081,2025-09-28,Paracetamol,Tablet,Gujarat,Wellness Forever,161,8.18,272,1316.98,No
+2082,2025-09-28,Metformin,Injection,Delhi,Wellness Forever,161,26.43,178,4255.23,No
+2083,2025-09-28,Azithromycin,Syrup,Tamil Nadu,MedPlus,197,77.78,199,15322.66,No
+2084,2025-09-28,Azithromycin,Syrup,Delhi,MedPlus,404,110.41,265,44605.64,No
+2085,2025-09-29,Amoxicillin,Syrup,Karnataka,MedPlus,22,42.94,204,944.68,No
+2086,2025-09-29,Paracetamol,Capsule,Delhi,Apollo Pharmacy,100,15.17,273,1517.0,No
+2087,2025-09-29,Azithromycin,Capsule,Tamil Nadu,Wellness Forever,209,88.62,328,18521.58,No
+2088,2025-09-29,Metformin,Injection,Gujarat,Netmeds,83,17.38,178,1442.54,No
+2089,2025-09-30,Amoxicillin,Tablet,Gujarat,Apollo Pharmacy,265,38.2,142,10123.0,No
+2090,2025-09-30,Paracetamol,Capsule,Delhi,Apollo Pharmacy,465,14.77,88,6868.05,No
+2091,2025-09-30,Insulin,Injection,Maharashtra,Apollo Pharmacy,457,334.65,18,152935.05,No
+2092,2025-09-30,Metformin,Injection,Delhi,Netmeds,285,17.89,86,5098.65,No
+2093,2025-10-01,Azithromycin,Tablet,Karnataka,Wellness Forever,337,91.59,111,30865.83,No
+2094,2025-10-01,Azithromycin,Capsule,Gujarat,MedPlus,338,71.61,198,24204.18,No
+2095,2025-10-01,Metformin,Injection,Gujarat,Wellness Forever,80,27.83,309,2226.4,No
+2096,2025-10-01,Azithromycin,Tablet,Gujarat,Wellness Forever,87,55.94,280,4866.78,No
+2097,2025-10-02,Amoxicillin,Tablet,Maharashtra,Apollo Pharmacy,293,83.41,163,24439.13,No
+2098,2025-10-02,Paracetamol,Capsule,Maharashtra,Apollo Pharmacy,139,9.31,64,1294.09,No
+2099,2025-10-02,Amoxicillin,Tablet,Tamil Nadu,Apollo Pharmacy,386,52.07,125,20099.02,No
+2100,2025-10-02,Azithromycin,Capsule,Delhi,MedPlus,52,44.65,15,2321.8,No
+2101,2025-10-03,Insulin,Injection,Delhi,MedPlus,17,177.88,356,3023.96,No
+2102,2025-10-03,Paracetamol,Syrup,Karnataka,MedPlus,22,12.74,47,280.28,No
+2103,2025-10-03,Paracetamol,Tablet,Gujarat,Wellness Forever,222,9.01,32,2000.22,No
+2104,2025-10-03,Metformin,Tablet,Maharashtra,Apollo Pharmacy,120,30.89,71,3706.8,No
+2105,2025-10-04,Metformin,Capsule,Karnataka,Netmeds,485,10.37,288,5029.45,No
+2106,2025-10-04,Insulin,Tablet,Karnataka,Wellness Forever,300,244.77,45,73431.0,No
+2107,2025-10-04,Paracetamol,Injection,Maharashtra,MedPlus,32,10.06,380,321.92,No
+2108,2025-10-04,Insulin,Tablet,Delhi,Netmeds,311,154.83,318,48152.13,No
+2109,2025-10-05,Metformin,Tablet,Gujarat,Netmeds,263,13.11,258,3447.93,No
+2110,2025-10-05,Metformin,Tablet,Delhi,Apollo Pharmacy,24,20.34,395,488.16,No
+2111,2025-10-05,Paracetamol,Syrup,Karnataka,Netmeds,139,12.39,268,1722.21,No
+2112,2025-10-05,Amoxicillin,Capsule,Gujarat,MedPlus,70,54.26,64,3798.2,No
+2113,2025-10-06,Azithromycin,Tablet,Tamil Nadu,Apollo Pharmacy,124,82.48,164,10227.52,No
+2114,2025-10-06,Metformin,Tablet,Karnataka,Netmeds,469,24.88,256,11668.72,No
+2115,2025-10-06,Metformin,Tablet,Delhi,Apollo Pharmacy,329,10.25,61,3372.25,No
+2116,2025-10-06,Amoxicillin,Syrup,Delhi,Netmeds,317,57.85,205,18338.45,No
+2117,2025-10-07,Amoxicillin,Tablet,Delhi,Wellness Forever,429,87.81,377,37670.49,No
+2118,2025-10-07,Insulin,Capsule,Maharashtra,Wellness Forever,460,279.76,266,128689.6,No
+2119,2025-10-07,Insulin,Syrup,Karnataka,MedPlus,334,319.39,12,106676.26,No
+2120,2025-10-07,Azithromycin,Syrup,Gujarat,Wellness Forever,76,64.95,345,4936.2,No
+2121,2025-10-08,Azithromycin,Tablet,Delhi,Wellness Forever,258,101.92,61,26295.36,No
+2122,2025-10-08,Paracetamol,Capsule,Delhi,Wellness Forever,184,16.59,148,3052.56,No
+2123,2025-10-08,Insulin,Tablet,Maharashtra,Netmeds,348,280.32,-7,97551.36,Yes
+2124,2025-10-08,Metformin,Tablet,Gujarat,Netmeds,11,34.4,159,378.4,No
+2125,2025-10-09,Insulin,Injection,Karnataka,Apollo Pharmacy,181,181.39,291,32831.59,No
+2126,2025-10-09,Metformin,Syrup,Tamil Nadu,Netmeds,494,10.42,60,5147.48,No
+2127,2025-10-09,Amoxicillin,Tablet,Maharashtra,Wellness Forever,457,76.21,229,34827.97,No
+2128,2025-10-09,Insulin,Tablet,Karnataka,Netmeds,474,351.79,106,166748.46,No
+2129,2025-10-10,Amoxicillin,Injection,Tamil Nadu,MedPlus,343,37.21,169,12763.03,No
+2130,2025-10-10,Azithromycin,Tablet,Delhi,Apollo Pharmacy,293,61.25,16,17946.25,No
+2131,2025-10-10,Azithromycin,Capsule,Delhi,Apollo Pharmacy,484,41.4,234,20037.6,No
+2132,2025-10-10,Paracetamol,Syrup,Gujarat,Netmeds,63,9.4,41,592.2,No
+2133,2025-10-11,Insulin,Tablet,Tamil Nadu,Wellness Forever,467,343.29,294,160316.43,No
+2134,2025-10-11,Amoxicillin,Syrup,Delhi,Apollo Pharmacy,76,61.08,356,4642.08,No
+2135,2025-10-11,Metformin,Tablet,Delhi,MedPlus,429,18.7,128,8022.3,No
+2136,2025-10-11,Azithromycin,Injection,Gujarat,MedPlus,111,69.74,302,7741.14,No
+2137,2025-10-12,Azithromycin,Syrup,Karnataka,Apollo Pharmacy,129,40.11,68,5174.19,No
+2138,2025-10-12,Metformin,Tablet,Delhi,Wellness Forever,200,17.5,40,3500.0,No
+2139,2025-10-12,Amoxicillin,Syrup,Maharashtra,Wellness Forever,418,68.79,263,28754.22,No
+2140,2025-10-12,Amoxicillin,Capsule,Maharashtra,Netmeds,479,88.45,257,42367.55,No
+2141,2025-10-13,Insulin,Tablet,Karnataka,Netmeds,313,361.77,150,113234.01,No
+2142,2025-10-13,Insulin,Capsule,Tamil Nadu,Apollo Pharmacy,432,155.9,142,67348.8,No
+2143,2025-10-13,Paracetamol,Tablet,Gujarat,Netmeds,56,18.48,233,1034.88,No
+2144,2025-10-13,Azithromycin,Tablet,Maharashtra,Netmeds,231,102.66,170,23714.46,No
+2145,2025-10-14,Insulin,Tablet,Maharashtra,Netmeds,30,345.09,62,10352.7,No
+2146,2025-10-14,Amoxicillin,Tablet,Karnataka,MedPlus,167,57.48,6,9599.16,No
+2147,2025-10-14,Metformin,Tablet,Tamil Nadu,Netmeds,357,19.95,92,7122.15,No
+2148,2025-10-14,Amoxicillin,Tablet,Tamil Nadu,Apollo Pharmacy,168,48.17,257,8092.56,No
+2149,2025-10-15,Azithromycin,Capsule,Karnataka,Wellness Forever,386,45.26,236,17470.36,No
+2150,2025-10-15,Amoxicillin,Capsule,Maharashtra,Netmeds,381,43.69,-1,16645.89,Yes
+2151,2025-10-15,Paracetamol,Injection,Gujarat,Wellness Forever,419,8.7,354,3645.3,No
+2152,2025-10-15,Azithromycin,Tablet,Maharashtra,Netmeds,244,78.73,288,19210.12,No
+2153,2025-10-16,Metformin,Tablet,Tamil Nadu,Apollo Pharmacy,159,28.69,144,4561.71,No
+2154,2025-10-16,Paracetamol,Tablet,Maharashtra,MedPlus,414,12.11,189,5013.54,No
+2155,2025-10-16,Azithromycin,Injection,Gujarat,Apollo Pharmacy,266,44.63,97,11871.58,No
+2156,2025-10-16,Metformin,Capsule,Delhi,MedPlus,174,33.94,152,5905.56,No
+2157,2025-10-17,Paracetamol,Tablet,Maharashtra,Netmeds,86,19.14,337,1646.04,No
+2158,2025-10-17,Paracetamol,Tablet,Karnataka,Netmeds,94,16.78,237,1577.32,No
+2159,2025-10-17,Azithromycin,Syrup,Delhi,MedPlus,55,119.31,170,6562.05,No
+2160,2025-10-17,Insulin,Tablet,Karnataka,Apollo Pharmacy,402,286.12,331,115020.24,No
+2161,2025-10-18,Paracetamol,Tablet,Karnataka,Apollo Pharmacy,410,19.44,211,7970.4,No
+2162,2025-10-18,Paracetamol,Syrup,Karnataka,MedPlus,56,6.13,0,343.28,No
+2163,2025-10-18,Metformin,Injection,Maharashtra,Netmeds,222,19.14,140,4249.08,No
+2164,2025-10-18,Amoxicillin,Tablet,Tamil Nadu,MedPlus,488,43.52,338,21237.76,No
+2165,2025-10-19,Azithromycin,Tablet,Delhi,Netmeds,496,55.67,95,27612.32,No
+2166,2025-10-19,Azithromycin,Capsule,Gujarat,MedPlus,68,51.26,-15,3485.68,Yes
+2167,2025-10-19,Insulin,Tablet,Tamil Nadu,Netmeds,63,305.6,25,19252.8,No
+2168,2025-10-19,Insulin,Tablet,Maharashtra,MedPlus,351,345.33,32,121210.83,No
+2169,2025-10-20,Azithromycin,Tablet,Karnataka,Wellness Forever,21,86.26,399,1811.46,No
+2170,2025-10-20,Insulin,Tablet,Gujarat,Netmeds,201,186.74,92,37534.74,No
+2171,2025-10-20,Metformin,Tablet,Delhi,Apollo Pharmacy,15,30.28,145,454.2,No
+2172,2025-10-20,Azithromycin,Capsule,Tamil Nadu,MedPlus,318,90.88,145,28899.84,No
+2173,2025-10-21,Insulin,Tablet,Tamil Nadu,Apollo Pharmacy,153,247.04,343,37797.12,No
+2174,2025-10-21,Azithromycin,Tablet,Gujarat,MedPlus,355,93.93,112,33345.15,No
+2175,2025-10-21,Amoxicillin,Injection,Maharashtra,Apollo Pharmacy,270,45.59,194,12309.3,No
+2176,2025-10-21,Paracetamol,Syrup,Delhi,Apollo Pharmacy,82,10.18,135,834.76,No
+2177,2025-10-22,Azithromycin,Capsule,Gujarat,MedPlus,183,113.4,239,20752.2,No
+2178,2025-10-22,Paracetamol,Capsule,Karnataka,MedPlus,241,9.36,202,2255.76,No
+2179,2025-10-22,Insulin,Tablet,Delhi,Apollo Pharmacy,279,267.5,14,74632.5,No
+2180,2025-10-22,Paracetamol,Injection,Tamil Nadu,Apollo Pharmacy,437,18.35,29,8018.95,No
+2181,2025-10-23,Azithromycin,Syrup,Gujarat,Apollo Pharmacy,456,96.62,64,44058.72,No
+2182,2025-10-23,Amoxicillin,Capsule,Tamil Nadu,Netmeds,371,33.73,23,12513.83,No
+2183,2025-10-23,Insulin,Syrup,Tamil Nadu,Netmeds,231,186.83,224,43157.73,No
+2184,2025-10-23,Azithromycin,Capsule,Tamil Nadu,Wellness Forever,61,40.63,29,2478.43,No
+2185,2025-10-24,Insulin,Injection,Maharashtra,Netmeds,125,307.73,62,38466.25,No
+2186,2025-10-24,Metformin,Tablet,Tamil Nadu,Netmeds,35,21.19,321,741.65,No
+2187,2025-10-24,Paracetamol,Syrup,Karnataka,MedPlus,62,7.01,380,434.62,No
+2188,2025-10-24,Metformin,Capsule,Karnataka,Wellness Forever,374,33.95,333,12697.3,No
+2189,2025-10-25,Azithromycin,Capsule,Delhi,Wellness Forever,38,82.37,272,3130.06,No
+2190,2025-10-25,Amoxicillin,Tablet,Tamil Nadu,Netmeds,28,44.51,264,1246.28,No
+2191,2025-10-25,Insulin,Injection,Tamil Nadu,MedPlus,312,275.15,100,85846.8,No
+2192,2025-10-25,Paracetamol,Tablet,Gujarat,MedPlus,401,15.19,253,6091.19,No
+2193,2025-10-26,Insulin,Tablet,Maharashtra,Wellness Forever,288,169.06,388,48689.28,No
+2194,2025-10-26,Azithromycin,Tablet,Delhi,MedPlus,126,61.98,319,7809.48,No
+2195,2025-10-26,Insulin,Tablet,Tamil Nadu,Apollo Pharmacy,115,351.74,296,40450.1,No
+2196,2025-10-26,Paracetamol,Capsule,Gujarat,Netmeds,428,11.89,37,5088.92,No
+2197,2025-10-27,Azithromycin,Tablet,Maharashtra,Apollo Pharmacy,488,83.73,52,40860.24,No
+2198,2025-10-27,Insulin,Capsule,Delhi,Wellness Forever,318,258.2,166,82107.6,No
+2199,2025-10-27,Amoxicillin,Tablet,Delhi,Wellness Forever,236,32.63,18,7700.68,No
+2200,2025-10-27,Azithromycin,Tablet,Tamil Nadu,MedPlus,361,53.26,268,19226.86,No
+2201,2025-10-28,Azithromycin,Tablet,Delhi,MedPlus,195,75.64,290,14749.8,No
+2202,2025-10-28,Amoxicillin,Tablet,Gujarat,Wellness Forever,270,42.55,370,11488.5,No
+2203,2025-10-28,Metformin,Tablet,Delhi,Wellness Forever,25,11.25,233,281.25,No
+2204,2025-10-28,Paracetamol,Tablet,Karnataka,Apollo Pharmacy,282,17.65,95,4977.3,No
+2205,2025-10-29,Metformin,Syrup,Gujarat,Apollo Pharmacy,169,34.53,78,5835.57,No
+2206,2025-10-29,Insulin,Tablet,Maharashtra,MedPlus,367,348.29,394,127822.43,No
+2207,2025-10-29,Amoxicillin,Tablet,Maharashtra,Apollo Pharmacy,259,81.23,163,21038.57,No
+2208,2025-10-29,Metformin,Tablet,Tamil Nadu,MedPlus,233,16.05,31,3739.65,No
+2209,2025-10-30,Azithromycin,Capsule,Tamil Nadu,MedPlus,265,116.85,266,30965.25,No
+2210,2025-10-30,Insulin,Capsule,Karnataka,Netmeds,189,199.23,324,37654.47,No
+2211,2025-10-30,Insulin,Syrup,Maharashtra,MedPlus,29,387.86,346,11247.94,No
+2212,2025-10-30,Metformin,Tablet,Maharashtra,Apollo Pharmacy,121,34.87,76,4219.27,No
+2213,2025-10-31,Metformin,Tablet,Maharashtra,Wellness Forever,129,27.79,360,3584.91,No
+2214,2025-10-31,Amoxicillin,Capsule,Maharashtra,Wellness Forever,203,88.87,196,18040.61,No
+2215,2025-10-31,Paracetamol,Tablet,Delhi,Apollo Pharmacy,477,13.54,59,6458.58,No
+2216,2025-10-31,Metformin,Tablet,Gujarat,Wellness Forever,120,16.49,362,1978.8,No
+2217,2025-11-01,Metformin,Tablet,Gujarat,MedPlus,219,20.92,186,4581.48,No
+2218,2025-11-01,Azithromycin,Tablet,Karnataka,Wellness Forever,10,87.48,391,874.8,No
+2219,2025-11-01,Insulin,Tablet,Delhi,Apollo Pharmacy,67,168.27,281,11274.09,No
+2220,2025-11-01,Paracetamol,Injection,Maharashtra,Wellness Forever,102,14.34,292,1462.68,No
+2221,2025-11-02,Azithromycin,Tablet,Maharashtra,MedPlus,230,118.49,195,27252.7,No
+2222,2025-11-02,Amoxicillin,Syrup,Tamil Nadu,MedPlus,220,41.41,322,9110.2,No
+2223,2025-11-02,Amoxicillin,Tablet,Tamil Nadu,Apollo Pharmacy,437,77.56,395,33893.72,No
+2224,2025-11-02,Metformin,Tablet,Karnataka,Apollo Pharmacy,241,32.7,118,7880.7,No
+2225,2025-11-03,Metformin,Capsule,Maharashtra,Apollo Pharmacy,271,33.59,314,9102.89,No
+2226,2025-11-03,Amoxicillin,Tablet,Karnataka,Netmeds,373,87.61,50,32678.53,No
+2227,2025-11-03,Metformin,Capsule,Delhi,Netmeds,112,23.04,264,2580.48,No
+2228,2025-11-03,Paracetamol,Syrup,Gujarat,MedPlus,59,19.66,12,1159.94,No
+2229,2025-11-04,Metformin,Tablet,Maharashtra,Netmeds,383,28.93,396,11080.19,No
+2230,2025-11-04,Insulin,Capsule,Delhi,Netmeds,119,190.42,101,22659.98,No
+2231,2025-11-04,Metformin,Tablet,Maharashtra,Wellness Forever,465,21.92,354,10192.8,No
+2232,2025-11-04,Azithromycin,Capsule,Tamil Nadu,Netmeds,97,97.47,301,9454.59,No
+2233,2025-11-05,Paracetamol,Tablet,Karnataka,Wellness Forever,29,8.71,309,252.59,No
+2234,2025-11-05,Azithromycin,Capsule,Tamil Nadu,Apollo Pharmacy,23,91.25,98,2098.75,No
+2235,2025-11-05,Azithromycin,Tablet,Gujarat,Wellness Forever,142,93.33,59,13252.86,No
+2236,2025-11-05,Insulin,Syrup,Tamil Nadu,Wellness Forever,434,190.67,186,82750.78,No
+2237,2025-11-06,Paracetamol,Injection,Maharashtra,Apollo Pharmacy,305,13.48,43,4111.4,No
+2238,2025-11-06,Paracetamol,Capsule,Tamil Nadu,Apollo Pharmacy,43,16.57,370,712.51,No
+2239,2025-11-06,Paracetamol,Capsule,Maharashtra,MedPlus,389,12.48,-1,4854.72,Yes
+2240,2025-11-06,Paracetamol,Capsule,Gujarat,MedPlus,217,5.18,215,1124.06,No
+2241,2025-11-07,Paracetamol,Capsule,Tamil Nadu,MedPlus,310,5.14,89,1593.4,No
+2242,2025-11-07,Insulin,Tablet,Karnataka,MedPlus,208,239.26,149,49766.08,No
+2243,2025-11-07,Metformin,Tablet,Karnataka,Wellness Forever,89,33.15,183,2950.35,No
+2244,2025-11-07,Azithromycin,Tablet,Karnataka,Wellness Forever,80,58.29,388,4663.2,No
+2245,2025-11-08,Paracetamol,Tablet,Tamil Nadu,MedPlus,164,14.52,338,2381.28,No
+2246,2025-11-08,Metformin,Tablet,Tamil Nadu,Netmeds,87,15.55,19,1352.85,No
+2247,2025-11-08,Metformin,Syrup,Tamil Nadu,MedPlus,87,18.04,146,1569.48,No
+2248,2025-11-08,Azithromycin,Tablet,Maharashtra,Netmeds,181,107.84,229,19519.04,No
+2249,2025-11-09,Insulin,Injection,Gujarat,Apollo Pharmacy,298,332.22,271,99001.56,No
+2250,2025-11-09,Amoxicillin,Tablet,Karnataka,Wellness Forever,42,35.72,367,1500.24,No
+2251,2025-11-09,Amoxicillin,Tablet,Maharashtra,Wellness Forever,309,55.72,3,17217.48,No
+2252,2025-11-09,Metformin,Syrup,Karnataka,Netmeds,285,10.73,264,3058.05,No
+2253,2025-11-10,Azithromycin,Injection,Maharashtra,MedPlus,376,78.47,324,29504.72,No
+2254,2025-11-10,Amoxicillin,Injection,Tamil Nadu,Wellness Forever,429,69.75,332,29922.75,No
+2255,2025-11-10,Metformin,Syrup,Karnataka,Netmeds,16,12.96,166,207.36,No
+2256,2025-11-10,Insulin,Tablet,Tamil Nadu,Apollo Pharmacy,169,222.22,385,37555.18,No
+2257,2025-11-11,Amoxicillin,Syrup,Karnataka,Apollo Pharmacy,249,53.87,131,13413.63,No
+2258,2025-11-11,Metformin,Tablet,Delhi,Wellness Forever,460,32.99,358,15175.4,No
+2259,2025-11-11,Metformin,Tablet,Maharashtra,MedPlus,432,34.83,160,15046.56,No
+2260,2025-11-11,Paracetamol,Tablet,Delhi,Netmeds,486,5.67,147,2755.62,No
+2261,2025-11-12,Insulin,Tablet,Maharashtra,Wellness Forever,33,340.25,159,11228.25,No
+2262,2025-11-12,Paracetamol,Tablet,Gujarat,Apollo Pharmacy,223,10.58,31,2359.34,No
+2263,2025-11-12,Azithromycin,Capsule,Karnataka,MedPlus,79,71.4,240,5640.6,No
+2264,2025-11-12,Paracetamol,Capsule,Gujarat,Netmeds,377,16.31,158,6148.87,No
+2265,2025-11-13,Paracetamol,Tablet,Gujarat,Wellness Forever,225,18.78,87,4225.5,No
+2266,2025-11-13,Amoxicillin,Tablet,Maharashtra,Netmeds,113,87.06,105,9837.78,No
+2267,2025-11-13,Metformin,Tablet,Delhi,MedPlus,224,24.43,334,5472.32,No
+2268,2025-11-13,Insulin,Tablet,Tamil Nadu,MedPlus,63,239.28,129,15074.64,No
+2269,2025-11-14,Paracetamol,Capsule,Maharashtra,Apollo Pharmacy,303,16.81,26,5093.43,No
+2270,2025-11-14,Insulin,Tablet,Tamil Nadu,MedPlus,339,212.75,351,72122.25,No
+2271,2025-11-14,Paracetamol,Injection,Gujarat,Wellness Forever,345,13.46,13,4643.7,No
+2272,2025-11-14,Azithromycin,Tablet,Tamil Nadu,Netmeds,212,68.69,364,14562.28,No
+2273,2025-11-15,Paracetamol,Capsule,Delhi,MedPlus,297,14.85,257,4410.45,No
+2274,2025-11-15,Amoxicillin,Tablet,Maharashtra,MedPlus,54,44.42,-2,2398.68,Yes
+2275,2025-11-15,Metformin,Injection,Delhi,Wellness Forever,326,14.79,392,4821.54,No
+2276,2025-11-15,Azithromycin,Tablet,Delhi,Netmeds,207,113.46,290,23486.22,No
+2277,2025-11-16,Paracetamol,Syrup,Maharashtra,Netmeds,225,6.53,297,1469.25,No
+2278,2025-11-16,Insulin,Tablet,Delhi,Apollo Pharmacy,490,276.49,173,135480.1,No
+2279,2025-11-16,Azithromycin,Tablet,Karnataka,Apollo Pharmacy,318,57.67,344,18339.06,No
+2280,2025-11-16,Azithromycin,Capsule,Karnataka,Netmeds,393,43.11,279,16942.23,No
+2281,2025-11-17,Paracetamol,Capsule,Karnataka,Wellness Forever,444,5.54,167,2459.76,No
+2282,2025-11-17,Azithromycin,Capsule,Tamil Nadu,Wellness Forever,341,54.02,336,18420.82,No
+2283,2025-11-17,Insulin,Syrup,Delhi,Apollo Pharmacy,193,366.69,20,70771.17,No
+2284,2025-11-17,Azithromycin,Capsule,Maharashtra,MedPlus,36,62.6,354,2253.6,No
+2285,2025-11-18,Insulin,Tablet,Maharashtra,Wellness Forever,175,387.61,21,67831.75,No
+2286,2025-11-18,Paracetamol,Tablet,Tamil Nadu,MedPlus,327,13.72,-2,4486.44,Yes
+2287,2025-11-18,Metformin,Tablet,Maharashtra,Wellness Forever,283,20.92,395,5920.36,No
+2288,2025-11-18,Azithromycin,Syrup,Karnataka,Netmeds,392,86.41,107,33872.72,No
+2289,2025-11-19,Metformin,Tablet,Delhi,Apollo Pharmacy,374,22.92,67,8572.08,No
+2290,2025-11-19,Insulin,Tablet,Maharashtra,MedPlus,112,339.69,143,38045.28,No
+2291,2025-11-19,Azithromycin,Syrup,Maharashtra,MedPlus,457,62.6,313,28608.2,No
+2292,2025-11-19,Amoxicillin,Capsule,Gujarat,Netmeds,342,51.18,86,17503.56,No
+2293,2025-11-20,Metformin,Tablet,Gujarat,Wellness Forever,382,32.35,321,12357.7,No
+2294,2025-11-20,Azithromycin,Tablet,Gujarat,MedPlus,113,115.72,67,13076.36,No
+2295,2025-11-20,Metformin,Tablet,Delhi,Wellness Forever,423,32.31,28,13667.13,No
+2296,2025-11-20,Azithromycin,Tablet,Karnataka,Netmeds,254,73.56,52,18684.24,No
+2297,2025-11-21,Paracetamol,Tablet,Karnataka,Apollo Pharmacy,314,16.71,32,5246.94,No
+2298,2025-11-21,Metformin,Syrup,Karnataka,MedPlus,178,21.91,41,3899.98,No
+2299,2025-11-21,Amoxicillin,Syrup,Delhi,Wellness Forever,125,59.85,59,7481.25,No
+2300,2025-11-21,Amoxicillin,Injection,Delhi,MedPlus,150,42.28,6,6342.0,No
+2301,2025-11-22,Insulin,Tablet,Gujarat,Wellness Forever,427,297.78,116,127152.06,No
+2302,2025-11-22,Azithromycin,Capsule,Maharashtra,Wellness Forever,365,54.89,286,20034.85,No
+2303,2025-11-22,Metformin,Tablet,Tamil Nadu,Wellness Forever,487,18.29,251,8907.23,No
+2304,2025-11-22,Insulin,Syrup,Tamil Nadu,Netmeds,134,363.76,271,48743.84,No
+2305,2025-11-23,Metformin,Capsule,Maharashtra,Apollo Pharmacy,34,15.18,379,516.12,No
+2306,2025-11-23,Azithromycin,Tablet,Gujarat,MedPlus,203,45.69,104,9275.07,No
+2307,2025-11-23,Amoxicillin,Tablet,Maharashtra,Apollo Pharmacy,393,34.14,230,13417.02,No
+2308,2025-11-23,Paracetamol,Capsule,Maharashtra,Wellness Forever,109,19.11,40,2082.99,No
+2309,2025-11-24,Amoxicillin,Tablet,Tamil Nadu,Wellness Forever,411,60.42,22,24832.62,No
+2310,2025-11-24,Insulin,Injection,Gujarat,Apollo Pharmacy,14,252.35,229,3532.9,No
+2311,2025-11-24,Paracetamol,Tablet,Delhi,Apollo Pharmacy,28,17.16,5,480.48,No
+2312,2025-11-24,Insulin,Injection,Tamil Nadu,MedPlus,179,358.96,94,64253.84,No
+2313,2025-11-25,Azithromycin,Tablet,Delhi,Wellness Forever,283,66.58,78,18842.14,No
+2314,2025-11-25,Paracetamol,Tablet,Gujarat,Apollo Pharmacy,263,15.4,378,4050.2,No
+2315,2025-11-25,Insulin,Syrup,Maharashtra,Netmeds,130,342.78,394,44561.4,No
+2316,2025-11-25,Azithromycin,Tablet,Karnataka,Wellness Forever,41,92.37,120,3787.17,No
+2317,2025-11-26,Amoxicillin,Tablet,Karnataka,Wellness Forever,158,39.1,215,6177.8,No
+2318,2025-11-26,Azithromycin,Tablet,Gujarat,MedPlus,275,110.07,-8,30269.25,Yes
+2319,2025-11-26,Metformin,Tablet,Karnataka,Netmeds,46,23.48,312,1080.08,No
+2320,2025-11-26,Azithromycin,Tablet,Delhi,MedPlus,186,62.6,359,11643.6,No
+2321,2025-11-27,Azithromycin,Tablet,Karnataka,Netmeds,351,74.02,274,25981.02,No
+2322,2025-11-27,Metformin,Capsule,Gujarat,MedPlus,22,10.94,235,240.68,No
+2323,2025-11-27,Insulin,Tablet,Gujarat,Netmeds,192,181.97,384,34938.24,No
+2324,2025-11-27,Insulin,Syrup,Delhi,Netmeds,154,341.39,345,52574.06,No
+2325,2025-11-28,Azithromycin,Tablet,Karnataka,Netmeds,274,40.0,381,10960.0,No
+2326,2025-11-28,Metformin,Tablet,Karnataka,Apollo Pharmacy,97,20.41,71,1979.77,No
+2327,2025-11-28,Metformin,Capsule,Maharashtra,Wellness Forever,437,23.06,188,10077.22,No
+2328,2025-11-28,Amoxicillin,Tablet,Tamil Nadu,Netmeds,471,33.28,203,15674.88,No
+2329,2025-11-29,Insulin,Capsule,Gujarat,Apollo Pharmacy,55,393.27,390,21629.85,No
+2330,2025-11-29,Paracetamol,Tablet,Maharashtra,Apollo Pharmacy,401,8.39,225,3364.39,No
+2331,2025-11-29,Insulin,Injection,Gujarat,MedPlus,128,226.05,395,28934.4,No
+2332,2025-11-29,Insulin,Syrup,Maharashtra,Wellness Forever,430,225.99,304,97175.7,No
+2333,2025-11-30,Amoxicillin,Capsule,Tamil Nadu,Wellness Forever,28,43.82,242,1226.96,No
+2334,2025-11-30,Paracetamol,Syrup,Maharashtra,MedPlus,456,5.02,93,2289.12,No
+2335,2025-11-30,Amoxicillin,Syrup,Gujarat,Wellness Forever,229,73.76,240,16891.04,No
+2336,2025-11-30,Paracetamol,Tablet,Karnataka,MedPlus,439,19.5,266,8560.5,No
+2337,2025-12-01,Azithromycin,Tablet,Gujarat,Apollo Pharmacy,242,57.94,204,14021.48,No
+2338,2025-12-01,Paracetamol,Capsule,Delhi,Apollo Pharmacy,103,14.95,67,1539.85,No
+2339,2025-12-01,Amoxicillin,Tablet,Delhi,Netmeds,464,74.51,91,34572.64,No
+2340,2025-12-01,Insulin,Tablet,Delhi,MedPlus,260,362.11,53,94148.6,No
+2341,2025-12-02,Paracetamol,Injection,Delhi,Apollo Pharmacy,259,11.34,81,2937.06,No
+2342,2025-12-02,Paracetamol,Tablet,Tamil Nadu,Apollo Pharmacy,291,9.54,196,2776.14,No
+2343,2025-12-02,Metformin,Capsule,Karnataka,MedPlus,241,18.13,270,4369.33,No
+2344,2025-12-02,Insulin,Injection,Karnataka,Apollo Pharmacy,55,328.16,221,18048.8,No
+2345,2025-12-03,Azithromycin,Syrup,Gujarat,Wellness Forever,383,105.34,-8,40345.22,Yes
+2346,2025-12-03,Amoxicillin,Capsule,Maharashtra,Apollo Pharmacy,55,40.9,278,2249.5,No
+2347,2025-12-03,Azithromycin,Tablet,Gujarat,MedPlus,468,69.68,173,32610.24,No
+2348,2025-12-03,Insulin,Tablet,Gujarat,Wellness Forever,23,375.49,65,8636.27,No
+2349,2025-12-04,Paracetamol,Syrup,Gujarat,Wellness Forever,94,17.1,92,1607.4,No
+2350,2025-12-04,Paracetamol,Tablet,Gujarat,Apollo Pharmacy,328,19.77,305,6484.56,No
+2351,2025-12-04,Insulin,Injection,Karnataka,Netmeds,337,338.56,51,114094.72,No
+2352,2025-12-04,Paracetamol,Capsule,Maharashtra,Wellness Forever,12,10.9,158,130.8,No
+2353,2025-12-05,Paracetamol,Tablet,Gujarat,MedPlus,37,13.86,330,512.82,No
+2354,2025-12-05,Paracetamol,Tablet,Karnataka,Netmeds,390,14.92,335,5818.8,No
+2355,2025-12-05,Amoxicillin,Capsule,Gujarat,Netmeds,166,34.71,312,5761.86,No
+2356,2025-12-05,Amoxicillin,Tablet,Delhi,Wellness Forever,352,62.67,27,22059.84,No
+2357,2025-12-06,Metformin,Syrup,Gujarat,Apollo Pharmacy,411,27.73,171,11397.03,No
+2358,2025-12-06,Azithromycin,Tablet,Gujarat,Netmeds,428,53.39,286,22850.92,No
+2359,2025-12-06,Insulin,Capsule,Tamil Nadu,Apollo Pharmacy,342,345.16,184,118044.72,No
+2360,2025-12-06,Insulin,Syrup,Delhi,Wellness Forever,341,295.94,365,100915.54,No
+2361,2025-12-07,Insulin,Injection,Maharashtra,MedPlus,184,388.06,23,71403.04,No
+2362,2025-12-07,Metformin,Capsule,Gujarat,Netmeds,123,11.06,204,1360.38,No
+2363,2025-12-07,Amoxicillin,Tablet,Maharashtra,MedPlus,398,45.92,291,18276.16,No
+2364,2025-12-07,Metformin,Tablet,Delhi,Apollo Pharmacy,496,25.04,-12,12419.84,Yes
+2365,2025-12-08,Insulin,Capsule,Gujarat,Apollo Pharmacy,340,224.14,105,76207.6,No
+2366,2025-12-08,Azithromycin,Tablet,Tamil Nadu,MedPlus,259,97.15,320,25161.85,No
+2367,2025-12-08,Paracetamol,Injection,Karnataka,Wellness Forever,68,16.39,61,1114.52,No
+2368,2025-12-08,Amoxicillin,Capsule,Tamil Nadu,Wellness Forever,212,36.15,163,7663.8,No
+2369,2025-12-09,Amoxicillin,Syrup,Tamil Nadu,Netmeds,324,60.83,117,19708.92,No
+2370,2025-12-09,Metformin,Injection,Karnataka,Netmeds,248,22.72,295,5634.56,No
+2371,2025-12-09,Amoxicillin,Capsule,Karnataka,Wellness Forever,243,52.16,213,12674.88,No
+2372,2025-12-09,Insulin,Capsule,Karnataka,Wellness Forever,312,383.23,260,119567.76,No
+2373,2025-12-10,Insulin,Tablet,Gujarat,MedPlus,104,356.88,136,37115.52,No
+2374,2025-12-10,Metformin,Tablet,Maharashtra,Apollo Pharmacy,488,27.43,148,13385.84,No
+2375,2025-12-10,Insulin,Tablet,Maharashtra,Apollo Pharmacy,150,328.58,274,49287.0,No
+2376,2025-12-10,Azithromycin,Injection,Karnataka,Netmeds,343,76.94,362,26390.42,No
+2377,2025-12-11,Metformin,Syrup,Tamil Nadu,Wellness Forever,122,33.02,93,4028.44,No
+2378,2025-12-11,Azithromycin,Injection,Delhi,MedPlus,118,95.57,110,11277.26,No
+2379,2025-12-11,Paracetamol,Tablet,Karnataka,Netmeds,371,15.93,224,5910.03,No
+2380,2025-12-11,Azithromycin,Syrup,Tamil Nadu,MedPlus,354,108.94,294,38564.76,No
+2381,2025-12-12,Paracetamol,Tablet,Tamil Nadu,Wellness Forever,298,9.11,385,2714.78,No
+2382,2025-12-12,Paracetamol,Injection,Gujarat,Wellness Forever,106,17.11,373,1813.66,No
+2383,2025-12-12,Azithromycin,Syrup,Gujarat,Wellness Forever,455,55.62,329,25307.1,No
+2384,2025-12-12,Metformin,Tablet,Maharashtra,Apollo Pharmacy,344,18.63,130,6408.72,No
+2385,2025-12-13,Insulin,Tablet,Maharashtra,Wellness Forever,25,233.9,236,5847.5,No
+2386,2025-12-13,Insulin,Injection,Delhi,Netmeds,53,394.63,167,20915.39,No
+2387,2025-12-13,Paracetamol,Syrup,Delhi,Apollo Pharmacy,451,17.85,293,8050.35,No
+2388,2025-12-13,Paracetamol,Tablet,Delhi,MedPlus,385,15.52,290,5975.2,No
+2389,2025-12-14,Metformin,Capsule,Delhi,Netmeds,239,28.18,56,6735.02,No
+2390,2025-12-14,Amoxicillin,Injection,Tamil Nadu,Netmeds,399,63.72,203,25424.28,No
+2391,2025-12-14,Azithromycin,Capsule,Tamil Nadu,MedPlus,117,115.77,191,13545.09,No
+2392,2025-12-14,Paracetamol,Tablet,Maharashtra,Apollo Pharmacy,226,12.44,157,2811.44,No
+2393,2025-12-15,Insulin,Syrup,Gujarat,Netmeds,408,245.13,125,100013.04,No
+2394,2025-12-15,Metformin,Capsule,Gujarat,Netmeds,269,14.08,256,3787.52,No
+2395,2025-12-15,Azithromycin,Syrup,Karnataka,Netmeds,321,102.9,198,33030.9,No
+2396,2025-12-15,Metformin,Injection,Tamil Nadu,Apollo Pharmacy,329,28.36,253,9330.44,No
+2397,2025-12-16,Azithromycin,Tablet,Delhi,Apollo Pharmacy,205,70.75,4,14503.75,No
+2398,2025-12-16,Azithromycin,Tablet,Delhi,Apollo Pharmacy,487,42.02,50,20463.74,No
+2399,2025-12-16,Paracetamol,Tablet,Karnataka,Netmeds,427,17.58,287,7506.66,No
+2400,2025-12-16,Metformin,Tablet,Gujarat,Wellness Forever,484,10.29,131,4980.36,No
+2401,2025-12-17,Metformin,Tablet,Delhi,MedPlus,104,27.59,149,2869.36,No
+2402,2025-12-17,Insulin,Tablet,Gujarat,Wellness Forever,65,392.56,362,25516.4,No
+2403,2025-12-17,Insulin,Capsule,Karnataka,Apollo Pharmacy,41,259.42,294,10636.22,No
+2404,2025-12-17,Paracetamol,Tablet,Gujarat,Netmeds,240,8.52,-10,2044.8,Yes
+2405,2025-12-18,Paracetamol,Injection,Gujarat,Netmeds,381,15.57,-2,5932.17,Yes
+2406,2025-12-18,Amoxicillin,Capsule,Gujarat,Wellness Forever,18,79.03,116,1422.54,No
+2407,2025-12-18,Insulin,Syrup,Delhi,Wellness Forever,200,286.61,326,57322.0,No
+2408,2025-12-18,Azithromycin,Tablet,Maharashtra,MedPlus,370,117.36,227,43423.2,No
+2409,2025-12-19,Metformin,Injection,Tamil Nadu,Netmeds,209,11.29,215,2359.61,No
+2410,2025-12-19,Paracetamol,Syrup,Gujarat,Wellness Forever,343,12.57,212,4311.51,No
+2411,2025-12-19,Metformin,Injection,Gujarat,MedPlus,170,27.96,146,4753.2,No
+2412,2025-12-19,Metformin,Injection,Gujarat,Apollo Pharmacy,96,31.57,267,3030.72,No
+2413,2025-12-20,Amoxicillin,Capsule,Maharashtra,Wellness Forever,30,40.76,247,1222.8,No
+2414,2025-12-20,Insulin,Syrup,Karnataka,Apollo Pharmacy,320,350.0,115,112000.0,No
+2415,2025-12-20,Paracetamol,Tablet,Delhi,MedPlus,85,13.29,209,1129.65,No
+2416,2025-12-20,Metformin,Syrup,Maharashtra,Apollo Pharmacy,450,19.91,242,8959.5,No
+2417,2025-12-21,Paracetamol,Tablet,Gujarat,Netmeds,395,6.98,218,2757.1,No
+2418,2025-12-21,Azithromycin,Capsule,Maharashtra,Netmeds,150,109.22,320,16383.0,No
+2419,2025-12-21,Amoxicillin,Tablet,Maharashtra,Apollo Pharmacy,135,39.44,393,5324.4,No
+2420,2025-12-21,Azithromycin,Tablet,Maharashtra,Netmeds,260,64.78,300,16842.8,No
+2421,2025-12-22,Paracetamol,Capsule,Karnataka,MedPlus,397,9.35,8,3711.95,No
+2422,2025-12-22,Paracetamol,Syrup,Tamil Nadu,Netmeds,93,18.07,255,1680.51,No
+2423,2025-12-22,Insulin,Tablet,Delhi,Apollo Pharmacy,443,318.18,79,140953.74,No
+2424,2025-12-22,Metformin,Syrup,Karnataka,Apollo Pharmacy,380,29.92,126,11369.6,No
+2425,2025-12-23,Metformin,Capsule,Karnataka,Apollo Pharmacy,57,16.26,166,926.82,No
+2426,2025-12-23,Azithromycin,Tablet,Tamil Nadu,Wellness Forever,388,89.99,190,34916.12,No
+2427,2025-12-23,Amoxicillin,Capsule,Karnataka,Apollo Pharmacy,87,64.3,374,5594.1,No
+2428,2025-12-23,Metformin,Tablet,Maharashtra,MedPlus,39,30.82,65,1201.98,No
+2429,2025-12-24,Insulin,Injection,Maharashtra,Netmeds,294,376.52,258,110696.88,No
+2430,2025-12-24,Azithromycin,Capsule,Gujarat,Netmeds,145,40.97,260,5940.65,No
+2431,2025-12-24,Azithromycin,Tablet,Karnataka,Wellness Forever,149,93.92,355,13994.08,No
+2432,2025-12-24,Insulin,Tablet,Gujarat,Wellness Forever,50,162.96,192,8148.0,No
+2433,2025-12-25,Amoxicillin,Tablet,Delhi,MedPlus,495,62.93,280,31150.35,No
+2434,2025-12-25,Insulin,Injection,Maharashtra,Apollo Pharmacy,291,221.91,23,64575.81,No
+2435,2025-12-25,Amoxicillin,Syrup,Delhi,Wellness Forever,59,48.41,272,2856.19,No
+2436,2025-12-25,Insulin,Syrup,Tamil Nadu,Netmeds,267,238.24,108,63610.08,No
+2437,2025-12-26,Insulin,Tablet,Maharashtra,Wellness Forever,320,305.32,348,97702.4,No
+2438,2025-12-26,Paracetamol,Tablet,Delhi,Wellness Forever,369,10.01,267,3693.69,No
+2439,2025-12-26,Azithromycin,Tablet,Tamil Nadu,Apollo Pharmacy,449,98.62,350,44280.38,No
+2440,2025-12-26,Insulin,Tablet,Delhi,Wellness Forever,279,251.13,164,70065.27,No
+2441,2025-12-27,Insulin,Syrup,Tamil Nadu,MedPlus,143,167.09,81,23893.87,No
+2442,2025-12-27,Metformin,Capsule,Tamil Nadu,Netmeds,243,29.59,175,7190.37,No
+2443,2025-12-27,Azithromycin,Injection,Maharashtra,Apollo Pharmacy,137,62.86,58,8611.82,No
+2444,2025-12-27,Metformin,Tablet,Gujarat,Netmeds,113,20.82,257,2352.66,No
+2445,2025-12-28,Azithromycin,Capsule,Tamil Nadu,MedPlus,263,94.84,33,24942.92,No
+2446,2025-12-28,Metformin,Injection,Tamil Nadu,MedPlus,104,18.31,321,1904.24,No
+2447,2025-12-28,Insulin,Capsule,Maharashtra,Wellness Forever,346,164.15,194,56795.9,No
+2448,2025-12-28,Insulin,Syrup,Gujarat,Wellness Forever,226,243.48,100,55026.48,No
+2449,2025-12-29,Paracetamol,Tablet,Karnataka,Wellness Forever,70,19.17,7,1341.9,No
+2450,2025-12-29,Metformin,Tablet,Karnataka,Netmeds,489,26.04,82,12733.56,No
+2451,2025-12-29,Amoxicillin,Injection,Gujarat,MedPlus,277,70.29,312,19470.33,No
+2452,2025-12-29,Paracetamol,Tablet,Delhi,Apollo Pharmacy,250,14.48,381,3620.0,No
+2453,2025-12-30,Metformin,Tablet,Maharashtra,Wellness Forever,22,14.97,391,329.34,No
+2454,2025-12-30,Metformin,Syrup,Gujarat,Netmeds,156,20.46,297,3191.76,No
+2455,2025-12-30,Paracetamol,Syrup,Karnataka,Wellness Forever,437,16.26,174,7105.62,No
+2456,2025-12-30,Insulin,Syrup,Tamil Nadu,MedPlus,249,175.34,166,43659.66,No
+2457,2025-12-31,Metformin,Tablet,Karnataka,Apollo Pharmacy,98,16.95,132,1661.1,No
+2458,2025-12-31,Insulin,Tablet,Tamil Nadu,MedPlus,104,219.08,326,22784.32,No
+2459,2025-12-31,Paracetamol,Syrup,Maharashtra,Netmeds,324,11.48,7,3719.52,No
+2460,2025-12-31,Insulin,Capsule,Tamil Nadu,Wellness Forever,302,395.09,89,119317.18,No
+2461,2026-01-01,Azithromycin,Injection,Gujarat,MedPlus,34,45.4,147,1543.6,No
+2462,2026-01-01,Amoxicillin,Capsule,Tamil Nadu,Netmeds,281,61.12,51,17174.72,No
+2463,2026-01-01,Metformin,Injection,Delhi,Wellness Forever,175,14.48,274,2534.0,No
+2464,2026-01-01,Amoxicillin,Syrup,Gujarat,Apollo Pharmacy,436,88.24,273,38472.64,No
+2465,2026-01-02,Insulin,Tablet,Maharashtra,MedPlus,259,178.33,30,46187.47,No
+2466,2026-01-02,Metformin,Injection,Gujarat,Wellness Forever,96,20.09,65,1928.64,No
+2467,2026-01-02,Insulin,Syrup,Delhi,Wellness Forever,151,334.47,131,50504.97,No
+2468,2026-01-02,Azithromycin,Syrup,Maharashtra,Wellness Forever,143,96.36,206,13779.48,No
+2469,2026-01-03,Paracetamol,Syrup,Karnataka,Wellness Forever,482,11.34,327,5465.88,No
+2470,2026-01-03,Metformin,Syrup,Delhi,MedPlus,288,18.66,-1,5374.08,Yes
+2471,2026-01-03,Azithromycin,Tablet,Maharashtra,Wellness Forever,135,71.81,363,9694.35,No
+2472,2026-01-03,Azithromycin,Syrup,Tamil Nadu,Netmeds,325,61.14,105,19870.5,No
+2473,2026-01-04,Metformin,Tablet,Gujarat,MedPlus,405,15.13,62,6127.65,No
+2474,2026-01-04,Insulin,Capsule,Maharashtra,Wellness Forever,150,270.76,306,40614.0,No
+2475,2026-01-04,Azithromycin,Tablet,Gujarat,MedPlus,365,61.48,279,22440.2,No
+2476,2026-01-04,Amoxicillin,Tablet,Tamil Nadu,Netmeds,112,47.25,225,5292.0,No
+2477,2026-01-05,Azithromycin,Tablet,Maharashtra,Netmeds,235,92.54,2,21746.9,No
+2478,2026-01-05,Insulin,Injection,Karnataka,MedPlus,399,392.13,240,156459.87,No
+2479,2026-01-05,Insulin,Tablet,Delhi,Wellness Forever,72,300.91,261,21665.52,No
+2480,2026-01-05,Amoxicillin,Tablet,Maharashtra,Wellness Forever,303,34.62,11,10489.86,No
+2481,2026-01-06,Azithromycin,Syrup,Tamil Nadu,Netmeds,393,46.05,-14,18097.65,Yes
+2482,2026-01-06,Insulin,Tablet,Maharashtra,Wellness Forever,315,387.86,337,122175.9,No
+2483,2026-01-06,Metformin,Capsule,Gujarat,Netmeds,263,17.43,279,4584.09,No
+2484,2026-01-06,Paracetamol,Capsule,Maharashtra,Wellness Forever,189,6.38,296,1205.82,No
+2485,2026-01-07,Paracetamol,Syrup,Karnataka,Netmeds,49,13.99,347,685.51,No
+2486,2026-01-07,Paracetamol,Tablet,Maharashtra,Apollo Pharmacy,273,14.35,367,3917.55,No
+2487,2026-01-07,Azithromycin,Injection,Delhi,Wellness Forever,198,91.88,223,18192.24,No
+2488,2026-01-07,Amoxicillin,Tablet,Maharashtra,Wellness Forever,17,46.04,-3,782.68,Yes
+2489,2026-01-08,Insulin,Syrup,Gujarat,Wellness Forever,113,153.78,366,17377.14,No
+2490,2026-01-08,Metformin,Tablet,Maharashtra,MedPlus,234,34.13,168,7986.42,No
+2491,2026-01-08,Metformin,Capsule,Karnataka,Wellness Forever,43,16.27,178,699.61,No
+2492,2026-01-08,Azithromycin,Tablet,Tamil Nadu,MedPlus,245,94.08,40,23049.6,No
+2493,2026-01-09,Paracetamol,Syrup,Maharashtra,MedPlus,472,15.6,214,7363.2,No
+2494,2026-01-09,Azithromycin,Injection,Maharashtra,Netmeds,237,88.8,12,21045.6,No
+2495,2026-01-09,Amoxicillin,Syrup,Delhi,MedPlus,197,48.77,304,9607.69,No
+2496,2026-01-09,Amoxicillin,Tablet,Karnataka,MedPlus,322,46.27,55,14898.94,No
+2497,2026-01-10,Insulin,Capsule,Tamil Nadu,Apollo Pharmacy,492,299.42,194,147314.64,No
+2498,2026-01-10,Insulin,Syrup,Gujarat,Wellness Forever,439,366.52,168,160902.28,No
+2499,2026-01-10,Amoxicillin,Syrup,Maharashtra,MedPlus,31,86.8,359,2690.8,No
+2500,2026-01-10,Amoxicillin,Tablet,Tamil Nadu,Wellness Forever,352,36.35,340,12795.2,No
+2501,2026-01-11,Amoxicillin,Syrup,Gujarat,MedPlus,49,39.29,25,1925.21,No
+2502,2026-01-11,Azithromycin,Tablet,Karnataka,Netmeds,182,115.58,244,21035.56,No
+2503,2026-01-11,Amoxicillin,Tablet,Karnataka,Apollo Pharmacy,448,74.19,398,33237.12,No
+2504,2026-01-11,Metformin,Tablet,Tamil Nadu,MedPlus,188,32.07,328,6029.16,No
+2505,2026-01-12,Paracetamol,Capsule,Gujarat,Wellness Forever,95,8.04,68,763.8,No
+2506,2026-01-12,Amoxicillin,Tablet,Karnataka,Netmeds,142,65.26,30,9266.92,No
+2507,2026-01-12,Paracetamol,Tablet,Tamil Nadu,Wellness Forever,360,15.52,143,5587.2,No
+2508,2026-01-12,Azithromycin,Syrup,Karnataka,Netmeds,22,94.41,328,2077.02,No
+2509,2026-01-13,Paracetamol,Injection,Karnataka,Apollo Pharmacy,37,11.12,-9,411.44,Yes
+2510,2026-01-13,Azithromycin,Tablet,Karnataka,Netmeds,93,41.23,317,3834.39,No
+2511,2026-01-13,Metformin,Syrup,Delhi,Wellness Forever,490,24.57,120,12039.3,No
+2512,2026-01-13,Azithromycin,Tablet,Gujarat,Wellness Forever,473,60.25,167,28498.25,No
+2513,2026-01-14,Azithromycin,Tablet,Tamil Nadu,MedPlus,327,76.02,181,24858.54,No
+2514,2026-01-14,Insulin,Tablet,Tamil Nadu,Netmeds,358,389.4,156,139405.2,No
+2515,2026-01-14,Amoxicillin,Capsule,Gujarat,Wellness Forever,352,53.94,381,18986.88,No
+2516,2026-01-14,Amoxicillin,Tablet,Gujarat,MedPlus,289,80.39,333,23232.71,No
+2517,2026-01-15,Metformin,Tablet,Gujarat,Apollo Pharmacy,363,14.71,260,5339.73,No
+2518,2026-01-15,Metformin,Tablet,Gujarat,Wellness Forever,272,26.81,62,7292.32,No
+2519,2026-01-15,Amoxicillin,Capsule,Maharashtra,MedPlus,175,88.62,162,15508.5,No
+2520,2026-01-15,Insulin,Tablet,Tamil Nadu,Wellness Forever,302,175.47,11,52991.94,No
+2521,2026-01-16,Amoxicillin,Tablet,Maharashtra,Netmeds,77,30.5,104,2348.5,No
+2522,2026-01-16,Insulin,Tablet,Karnataka,MedPlus,235,258.4,265,60724.0,No
+2523,2026-01-16,Metformin,Tablet,Karnataka,Netmeds,179,12.32,292,2205.28,No
+2524,2026-01-16,Paracetamol,Syrup,Tamil Nadu,Apollo Pharmacy,95,16.23,180,1541.85,No
+2525,2026-01-17,Metformin,Syrup,Karnataka,Netmeds,142,32.86,261,4666.12,No
+2526,2026-01-17,Metformin,Tablet,Gujarat,MedPlus,457,20.85,2,9528.45,No
+2527,2026-01-17,Azithromycin,Tablet,Maharashtra,Wellness Forever,187,60.7,279,11350.9,No
+2528,2026-01-17,Azithromycin,Tablet,Gujarat,MedPlus,499,74.75,255,37300.25,No
+2529,2026-01-18,Azithromycin,Tablet,Karnataka,Netmeds,352,97.88,37,34453.76,No
+2530,2026-01-18,Azithromycin,Tablet,Maharashtra,Netmeds,261,40.72,278,10627.92,No
+2531,2026-01-18,Insulin,Injection,Gujarat,Wellness Forever,24,297.36,36,7136.64,No
+2532,2026-01-18,Amoxicillin,Capsule,Tamil Nadu,Apollo Pharmacy,232,66.8,200,15497.6,No
+2533,2026-01-19,Paracetamol,Capsule,Gujarat,MedPlus,388,14.57,56,5653.16,No
+2534,2026-01-19,Metformin,Capsule,Karnataka,Wellness Forever,210,16.05,12,3370.5,No
+2535,2026-01-19,Insulin,Syrup,Maharashtra,Wellness Forever,116,328.51,384,38107.16,No
+2536,2026-01-19,Paracetamol,Injection,Tamil Nadu,Wellness Forever,259,6.37,236,1649.83,No
+2537,2026-01-20,Insulin,Tablet,Maharashtra,MedPlus,446,199.82,358,89119.72,No
+2538,2026-01-20,Insulin,Syrup,Tamil Nadu,MedPlus,418,369.37,384,154396.66,No
+2539,2026-01-20,Metformin,Syrup,Maharashtra,MedPlus,98,28.47,19,2790.06,No
+2540,2026-01-20,Amoxicillin,Syrup,Karnataka,Apollo Pharmacy,134,30.82,385,4129.88,No
+2541,2026-01-21,Azithromycin,Injection,Tamil Nadu,Wellness Forever,122,59.87,185,7304.14,No
+2542,2026-01-21,Amoxicillin,Tablet,Delhi,Netmeds,478,42.86,233,20487.08,No
+2543,2026-01-21,Metformin,Tablet,Maharashtra,Netmeds,146,16.77,83,2448.42,No
+2544,2026-01-21,Metformin,Capsule,Maharashtra,Wellness Forever,256,16.19,292,4144.64,No
+2545,2026-01-22,Metformin,Tablet,Gujarat,Netmeds,175,11.56,124,2023.0,No
+2546,2026-01-22,Paracetamol,Syrup,Tamil Nadu,Apollo Pharmacy,159,11.88,67,1888.92,No
+2547,2026-01-22,Amoxicillin,Capsule,Delhi,Apollo Pharmacy,372,73.96,32,27513.12,No
+2548,2026-01-22,Amoxicillin,Syrup,Karnataka,MedPlus,352,66.4,262,23372.8,No
+2549,2026-01-23,Insulin,Syrup,Gujarat,MedPlus,442,318.22,363,140653.24,No
+2550,2026-01-23,Insulin,Tablet,Delhi,MedPlus,77,170.29,232,13112.33,No
+2551,2026-01-23,Insulin,Tablet,Tamil Nadu,MedPlus,230,387.87,367,89210.1,No
+2552,2026-01-23,Metformin,Capsule,Delhi,MedPlus,280,30.96,161,8668.8,No
+2553,2026-01-24,Amoxicillin,Syrup,Maharashtra,Netmeds,330,78.31,36,25842.3,No
+2554,2026-01-24,Metformin,Syrup,Maharashtra,Netmeds,319,30.57,63,9751.83,No
+2555,2026-01-24,Paracetamol,Tablet,Gujarat,MedPlus,423,18.99,369,8032.77,No
+2556,2026-01-24,Insulin,Tablet,Tamil Nadu,Apollo Pharmacy,358,286.06,306,102409.48,No
+2557,2026-01-25,Metformin,Capsule,Tamil Nadu,Netmeds,29,15.01,48,435.29,No
+2558,2026-01-25,Metformin,Tablet,Delhi,Apollo Pharmacy,298,25.42,-8,7575.16,Yes
+2559,2026-01-25,Paracetamol,Syrup,Gujarat,Apollo Pharmacy,498,16.14,198,8037.72,No
+2560,2026-01-25,Azithromycin,Tablet,Tamil Nadu,Wellness Forever,109,99.03,9,10794.27,No
+2561,2026-01-26,Amoxicillin,Injection,Maharashtra,Wellness Forever,261,61.29,240,15996.69,No
+2562,2026-01-26,Azithromycin,Capsule,Delhi,MedPlus,479,45.48,227,21784.92,No
+2563,2026-01-26,Insulin,Syrup,Karnataka,Apollo Pharmacy,86,242.78,182,20879.08,No
+2564,2026-01-26,Metformin,Tablet,Maharashtra,Netmeds,144,33.02,78,4754.88,No
+2565,2026-01-27,Paracetamol,Syrup,Gujarat,Wellness Forever,401,13.77,191,5521.77,No
+2566,2026-01-27,Paracetamol,Injection,Tamil Nadu,Wellness Forever,421,13.07,-1,5502.47,Yes
+2567,2026-01-27,Amoxicillin,Tablet,Maharashtra,Apollo Pharmacy,182,46.13,162,8395.66,No
+2568,2026-01-27,Azithromycin,Capsule,Karnataka,Wellness Forever,372,69.48,362,25846.56,No
+2569,2026-01-28,Amoxicillin,Syrup,Karnataka,Wellness Forever,210,83.72,59,17581.2,No
+2570,2026-01-28,Metformin,Capsule,Gujarat,Netmeds,226,26.66,88,6025.16,No
+2571,2026-01-28,Amoxicillin,Syrup,Maharashtra,Apollo Pharmacy,385,77.24,278,29737.4,No
+2572,2026-01-28,Paracetamol,Tablet,Delhi,Wellness Forever,217,11.82,152,2564.94,No
+2573,2026-01-29,Paracetamol,Tablet,Maharashtra,Apollo Pharmacy,83,14.45,99,1199.35,No
+2574,2026-01-29,Insulin,Tablet,Karnataka,Wellness Forever,20,212.1,23,4242.0,No
+2575,2026-01-29,Insulin,Capsule,Gujarat,Netmeds,296,326.37,348,96605.52,No
+2576,2026-01-29,Metformin,Injection,Gujarat,Apollo Pharmacy,265,20.69,257,5482.85,No
+2577,2026-01-30,Azithromycin,Injection,Delhi,Wellness Forever,21,75.4,119,1583.4,No
+2578,2026-01-30,Amoxicillin,Tablet,Gujarat,Netmeds,389,68.96,358,26825.44,No
+2579,2026-01-30,Metformin,Tablet,Gujarat,Wellness Forever,488,33.41,216,16304.08,No
+2580,2026-01-30,Insulin,Injection,Gujarat,Apollo Pharmacy,87,166.0,23,14442.0,No
+2581,2026-01-31,Amoxicillin,Syrup,Gujarat,Wellness Forever,444,79.48,275,35289.12,No
+2582,2026-01-31,Insulin,Tablet,Gujarat,Apollo Pharmacy,181,223.1,291,40381.1,No
+2583,2026-01-31,Amoxicillin,Syrup,Karnataka,Apollo Pharmacy,105,56.64,31,5947.2,No
+2584,2026-01-31,Azithromycin,Tablet,Maharashtra,Wellness Forever,315,41.75,20,13151.25,No
+2585,2026-02-01,Metformin,Tablet,Tamil Nadu,Netmeds,382,17.53,304,6696.46,No
+2586,2026-02-01,Amoxicillin,Syrup,Gujarat,MedPlus,282,60.16,79,16965.12,No
+2587,2026-02-01,Paracetamol,Tablet,Tamil Nadu,Netmeds,428,5.84,345,2499.52,No
+2588,2026-02-01,Paracetamol,Capsule,Tamil Nadu,Netmeds,394,12.37,-3,4873.78,Yes
+2589,2026-02-02,Amoxicillin,Tablet,Karnataka,Wellness Forever,422,85.63,130,36135.86,No
+2590,2026-02-02,Amoxicillin,Tablet,Gujarat,Netmeds,188,36.32,389,6828.16,No
+2591,2026-02-02,Amoxicillin,Tablet,Tamil Nadu,Netmeds,73,75.87,352,5538.51,No
+2592,2026-02-02,Paracetamol,Injection,Gujarat,MedPlus,141,11.15,49,1572.15,No
+2593,2026-02-03,Paracetamol,Tablet,Delhi,Netmeds,352,14.83,212,5220.16,No
+2594,2026-02-03,Amoxicillin,Syrup,Delhi,MedPlus,421,45.61,226,19201.81,No
+2595,2026-02-03,Insulin,Tablet,Delhi,Wellness Forever,281,189.87,-8,53353.47,Yes
+2596,2026-02-03,Insulin,Tablet,Tamil Nadu,MedPlus,328,190.12,288,62359.36,No
+2597,2026-02-04,Azithromycin,Tablet,Delhi,Apollo Pharmacy,341,45.64,325,15563.24,No
+2598,2026-02-04,Metformin,Capsule,Karnataka,Apollo Pharmacy,446,14.64,27,6529.44,No
+2599,2026-02-04,Insulin,Capsule,Karnataka,MedPlus,350,316.05,228,110617.5,No
+2600,2026-02-04,Paracetamol,Tablet,Tamil Nadu,Apollo Pharmacy,118,18.23,165,2151.14,No
+2601,2026-02-05,Insulin,Syrup,Gujarat,Wellness Forever,282,353.53,69,99695.46,No
+2602,2026-02-05,Azithromycin,Capsule,Maharashtra,Apollo Pharmacy,177,94.81,139,16781.37,No
+2603,2026-02-05,Azithromycin,Tablet,Gujarat,MedPlus,406,48.83,259,19824.98,No
+2604,2026-02-05,Metformin,Capsule,Gujarat,Wellness Forever,189,17.23,7,3256.47,No
+2605,2026-02-06,Insulin,Tablet,Gujarat,Apollo Pharmacy,67,227.45,99,15239.15,No
+2606,2026-02-06,Paracetamol,Capsule,Gujarat,Wellness Forever,489,8.75,290,4278.75,No
+2607,2026-02-06,Paracetamol,Injection,Maharashtra,MedPlus,430,12.73,283,5473.9,No
+2608,2026-02-06,Amoxicillin,Capsule,Delhi,Apollo Pharmacy,88,62.13,83,5467.44,No
+2609,2026-02-07,Paracetamol,Injection,Gujarat,Wellness Forever,469,10.35,88,4854.15,No
+2610,2026-02-07,Metformin,Tablet,Karnataka,Wellness Forever,70,18.84,356,1318.8,No
+2611,2026-02-07,Metformin,Capsule,Tamil Nadu,Apollo Pharmacy,378,30.71,35,11608.38,No
+2612,2026-02-07,Paracetamol,Tablet,Tamil Nadu,Wellness Forever,130,16.84,346,2189.2,No
+2613,2026-02-08,Paracetamol,Tablet,Karnataka,Wellness Forever,216,9.62,96,2077.92,No
+2614,2026-02-08,Amoxicillin,Injection,Gujarat,MedPlus,43,84.83,228,3647.69,No
+2615,2026-02-08,Paracetamol,Injection,Maharashtra,MedPlus,79,19.29,153,1523.91,No
+2616,2026-02-08,Amoxicillin,Capsule,Delhi,MedPlus,26,49.6,56,1289.6,No
+2617,2026-02-09,Amoxicillin,Tablet,Tamil Nadu,MedPlus,29,51.27,123,1486.83,No
+2618,2026-02-09,Paracetamol,Injection,Delhi,MedPlus,466,12.58,320,5862.28,No
+2619,2026-02-09,Azithromycin,Injection,Maharashtra,MedPlus,324,115.29,215,37353.96,No
+2620,2026-02-09,Azithromycin,Tablet,Tamil Nadu,Apollo Pharmacy,78,110.11,223,8588.58,No
+2621,2026-02-10,Amoxicillin,Tablet,Delhi,MedPlus,224,36.15,237,8097.6,No
+2622,2026-02-10,Paracetamol,Tablet,Maharashtra,Wellness Forever,170,10.89,391,1851.3,No
+2623,2026-02-10,Azithromycin,Tablet,Delhi,Apollo Pharmacy,111,84.27,33,9353.97,No
+2624,2026-02-10,Paracetamol,Capsule,Gujarat,Wellness Forever,385,12.55,287,4831.75,No
+2625,2026-02-11,Paracetamol,Syrup,Maharashtra,MedPlus,215,7.91,56,1700.65,No
+2626,2026-02-11,Paracetamol,Injection,Delhi,MedPlus,154,17.88,247,2753.52,No
+2627,2026-02-11,Insulin,Capsule,Gujarat,Wellness Forever,66,319.24,306,21069.84,No
+2628,2026-02-11,Paracetamol,Tablet,Gujarat,Wellness Forever,92,17.57,206,1616.44,No
+2629,2026-02-12,Insulin,Capsule,Maharashtra,Wellness Forever,490,364.69,61,178698.1,No
+2630,2026-02-12,Amoxicillin,Tablet,Karnataka,Netmeds,394,74.9,46,29510.6,No
+2631,2026-02-12,Azithromycin,Capsule,Tamil Nadu,Netmeds,278,75.14,141,20888.92,No
+2632,2026-02-12,Azithromycin,Tablet,Maharashtra,Netmeds,420,88.84,278,37312.8,No
+2633,2026-02-13,Azithromycin,Capsule,Gujarat,Netmeds,463,52.83,109,24460.29,No
+2634,2026-02-13,Azithromycin,Tablet,Gujarat,Apollo Pharmacy,196,93.89,213,18402.44,No
+2635,2026-02-13,Azithromycin,Tablet,Maharashtra,MedPlus,15,54.34,324,815.1,No
+2636,2026-02-13,Azithromycin,Injection,Karnataka,Wellness Forever,362,95.52,145,34578.24,No
+2637,2026-02-14,Azithromycin,Tablet,Tamil Nadu,MedPlus,359,58.37,13,20954.83,No
+2638,2026-02-14,Amoxicillin,Syrup,Delhi,Wellness Forever,119,37.05,98,4408.95,No
+2639,2026-02-14,Paracetamol,Tablet,Maharashtra,MedPlus,492,7.48,63,3680.16,No
+2640,2026-02-14,Metformin,Injection,Tamil Nadu,Apollo Pharmacy,416,10.05,7,4180.8,No
+2641,2026-02-15,Insulin,Tablet,Tamil Nadu,Netmeds,147,329.68,90,48462.96,No
+2642,2026-02-15,Metformin,Tablet,Gujarat,MedPlus,60,28.31,115,1698.6,No
+2643,2026-02-15,Metformin,Tablet,Delhi,Wellness Forever,412,22.87,341,9422.44,No
+2644,2026-02-15,Paracetamol,Syrup,Maharashtra,MedPlus,60,7.42,157,445.2,No
+2645,2026-02-16,Paracetamol,Tablet,Gujarat,Apollo Pharmacy,485,6.25,248,3031.25,No
+2646,2026-02-16,Paracetamol,Tablet,Gujarat,Apollo Pharmacy,96,5.29,326,507.84,No
+2647,2026-02-16,Azithromycin,Tablet,Karnataka,MedPlus,77,53.26,357,4101.02,No
+2648,2026-02-16,Amoxicillin,Tablet,Tamil Nadu,Netmeds,93,83.45,269,7760.85,No
+2649,2026-02-17,Azithromycin,Syrup,Maharashtra,Wellness Forever,476,59.32,-14,28236.32,Yes
+2650,2026-02-17,Amoxicillin,Capsule,Maharashtra,Apollo Pharmacy,51,51.26,217,2614.26,No
+2651,2026-02-17,Amoxicillin,Tablet,Maharashtra,Apollo Pharmacy,228,36.32,353,8280.96,No
+2652,2026-02-17,Metformin,Syrup,Gujarat,MedPlus,66,15.56,235,1026.96,No
+2653,2026-02-18,Metformin,Injection,Karnataka,Apollo Pharmacy,235,22.98,305,5400.3,No
+2654,2026-02-18,Amoxicillin,Tablet,Delhi,Apollo Pharmacy,205,66.47,92,13626.35,No
+2655,2026-02-18,Amoxicillin,Injection,Gujarat,Wellness Forever,257,44.72,260,11493.04,No
+2656,2026-02-18,Azithromycin,Tablet,Delhi,Netmeds,175,44.62,164,7808.5,No
+2657,2026-02-19,Azithromycin,Syrup,Karnataka,Wellness Forever,71,71.28,197,5060.88,No
+2658,2026-02-19,Metformin,Tablet,Tamil Nadu,Netmeds,272,15.86,277,4313.92,No
+2659,2026-02-19,Paracetamol,Injection,Maharashtra,Wellness Forever,121,8.29,56,1003.09,No
+2660,2026-02-19,Amoxicillin,Injection,Delhi,MedPlus,262,87.59,267,22948.58,No
+2661,2026-02-20,Azithromycin,Tablet,Gujarat,Apollo Pharmacy,208,89.3,159,18574.4,No
+2662,2026-02-20,Metformin,Tablet,Delhi,Netmeds,187,23.92,107,4473.04,No
+2663,2026-02-20,Azithromycin,Capsule,Tamil Nadu,MedPlus,445,73.26,211,32600.7,No
+2664,2026-02-20,Amoxicillin,Tablet,Maharashtra,Apollo Pharmacy,35,55.74,374,1950.9,No
+2665,2026-02-21,Amoxicillin,Syrup,Delhi,Apollo Pharmacy,419,62.45,285,26166.55,No
+2666,2026-02-21,Insulin,Capsule,Tamil Nadu,Apollo Pharmacy,255,324.11,67,82648.05,No
+2667,2026-02-21,Paracetamol,Injection,Gujarat,Wellness Forever,28,15.53,237,434.84,No
+2668,2026-02-21,Insulin,Syrup,Karnataka,MedPlus,274,192.92,130,52860.08,No
+2669,2026-02-22,Metformin,Injection,Gujarat,MedPlus,326,22.5,104,7335.0,No
+2670,2026-02-22,Azithromycin,Capsule,Maharashtra,Apollo Pharmacy,29,72.96,49,2115.84,No
+2671,2026-02-22,Metformin,Syrup,Gujarat,Netmeds,115,31.76,265,3652.4,No
+2672,2026-02-22,Amoxicillin,Syrup,Gujarat,MedPlus,246,67.89,267,16700.94,No
+2673,2026-02-23,Insulin,Tablet,Gujarat,Wellness Forever,315,283.13,375,89185.95,No
+2674,2026-02-23,Insulin,Capsule,Gujarat,Netmeds,473,178.85,90,84596.05,No
+2675,2026-02-23,Insulin,Injection,Maharashtra,Netmeds,255,301.41,397,76859.55,No
+2676,2026-02-23,Metformin,Tablet,Tamil Nadu,Netmeds,90,12.93,284,1163.7,No
+2677,2026-02-24,Amoxicillin,Capsule,Delhi,Netmeds,159,50.23,91,7986.57,No
+2678,2026-02-24,Azithromycin,Syrup,Karnataka,MedPlus,406,51.43,20,20880.58,No
+2679,2026-02-24,Azithromycin,Tablet,Delhi,Apollo Pharmacy,405,95.37,131,38624.85,No
+2680,2026-02-24,Metformin,Syrup,Delhi,Netmeds,19,15.16,246,288.04,No
+2681,2026-02-25,Insulin,Tablet,Karnataka,Wellness Forever,330,247.96,393,81826.8,No
+2682,2026-02-25,Paracetamol,Capsule,Maharashtra,Wellness Forever,233,18.44,143,4296.52,No
+2683,2026-02-25,Metformin,Tablet,Karnataka,Apollo Pharmacy,423,15.11,249,6391.53,No
+2684,2026-02-25,Metformin,Capsule,Maharashtra,MedPlus,273,22.7,186,6197.1,No
+2685,2026-02-26,Amoxicillin,Syrup,Delhi,Apollo Pharmacy,158,55.16,139,8715.28,No
+2686,2026-02-26,Azithromycin,Tablet,Maharashtra,Netmeds,287,41.45,-3,11896.15,Yes
+2687,2026-02-26,Metformin,Capsule,Tamil Nadu,MedPlus,283,29.82,281,8439.06,No
+2688,2026-02-26,Metformin,Syrup,Karnataka,MedPlus,203,11.73,368,2381.19,No
+2689,2026-02-27,Insulin,Tablet,Tamil Nadu,Netmeds,441,268.56,306,118434.96,No
+2690,2026-02-27,Insulin,Syrup,Delhi,Wellness Forever,181,290.17,69,52520.77,No
+2691,2026-02-27,Paracetamol,Capsule,Karnataka,Netmeds,274,14.43,264,3953.82,No
+2692,2026-02-27,Amoxicillin,Tablet,Delhi,Apollo Pharmacy,460,71.32,229,32807.2,No
+2693,2026-02-28,Paracetamol,Tablet,Tamil Nadu,Netmeds,319,8.8,284,2807.2,No
+2694,2026-02-28,Insulin,Tablet,Delhi,Wellness Forever,35,152.49,346,5337.15,No
+2695,2026-02-28,Azithromycin,Tablet,Karnataka,Netmeds,478,97.88,338,46786.64,No
+2696,2026-02-28,Insulin,Injection,Karnataka,Apollo Pharmacy,359,283.91,300,101923.69,No
+2697,2026-03-01,Amoxicillin,Syrup,Delhi,Apollo Pharmacy,485,80.17,-7,38882.45,Yes
+2698,2026-03-01,Insulin,Tablet,Karnataka,Wellness Forever,365,355.35,370,129702.75,No
+2699,2026-03-01,Amoxicillin,Tablet,Karnataka,Apollo Pharmacy,35,80.6,231,2821.0,No
+2700,2026-03-01,Amoxicillin,Tablet,Delhi,Apollo Pharmacy,43,59.11,296,2541.73,No
+2701,2026-03-02,Amoxicillin,Capsule,Tamil Nadu,Netmeds,273,50.02,398,13655.46,No
+2702,2026-03-02,Amoxicillin,Tablet,Karnataka,MedPlus,147,77.49,262,11391.03,No
+2703,2026-03-02,Amoxicillin,Capsule,Karnataka,Apollo Pharmacy,313,57.08,222,17866.04,No
+2704,2026-03-02,Azithromycin,Syrup,Karnataka,Apollo Pharmacy,192,54.68,187,10498.56,No
+2705,2026-03-03,Paracetamol,Tablet,Karnataka,Wellness Forever,372,17.82,231,6629.04,No
+2706,2026-03-03,Metformin,Capsule,Delhi,Wellness Forever,251,32.06,219,8047.06,No
+2707,2026-03-03,Paracetamol,Syrup,Tamil Nadu,Netmeds,63,11.99,65,755.37,No
+2708,2026-03-03,Amoxicillin,Injection,Tamil Nadu,Netmeds,471,34.54,340,16268.34,No
+2709,2026-03-04,Azithromycin,Capsule,Maharashtra,Apollo Pharmacy,177,71.03,-3,12572.31,Yes
+2710,2026-03-04,Insulin,Tablet,Karnataka,MedPlus,128,350.88,311,44912.64,No
+2711,2026-03-04,Azithromycin,Tablet,Karnataka,MedPlus,152,112.14,0,17045.28,No
+2712,2026-03-04,Amoxicillin,Injection,Maharashtra,Netmeds,90,42.21,29,3798.9,No
+2713,2026-03-05,Azithromycin,Tablet,Tamil Nadu,Wellness Forever,254,45.36,305,11521.44,No
+2714,2026-03-05,Azithromycin,Tablet,Gujarat,Apollo Pharmacy,411,110.19,123,45288.09,No
+2715,2026-03-05,Amoxicillin,Tablet,Gujarat,Apollo Pharmacy,361,53.36,310,19262.96,No
+2716,2026-03-05,Azithromycin,Tablet,Tamil Nadu,MedPlus,367,83.34,132,30585.78,No
+2717,2026-03-06,Metformin,Injection,Karnataka,Netmeds,416,34.2,339,14227.2,No
+2718,2026-03-06,Metformin,Tablet,Gujarat,MedPlus,71,11.66,220,827.86,No
+2719,2026-03-06,Azithromycin,Syrup,Delhi,MedPlus,55,91.87,175,5052.85,No
+2720,2026-03-06,Insulin,Syrup,Delhi,Netmeds,96,168.53,85,16178.88,No
+2721,2026-03-07,Amoxicillin,Tablet,Maharashtra,Wellness Forever,108,52.53,89,5673.24,No
+2722,2026-03-07,Metformin,Tablet,Tamil Nadu,Apollo Pharmacy,304,30.1,234,9150.4,No
+2723,2026-03-07,Insulin,Injection,Tamil Nadu,Wellness Forever,408,258.37,380,105414.96,No
+2724,2026-03-07,Azithromycin,Tablet,Gujarat,Netmeds,62,119.77,78,7425.74,No
+2725,2026-03-08,Insulin,Injection,Karnataka,Netmeds,481,289.76,204,139374.56,No
+2726,2026-03-08,Paracetamol,Capsule,Tamil Nadu,Apollo Pharmacy,201,9.82,282,1973.82,No
+2727,2026-03-08,Metformin,Tablet,Gujarat,Wellness Forever,456,15.5,323,7068.0,No
+2728,2026-03-08,Azithromycin,Syrup,Gujarat,Apollo Pharmacy,485,68.04,117,32999.4,No
+2729,2026-03-09,Amoxicillin,Syrup,Tamil Nadu,MedPlus,89,52.35,345,4659.15,No
+2730,2026-03-09,Azithromycin,Tablet,Gujarat,MedPlus,25,45.5,139,1137.5,No
+2731,2026-03-09,Amoxicillin,Capsule,Maharashtra,MedPlus,369,52.17,12,19250.73,No
+2732,2026-03-09,Azithromycin,Capsule,Maharashtra,Wellness Forever,496,77.14,266,38261.44,No
+2733,2026-03-10,Insulin,Tablet,Tamil Nadu,MedPlus,335,330.68,100,110777.8,No
+2734,2026-03-10,Insulin,Syrup,Karnataka,Apollo Pharmacy,203,314.18,289,63778.54,No
+2735,2026-03-10,Insulin,Capsule,Maharashtra,Wellness Forever,150,327.19,218,49078.5,No
+2736,2026-03-10,Paracetamol,Capsule,Maharashtra,Apollo Pharmacy,117,5.13,389,600.21,No
+2737,2026-03-11,Amoxicillin,Syrup,Tamil Nadu,Netmeds,312,43.06,-15,13434.72,Yes
+2738,2026-03-11,Insulin,Syrup,Delhi,Wellness Forever,274,315.42,332,86425.08,No
+2739,2026-03-11,Paracetamol,Tablet,Gujarat,Apollo Pharmacy,456,12.26,224,5590.56,No
+2740,2026-03-11,Amoxicillin,Capsule,Maharashtra,Apollo Pharmacy,299,30.32,42,9065.68,No
+2741,2026-03-12,Azithromycin,Tablet,Delhi,Wellness Forever,218,104.36,319,22750.48,No
+2742,2026-03-12,Paracetamol,Syrup,Karnataka,Netmeds,484,16.59,167,8029.56,No
+2743,2026-03-12,Metformin,Tablet,Delhi,Wellness Forever,422,23.71,321,10005.62,No
+2744,2026-03-12,Paracetamol,Tablet,Tamil Nadu,MedPlus,174,6.0,10,1044.0,No
+2745,2026-03-13,Paracetamol,Tablet,Karnataka,MedPlus,436,16.5,393,7194.0,No
+2746,2026-03-13,Amoxicillin,Capsule,Karnataka,Netmeds,351,65.02,61,22822.02,No
+2747,2026-03-13,Azithromycin,Tablet,Delhi,Apollo Pharmacy,380,102.56,201,38972.8,No
+2748,2026-03-13,Metformin,Syrup,Tamil Nadu,Apollo Pharmacy,329,28.79,312,9471.91,No
+2749,2026-03-14,Insulin,Tablet,Maharashtra,Apollo Pharmacy,161,350.75,309,56470.75,No
+2750,2026-03-14,Insulin,Tablet,Delhi,Wellness Forever,464,279.5,246,129688.0,No
+2751,2026-03-14,Paracetamol,Tablet,Maharashtra,Wellness Forever,299,7.1,7,2122.9,No
+2752,2026-03-14,Amoxicillin,Syrup,Delhi,Netmeds,441,70.27,228,30989.07,No
+2753,2026-03-15,Amoxicillin,Tablet,Maharashtra,MedPlus,277,67.23,142,18622.71,No
+2754,2026-03-15,Insulin,Tablet,Delhi,Apollo Pharmacy,160,335.56,190,53689.6,No
+2755,2026-03-15,Metformin,Tablet,Karnataka,MedPlus,216,14.25,294,3078.0,No
+2756,2026-03-15,Azithromycin,Tablet,Gujarat,Wellness Forever,264,55.6,71,14678.4,No
+2757,2026-03-16,Metformin,Capsule,Karnataka,Wellness Forever,362,32.26,251,11678.12,No
+2758,2026-03-16,Azithromycin,Capsule,Maharashtra,Wellness Forever,386,100.0,399,38600.0,No
+2759,2026-03-16,Insulin,Tablet,Tamil Nadu,MedPlus,150,377.06,118,56559.0,No
+2760,2026-03-16,Azithromycin,Syrup,Karnataka,Netmeds,352,100.7,251,35446.4,No
+2761,2026-03-17,Amoxicillin,Capsule,Gujarat,Netmeds,367,65.83,317,24159.61,No
+2762,2026-03-17,Paracetamol,Tablet,Maharashtra,Wellness Forever,105,14.81,252,1555.05,No
+2763,2026-03-17,Paracetamol,Capsule,Karnataka,Apollo Pharmacy,438,18.34,37,8032.92,No
+2764,2026-03-17,Insulin,Capsule,Delhi,MedPlus,379,294.7,83,111691.3,No
+2765,2026-03-18,Amoxicillin,Tablet,Tamil Nadu,Wellness Forever,236,67.94,231,16033.84,No
+2766,2026-03-18,Metformin,Tablet,Maharashtra,MedPlus,202,13.91,20,2809.82,No
+2767,2026-03-18,Amoxicillin,Capsule,Karnataka,MedPlus,312,58.44,385,18233.28,No
+2768,2026-03-18,Paracetamol,Syrup,Maharashtra,Netmeds,323,15.75,12,5087.25,No
+2769,2026-03-19,Paracetamol,Tablet,Delhi,Wellness Forever,398,9.06,204,3605.88,No
+2770,2026-03-19,Amoxicillin,Tablet,Gujarat,Netmeds,386,42.14,390,16266.04,No
+2771,2026-03-19,Amoxicillin,Tablet,Karnataka,Wellness Forever,470,48.83,86,22950.1,No
+2772,2026-03-19,Paracetamol,Injection,Maharashtra,MedPlus,127,8.62,247,1094.74,No
+2773,2026-03-20,Metformin,Injection,Maharashtra,Netmeds,14,15.37,255,215.18,No
+2774,2026-03-20,Insulin,Capsule,Maharashtra,MedPlus,453,256.21,208,116063.13,No
+2775,2026-03-20,Insulin,Tablet,Gujarat,Wellness Forever,361,376.96,123,136082.56,No
+2776,2026-03-20,Amoxicillin,Syrup,Maharashtra,Apollo Pharmacy,252,60.42,264,15225.84,No
+2777,2026-03-21,Insulin,Syrup,Tamil Nadu,Netmeds,30,196.98,270,5909.4,No
+2778,2026-03-21,Paracetamol,Tablet,Tamil Nadu,Netmeds,161,6.15,234,990.15,No
+2779,2026-03-21,Paracetamol,Tablet,Maharashtra,MedPlus,137,15.44,306,2115.28,No
+2780,2026-03-21,Amoxicillin,Capsule,Tamil Nadu,MedPlus,133,52.97,301,7045.01,No
+2781,2026-03-22,Amoxicillin,Capsule,Karnataka,Apollo Pharmacy,155,79.31,62,12293.05,No
+2782,2026-03-22,Amoxicillin,Syrup,Tamil Nadu,Netmeds,286,69.57,281,19897.02,No
+2783,2026-03-22,Metformin,Syrup,Maharashtra,Wellness Forever,319,29.91,322,9541.29,No
+2784,2026-03-22,Insulin,Tablet,Delhi,Wellness Forever,403,217.99,291,87849.97,No
+2785,2026-03-23,Amoxicillin,Syrup,Karnataka,Netmeds,161,71.54,335,11517.94,No
+2786,2026-03-23,Azithromycin,Injection,Gujarat,Netmeds,369,61.12,-3,22553.28,Yes
+2787,2026-03-23,Azithromycin,Syrup,Maharashtra,Netmeds,120,115.13,330,13815.6,No
+2788,2026-03-23,Paracetamol,Capsule,Gujarat,Apollo Pharmacy,478,14.55,380,6954.9,No
+2789,2026-03-24,Insulin,Syrup,Delhi,Wellness Forever,482,231.13,66,111404.66,No
+2790,2026-03-24,Amoxicillin,Tablet,Gujarat,Wellness Forever,125,46.17,-7,5771.25,Yes
+2791,2026-03-24,Azithromycin,Injection,Maharashtra,MedPlus,197,55.27,197,10888.19,No
+2792,2026-03-24,Insulin,Tablet,Maharashtra,MedPlus,66,323.66,32,21361.56,No
+2793,2026-03-25,Paracetamol,Tablet,Delhi,Netmeds,260,8.28,33,2152.8,No
+2794,2026-03-25,Metformin,Tablet,Maharashtra,MedPlus,393,24.88,293,9777.84,No
+2795,2026-03-25,Insulin,Tablet,Delhi,Apollo Pharmacy,416,216.16,24,89922.56,No
+2796,2026-03-25,Insulin,Injection,Delhi,Wellness Forever,159,315.49,347,50162.91,No
+2797,2026-03-26,Metformin,Syrup,Maharashtra,Wellness Forever,461,30.37,264,14000.57,No
+2798,2026-03-26,Insulin,Injection,Tamil Nadu,MedPlus,171,344.51,210,58911.21,No
+2799,2026-03-26,Paracetamol,Syrup,Delhi,Netmeds,129,16.41,92,2116.89,No
+2800,2026-03-26,Paracetamol,Tablet,Maharashtra,MedPlus,79,7.82,229,617.78,No
+2801,2026-03-27,Metformin,Capsule,Tamil Nadu,Netmeds,421,12.21,239,5140.41,No
+2802,2026-03-27,Amoxicillin,Tablet,Delhi,Apollo Pharmacy,360,71.94,17,25898.4,No
+2803,2026-03-27,Azithromycin,Tablet,Tamil Nadu,Wellness Forever,108,69.47,7,7502.76,No
+2804,2026-03-27,Amoxicillin,Syrup,Karnataka,Apollo Pharmacy,176,55.94,317,9845.44,No
+2805,2026-03-28,Insulin,Tablet,Karnataka,Wellness Forever,307,157.79,38,48441.53,No
+2806,2026-03-28,Azithromycin,Tablet,Tamil Nadu,Apollo Pharmacy,160,60.77,293,9723.2,No
+2807,2026-03-28,Metformin,Syrup,Delhi,MedPlus,335,10.84,33,3631.4,No
+2808,2026-03-28,Metformin,Syrup,Maharashtra,Apollo Pharmacy,473,31.98,62,15126.54,No
+2809,2026-03-29,Azithromycin,Tablet,Gujarat,Apollo Pharmacy,11,59.47,320,654.17,No
+2810,2026-03-29,Paracetamol,Capsule,Maharashtra,MedPlus,161,13.36,342,2150.96,No
+2811,2026-03-29,Azithromycin,Syrup,Gujarat,Wellness Forever,410,43.12,106,17679.2,No
+2812,2026-03-29,Insulin,Capsule,Gujarat,Wellness Forever,374,316.71,343,118449.54,No
+2813,2026-03-30,Paracetamol,Tablet,Delhi,MedPlus,74,9.85,74,728.9,No
+2814,2026-03-30,Metformin,Syrup,Tamil Nadu,Apollo Pharmacy,335,32.45,330,10870.75,No
+2815,2026-03-30,Azithromycin,Capsule,Maharashtra,Apollo Pharmacy,78,111.05,177,8661.9,No
+2816,2026-03-30,Amoxicillin,Syrup,Tamil Nadu,Apollo Pharmacy,130,49.52,361,6437.6,No
+2817,2026-03-31,Amoxicillin,Injection,Karnataka,Netmeds,118,84.06,228,9919.08,No
+2818,2026-03-31,Insulin,Tablet,Delhi,Wellness Forever,325,399.04,133,129688.0,No
+2819,2026-03-31,Amoxicillin,Tablet,Delhi,Apollo Pharmacy,256,79.52,130,20357.12,No
+2820,2026-03-31,Azithromycin,Syrup,Karnataka,Wellness Forever,443,107.59,300,47662.37,No
+2821,2026-04-01,Azithromycin,Tablet,Maharashtra,Apollo Pharmacy,102,59.92,362,6111.84,No
+2822,2026-04-01,Amoxicillin,Capsule,Karnataka,MedPlus,277,64.6,125,17894.2,No
+2823,2026-04-01,Azithromycin,Tablet,Maharashtra,MedPlus,112,45.38,392,5082.56,No
+2824,2026-04-01,Insulin,Capsule,Gujarat,Wellness Forever,440,173.73,270,76441.2,No
+2825,2026-04-02,Paracetamol,Capsule,Delhi,Wellness Forever,460,19.98,370,9190.8,No
+2826,2026-04-02,Insulin,Tablet,Maharashtra,MedPlus,121,231.66,323,28030.86,No
+2827,2026-04-02,Insulin,Tablet,Tamil Nadu,Netmeds,330,337.05,95,111226.5,No
+2828,2026-04-02,Azithromycin,Capsule,Tamil Nadu,MedPlus,420,104.53,92,43902.6,No
+2829,2026-04-03,Paracetamol,Capsule,Delhi,Apollo Pharmacy,313,17.87,351,5593.31,No
+2830,2026-04-03,Azithromycin,Tablet,Karnataka,Netmeds,353,119.81,265,42292.93,No
+2831,2026-04-03,Metformin,Tablet,Karnataka,MedPlus,71,16.04,34,1138.84,No
+2832,2026-04-03,Azithromycin,Syrup,Maharashtra,Netmeds,309,43.23,-2,13358.07,Yes
+2833,2026-04-04,Azithromycin,Injection,Karnataka,Netmeds,412,72.9,118,30034.8,No
+2834,2026-04-04,Azithromycin,Tablet,Delhi,Netmeds,452,50.41,60,22785.32,No
+2835,2026-04-04,Paracetamol,Injection,Maharashtra,Wellness Forever,145,5.34,68,774.3,No
+2836,2026-04-04,Azithromycin,Tablet,Gujarat,MedPlus,64,68.83,327,4405.12,No
+2837,2026-04-05,Paracetamol,Tablet,Karnataka,Wellness Forever,117,16.76,142,1960.92,No
+2838,2026-04-05,Amoxicillin,Tablet,Karnataka,Wellness Forever,312,63.97,270,19958.64,No
+2839,2026-04-05,Metformin,Tablet,Maharashtra,Apollo Pharmacy,267,17.82,298,4757.94,No
+2840,2026-04-05,Paracetamol,Tablet,Tamil Nadu,Apollo Pharmacy,262,14.82,78,3882.84,No
+2841,2026-04-06,Amoxicillin,Syrup,Karnataka,Netmeds,231,43.92,281,10145.52,No
+2842,2026-04-06,Paracetamol,Tablet,Delhi,Netmeds,487,5.22,78,2542.14,No
+2843,2026-04-06,Paracetamol,Tablet,Karnataka,Apollo Pharmacy,378,16.47,41,6225.66,No
+2844,2026-04-06,Metformin,Tablet,Gujarat,Apollo Pharmacy,176,25.59,148,4503.84,No
+2845,2026-04-07,Insulin,Capsule,Karnataka,MedPlus,438,340.58,304,149174.04,No
+2846,2026-04-07,Insulin,Tablet,Tamil Nadu,Netmeds,169,159.73,82,26994.37,No
+2847,2026-04-07,Paracetamol,Tablet,Karnataka,Netmeds,458,17.56,0,8042.48,No
+2848,2026-04-07,Azithromycin,Syrup,Maharashtra,Apollo Pharmacy,175,89.56,328,15673.0,No
+2849,2026-04-08,Amoxicillin,Capsule,Karnataka,MedPlus,214,63.8,62,13653.2,No
+2850,2026-04-08,Azithromycin,Tablet,Tamil Nadu,Apollo Pharmacy,276,89.97,330,24831.72,No
+2851,2026-04-08,Azithromycin,Injection,Maharashtra,Apollo Pharmacy,147,109.15,56,16045.05,No
+2852,2026-04-08,Paracetamol,Injection,Delhi,Wellness Forever,377,13.8,254,5202.6,No
+2853,2026-04-09,Paracetamol,Syrup,Maharashtra,Netmeds,452,13.71,271,6196.92,No
+2854,2026-04-09,Paracetamol,Tablet,Gujarat,MedPlus,355,19.86,50,7050.3,No
+2855,2026-04-09,Paracetamol,Injection,Maharashtra,Wellness Forever,257,16.35,352,4201.95,No
+2856,2026-04-09,Insulin,Tablet,Delhi,Netmeds,64,260.57,52,16676.48,No
+2857,2026-04-10,Paracetamol,Syrup,Karnataka,Apollo Pharmacy,413,15.61,177,6446.93,No
+2858,2026-04-10,Insulin,Injection,Maharashtra,MedPlus,218,247.31,39,53913.58,No
+2859,2026-04-10,Insulin,Tablet,Maharashtra,Netmeds,26,207.22,363,5387.72,No
+2860,2026-04-10,Paracetamol,Capsule,Maharashtra,Apollo Pharmacy,77,13.95,152,1074.15,No
+2861,2026-04-11,Metformin,Tablet,Maharashtra,Wellness Forever,142,33.2,393,4714.4,No
+2862,2026-04-11,Amoxicillin,Capsule,Delhi,MedPlus,197,85.75,9,16892.75,No
+2863,2026-04-11,Azithromycin,Syrup,Tamil Nadu,Netmeds,416,67.35,115,28017.6,No
+2864,2026-04-11,Insulin,Tablet,Tamil Nadu,Wellness Forever,439,281.92,309,123762.88,No
+2865,2026-04-12,Amoxicillin,Tablet,Maharashtra,Apollo Pharmacy,317,42.7,86,13535.9,No
+2866,2026-04-12,Metformin,Capsule,Delhi,Apollo Pharmacy,147,34.89,358,5128.83,No
+2867,2026-04-12,Azithromycin,Tablet,Delhi,Netmeds,183,118.49,266,21683.67,No
+2868,2026-04-12,Azithromycin,Tablet,Maharashtra,Apollo Pharmacy,421,91.96,280,38715.16,No
+2869,2026-04-13,Insulin,Tablet,Gujarat,MedPlus,106,351.1,278,37216.6,No
+2870,2026-04-13,Paracetamol,Syrup,Maharashtra,Netmeds,180,15.73,247,2831.4,No
+2871,2026-04-13,Metformin,Syrup,Gujarat,Wellness Forever,163,24.83,398,4047.29,No
+2872,2026-04-13,Insulin,Tablet,Maharashtra,Netmeds,192,163.34,104,31361.28,No
+2873,2026-04-14,Metformin,Tablet,Gujarat,Netmeds,251,21.37,387,5363.87,No
+2874,2026-04-14,Paracetamol,Tablet,Gujarat,Wellness Forever,313,15.12,215,4732.56,No
+2875,2026-04-14,Paracetamol,Tablet,Maharashtra,Apollo Pharmacy,294,15.16,275,4457.04,No
+2876,2026-04-14,Insulin,Tablet,Gujarat,Wellness Forever,36,243.28,145,8758.08,No
+2877,2026-04-15,Paracetamol,Injection,Karnataka,MedPlus,411,19.13,145,7862.43,No
+2878,2026-04-15,Amoxicillin,Tablet,Tamil Nadu,Apollo Pharmacy,369,40.04,62,14774.76,No
+2879,2026-04-15,Azithromycin,Tablet,Delhi,Netmeds,69,80.03,22,5522.07,No
+2880,2026-04-15,Insulin,Tablet,Gujarat,Apollo Pharmacy,211,322.72,378,68093.92,No
+2881,2026-04-16,Metformin,Capsule,Gujarat,Apollo Pharmacy,259,27.43,12,7104.37,No
+2882,2026-04-16,Amoxicillin,Capsule,Delhi,MedPlus,371,68.92,84,25569.32,No
+2883,2026-04-16,Insulin,Capsule,Gujarat,Apollo Pharmacy,78,218.82,278,17067.96,No
+2884,2026-04-16,Paracetamol,Tablet,Delhi,Apollo Pharmacy,467,7.34,384,3427.78,No
+2885,2026-04-17,Paracetamol,Tablet,Maharashtra,Apollo Pharmacy,379,14.54,108,5510.66,No
+2886,2026-04-17,Paracetamol,Tablet,Karnataka,Netmeds,30,13.99,389,419.7,No
+2887,2026-04-17,Paracetamol,Tablet,Karnataka,Apollo Pharmacy,161,7.69,76,1238.09,No
+2888,2026-04-17,Metformin,Syrup,Tamil Nadu,Wellness Forever,111,27.63,239,3066.93,No
+2889,2026-04-18,Amoxicillin,Injection,Gujarat,Apollo Pharmacy,396,57.31,81,22694.76,No
+2890,2026-04-18,Azithromycin,Capsule,Tamil Nadu,MedPlus,497,93.42,-10,46429.74,Yes
+2891,2026-04-18,Metformin,Capsule,Maharashtra,Apollo Pharmacy,104,30.93,153,3216.72,No
+2892,2026-04-18,Metformin,Tablet,Karnataka,Apollo Pharmacy,455,14.24,367,6479.2,No
+2893,2026-04-19,Azithromycin,Injection,Maharashtra,Netmeds,370,41.53,255,15366.1,No
+2894,2026-04-19,Azithromycin,Tablet,Maharashtra,Wellness Forever,238,102.33,92,24354.54,No
+2895,2026-04-19,Paracetamol,Tablet,Gujarat,Apollo Pharmacy,134,14.15,371,1896.1,No
+2896,2026-04-19,Metformin,Injection,Maharashtra,Wellness Forever,267,27.49,283,7339.83,No
+2897,2026-04-20,Insulin,Tablet,Karnataka,MedPlus,331,359.54,31,119007.74,No
+2898,2026-04-20,Azithromycin,Tablet,Tamil Nadu,Netmeds,496,104.22,83,51693.12,No
+2899,2026-04-20,Azithromycin,Tablet,Karnataka,Wellness Forever,378,116.87,-2,44176.86,Yes
+2900,2026-04-20,Amoxicillin,Injection,Gujarat,Netmeds,435,62.16,178,27039.6,No
+2901,2026-04-21,Insulin,Injection,Karnataka,Apollo Pharmacy,245,272.12,141,66669.4,No
+2902,2026-04-21,Insulin,Tablet,Delhi,MedPlus,171,250.47,372,42830.37,No
+2903,2026-04-21,Azithromycin,Capsule,Tamil Nadu,Netmeds,51,52.3,138,2667.3,No
+2904,2026-04-21,Paracetamol,Tablet,Delhi,Apollo Pharmacy,285,13.59,99,3873.15,No
+2905,2026-04-22,Amoxicillin,Tablet,Delhi,Wellness Forever,362,46.62,380,16876.44,No
+2906,2026-04-22,Insulin,Injection,Gujarat,MedPlus,77,380.33,242,29285.41,No
+2907,2026-04-22,Azithromycin,Injection,Maharashtra,MedPlus,182,86.66,129,15772.12,No
+2908,2026-04-22,Insulin,Capsule,Delhi,Wellness Forever,340,298.21,275,101391.4,No
+2909,2026-04-23,Amoxicillin,Tablet,Karnataka,Wellness Forever,134,51.3,-6,6874.2,Yes
+2910,2026-04-23,Amoxicillin,Injection,Maharashtra,MedPlus,179,33.12,352,5928.48,No
+2911,2026-04-23,Metformin,Syrup,Karnataka,Netmeds,56,10.79,198,604.24,No
+2912,2026-04-23,Azithromycin,Capsule,Karnataka,MedPlus,270,73.87,217,19944.9,No
+2913,2026-04-24,Amoxicillin,Tablet,Maharashtra,Wellness Forever,226,35.07,155,7925.82,No
+2914,2026-04-24,Metformin,Injection,Maharashtra,Netmeds,314,25.17,5,7903.38,No
+2915,2026-04-24,Metformin,Syrup,Karnataka,Apollo Pharmacy,133,32.02,-1,4258.66,Yes
+2916,2026-04-24,Insulin,Tablet,Gujarat,MedPlus,302,370.73,352,111960.46,No
+2917,2026-04-25,Insulin,Syrup,Tamil Nadu,Wellness Forever,171,314.76,110,53823.96,No
+2918,2026-04-25,Metformin,Tablet,Tamil Nadu,Apollo Pharmacy,210,15.28,325,3208.8,No
+2919,2026-04-25,Insulin,Syrup,Gujarat,MedPlus,463,365.75,325,169342.25,No
+2920,2026-04-25,Amoxicillin,Capsule,Maharashtra,MedPlus,411,83.17,197,34182.87,No
+2921,2026-04-26,Paracetamol,Syrup,Karnataka,Netmeds,471,7.95,172,3744.45,No
+2922,2026-04-26,Amoxicillin,Syrup,Tamil Nadu,Wellness Forever,284,74.25,156,21087.0,No
+2923,2026-04-26,Metformin,Syrup,Karnataka,Apollo Pharmacy,215,17.16,231,3689.4,No
+2924,2026-04-26,Metformin,Tablet,Gujarat,MedPlus,49,30.07,-11,1473.43,Yes
+2925,2026-04-27,Amoxicillin,Tablet,Karnataka,Netmeds,282,89.83,215,25332.06,No
+2926,2026-04-27,Insulin,Syrup,Gujarat,Apollo Pharmacy,197,157.51,185,31029.47,No
+2927,2026-04-27,Insulin,Tablet,Maharashtra,Apollo Pharmacy,364,374.34,357,136259.76,No
+2928,2026-04-27,Metformin,Tablet,Gujarat,MedPlus,102,25.57,386,2608.14,No
+2929,2026-04-28,Azithromycin,Syrup,Gujarat,Apollo Pharmacy,51,117.87,133,6011.37,No
+2930,2026-04-28,Insulin,Tablet,Tamil Nadu,MedPlus,474,266.25,56,126202.5,No
+2931,2026-04-28,Amoxicillin,Tablet,Karnataka,Netmeds,388,80.84,210,31365.92,No
+2932,2026-04-28,Insulin,Syrup,Tamil Nadu,Netmeds,116,165.6,58,19209.6,No
+2933,2026-04-29,Amoxicillin,Tablet,Delhi,Apollo Pharmacy,337,50.12,291,16890.44,No
+2934,2026-04-29,Metformin,Capsule,Gujarat,MedPlus,74,11.68,153,864.32,No
+2935,2026-04-29,Insulin,Capsule,Delhi,Wellness Forever,374,393.84,233,147296.16,No
+2936,2026-04-29,Amoxicillin,Injection,Tamil Nadu,Netmeds,318,79.02,264,25128.36,No
+2937,2026-04-30,Metformin,Tablet,Karnataka,MedPlus,493,31.31,136,15435.83,No
+2938,2026-04-30,Azithromycin,Injection,Tamil Nadu,MedPlus,144,115.04,208,16565.76,No
+2939,2026-04-30,Amoxicillin,Capsule,Karnataka,MedPlus,398,35.11,209,13973.78,No
+2940,2026-04-30,Azithromycin,Injection,Karnataka,Apollo Pharmacy,33,70.85,22,2338.05,No
+2941,2026-05-01,Azithromycin,Tablet,Maharashtra,Wellness Forever,37,45.68,28,1690.16,No
+2942,2026-05-01,Paracetamol,Syrup,Gujarat,Apollo Pharmacy,71,8.16,169,579.36,No
+2943,2026-05-01,Insulin,Capsule,Tamil Nadu,Netmeds,282,207.34,225,58469.88,No
+2944,2026-05-01,Amoxicillin,Syrup,Karnataka,Apollo Pharmacy,238,58.15,315,13839.7,No
+2945,2026-05-02,Azithromycin,Syrup,Tamil Nadu,MedPlus,29,61.48,335,1782.92,No
+2946,2026-05-02,Paracetamol,Syrup,Tamil Nadu,Apollo Pharmacy,12,6.51,194,78.12,No
+2947,2026-05-02,Metformin,Syrup,Karnataka,MedPlus,430,14.19,7,6101.7,No
+2948,2026-05-02,Amoxicillin,Tablet,Delhi,Wellness Forever,227,38.84,108,8816.68,No
+2949,2026-05-03,Azithromycin,Syrup,Gujarat,Apollo Pharmacy,408,117.85,70,48082.8,No
+2950,2026-05-03,Insulin,Tablet,Gujarat,Apollo Pharmacy,316,339.82,27,107383.12,No
+2951,2026-05-03,Paracetamol,Tablet,Maharashtra,Apollo Pharmacy,441,19.52,24,8608.32,No
+2952,2026-05-03,Azithromycin,Tablet,Maharashtra,MedPlus,145,75.18,287,10901.1,No
+2953,2026-05-04,Insulin,Syrup,Maharashtra,MedPlus,406,219.59,153,89153.54,No
+2954,2026-05-04,Azithromycin,Tablet,Gujarat,Apollo Pharmacy,441,103.86,159,45802.26,No
+2955,2026-05-04,Amoxicillin,Injection,Delhi,Apollo Pharmacy,12,49.58,4,594.96,No
+2956,2026-05-04,Amoxicillin,Injection,Gujarat,Wellness Forever,202,47.96,93,9687.92,No
+2957,2026-05-05,Amoxicillin,Tablet,Gujarat,Wellness Forever,82,43.95,177,3603.9,No
+2958,2026-05-05,Paracetamol,Tablet,Gujarat,Netmeds,424,6.95,228,2946.8,No
+2959,2026-05-05,Amoxicillin,Tablet,Gujarat,Wellness Forever,370,45.39,308,16794.3,No
+2960,2026-05-05,Insulin,Capsule,Delhi,Wellness Forever,127,238.83,264,30331.41,No
+2961,2026-05-06,Azithromycin,Syrup,Maharashtra,Wellness Forever,163,93.92,212,15308.96,No
+2962,2026-05-06,Metformin,Syrup,Tamil Nadu,MedPlus,218,11.56,20,2520.08,No
+2963,2026-05-06,Insulin,Tablet,Maharashtra,Wellness Forever,449,202.63,29,90980.87,No
+2964,2026-05-06,Insulin,Syrup,Maharashtra,Wellness Forever,43,352.26,370,15147.18,No
+2965,2026-05-07,Amoxicillin,Capsule,Tamil Nadu,Apollo Pharmacy,146,38.82,12,5667.72,No
+2966,2026-05-07,Paracetamol,Capsule,Gujarat,MedPlus,327,10.14,138,3315.78,No
+2967,2026-05-07,Azithromycin,Syrup,Delhi,Netmeds,129,109.17,7,14082.93,No
+2968,2026-05-07,Paracetamol,Tablet,Delhi,Netmeds,124,7.32,191,907.68,No
+2969,2026-05-08,Azithromycin,Tablet,Maharashtra,Wellness Forever,22,46.62,75,1025.64,No
+2970,2026-05-08,Azithromycin,Tablet,Tamil Nadu,Netmeds,78,78.76,374,6143.28,No
+2971,2026-05-08,Paracetamol,Tablet,Karnataka,Netmeds,434,9.54,343,4140.36,No
+2972,2026-05-08,Insulin,Tablet,Gujarat,Netmeds,342,290.85,22,99470.7,No
+2973,2026-05-09,Azithromycin,Tablet,Maharashtra,Wellness Forever,266,104.3,212,27743.8,No
+2974,2026-05-09,Paracetamol,Tablet,Delhi,Netmeds,98,7.06,186,691.88,No
+2975,2026-05-09,Azithromycin,Capsule,Tamil Nadu,Wellness Forever,56,86.46,334,4841.76,No
+2976,2026-05-09,Metformin,Syrup,Tamil Nadu,Apollo Pharmacy,269,22.64,293,6090.16,No
+2977,2026-05-10,Insulin,Capsule,Maharashtra,Apollo Pharmacy,237,186.02,238,44086.74,No
+2978,2026-05-10,Amoxicillin,Injection,Karnataka,Netmeds,456,67.44,22,30752.64,No
+2979,2026-05-10,Azithromycin,Tablet,Delhi,Apollo Pharmacy,189,61.89,205,11697.21,No
+2980,2026-05-10,Metformin,Injection,Maharashtra,Wellness Forever,19,22.2,171,421.8,No
+2981,2026-05-11,Amoxicillin,Tablet,Karnataka,Apollo Pharmacy,293,34.94,27,10237.42,No
+2982,2026-05-11,Amoxicillin,Syrup,Tamil Nadu,Netmeds,386,57.58,343,22225.88,No
+2983,2026-05-11,Azithromycin,Tablet,Gujarat,Wellness Forever,135,64.52,98,8710.2,No
+2984,2026-05-11,Paracetamol,Capsule,Delhi,MedPlus,143,17.34,244,2479.62,No
+2985,2026-05-12,Azithromycin,Tablet,Delhi,Wellness Forever,164,44.56,-11,7307.84,Yes
+2986,2026-05-12,Metformin,Tablet,Karnataka,Apollo Pharmacy,257,20.47,52,5260.79,No
+2987,2026-05-12,Amoxicillin,Capsule,Maharashtra,MedPlus,149,57.51,212,8568.99,No
+2988,2026-05-12,Azithromycin,Tablet,Tamil Nadu,Wellness Forever,327,98.0,107,32046.0,No
+2989,2026-05-13,Paracetamol,Injection,Karnataka,MedPlus,445,13.61,157,6056.45,No
+2990,2026-05-13,Azithromycin,Injection,Gujarat,MedPlus,185,93.38,320,17275.3,No
+2991,2026-05-13,Insulin,Capsule,Gujarat,MedPlus,332,344.26,137,114294.32,No
+2992,2026-05-13,Paracetamol,Capsule,Gujarat,Wellness Forever,183,17.93,251,3281.19,No
+2993,2026-05-14,Metformin,Capsule,Karnataka,Apollo Pharmacy,490,17.85,141,8746.5,No
+2994,2026-05-14,Amoxicillin,Tablet,Tamil Nadu,Wellness Forever,83,62.28,146,5169.24,No
+2995,2026-05-14,Azithromycin,Capsule,Delhi,Apollo Pharmacy,360,107.21,198,38595.6,No
+2996,2026-05-14,Paracetamol,Syrup,Maharashtra,Wellness Forever,152,19.84,382,3015.68,No
+2997,2026-05-15,Insulin,Syrup,Delhi,Wellness Forever,464,372.38,360,172784.32,No
+2998,2026-05-15,Paracetamol,Tablet,Tamil Nadu,Wellness Forever,301,10.57,392,3181.57,No
+2999,2026-05-15,Insulin,Injection,Delhi,Apollo Pharmacy,407,198.79,10,80907.53,No
+3000,2026-05-15,Metformin,Capsule,Karnataka,Wellness Forever,121,22.23,276,2689.83,No

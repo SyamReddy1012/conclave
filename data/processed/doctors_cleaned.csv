@@ -1,0 +1,2001 @@
+DoctorID,DoctorName,HospitalID,Specialization,ExperienceYears,On_Duty,Phone
+D0111,Dr_Name_111,H001,Pediatrician,15,True,+91 9827758896
+D0120,Dr_Name_120,H001,Orthopedic Surgeon,4,True,+91 9896888739
+D0181,Dr_Name_181,H001,General Physician,20,False,+91 9833246598
+D0197,Dr_Name_197,H001,Neurologist,11,False,+91 9890683906
+D0759,Dr_Name_759,H001,Neurologist,23,True,+91 9811135982
+D1026,Dr_Name_1026,H001,Orthopedic Surgeon,13,False,+91 9840033905
+D1031,Dr_Name_1031,H001,Oncologist,22,True,+91 9843875271
+D1058,Dr_Name_1058,H001,Pediatrician,6,True,+91 9891650533
+D1119,Dr_Name_1119,H001,Cardiologist,18,True,+91 9850998106
+D0266,Dr_Name_266,H002,Gastroenterologist,7,True,+91 9896267144
+D0666,Dr_Name_666,H002,General Physician,28,True,+91 9846960684
+D0847,Dr_Name_847,H002,Orthopedic Surgeon,22,True,+91 9866882385
+D0986,Dr_Name_986,H002,Oncologist,15,True,+91 9860529679
+D1240,Dr_Name_1240,H002,Pediatrician,28,True,+91 9856802956
+D1326,Dr_Name_1326,H002,Oncologist,20,True,+91 9871605671
+D1381,Dr_Name_1381,H002,Orthopedic Surgeon,9,True,+91 9843822694
+D1438,Dr_Name_1438,H002,General Physician,22,True,+91 9839287523
+D1707,Dr_Name_1707,H002,Pediatrician,27,True,+91 9872639147
+D1761,Dr_Name_1761,H002,Oncologist,23,True,+91 9850553227
+D0504,Dr_Name_504,H003,Oncologist,15,True,+91 9879878835
+D0554,Dr_Name_554,H003,Neurologist,8,True,+91 9893698993
+D0573,Dr_Name_573,H003,Cardiologist,9,True,+91 9863304911
+D0896,Dr_Name_896,H003,Cardiologist,14,True,+91 9888448538
+D1183,Dr_Name_1183,H003,Pediatrician,8,True,+91 9823732098
+D1376,Dr_Name_1376,H003,Gastroenterologist,27,True,+91 9810986174
+D1408,Dr_Name_1408,H003,Pediatrician,15,True,+91 9878654208
+D1776,Dr_Name_1776,H003,Pediatrician,19,False,+91 9898899843
+D1797,Dr_Name_1797,H003,Pulmonologist,15,False,+91 9860228268
+D1856,Dr_Name_1856,H003,General Physician,1,False,+91 9885357498
+D1919,Dr_Name_1919,H003,Pulmonologist,2,True,+91 9896884788
+D0301,Dr_Name_301,H004,Gastroenterologist,5,True,+91 9889694801
+D0467,Dr_Name_467,H004,Pulmonologist,9,True,+91 9891745321
+D0541,Dr_Name_541,H004,Gastroenterologist,11,False,+91 9847940248
+D0728,Dr_Name_728,H004,Gastroenterologist,23,True,+91 9850060760
+D0947,Dr_Name_947,H004,Neurologist,22,False,+91 9824509544
+D1551,Dr_Name_1551,H004,Orthopedic Surgeon,19,False,+91 9874657836
+D1552,Dr_Name_1552,H004,Orthopedic Surgeon,7,True,+91 9818568064
+D1846,Dr_Name_1846,H004,Cardiologist,11,True,+91 9855135227
+D1854,Dr_Name_1854,H004,Cardiologist,12,True,+91 9847108953
+D1902,Dr_Name_1902,H004,Orthopedic Surgeon,24,True,+91 9895979171
+D1945,Dr_Name_1945,H004,Neurologist,25,True,+91 9853639158
+D0042,Dr_Name_42,H005,Orthopedic Surgeon,9,True,+91 9847162866
+D0057,Dr_Name_57,H005,Pulmonologist,25,False,+91 9845050544
+D0277,Dr_Name_277,H005,Pulmonologist,14,False,+91 9898062882
+D0557,Dr_Name_557,H005,Cardiologist,26,True,+91 9897438349
+D0558,Dr_Name_558,H005,Pulmonologist,5,True,+91 9850103064
+D0598,Dr_Name_598,H005,General Physician,8,True,+91 9835281262
+D1006,Dr_Name_1006,H005,Gastroenterologist,28,True,+91 9830123169
+D1098,Dr_Name_1098,H005,Pediatrician,27,True,+91 9879429969
+D1364,Dr_Name_1364,H005,Neurologist,17,True,+91 9842252798
+D1416,Dr_Name_1416,H005,Pulmonologist,22,False,+91 9817620167
+D1529,Dr_Name_1529,H005,Orthopedic Surgeon,28,False,+91 9890535106
+D1673,Dr_Name_1673,H005,Cardiologist,17,True,+91 9864237172
+D1674,Dr_Name_1674,H005,Cardiologist,2,False,+91 9898654879
+D1796,Dr_Name_1796,H005,Orthopedic Surgeon,15,True,+91 9852894071
+D1941,Dr_Name_1941,H005,Gastroenterologist,24,True,+91 9828781020
+D0556,Dr_Name_556,H006,General Physician,26,False,+91 9813416548
+D0629,Dr_Name_629,H006,General Physician,13,True,+91 9897966375
+D0754,Dr_Name_754,H006,Oncologist,23,True,+91 9876756250
+D0873,Dr_Name_873,H006,Oncologist,19,False,+91 9849675382
+D0965,Dr_Name_965,H006,Orthopedic Surgeon,1,True,+91 9844819604
+D1448,Dr_Name_1448,H006,Pulmonologist,3,True,+91 9866178935
+D0252,Dr_Name_252,H007,General Physician,28,True,+91 9864304344
+D0254,Dr_Name_254,H007,Oncologist,5,True,+91 9862113377
+D0438,Dr_Name_438,H007,Oncologist,7,True,+91 9814740436
+D0650,Dr_Name_650,H007,Orthopedic Surgeon,26,True,+91 9888252116
+D0715,Dr_Name_715,H007,Pediatrician,22,False,+91 9886778235
+D0888,Dr_Name_888,H007,Pulmonologist,21,False,+91 9835489981
+D1247,Dr_Name_1247,H007,Oncologist,1,True,+91 9856059101
+D1265,Dr_Name_1265,H007,Cardiologist,24,True,+91 9839845082
+D1329,Dr_Name_1329,H007,Pulmonologist,15,True,+91 9881757508
+D1468,Dr_Name_1468,H007,General Physician,17,True,+91 9895672999
+D1547,Dr_Name_1547,H007,Oncologist,8,False,+91 9873852097
+D1569,Dr_Name_1569,H007,Gastroenterologist,13,False,+91 9858116670
+D1995,Dr_Name_1995,H007,Oncologist,21,True,+91 9878090647
+D0209,Dr_Name_209,H008,Oncologist,24,True,+91 9850291467
+D0225,Dr_Name_225,H008,Neurologist,29,True,+91 9832815223
+D0236,Dr_Name_236,H008,Oncologist,9,True,+91 9898263548
+D0411,Dr_Name_411,H008,General Physician,3,True,+91 9884926784
+D0780,Dr_Name_780,H008,General Physician,27,True,+91 9834311643
+D0879,Dr_Name_879,H008,Oncologist,23,False,+91 9849431028
+D0979,Dr_Name_979,H008,Gastroenterologist,18,True,+91 9823100061
+D1029,Dr_Name_1029,H008,General Physician,26,True,+91 9873187139
+D1091,Dr_Name_1091,H008,Orthopedic Surgeon,15,True,+91 9827172371
+D1094,Dr_Name_1094,H008,Orthopedic Surgeon,24,True,+91 9844715663
+D1369,Dr_Name_1369,H008,Orthopedic Surgeon,5,True,+91 9885031958
+D1387,Dr_Name_1387,H008,General Physician,28,True,+91 9834571018
+D1633,Dr_Name_1633,H008,Cardiologist,10,True,+91 9855047826
+D1649,Dr_Name_1649,H008,Pulmonologist,10,True,+91 9897836731
+D1677,Dr_Name_1677,H008,Cardiologist,10,False,+91 9821985619
+D0295,Dr_Name_295,H009,Oncologist,13,True,+91 9839830361
+D0562,Dr_Name_562,H009,Cardiologist,26,True,+91 9857685330
+D0595,Dr_Name_595,H009,Gastroenterologist,22,True,+91 9839974566
+D0803,Dr_Name_803,H009,Pediatrician,15,False,+91 9851216287
+D0872,Dr_Name_872,H009,Neurologist,3,True,+91 9866434872
+D1182,Dr_Name_1182,H009,Cardiologist,21,True,+91 9854468633
+D1281,Dr_Name_1281,H009,Pediatrician,8,True,+91 9859886371
+D0041,Dr_Name_41,H010,Pediatrician,28,False,+91 9844971668
+D0215,Dr_Name_215,H010,General Physician,23,True,+91 9888593968
+D0427,Dr_Name_427,H010,Pulmonologist,15,True,+91 9849466873
+D0496,Dr_Name_496,H010,General Physician,18,True,+91 9872244897
+D1016,Dr_Name_1016,H010,Orthopedic Surgeon,27,True,+91 9825808361
+D1022,Dr_Name_1022,H010,Cardiologist,17,True,+91 9873154349
+D1283,Dr_Name_1283,H010,Pediatrician,19,True,+91 9817204398
+D1480,Dr_Name_1480,H010,Cardiologist,18,True,+91 9895147289
+D1531,Dr_Name_1531,H010,General Physician,4,False,+91 9888326059
+D1627,Dr_Name_1627,H010,Pediatrician,18,True,+91 9887888306
+D1702,Dr_Name_1702,H010,Orthopedic Surgeon,4,True,+91 9893302863
+D1718,Dr_Name_1718,H010,Cardiologist,12,True,+91 9819558414
+D1804,Dr_Name_1804,H010,Neurologist,5,True,+91 9873380252
+D0074,Dr_Name_74,H011,Gastroenterologist,20,True,+91 9836111227
+D0109,Dr_Name_109,H011,General Physician,10,True,+91 9877172936
+D0271,Dr_Name_271,H011,Neurologist,4,True,+91 9826081422
+D0355,Dr_Name_355,H011,Oncologist,15,True,+91 9861226775
+D0357,Dr_Name_357,H011,Pediatrician,23,True,+91 9881113720
+D0535,Dr_Name_535,H011,Oncologist,28,True,+91 9850044631
+D0584,Dr_Name_584,H011,Oncologist,4,False,+91 9865446317
+D0823,Dr_Name_823,H011,Cardiologist,12,True,+91 9817256074
+D0829,Dr_Name_829,H011,Pediatrician,28,True,+91 9830237141
+D1175,Dr_Name_1175,H011,Pediatrician,7,True,+91 9828436852
+D1320,Dr_Name_1320,H011,General Physician,17,True,+91 9836883353
+D1535,Dr_Name_1535,H011,General Physician,13,False,+91 9855992373
+D1717,Dr_Name_1717,H011,Gastroenterologist,28,True,+91 9864920799
+D0333,Dr_Name_333,H012,Cardiologist,29,False,+91 9886424055
+D0395,Dr_Name_395,H012,Neurologist,23,True,+91 9871414198
+D0407,Dr_Name_407,H012,Cardiologist,15,True,+91 9829223220
+D0419,Dr_Name_419,H012,Pediatrician,2,False,+91 9852464268
+D0668,Dr_Name_668,H012,General Physician,14,True,+91 9834207075
+D0699,Dr_Name_699,H012,Gastroenterologist,10,False,+91 9820846331
+D0770,Dr_Name_770,H012,Oncologist,17,True,+91 9875441993
+D0902,Dr_Name_902,H012,Gastroenterologist,26,True,+91 9854644768
+D0904,Dr_Name_904,H012,Oncologist,27,True,+91 9894695784
+D0971,Dr_Name_971,H012,Gastroenterologist,21,False,+91 9833732951
+D1066,Dr_Name_1066,H012,Oncologist,27,True,+91 9852065724
+D1194,Dr_Name_1194,H012,Neurologist,8,True,+91 9895161010
+D1403,Dr_Name_1403,H012,Orthopedic Surgeon,9,False,+91 9817786452
+D1456,Dr_Name_1456,H012,Oncologist,29,False,+91 9810632635
+D1509,Dr_Name_1509,H012,Pediatrician,29,True,+91 9870673557
+D1742,Dr_Name_1742,H012,Pulmonologist,7,False,+91 9846712288
+D1819,Dr_Name_1819,H012,Pediatrician,7,False,+91 9838102825
+D0481,Dr_Name_481,H013,Orthopedic Surgeon,7,True,+91 9832629881
+D0575,Dr_Name_575,H013,Cardiologist,6,True,+91 9887346846
+D0639,Dr_Name_639,H013,Gastroenterologist,10,True,+91 9831264801
+D0671,Dr_Name_671,H013,Oncologist,6,True,+91 9875709924
+D1138,Dr_Name_1138,H013,General Physician,9,True,+91 9821816709
+D1359,Dr_Name_1359,H013,Cardiologist,8,False,+91 9827368573
+D1588,Dr_Name_1588,H013,Gastroenterologist,5,True,+91 9892474074
+D1709,Dr_Name_1709,H013,Orthopedic Surgeon,27,True,+91 9868211760
+D1760,Dr_Name_1760,H013,Pediatrician,27,True,+91 9895025258
+D1812,Dr_Name_1812,H013,Pediatrician,29,True,+91 9867634397
+D0294,Dr_Name_294,H014,General Physician,3,True,+91 9864142556
+D0435,Dr_Name_435,H014,Orthopedic Surgeon,24,True,+91 9867582820
+D0451,Dr_Name_451,H014,Oncologist,17,True,+91 9874075580
+D0708,Dr_Name_708,H014,Neurologist,17,False,+91 9861447859
+D0901,Dr_Name_901,H014,Orthopedic Surgeon,12,True,+91 9810626681
+D0984,Dr_Name_984,H014,Neurologist,15,False,+91 9815063406
+D0996,Dr_Name_996,H014,Oncologist,27,True,+91 9881643088
+D1019,Dr_Name_1019,H014,Pulmonologist,13,True,+91 9836764927
+D1470,Dr_Name_1470,H014,Gastroenterologist,25,False,+91 9860076822
+D1488,Dr_Name_1488,H014,Pediatrician,7,True,+91 9811889398
+D1572,Dr_Name_1572,H014,Orthopedic Surgeon,6,True,+91 9853246714
+D1820,Dr_Name_1820,H014,Oncologist,4,False,+91 9881274148
+D1855,Dr_Name_1855,H014,Neurologist,17,True,+91 9835578773
+D1974,Dr_Name_1974,H014,Pulmonologist,22,False,+91 9812404661
+D0025,Dr_Name_25,H015,Neurologist,20,True,+91 9810553491
+D0054,Dr_Name_54,H015,Pediatrician,3,True,+91 9894112495
+D0465,Dr_Name_465,H015,Neurologist,22,False,+91 9843396474
+D0732,Dr_Name_732,H015,Pulmonologist,3,True,+91 9840368869
+D0763,Dr_Name_763,H015,Neurologist,5,True,+91 9856217844
+D0772,Dr_Name_772,H015,Pulmonologist,20,True,+91 9851888314
+D0797,Dr_Name_797,H015,Neurologist,22,True,+91 9827304799
+D1199,Dr_Name_1199,H015,General Physician,11,True,+91 9823785264
+D1219,Dr_Name_1219,H015,General Physician,5,True,+91 9861479273
+D1282,Dr_Name_1282,H015,Gastroenterologist,10,True,+91 9877556678
+D1719,Dr_Name_1719,H015,Gastroenterologist,13,True,+91 9889010042
+D0428,Dr_Name_428,H016,Cardiologist,13,True,+91 9851086072
+D0472,Dr_Name_472,H016,Oncologist,25,True,+91 9832417070
+D0493,Dr_Name_493,H016,Cardiologist,14,True,+91 9818762675
+D1429,Dr_Name_1429,H016,Orthopedic Surgeon,22,False,+91 9816136213
+D0146,Dr_Name_146,H017,Pulmonologist,18,True,+91 9850024028
+D0318,Dr_Name_318,H017,Cardiologist,23,False,+91 9849034245
+D0380,Dr_Name_380,H017,Pulmonologist,19,False,+91 9871193393
+D0402,Dr_Name_402,H017,Oncologist,24,True,+91 9879831928
+D0450,Dr_Name_450,H017,Orthopedic Surgeon,17,True,+91 9890043415
+D0675,Dr_Name_675,H017,Neurologist,27,True,+91 9880345879
+D0698,Dr_Name_698,H017,Orthopedic Surgeon,29,True,+91 9855343466
+D0800,Dr_Name_800,H017,Pulmonologist,7,True,+91 9868205561
+D1555,Dr_Name_1555,H017,Pulmonologist,25,True,+91 9827956913
+D1617,Dr_Name_1617,H017,Neurologist,13,False,+91 9856000822
+D1659,Dr_Name_1659,H017,Pulmonologist,3,True,+91 9875790669
+D1720,Dr_Name_1720,H017,Neurologist,11,True,+91 9858217837
+D1851,Dr_Name_1851,H017,Cardiologist,26,True,+91 9835290114
+D0196,Dr_Name_196,H018,Pediatrician,1,True,+91 9832130289
+D0483,Dr_Name_483,H018,Neurologist,29,True,+91 9864142310
+D0771,Dr_Name_771,H018,Gastroenterologist,10,True,+91 9812566878
+D0816,Dr_Name_816,H018,Oncologist,18,True,+91 9840657783
+D0973,Dr_Name_973,H018,Oncologist,2,False,+91 9840107903
+D1744,Dr_Name_1744,H018,Gastroenterologist,20,False,+91 9827610141
+D0195,Dr_Name_195,H019,Pediatrician,26,True,+91 9838345472
+D0396,Dr_Name_396,H019,Orthopedic Surgeon,15,True,+91 9812941149
+D1148,Dr_Name_1148,H019,Oncologist,9,False,+91 9889147232
+D1223,Dr_Name_1223,H019,Orthopedic Surgeon,22,True,+91 9877730769
+D1297,Dr_Name_1297,H019,Neurologist,12,True,+91 9832680748
+D1341,Dr_Name_1341,H019,General Physician,5,True,+91 9826530521
+D1779,Dr_Name_1779,H019,General Physician,13,True,+91 9859203071
+D1884,Dr_Name_1884,H019,Pediatrician,22,False,+91 9897314051
+D0276,Dr_Name_276,H020,Orthopedic Surgeon,3,True,+91 9815014834
+D0564,Dr_Name_564,H020,Pediatrician,17,True,+91 9860357475
+D0950,Dr_Name_950,H020,Cardiologist,11,True,+91 9895942441
+D1028,Dr_Name_1028,H020,Cardiologist,28,False,+91 9844331441
+D1055,Dr_Name_1055,H020,General Physician,23,True,+91 9881770706
+D1067,Dr_Name_1067,H020,Gastroenterologist,29,True,+91 9893635734
+D1479,Dr_Name_1479,H020,Pulmonologist,27,True,+91 9816521231
+D1517,Dr_Name_1517,H020,Gastroenterologist,13,True,+91 9889715138
+D1825,Dr_Name_1825,H020,Orthopedic Surgeon,21,True,+91 9816437132
+D1836,Dr_Name_1836,H020,Neurologist,24,False,+91 9898848098
+D1850,Dr_Name_1850,H020,Pediatrician,7,False,+91 9824510741
+D0749,Dr_Name_749,H021,Cardiologist,11,True,+91 9897720360
+D0815,Dr_Name_815,H021,General Physician,20,False,+91 9812649695
+D0975,Dr_Name_975,H021,Cardiologist,22,True,+91 9816473999
+D1208,Dr_Name_1208,H021,Gastroenterologist,28,True,+91 9825541047
+D1221,Dr_Name_1221,H021,Cardiologist,20,True,+91 9865938669
+D1278,Dr_Name_1278,H021,Cardiologist,9,True,+91 9869634854
+D1611,Dr_Name_1611,H021,Orthopedic Surgeon,1,True,+91 9861036796
+D1630,Dr_Name_1630,H021,Neurologist,9,True,+91 9826588648
+D1662,Dr_Name_1662,H021,Pulmonologist,2,True,+91 9883454998
+D1991,Dr_Name_1991,H021,Oncologist,16,True,+91 9843921959
+D0300,Dr_Name_300,H022,Gastroenterologist,4,True,+91 9873672398
+D0692,Dr_Name_692,H022,Oncologist,27,True,+91 9830552371
+D0705,Dr_Name_705,H022,Neurologist,16,True,+91 9837581060
+D0742,Dr_Name_742,H022,Gastroenterologist,29,True,+91 9894598956
+D0893,Dr_Name_893,H022,Gastroenterologist,10,True,+91 9811248835
+D1729,Dr_Name_1729,H022,Pulmonologist,26,True,+91 9850415166
+D1757,Dr_Name_1757,H022,Oncologist,10,False,+91 9866488410
+D1770,Dr_Name_1770,H022,Oncologist,16,False,+91 9898807116
+D0005,Dr_Name_5,H023,Oncologist,22,True,+91 9823553285
+D0080,Dr_Name_80,H023,Gastroenterologist,19,True,+91 9898916958
+D0655,Dr_Name_655,H023,Neurologist,28,True,+91 9879834723
+D1152,Dr_Name_1152,H023,Pulmonologist,12,False,+91 9846235719
+D1411,Dr_Name_1411,H023,Gastroenterologist,20,True,+91 9893590502
+D1780,Dr_Name_1780,H023,Neurologist,11,True,+91 9891286864
+D0286,Dr_Name_286,H024,Oncologist,29,True,+91 9828409776
+D0769,Dr_Name_769,H024,Gastroenterologist,22,True,+91 9866213840
+D0791,Dr_Name_791,H024,Oncologist,9,True,+91 9824081350
+D0944,Dr_Name_944,H024,Gastroenterologist,24,True,+91 9878663747
+D1338,Dr_Name_1338,H024,Orthopedic Surgeon,24,True,+91 9892906016
+D1838,Dr_Name_1838,H024,Pulmonologist,16,True,+91 9825802066
+D1862,Dr_Name_1862,H024,Gastroenterologist,21,False,+91 9847944260
+D1950,Dr_Name_1950,H024,Pulmonologist,12,False,+91 9825302505
+D0138,Dr_Name_138,H025,Pulmonologist,13,True,+91 9824262473
+D0154,Dr_Name_154,H025,Oncologist,25,True,+91 9876805406
+D0298,Dr_Name_298,H025,Pulmonologist,19,True,+91 9836661903
+D0386,Dr_Name_386,H025,Orthopedic Surgeon,19,True,+91 9891738839
+D0417,Dr_Name_417,H025,Cardiologist,29,True,+91 9836809908
+D0597,Dr_Name_597,H025,Neurologist,8,True,+91 9845298445
+D0768,Dr_Name_768,H025,Pediatrician,4,True,+91 9880215481
+D0906,Dr_Name_906,H025,Neurologist,18,True,+91 9837068117
+D1216,Dr_Name_1216,H025,Pulmonologist,2,True,+91 9858039455
+D1481,Dr_Name_1481,H025,Pulmonologist,18,True,+91 9864996550
+D1483,Dr_Name_1483,H025,General Physician,17,False,+91 9849641367
+D1498,Dr_Name_1498,H025,Oncologist,3,False,+91 9831524980
+D1504,Dr_Name_1504,H025,Pediatrician,16,False,+91 9815288944
+D1786,Dr_Name_1786,H025,General Physician,20,False,+91 9883569939
+D0069,Dr_Name_69,H026,Cardiologist,7,True,+91 9876619601
+D0352,Dr_Name_352,H026,Pediatrician,22,True,+91 9837876214
+D0424,Dr_Name_424,H026,General Physician,2,False,+91 9874513622
+D0432,Dr_Name_432,H026,Cardiologist,29,False,+91 9854372866
+D0725,Dr_Name_725,H026,Cardiologist,18,True,+91 9841474764
+D0978,Dr_Name_978,H026,Gastroenterologist,16,True,+91 9810367488
+D1056,Dr_Name_1056,H026,Pediatrician,8,True,+91 9811711195
+D1109,Dr_Name_1109,H026,Cardiologist,7,False,+91 9821945758
+D1185,Dr_Name_1185,H026,General Physician,24,True,+91 9824821786
+D1280,Dr_Name_1280,H026,Neurologist,20,False,+91 9887061479
+D1601,Dr_Name_1601,H026,General Physician,4,True,+91 9899794603
+D0071,Dr_Name_71,H027,Pulmonologist,29,True,+91 9876317520
+D0327,Dr_Name_327,H027,Oncologist,26,True,+91 9830017834
+D0743,Dr_Name_743,H027,General Physician,29,True,+91 9822090691
+D0773,Dr_Name_773,H027,Gastroenterologist,6,True,+91 9878679929
+D0782,Dr_Name_782,H027,Oncologist,22,True,+91 9820072800
+D1230,Dr_Name_1230,H027,Oncologist,20,True,+91 9823594977
+D1366,Dr_Name_1366,H027,Oncologist,23,True,+91 9844345256
+D1764,Dr_Name_1764,H027,Cardiologist,20,False,+91 9896481420
+D0612,Dr_Name_612,H028,Pulmonologist,26,False,+91 9841025808
+D1003,Dr_Name_1003,H028,Gastroenterologist,12,True,+91 9871304112
+D1035,Dr_Name_1035,H028,Oncologist,8,False,+91 9849731424
+D1631,Dr_Name_1631,H028,Pulmonologist,9,True,+91 9845450260
+D1670,Dr_Name_1670,H028,Pulmonologist,13,False,+91 9872314252
+D0106,Dr_Name_106,H029,Oncologist,19,True,+91 9816721650
+D0161,Dr_Name_161,H029,Pediatrician,9,True,+91 9823396125
+D0189,Dr_Name_189,H029,Gastroenterologist,2,False,+91 9833448079
+D0263,Dr_Name_263,H029,Gastroenterologist,13,True,+91 9815294153
+D0304,Dr_Name_304,H029,Orthopedic Surgeon,12,True,+91 9848999266
+D0353,Dr_Name_353,H029,Pediatrician,9,True,+91 9858347193
+D0489,Dr_Name_489,H029,Oncologist,15,False,+91 9851970837
+D0589,Dr_Name_589,H029,Neurologist,10,True,+91 9867176108
+D0711,Dr_Name_711,H029,Cardiologist,11,True,+91 9825555976
+D0716,Dr_Name_716,H029,General Physician,11,True,+91 9822750478
+D0727,Dr_Name_727,H029,Orthopedic Surgeon,4,True,+91 9816159129
+D0734,Dr_Name_734,H029,Cardiologist,16,False,+91 9811298197
+D1057,Dr_Name_1057,H029,Orthopedic Surgeon,25,True,+91 9828574987
+D1072,Dr_Name_1072,H029,Neurologist,21,True,+91 9899034004
+D1625,Dr_Name_1625,H029,General Physician,14,True,+91 9896865529
+D1759,Dr_Name_1759,H029,Orthopedic Surgeon,5,True,+91 9832885770
+D1762,Dr_Name_1762,H029,Pediatrician,20,True,+91 9854112109
+D0192,Dr_Name_192,H030,General Physician,29,True,+91 9857986515
+D1385,Dr_Name_1385,H030,Cardiologist,1,False,+91 9868749047
+D1410,Dr_Name_1410,H030,General Physician,23,True,+91 9893457527
+D1421,Dr_Name_1421,H030,General Physician,1,True,+91 9846011877
+D1782,Dr_Name_1782,H030,Neurologist,29,False,+91 9822475714
+D1878,Dr_Name_1878,H030,Neurologist,3,True,+91 9860012498
+D0102,Dr_Name_102,H031,Pediatrician,2,True,+91 9855999465
+D0329,Dr_Name_329,H031,General Physician,16,False,+91 9834544318
+D0654,Dr_Name_654,H031,Pulmonologist,1,True,+91 9825278272
+D1014,Dr_Name_1014,H031,Cardiologist,7,True,+91 9863791447
+D1121,Dr_Name_1121,H031,Orthopedic Surgeon,7,True,+91 9863720675
+D1394,Dr_Name_1394,H031,Orthopedic Surgeon,26,False,+91 9871275585
+D1515,Dr_Name_1515,H031,Pediatrician,3,True,+91 9846484819
+D1528,Dr_Name_1528,H031,Neurologist,16,True,+91 9861769856
+D1961,Dr_Name_1961,H031,Cardiologist,5,True,+91 9874188958
+D0187,Dr_Name_187,H032,Gastroenterologist,11,True,+91 9866604960
+D0214,Dr_Name_214,H032,General Physician,1,True,+91 9897086700
+D0221,Dr_Name_221,H032,Gastroenterologist,14,True,+91 9832384662
+D0242,Dr_Name_242,H032,Pulmonologist,29,False,+91 9825174194
+D0426,Dr_Name_426,H032,Gastroenterologist,16,False,+91 9827785402
+D0738,Dr_Name_738,H032,Cardiologist,10,True,+91 9817871385
+D0822,Dr_Name_822,H032,General Physician,15,True,+91 9831393688
+D0917,Dr_Name_917,H032,Oncologist,8,True,+91 9823920137
+D1345,Dr_Name_1345,H032,Oncologist,16,False,+91 9865838294
+D1427,Dr_Name_1427,H032,Gastroenterologist,15,True,+91 9889289163
+D1510,Dr_Name_1510,H032,Oncologist,17,True,+91 9874783521
+D1714,Dr_Name_1714,H032,General Physician,23,False,+91 9886362294
+D1715,Dr_Name_1715,H032,Oncologist,14,True,+91 9868809216
+D1732,Dr_Name_1732,H032,Oncologist,28,True,+91 9834328380
+D1739,Dr_Name_1739,H032,Orthopedic Surgeon,16,True,+91 9892050405
+D0028,Dr_Name_28,H033,Gastroenterologist,18,True,+91 9860969286
+D0037,Dr_Name_37,H033,Orthopedic Surgeon,2,False,+91 9858130331
+D0370,Dr_Name_370,H033,Pulmonologist,5,True,+91 9892055138
+D0628,Dr_Name_628,H033,Pulmonologist,1,False,+91 9813867648
+D0718,Dr_Name_718,H033,Pulmonologist,16,True,+91 9827536261
+D0825,Dr_Name_825,H033,Oncologist,22,True,+91 9874837853
+D0848,Dr_Name_848,H033,Neurologist,20,True,+91 9875514730
+D1118,Dr_Name_1118,H033,Cardiologist,22,True,+91 9825158211
+D1485,Dr_Name_1485,H033,Cardiologist,14,True,+91 9865201639
+D0317,Dr_Name_317,H034,Pulmonologist,13,True,+91 9869148126
+D0479,Dr_Name_479,H034,Pediatrician,22,True,+91 9816170301
+D1101,Dr_Name_1101,H034,Orthopedic Surgeon,14,True,+91 9818500820
+D1224,Dr_Name_1224,H034,Pulmonologist,26,True,+91 9845113084
+D1603,Dr_Name_1603,H034,Orthopedic Surgeon,9,True,+91 9897909064
+D1632,Dr_Name_1632,H034,Neurologist,23,True,+91 9852176303
+D0136,Dr_Name_136,H035,Cardiologist,4,True,+91 9811658959
+D0238,Dr_Name_238,H035,Oncologist,24,True,+91 9880439867
+D0388,Dr_Name_388,H035,Orthopedic Surgeon,2,True,+91 9887396519
+D0931,Dr_Name_931,H035,General Physician,7,False,+91 9885834657
+D1060,Dr_Name_1060,H035,Neurologist,3,True,+91 9840062746
+D1172,Dr_Name_1172,H035,Pulmonologist,10,True,+91 9899904987
+D1233,Dr_Name_1233,H035,Gastroenterologist,9,True,+91 9855405943
+D1328,Dr_Name_1328,H035,Gastroenterologist,29,False,+91 9879672379
+D1383,Dr_Name_1383,H035,Orthopedic Surgeon,16,True,+91 9880209719
+D1462,Dr_Name_1462,H035,General Physician,3,True,+91 9892978636
+D1930,Dr_Name_1930,H035,Cardiologist,25,True,+91 9822783183
+D0068,Dr_Name_68,H036,Gastroenterologist,23,True,+91 9868095862
+D0262,Dr_Name_262,H036,Pulmonologist,25,False,+91 9898813650
+D0350,Dr_Name_350,H036,Gastroenterologist,3,False,+91 9843363439
+D0371,Dr_Name_371,H036,Pediatrician,6,False,+91 9874683506
+D1217,Dr_Name_1217,H036,Oncologist,6,False,+91 9856405710
+D1261,Dr_Name_1261,H036,Gastroenterologist,27,True,+91 9899081734
+D1348,Dr_Name_1348,H036,General Physician,23,True,+91 9896087848
+D1391,Dr_Name_1391,H036,Oncologist,12,True,+91 9861657265
+D1432,Dr_Name_1432,H036,Gastroenterologist,13,True,+91 9829952062
+D1692,Dr_Name_1692,H036,Neurologist,25,False,+91 9884939694
+D1964,Dr_Name_1964,H036,Orthopedic Surgeon,14,False,+91 9892263926
+D0097,Dr_Name_97,H037,Pulmonologist,9,True,+91 9817323740
+D0278,Dr_Name_278,H037,Pulmonologist,6,True,+91 9811562947
+D0307,Dr_Name_307,H037,General Physician,24,True,+91 9896355513
+D0459,Dr_Name_459,H037,Oncologist,21,True,+91 9831062435
+D0512,Dr_Name_512,H037,Orthopedic Surgeon,17,False,+91 9877856130
+D0525,Dr_Name_525,H037,Pediatrician,3,True,+91 9872986894
+D0609,Dr_Name_609,H037,Pulmonologist,15,True,+91 9876549837
+D0691,Dr_Name_691,H037,Oncologist,16,True,+91 9832200132
+D0924,Dr_Name_924,H037,General Physician,11,True,+91 9820048242
+D0946,Dr_Name_946,H037,Orthopedic Surgeon,23,True,+91 9875987872
+D0988,Dr_Name_988,H037,Pediatrician,23,True,+91 9853034742
+D1054,Dr_Name_1054,H037,Gastroenterologist,8,True,+91 9842331952
+D1197,Dr_Name_1197,H037,Pulmonologist,3,True,+91 9854411953
+D1293,Dr_Name_1293,H037,Gastroenterologist,3,True,+91 9847333618
+D1315,Dr_Name_1315,H037,Cardiologist,3,True,+91 9816757958
+D1840,Dr_Name_1840,H037,Cardiologist,14,True,+91 9878038903
+D0032,Dr_Name_32,H038,Cardiologist,8,True,+91 9839891163
+D0047,Dr_Name_47,H038,Oncologist,9,True,+91 9883886264
+D0077,Dr_Name_77,H038,Orthopedic Surgeon,22,True,+91 9896344588
+D0141,Dr_Name_141,H038,Oncologist,6,True,+91 9860819877
+D0602,Dr_Name_602,H038,Oncologist,13,True,+91 9864126921
+D1080,Dr_Name_1080,H038,Pulmonologist,10,True,+91 9841541166
+D1430,Dr_Name_1430,H038,Oncologist,6,True,+91 9820580463
+D1680,Dr_Name_1680,H038,Pulmonologist,27,True,+91 9871618633
+D1844,Dr_Name_1844,H038,General Physician,24,True,+91 9869618021
+D0015,Dr_Name_15,H039,Oncologist,22,True,+91 9886911446
+D0361,Dr_Name_361,H039,Orthopedic Surgeon,15,True,+91 9870142774
+D0387,Dr_Name_387,H039,Pediatrician,4,True,+91 9821813825
+D0464,Dr_Name_464,H039,General Physician,25,True,+91 9876901651
+D0487,Dr_Name_487,H039,Pediatrician,9,True,+91 9870004467
+D0530,Dr_Name_530,H039,General Physician,8,True,+91 9852421060
+D0662,Dr_Name_662,H039,Pediatrician,21,True,+91 9825932563
+D0669,Dr_Name_669,H039,Pediatrician,18,False,+91 9876756320
+D0731,Dr_Name_731,H039,Gastroenterologist,26,True,+91 9897694240
+D0966,Dr_Name_966,H039,Oncologist,23,False,+91 9812384932
+D1074,Dr_Name_1074,H039,Gastroenterologist,20,True,+91 9823776553
+D1251,Dr_Name_1251,H039,Pediatrician,8,True,+91 9864148754
+D1741,Dr_Name_1741,H039,General Physician,10,False,+91 9865343143
+D1783,Dr_Name_1783,H039,Pediatrician,4,True,+91 9814809280
+D1947,Dr_Name_1947,H039,Gastroenterologist,2,False,+91 9884776858
+D0107,Dr_Name_107,H040,Orthopedic Surgeon,26,True,+91 9883698792
+D0296,Dr_Name_296,H040,Gastroenterologist,15,False,+91 9810022778
+D0356,Dr_Name_356,H040,Gastroenterologist,5,True,+91 9822199793
+D0379,Dr_Name_379,H040,Neurologist,10,True,+91 9891094790
+D0596,Dr_Name_596,H040,General Physician,16,True,+91 9893089652
+D0616,Dr_Name_616,H040,Neurologist,19,False,+91 9895568918
+D0624,Dr_Name_624,H040,Orthopedic Surgeon,3,False,+91 9850882445
+D0626,Dr_Name_626,H040,Pulmonologist,3,False,+91 9878227936
+D0974,Dr_Name_974,H040,Cardiologist,9,False,+91 9885475000
+D1554,Dr_Name_1554,H040,Pediatrician,29,True,+91 9837763104
+D0108,Dr_Name_108,H041,Pediatrician,25,True,+91 9897858385
+D0315,Dr_Name_315,H041,Neurologist,24,True,+91 9871231190
+D0832,Dr_Name_832,H041,Oncologist,13,True,+91 9855748676
+D0877,Dr_Name_877,H041,General Physician,17,True,+91 9858767001
+D0898,Dr_Name_898,H041,General Physician,2,True,+91 9817284695
+D0991,Dr_Name_991,H041,Orthopedic Surgeon,17,False,+91 9839919562
+D1954,Dr_Name_1954,H041,General Physician,29,True,+91 9870996586
+D0023,Dr_Name_23,H042,Cardiologist,29,True,+91 9854556611
+D0313,Dr_Name_313,H042,Gastroenterologist,26,True,+91 9885182173
+D0385,Dr_Name_385,H042,Oncologist,28,True,+91 9893182506
+D0982,Dr_Name_982,H042,Pediatrician,8,True,+91 9890524080
+D1259,Dr_Name_1259,H042,Gastroenterologist,6,False,+91 9873502927
+D1333,Dr_Name_1333,H042,Pediatrician,20,True,+91 9898203489
+D1344,Dr_Name_1344,H042,Gastroenterologist,11,True,+91 9858760568
+D1458,Dr_Name_1458,H042,Gastroenterologist,13,False,+91 9870737878
+D1610,Dr_Name_1610,H042,Pulmonologist,22,True,+91 9825303956
+D1612,Dr_Name_1612,H042,Gastroenterologist,20,True,+91 9823077775
+D0070,Dr_Name_70,H043,Pulmonologist,27,True,+91 9898437437
+D1069,Dr_Name_1069,H043,Oncologist,20,True,+91 9839762393
+D1200,Dr_Name_1200,H043,General Physician,24,True,+91 9810294869
+D1524,Dr_Name_1524,H043,Gastroenterologist,15,False,+91 9855816176
+D1653,Dr_Name_1653,H043,Oncologist,14,False,+91 9857665946
+D0398,Dr_Name_398,H044,Pediatrician,19,True,+91 9895048563
+D0919,Dr_Name_919,H044,Gastroenterologist,8,True,+91 9849189370
+D1043,Dr_Name_1043,H044,Cardiologist,21,True,+91 9883509785
+D1198,Dr_Name_1198,H044,General Physician,19,True,+91 9880059652
+D1373,Dr_Name_1373,H044,Oncologist,23,True,+91 9860182714
+D1389,Dr_Name_1389,H044,Gastroenterologist,11,True,+91 9824270328
+D1769,Dr_Name_1769,H044,Pediatrician,22,False,+91 9816144233
+D1982,Dr_Name_1982,H044,Pediatrician,13,False,+91 9832032560
+D0456,Dr_Name_456,H045,Neurologist,3,False,+91 9876091781
+D0617,Dr_Name_617,H045,Pediatrician,26,True,+91 9828850770
+D0641,Dr_Name_641,H045,Cardiologist,21,False,+91 9864923338
+D0652,Dr_Name_652,H045,Cardiologist,20,True,+91 9824356130
+D0824,Dr_Name_824,H045,Cardiologist,8,True,+91 9844130133
+D0907,Dr_Name_907,H045,Pediatrician,6,False,+91 9891987136
+D1011,Dr_Name_1011,H045,Neurologist,18,False,+91 9836296134
+D1085,Dr_Name_1085,H045,Pulmonologist,13,True,+91 9835171649
+D1898,Dr_Name_1898,H045,Cardiologist,10,True,+91 9826206227
+D1984,Dr_Name_1984,H045,Neurologist,20,True,+91 9862733674
+D0083,Dr_Name_83,H046,Pediatrician,15,True,+91 9838935933
+D0112,Dr_Name_112,H046,Neurologist,27,True,+91 9871343676
+D0244,Dr_Name_244,H046,Neurologist,11,True,+91 9835579048
+D0342,Dr_Name_342,H046,Cardiologist,22,False,+91 9855356673
+D0488,Dr_Name_488,H046,Gastroenterologist,13,False,+91 9824464073
+D0533,Dr_Name_533,H046,Cardiologist,4,True,+91 9865629268
+D0672,Dr_Name_672,H046,Pulmonologist,25,True,+91 9816241172
+D0796,Dr_Name_796,H046,Pediatrician,10,True,+91 9894992096
+D0836,Dr_Name_836,H046,General Physician,17,False,+91 9889028889
+D1116,Dr_Name_1116,H046,Oncologist,23,True,+91 9826538199
+D1204,Dr_Name_1204,H046,Oncologist,2,True,+91 9870465703
+D1340,Dr_Name_1340,H046,Cardiologist,26,True,+91 9871389561
+D1750,Dr_Name_1750,H046,Cardiologist,15,False,+91 9898376561
+D1807,Dr_Name_1807,H046,Cardiologist,11,True,+91 9889096676
+D1931,Dr_Name_1931,H046,Gastroenterologist,2,True,+91 9877672253
+D0050,Dr_Name_50,H047,Pulmonologist,17,False,+91 9828070539
+D0059,Dr_Name_59,H047,Pediatrician,16,True,+91 9876951647
+D0081,Dr_Name_81,H047,Orthopedic Surgeon,20,True,+91 9810582186
+D0268,Dr_Name_268,H047,Pediatrician,11,True,+91 9881184297
+D0406,Dr_Name_406,H047,Pediatrician,9,True,+91 9816519170
+D0425,Dr_Name_425,H047,General Physician,29,True,+91 9884252780
+D0560,Dr_Name_560,H047,Oncologist,13,False,+91 9868090825
+D0750,Dr_Name_750,H047,Cardiologist,25,False,+91 9888533572
+D1013,Dr_Name_1013,H047,Pediatrician,23,True,+91 9874818030
+D1111,Dr_Name_1111,H047,Pediatrician,17,True,+91 9878227286
+D1212,Dr_Name_1212,H047,Oncologist,19,True,+91 9833783708
+D1272,Dr_Name_1272,H047,Oncologist,2,True,+91 9887652255
+D1395,Dr_Name_1395,H047,General Physician,13,False,+91 9833306944
+D1895,Dr_Name_1895,H047,Oncologist,29,True,+91 9827231111
+D1904,Dr_Name_1904,H047,Gastroenterologist,22,True,+91 9823898777
+D1907,Dr_Name_1907,H047,General Physician,5,True,+91 9861996696
+D0637,Dr_Name_637,H048,Orthopedic Surgeon,7,True,+91 9898251083
+D1124,Dr_Name_1124,H048,Orthopedic Surgeon,29,True,+91 9890603922
+D1187,Dr_Name_1187,H048,Gastroenterologist,22,False,+91 9891357521
+D1196,Dr_Name_1196,H048,Neurologist,17,True,+91 9853197138
+D1624,Dr_Name_1624,H048,Pulmonologist,23,True,+91 9877660514
+D0167,Dr_Name_167,H049,Pediatrician,17,True,+91 9861628545
+D0179,Dr_Name_179,H049,Pediatrician,23,True,+91 9866192230
+D0190,Dr_Name_190,H049,Neurologist,8,True,+91 9891737749
+D0400,Dr_Name_400,H049,Pediatrician,15,False,+91 9843318046
+D0519,Dr_Name_519,H049,Pediatrician,15,False,+91 9846721417
+D0866,Dr_Name_866,H049,Neurologist,16,True,+91 9863401206
+D0939,Dr_Name_939,H049,General Physician,26,True,+91 9856017729
+D1041,Dr_Name_1041,H049,Cardiologist,24,True,+91 9849483304
+D1171,Dr_Name_1171,H049,Oncologist,8,True,+91 9870779921
+D1290,Dr_Name_1290,H049,Pulmonologist,16,True,+91 9827900864
+D1308,Dr_Name_1308,H049,General Physician,16,False,+91 9828546206
+D1360,Dr_Name_1360,H049,Gastroenterologist,18,True,+91 9865397759
+D1457,Dr_Name_1457,H049,Gastroenterologist,27,True,+91 9890869462
+D1691,Dr_Name_1691,H049,Oncologist,6,False,+91 9878759020
+D1871,Dr_Name_1871,H049,Pulmonologist,26,True,+91 9850119441
+D1937,Dr_Name_1937,H049,Gastroenterologist,1,False,+91 9883525272
+D0707,Dr_Name_707,H050,General Physician,13,True,+91 9852132393
+D0784,Dr_Name_784,H050,Oncologist,24,True,+91 9884300459
+D0953,Dr_Name_953,H050,Cardiologist,5,True,+91 9894903891
+D1071,Dr_Name_1071,H050,Neurologist,9,True,+91 9839171224
+D1295,Dr_Name_1295,H050,General Physician,9,False,+91 9836962876
+D1371,Dr_Name_1371,H050,Cardiologist,13,True,+91 9838147161
+D1765,Dr_Name_1765,H050,Oncologist,25,True,+91 9893774355
+D1918,Dr_Name_1918,H050,Pediatrician,16,False,+91 9849000919
+D0105,Dr_Name_105,H051,Gastroenterologist,1,True,+91 9856344519
+D0233,Dr_Name_233,H051,Pediatrician,1,True,+91 9827806897
+D0348,Dr_Name_348,H051,Neurologist,23,True,+91 9897253117
+D0918,Dr_Name_918,H051,Cardiologist,8,False,+91 9833865616
+D1218,Dr_Name_1218,H051,Cardiologist,23,True,+91 9877631432
+D1671,Dr_Name_1671,H051,Neurologist,7,False,+91 9882811973
+D1927,Dr_Name_1927,H051,Pediatrician,26,True,+91 9895480242
+D0540,Dr_Name_540,H052,Neurologist,27,True,+91 9853269298
+D1086,Dr_Name_1086,H052,Pulmonologist,17,True,+91 9825489430
+D1229,Dr_Name_1229,H052,Neurologist,13,True,+91 9857276557
+D1559,Dr_Name_1559,H052,General Physician,6,True,+91 9885467972
+D1560,Dr_Name_1560,H052,Neurologist,18,True,+91 9874474159
+D1598,Dr_Name_1598,H052,Oncologist,11,False,+91 9888222933
+D1604,Dr_Name_1604,H052,Neurologist,19,True,+91 9886589761
+D0011,Dr_Name_11,H053,Pediatrician,4,False,+91 9899544328
+D0129,Dr_Name_129,H053,Pulmonologist,7,True,+91 9866032939
+D0281,Dr_Name_281,H053,Orthopedic Surgeon,1,False,+91 9881659221
+D0334,Dr_Name_334,H053,Orthopedic Surgeon,9,True,+91 9848376603
+D0779,Dr_Name_779,H053,Orthopedic Surgeon,18,False,+91 9866691738
+D0915,Dr_Name_915,H053,Orthopedic Surgeon,5,False,+91 9811714029
+D1123,Dr_Name_1123,H053,Orthopedic Surgeon,18,True,+91 9880159631
+D0231,Dr_Name_231,H054,Pulmonologist,28,True,+91 9824290224
+D0345,Dr_Name_345,H054,Neurologist,23,True,+91 9813391969
+D0362,Dr_Name_362,H054,Pediatrician,16,True,+91 9861119548
+D0547,Dr_Name_547,H054,Oncologist,2,False,+91 9829505421
+D0559,Dr_Name_559,H054,Orthopedic Surgeon,16,False,+91 9817122263
+D0839,Dr_Name_839,H054,Cardiologist,4,True,+91 9899959993
+D1158,Dr_Name_1158,H054,Pulmonologist,15,True,+91 9817597364
+D1266,Dr_Name_1266,H054,General Physician,12,False,+91 9836830448
+D1484,Dr_Name_1484,H054,General Physician,25,True,+91 9845833216
+D1492,Dr_Name_1492,H054,Neurologist,19,True,+91 9831600382
+D1818,Dr_Name_1818,H054,Oncologist,10,True,+91 9848468887
+D1841,Dr_Name_1841,H054,Cardiologist,7,False,+91 9843629729
+D0123,Dr_Name_123,H055,Gastroenterologist,13,True,+91 9829653285
+D0211,Dr_Name_211,H055,Pediatrician,3,True,+91 9818325904
+D0220,Dr_Name_220,H055,Orthopedic Surgeon,19,True,+91 9849613096
+D0250,Dr_Name_250,H055,Orthopedic Surgeon,4,True,+91 9837380537
+D0364,Dr_Name_364,H055,General Physician,13,True,+91 9882634888
+D0405,Dr_Name_405,H055,Cardiologist,29,True,+91 9814336089
+D0477,Dr_Name_477,H055,Pediatrician,12,True,+91 9858141541
+D0910,Dr_Name_910,H055,General Physician,20,True,+91 9870746206
+D1103,Dr_Name_1103,H055,Pediatrician,8,False,+91 9823754633
+D1396,Dr_Name_1396,H055,Orthopedic Surgeon,27,True,+91 9892692727
+D1401,Dr_Name_1401,H055,Gastroenterologist,28,False,+91 9885414925
+D1447,Dr_Name_1447,H055,Cardiologist,6,True,+91 9840106027
+D1859,Dr_Name_1859,H055,Orthopedic Surgeon,1,True,+91 9896854901
+D0369,Dr_Name_369,H056,Pediatrician,2,True,+91 9885332458
+D0623,Dr_Name_623,H056,Cardiologist,15,True,+91 9862195484
+D0926,Dr_Name_926,H056,Cardiologist,8,False,+91 9841889524
+D1044,Dr_Name_1044,H056,General Physician,3,False,+91 9878574830
+D1256,Dr_Name_1256,H056,Cardiologist,16,True,+91 9848606206
+D1538,Dr_Name_1538,H056,Gastroenterologist,22,True,+91 9899186817
+D1829,Dr_Name_1829,H056,Gastroenterologist,2,True,+91 9816305532
+D0119,Dr_Name_119,H057,Cardiologist,22,True,+91 9861215153
+D0132,Dr_Name_132,H057,Pediatrician,4,True,+91 9862016704
+D0227,Dr_Name_227,H057,General Physician,11,True,+91 9865910573
+D0328,Dr_Name_328,H057,Pediatrician,7,True,+91 9851963706
+D0404,Dr_Name_404,H057,Gastroenterologist,11,False,+91 9884104909
+D0552,Dr_Name_552,H057,Pediatrician,25,True,+91 9817221208
+D1032,Dr_Name_1032,H057,Cardiologist,4,False,+91 9811740164
+D1848,Dr_Name_1848,H057,Oncologist,21,True,+91 9843734435
+D1896,Dr_Name_1896,H057,Orthopedic Surgeon,10,True,+91 9837257905
+D1951,Dr_Name_1951,H057,Cardiologist,5,True,+91 9893290380
+D1960,Dr_Name_1960,H057,Neurologist,14,True,+91 9869467023
+D0653,Dr_Name_653,H058,Pulmonologist,12,True,+91 9840272606
+D0724,Dr_Name_724,H058,Orthopedic Surgeon,24,True,+91 9895065651
+D0760,Dr_Name_760,H058,Neurologist,28,True,+91 9896923747
+D0892,Dr_Name_892,H058,Oncologist,17,True,+91 9859357377
+D1375,Dr_Name_1375,H058,Orthopedic Surgeon,24,True,+91 9888971743
+D1583,Dr_Name_1583,H058,Neurologist,18,True,+91 9883365441
+D1628,Dr_Name_1628,H058,Gastroenterologist,17,True,+91 9890985229
+D1663,Dr_Name_1663,H058,Cardiologist,10,True,+91 9836369633
+D1817,Dr_Name_1817,H058,Pediatrician,9,True,+91 9835970823
+D1879,Dr_Name_1879,H058,Cardiologist,12,False,+91 9849483865
+D0290,Dr_Name_290,H059,Orthopedic Surgeon,28,True,+91 9870238919
+D0421,Dr_Name_421,H059,Cardiologist,13,False,+91 9833813700
+D0443,Dr_Name_443,H059,General Physician,3,True,+91 9819995059
+D0542,Dr_Name_542,H059,Oncologist,2,True,+91 9835095571
+D0635,Dr_Name_635,H059,Oncologist,27,True,+91 9833326387
+D0636,Dr_Name_636,H059,Neurologist,4,True,+91 9878967357
+D0928,Dr_Name_928,H059,Neurologist,24,False,+91 9826019397
+D1062,Dr_Name_1062,H059,Neurologist,3,False,+91 9860626689
+D1725,Dr_Name_1725,H059,Pediatrician,4,False,+91 9815453834
+D0091,Dr_Name_91,H060,Cardiologist,27,True,+91 9867513345
+D0610,Dr_Name_610,H060,Orthopedic Surgeon,16,True,+91 9847461811
+D0689,Dr_Name_689,H060,Orthopedic Surgeon,29,True,+91 9884705402
+D0775,Dr_Name_775,H060,Gastroenterologist,14,True,+91 9845465638
+D0792,Dr_Name_792,H060,General Physician,27,True,+91 9827457234
+D0993,Dr_Name_993,H060,Pulmonologist,8,True,+91 9831599504
+D1168,Dr_Name_1168,H060,Orthopedic Surgeon,12,True,+91 9888381281
+D1299,Dr_Name_1299,H060,Pediatrician,15,True,+91 9844227688
+D1361,Dr_Name_1361,H060,General Physician,10,True,+91 9810757677
+D1454,Dr_Name_1454,H060,Neurologist,15,False,+91 9854367386
+D1519,Dr_Name_1519,H060,Oncologist,26,True,+91 9872589932
+D1526,Dr_Name_1526,H060,Oncologist,8,True,+91 9830777669
+D1623,Dr_Name_1623,H060,Oncologist,12,False,+91 9815360735
+D1869,Dr_Name_1869,H060,Orthopedic Surgeon,12,False,+91 9830629718
+D1957,Dr_Name_1957,H060,Pulmonologist,21,True,+91 9853302669
+D0382,Dr_Name_382,H061,Cardiologist,26,True,+91 9890111922
+D0526,Dr_Name_526,H061,Pulmonologist,19,True,+91 9816825701
+D0566,Dr_Name_566,H061,Neurologist,5,True,+91 9893935292
+D0868,Dr_Name_868,H061,General Physician,21,True,+91 9892625597
+D1916,Dr_Name_1916,H061,Pulmonologist,27,True,+91 9898837400
+D0186,Dr_Name_186,H062,Oncologist,5,True,+91 9850420315
+D0408,Dr_Name_408,H062,Gastroenterologist,1,True,+91 9875840632
+D0491,Dr_Name_491,H062,Pediatrician,11,False,+91 9886863404
+D0536,Dr_Name_536,H062,Cardiologist,20,False,+91 9883841249
+D0571,Dr_Name_571,H062,Gastroenterologist,7,True,+91 9858061434
+D0618,Dr_Name_618,H062,Orthopedic Surgeon,23,False,+91 9819781894
+D0883,Dr_Name_883,H062,Pulmonologist,21,True,+91 9852662313
+D0885,Dr_Name_885,H062,Pediatrician,20,True,+91 9880517332
+D0992,Dr_Name_992,H062,Gastroenterologist,9,True,+91 9839522801
+D1568,Dr_Name_1568,H062,Oncologist,11,True,+91 9834678492
+D1578,Dr_Name_1578,H062,Gastroenterologist,4,True,+91 9879874593
+D0006,Dr_Name_6,H063,Pulmonologist,5,False,+91 9819150490
+D0121,Dr_Name_121,H063,Pulmonologist,2,True,+91 9877798790
+D0137,Dr_Name_137,H063,Neurologist,9,True,+91 9831390345
+D0162,Dr_Name_162,H063,Gastroenterologist,27,True,+91 9865825346
+D0176,Dr_Name_176,H063,Pulmonologist,7,True,+91 9882890984
+D0206,Dr_Name_206,H063,Orthopedic Surgeon,4,True,+91 9882079745
+D0532,Dr_Name_532,H063,Cardiologist,23,True,+91 9864145722
+D0546,Dr_Name_546,H063,Oncologist,28,True,+91 9822340723
+D0687,Dr_Name_687,H063,Orthopedic Surgeon,1,False,+91 9856896070
+D0807,Dr_Name_807,H063,Oncologist,22,False,+91 9839688703
+D1132,Dr_Name_1132,H063,General Physician,23,True,+91 9838635863
+D1565,Dr_Name_1565,H063,Cardiologist,7,True,+91 9899031246
+D1872,Dr_Name_1872,H063,Orthopedic Surgeon,11,False,+91 9854544651
+D1892,Dr_Name_1892,H063,General Physician,6,True,+91 9854434998
+D0343,Dr_Name_343,H064,Pediatrician,5,True,+91 9858425464
+D0767,Dr_Name_767,H064,Cardiologist,18,True,+91 9849402883
+D0813,Dr_Name_813,H064,Oncologist,14,False,+91 9839319229
+D0817,Dr_Name_817,H064,Neurologist,16,True,+91 9892984217
+D1033,Dr_Name_1033,H064,Orthopedic Surgeon,28,True,+91 9881202356
+D1327,Dr_Name_1327,H064,Pediatrician,6,True,+91 9873734252
+D1678,Dr_Name_1678,H064,Cardiologist,18,True,+91 9885341065
+D1801,Dr_Name_1801,H064,Oncologist,4,False,+91 9897147586
+D1935,Dr_Name_1935,H064,Oncologist,28,True,+91 9811181612
+D0226,Dr_Name_226,H065,Cardiologist,6,False,+91 9825397719
+D0502,Dr_Name_502,H065,Pediatrician,6,True,+91 9899783401
+D1162,Dr_Name_1162,H065,Neurologist,14,True,+91 9856440312
+D1419,Dr_Name_1419,H065,Oncologist,15,True,+91 9869816445
+D1489,Dr_Name_1489,H065,Cardiologist,12,True,+91 9842258945
+D1587,Dr_Name_1587,H065,General Physician,9,True,+91 9896203262
+D0040,Dr_Name_40,H066,Orthopedic Surgeon,5,True,+91 9892369566
+D0961,Dr_Name_961,H066,Orthopedic Surgeon,16,True,+91 9893366885
+D1004,Dr_Name_1004,H066,Pediatrician,6,True,+91 9842725927
+D1435,Dr_Name_1435,H066,Neurologist,15,True,+91 9815352233
+D1475,Dr_Name_1475,H066,Orthopedic Surgeon,26,False,+91 9853075436
+D1809,Dr_Name_1809,H066,Gastroenterologist,22,True,+91 9861186964
+D0019,Dr_Name_19,H067,Orthopedic Surgeon,14,True,+91 9825216804
+D0228,Dr_Name_228,H067,Cardiologist,25,False,+91 9861791391
+D0232,Dr_Name_232,H067,Pediatrician,28,True,+91 9844439001
+D0587,Dr_Name_587,H067,Pediatrician,21,True,+91 9882509424
+D0622,Dr_Name_622,H067,Orthopedic Surgeon,25,True,+91 9847960665
+D1332,Dr_Name_1332,H067,General Physician,14,True,+91 9813315946
+D1372,Dr_Name_1372,H067,Pulmonologist,21,True,+91 9879372824
+D1441,Dr_Name_1441,H067,Cardiologist,17,True,+91 9860326016
+D1466,Dr_Name_1466,H067,Cardiologist,22,True,+91 9879029393
+D0060,Dr_Name_60,H068,Pediatrician,2,False,+91 9878281335
+D0094,Dr_Name_94,H068,Orthopedic Surgeon,1,True,+91 9869801634
+D0509,Dr_Name_509,H068,Gastroenterologist,28,False,+91 9875337822
+D0580,Dr_Name_580,H068,Orthopedic Surgeon,23,True,+91 9815885670
+D0696,Dr_Name_696,H068,Orthopedic Surgeon,29,False,+91 9849786693
+D1142,Dr_Name_1142,H068,Gastroenterologist,21,False,+91 9897446634
+D1220,Dr_Name_1220,H068,Neurologist,19,True,+91 9835838575
+D1294,Dr_Name_1294,H068,Orthopedic Surgeon,12,True,+91 9852991650
+D1342,Dr_Name_1342,H068,Pediatrician,6,True,+91 9878973779
+D1506,Dr_Name_1506,H068,Pulmonologist,8,False,+91 9821052218
+D1694,Dr_Name_1694,H068,Pulmonologist,11,True,+91 9822879054
+D0072,Dr_Name_72,H069,Pulmonologist,15,True,+91 9832467350
+D0368,Dr_Name_368,H069,Gastroenterologist,21,True,+91 9882205759
+D0989,Dr_Name_989,H069,Oncologist,7,True,+91 9881565674
+D1063,Dr_Name_1063,H069,Pediatrician,27,True,+91 9810983894
+D1125,Dr_Name_1125,H069,Gastroenterologist,14,True,+91 9894145533
+D1306,Dr_Name_1306,H069,Pediatrician,4,True,+91 9818787479
+D1643,Dr_Name_1643,H069,Pediatrician,2,True,+91 9838290610
+D1915,Dr_Name_1915,H069,Pediatrician,11,False,+91 9899970857
+D1933,Dr_Name_1933,H069,Oncologist,20,True,+91 9894492003
+D0309,Dr_Name_309,H070,Cardiologist,23,True,+91 9838611881
+D0683,Dr_Name_683,H070,General Physician,18,False,+91 9866936428
+D0999,Dr_Name_999,H070,Neurologist,13,True,+91 9823948820
+D1203,Dr_Name_1203,H070,Neurologist,19,False,+91 9837592422
+D1356,Dr_Name_1356,H070,General Physician,8,True,+91 9882176148
+D1378,Dr_Name_1378,H070,Oncologist,6,False,+91 9868416623
+D1828,Dr_Name_1828,H070,Pulmonologist,21,True,+91 9896779969
+D1943,Dr_Name_1943,H070,Pediatrician,27,False,+91 9819679848
+D1953,Dr_Name_1953,H070,Orthopedic Surgeon,20,False,+91 9830636590
+D1981,Dr_Name_1981,H070,General Physician,1,True,+91 9813188066
+D1996,Dr_Name_1996,H070,Pediatrician,8,False,+91 9871636167
+D0180,Dr_Name_180,H071,Cardiologist,15,True,+91 9854522084
+D1254,Dr_Name_1254,H071,General Physician,8,True,+91 9815085015
+D1853,Dr_Name_1853,H071,Orthopedic Surgeon,18,False,+91 9821746856
+D0098,Dr_Name_98,H072,Orthopedic Surgeon,27,True,+91 9819831184
+D0230,Dr_Name_230,H072,Pulmonologist,17,True,+91 9817283737
+D0442,Dr_Name_442,H072,Pediatrician,17,True,+91 9833889703
+D0543,Dr_Name_543,H072,General Physician,17,True,+91 9843810519
+D0603,Dr_Name_603,H072,Oncologist,27,True,+91 9884904794
+D0774,Dr_Name_774,H072,General Physician,25,False,+91 9819454577
+D0811,Dr_Name_811,H072,Pulmonologist,29,True,+91 9887170132
+D0814,Dr_Name_814,H072,Pulmonologist,18,True,+91 9840554079
+D0880,Dr_Name_880,H072,Cardiologist,25,True,+91 9844715141
+D1114,Dr_Name_1114,H072,Oncologist,29,True,+91 9864711545
+D1186,Dr_Name_1186,H072,Cardiologist,6,False,+91 9862080854
+D1288,Dr_Name_1288,H072,Oncologist,26,True,+91 9870549061
+D1793,Dr_Name_1793,H072,Cardiologist,6,True,+91 9894586329
+D0378,Dr_Name_378,H073,Neurologist,11,False,+91 9864284094
+D0517,Dr_Name_517,H073,Pediatrician,13,True,+91 9868119636
+D0579,Dr_Name_579,H073,Neurologist,16,True,+91 9852467059
+D0874,Dr_Name_874,H073,Orthopedic Surgeon,20,False,+91 9812267067
+D1133,Dr_Name_1133,H073,General Physician,17,True,+91 9862278055
+D1139,Dr_Name_1139,H073,Pediatrician,20,False,+91 9825878730
+D1352,Dr_Name_1352,H073,Pediatrician,21,False,+91 9881784254
+D1471,Dr_Name_1471,H073,Pediatrician,2,False,+91 9810791740
+D1543,Dr_Name_1543,H073,Pediatrician,9,False,+91 9896090303
+D1687,Dr_Name_1687,H073,Gastroenterologist,21,True,+91 9892993446
+D1983,Dr_Name_1983,H073,Oncologist,4,True,+91 9818487605
+D0044,Dr_Name_44,H074,Cardiologist,18,True,+91 9888598977
+D0075,Dr_Name_75,H074,Neurologist,27,True,+91 9816109168
+D0253,Dr_Name_253,H074,Cardiologist,11,True,+91 9819742790
+D0403,Dr_Name_403,H074,General Physician,8,False,+91 9858009699
+D0550,Dr_Name_550,H074,Pediatrician,15,True,+91 9877489633
+D0686,Dr_Name_686,H074,Cardiologist,11,True,+91 9824245271
+D1179,Dr_Name_1179,H074,Gastroenterologist,26,True,+91 9848901209
+D1250,Dr_Name_1250,H074,Oncologist,16,True,+91 9850446607
+D1939,Dr_Name_1939,H074,Gastroenterologist,28,True,+91 9891411889
+D0140,Dr_Name_140,H075,Neurologist,10,False,+91 9821610534
+D0308,Dr_Name_308,H075,General Physician,10,False,+91 9847784631
+D0736,Dr_Name_736,H075,General Physician,21,False,+91 9868743898
+D1155,Dr_Name_1155,H075,Orthopedic Surgeon,2,True,+91 9861192463
+D1440,Dr_Name_1440,H075,Cardiologist,13,True,+91 9863031203
+D1826,Dr_Name_1826,H075,Orthopedic Surgeon,29,False,+91 9898680762
+D1910,Dr_Name_1910,H075,Neurologist,13,True,+91 9814136476
+D0061,Dr_Name_61,H076,Pulmonologist,28,True,+91 9873617549
+D0322,Dr_Name_322,H076,Orthopedic Surgeon,4,True,+91 9830981381
+D0593,Dr_Name_593,H076,Oncologist,13,True,+91 9881600831
+D0834,Dr_Name_834,H076,Gastroenterologist,2,True,+91 9839509878
+D0938,Dr_Name_938,H076,Pulmonologist,5,True,+91 9828304809
+D1023,Dr_Name_1023,H076,Gastroenterologist,5,False,+91 9862478133
+D1113,Dr_Name_1113,H076,Oncologist,25,True,+91 9883245898
+D1163,Dr_Name_1163,H076,Cardiologist,25,True,+91 9849591339
+D1877,Dr_Name_1877,H076,Pulmonologist,13,True,+91 9895100169
+D0537,Dr_Name_537,H077,Neurologist,11,True,+91 9829337491
+D0667,Dr_Name_667,H077,Neurologist,24,True,+91 9850004466
+D0851,Dr_Name_851,H077,Pulmonologist,8,True,+91 9896965116
+D1140,Dr_Name_1140,H077,General Physician,10,False,+91 9860080729
+D1242,Dr_Name_1242,H077,Oncologist,14,True,+91 9811496555
+D1323,Dr_Name_1323,H077,Pulmonologist,21,True,+91 9884292758
+D1393,Dr_Name_1393,H077,Oncologist,7,True,+91 9884500200
+D1650,Dr_Name_1650,H077,Pediatrician,14,False,+91 9828974879
+D0198,Dr_Name_198,H078,Gastroenterologist,16,False,+91 9826540343
+D0241,Dr_Name_241,H078,Pediatrician,2,True,+91 9815606696
+D0985,Dr_Name_985,H078,Oncologist,10,True,+91 9810675093
+D1052,Dr_Name_1052,H078,Pediatrician,29,True,+91 9886868988
+D1225,Dr_Name_1225,H078,Orthopedic Surgeon,17,True,+91 9890081663
+D1322,Dr_Name_1322,H078,Oncologist,22,True,+91 9862892750
+D1516,Dr_Name_1516,H078,Oncologist,4,True,+91 9882095327
+D1695,Dr_Name_1695,H078,Neurologist,15,True,+91 9883487621
+D1726,Dr_Name_1726,H078,Cardiologist,21,True,+91 9821425533
+D1908,Dr_Name_1908,H078,Pulmonologist,22,True,+91 9850894954
+D0436,Dr_Name_436,H079,Orthopedic Surgeon,26,True,+91 9838192821
+D0690,Dr_Name_690,H079,Pulmonologist,6,True,+91 9856150987
+D0721,Dr_Name_721,H079,Neurologist,22,True,+91 9838418851
+D0781,Dr_Name_781,H079,Cardiologist,23,False,+91 9865385548
+D0962,Dr_Name_962,H079,Orthopedic Surgeon,28,True,+91 9896695458
+D1505,Dr_Name_1505,H079,Pediatrician,12,True,+91 9878793658
+D1580,Dr_Name_1580,H079,Orthopedic Surgeon,23,True,+91 9829120002
+D1637,Dr_Name_1637,H079,Orthopedic Surgeon,5,True,+91 9831602928
+D0409,Dr_Name_409,H080,Cardiologist,1,False,+91 9834695085
+D0631,Dr_Name_631,H080,Cardiologist,21,False,+91 9839633659
+D0838,Dr_Name_838,H080,Oncologist,2,True,+91 9892796892
+D1020,Dr_Name_1020,H080,Gastroenterologist,13,True,+91 9843922427
+D1087,Dr_Name_1087,H080,Pulmonologist,22,False,+91 9836082023
+D1211,Dr_Name_1211,H080,Neurologist,6,True,+91 9825384377
+D1467,Dr_Name_1467,H080,Orthopedic Surgeon,26,False,+91 9834341456
+D1491,Dr_Name_1491,H080,Pediatrician,15,False,+91 9886140729
+D1548,Dr_Name_1548,H080,Cardiologist,7,True,+91 9817299874
+D1857,Dr_Name_1857,H080,Cardiologist,11,True,+91 9883665549
+D1977,Dr_Name_1977,H080,Gastroenterologist,29,False,+91 9871909967
+D0169,Dr_Name_169,H081,Pulmonologist,25,True,+91 9896526748
+D0287,Dr_Name_287,H081,General Physician,5,False,+91 9883774735
+D0373,Dr_Name_373,H081,Pediatrician,18,True,+91 9819817298
+D0413,Dr_Name_413,H081,Pediatrician,8,True,+91 9849010740
+D0614,Dr_Name_614,H081,Gastroenterologist,18,True,+91 9819041276
+D0745,Dr_Name_745,H081,Orthopedic Surgeon,11,True,+91 9843646722
+D1683,Dr_Name_1683,H081,Cardiologist,17,False,+91 9823180503
+D1925,Dr_Name_1925,H081,Oncologist,9,True,+91 9836496940
+D0265,Dr_Name_265,H082,General Physician,22,False,+91 9887926229
+D0444,Dr_Name_444,H082,Neurologist,7,False,+91 9875389589
+D0570,Dr_Name_570,H082,Cardiologist,27,True,+91 9854406060
+D0664,Dr_Name_664,H082,Cardiologist,15,False,+91 9857934299
+D0818,Dr_Name_818,H082,Orthopedic Surgeon,1,True,+91 9827208745
+D0920,Dr_Name_920,H082,General Physician,12,True,+91 9897976094
+D1150,Dr_Name_1150,H082,Orthopedic Surgeon,15,True,+91 9841478466
+D1460,Dr_Name_1460,H082,Orthopedic Surgeon,21,True,+91 9823427820
+D1590,Dr_Name_1590,H082,Pediatrician,20,True,+91 9848270459
+D1606,Dr_Name_1606,H082,Gastroenterologist,22,False,+91 9893150000
+D1865,Dr_Name_1865,H082,Orthopedic Surgeon,2,True,+91 9819369589
+D1988,Dr_Name_1988,H082,Cardiologist,23,True,+91 9835970938
+D0410,Dr_Name_410,H083,Gastroenterologist,19,True,+91 9852652506
+D1153,Dr_Name_1153,H083,General Physician,3,True,+91 9875211190
+D1539,Dr_Name_1539,H083,Gastroenterologist,8,True,+91 9870484679
+D0170,Dr_Name_170,H084,Orthopedic Surgeon,9,False,+91 9854069864
+D0500,Dr_Name_500,H084,General Physician,8,True,+91 9892724080
+D0741,Dr_Name_741,H084,Pulmonologist,4,True,+91 9898506156
+D0753,Dr_Name_753,H084,Neurologist,19,True,+91 9851027069
+D0802,Dr_Name_802,H084,Pulmonologist,1,True,+91 9888405961
+D0884,Dr_Name_884,H084,Gastroenterologist,14,False,+91 9830454105
+D0889,Dr_Name_889,H084,Neurologist,23,True,+91 9885907105
+D0997,Dr_Name_997,H084,Pediatrician,21,True,+91 9886082915
+D1081,Dr_Name_1081,H084,General Physician,18,True,+91 9858921480
+D1262,Dr_Name_1262,H084,Pediatrician,9,True,+91 9852457517
+D1423,Dr_Name_1423,H084,General Physician,10,True,+91 9867486445
+D1962,Dr_Name_1962,H084,Oncologist,18,True,+91 9832634412
+D1987,Dr_Name_1987,H084,General Physician,3,True,+91 9810648524
+D0257,Dr_Name_257,H085,Pediatrician,18,False,+91 9852038976
+D0312,Dr_Name_312,H085,Orthopedic Surgeon,29,True,+91 9843041067
+D1092,Dr_Name_1092,H085,General Physician,13,True,+91 9839732676
+D1184,Dr_Name_1184,H085,Oncologist,23,False,+91 9896011893
+D1330,Dr_Name_1330,H085,Pediatrician,26,True,+91 9868535581
+D1437,Dr_Name_1437,H085,Gastroenterologist,17,True,+91 9847135338
+D0039,Dr_Name_39,H086,Cardiologist,26,True,+91 9858249394
+D0175,Dr_Name_175,H086,Neurologist,8,False,+91 9828026223
+D0284,Dr_Name_284,H086,Pediatrician,21,False,+91 9854501625
+D0326,Dr_Name_326,H086,Oncologist,10,True,+91 9874418331
+D0433,Dr_Name_433,H086,Gastroenterologist,29,True,+91 9872122457
+D0840,Dr_Name_840,H086,Cardiologist,22,True,+91 9869774935
+D1099,Dr_Name_1099,H086,Gastroenterologist,13,True,+91 9858149482
+D1377,Dr_Name_1377,H086,Gastroenterologist,13,False,+91 9850999730
+D1453,Dr_Name_1453,H086,Neurologist,29,False,+91 9875360192
+D1574,Dr_Name_1574,H086,Oncologist,26,True,+91 9884044139
+D1754,Dr_Name_1754,H086,Gastroenterologist,20,False,+91 9824607269
+D1815,Dr_Name_1815,H086,Gastroenterologist,13,True,+91 9833591471
+D1970,Dr_Name_1970,H086,Gastroenterologist,6,True,+91 9896644469
+D0219,Dr_Name_219,H087,Neurologist,8,True,+91 9891420187
+D0323,Dr_Name_323,H087,Oncologist,14,True,+91 9821002322
+D0903,Dr_Name_903,H087,Neurologist,2,False,+91 9847663633
+D0981,Dr_Name_981,H087,Orthopedic Surgeon,12,True,+91 9828790705
+D1202,Dr_Name_1202,H087,Orthopedic Surgeon,21,True,+91 9882292089
+D1640,Dr_Name_1640,H087,General Physician,23,True,+91 9836364647
+D1647,Dr_Name_1647,H087,Orthopedic Surgeon,15,True,+91 9845330756
+D1652,Dr_Name_1652,H087,Pulmonologist,25,True,+91 9894103363
+D0158,Dr_Name_158,H088,Orthopedic Surgeon,4,False,+91 9820262606
+D0240,Dr_Name_240,H088,General Physician,21,True,+91 9820120010
+D0521,Dr_Name_521,H088,Pulmonologist,29,True,+91 9812500515
+D0534,Dr_Name_534,H088,Oncologist,27,True,+91 9878072320
+D0680,Dr_Name_680,H088,Cardiologist,8,True,+91 9894775473
+D0810,Dr_Name_810,H088,Oncologist,17,True,+91 9814186818
+D0831,Dr_Name_831,H088,Cardiologist,26,False,+91 9888100019
+D1157,Dr_Name_1157,H088,Pulmonologist,9,True,+91 9887698748
+D1641,Dr_Name_1641,H088,General Physician,25,False,+91 9864376227
+D1768,Dr_Name_1768,H088,Pediatrician,2,True,+91 9889193333
+D0418,Dr_Name_418,H089,Neurologist,18,True,+91 9838556255
+D0578,Dr_Name_578,H089,Neurologist,17,False,+91 9814919926
+D0642,Dr_Name_642,H089,Cardiologist,15,False,+91 9884033693
+D1002,Dr_Name_1002,H089,Pulmonologist,12,False,+91 9844979330
+D1115,Dr_Name_1115,H089,Neurologist,16,True,+91 9882943217
+D1136,Dr_Name_1136,H089,Pediatrician,20,True,+91 9882434236
+D1160,Dr_Name_1160,H089,Pulmonologist,1,True,+91 9873364719
+D1245,Dr_Name_1245,H089,Neurologist,27,True,+91 9897766064
+D1301,Dr_Name_1301,H089,General Physician,23,False,+91 9829949181
+D1532,Dr_Name_1532,H089,Pediatrician,13,True,+91 9859099345
+D1756,Dr_Name_1756,H089,Orthopedic Surgeon,13,True,+91 9862680236
+D0082,Dr_Name_82,H090,Gastroenterologist,3,True,+91 9839971710
+D0115,Dr_Name_115,H090,Gastroenterologist,16,True,+91 9889134873
+D0139,Dr_Name_139,H090,Neurologist,14,True,+91 9849057246
+D0606,Dr_Name_606,H090,Gastroenterologist,10,True,+91 9827969238
+D0859,Dr_Name_859,H090,Orthopedic Surgeon,11,False,+91 9872371131
+D1127,Dr_Name_1127,H090,Pulmonologist,13,True,+91 9877259613
+D1244,Dr_Name_1244,H090,Neurologist,24,True,+91 9878506338
+D1816,Dr_Name_1816,H090,Gastroenterologist,10,True,+91 9822153955
+D1913,Dr_Name_1913,H090,Neurologist,20,True,+91 9863255602
+D1944,Dr_Name_1944,H090,Neurologist,2,True,+91 9858837208
+D0145,Dr_Name_145,H091,General Physician,10,True,+91 9877399750
+D0627,Dr_Name_627,H091,Pulmonologist,29,False,+91 9811421591
+D1292,Dr_Name_1292,H091,Gastroenterologist,15,True,+91 9898943201
+D1476,Dr_Name_1476,H091,Cardiologist,20,True,+91 9842062038
+D1706,Dr_Name_1706,H091,Oncologist,26,False,+91 9892414513
+D0101,Dr_Name_101,H092,General Physician,28,False,+91 9832259144
+D0235,Dr_Name_235,H092,Neurologist,5,True,+91 9879006257
+D0633,Dr_Name_633,H092,General Physician,14,True,+91 9828840235
+D0748,Dr_Name_748,H092,Gastroenterologist,29,False,+91 9869890694
+D0841,Dr_Name_841,H092,Oncologist,26,True,+91 9831370471
+D0882,Dr_Name_882,H092,General Physician,15,True,+91 9834044459
+D1412,Dr_Name_1412,H092,Neurologist,25,True,+91 9886015183
+D1513,Dr_Name_1513,H092,Neurologist,18,True,+91 9885942072
+D1571,Dr_Name_1571,H092,Pulmonologist,5,True,+91 9898504955
+D1758,Dr_Name_1758,H092,Oncologist,21,False,+91 9829622504
+D0224,Dr_Name_224,H093,Cardiologist,9,True,+91 9874894729
+D0468,Dr_Name_468,H093,Gastroenterologist,24,True,+91 9858156722
+D0545,Dr_Name_545,H093,Cardiologist,28,True,+91 9815425057
+D0619,Dr_Name_619,H093,Pediatrician,18,True,+91 9839369404
+D0778,Dr_Name_778,H093,Cardiologist,29,True,+91 9875450221
+D0787,Dr_Name_787,H093,Gastroenterologist,21,True,+91 9841104946
+D0933,Dr_Name_933,H093,General Physician,17,True,+91 9818437082
+D1021,Dr_Name_1021,H093,Pulmonologist,17,True,+91 9845481411
+D1169,Dr_Name_1169,H093,Cardiologist,1,True,+91 9859584751
+D1523,Dr_Name_1523,H093,Cardiologist,15,False,+91 9841409454
+D1934,Dr_Name_1934,H093,Cardiologist,7,True,+91 9815745651
+D0940,Dr_Name_940,H094,Pediatrician,22,True,+91 9899736040
+D1024,Dr_Name_1024,H094,Orthopedic Surgeon,6,False,+91 9837752746
+D1246,Dr_Name_1246,H094,General Physician,28,False,+91 9879509378
+D1675,Dr_Name_1675,H094,Oncologist,12,True,+91 9858486337
+D1887,Dr_Name_1887,H094,Oncologist,16,True,+91 9862088975
+D1922,Dr_Name_1922,H094,General Physician,2,True,+91 9873038607
+D0065,Dr_Name_65,H095,Oncologist,22,True,+91 9871021210
+D0820,Dr_Name_820,H095,General Physician,27,True,+91 9816232730
+D1248,Dr_Name_1248,H095,Pulmonologist,10,True,+91 9815355917
+D1487,Dr_Name_1487,H095,Gastroenterologist,13,False,+91 9897043518
+D1712,Dr_Name_1712,H095,Orthopedic Surgeon,7,False,+91 9853496088
+D1766,Dr_Name_1766,H095,Cardiologist,6,False,+91 9823854626
+D0239,Dr_Name_239,H096,Cardiologist,27,False,+91 9879977486
+D0485,Dr_Name_485,H096,General Physician,19,True,+91 9895035920
+D0695,Dr_Name_695,H096,Orthopedic Surgeon,11,True,+91 9846707919
+D0925,Dr_Name_925,H096,Pediatrician,14,True,+91 9845341684
+D0956,Dr_Name_956,H096,Pediatrician,8,True,+91 9887662596
+D1096,Dr_Name_1096,H096,Gastroenterologist,8,False,+91 9883061428
+D1512,Dr_Name_1512,H096,Pediatrician,11,False,+91 9886525600
+D1676,Dr_Name_1676,H096,Pulmonologist,25,True,+91 9833333727
+D0004,Dr_Name_4,H097,Orthopedic Surgeon,19,True,+91 9860554391
+D0034,Dr_Name_34,H097,Pulmonologist,29,True,+91 9897734815
+D0045,Dr_Name_45,H097,Gastroenterologist,26,True,+91 9860803895
+D0234,Dr_Name_234,H097,Oncologist,22,True,+91 9859029303
+D0634,Dr_Name_634,H097,Pulmonologist,13,False,+91 9888876916
+D0846,Dr_Name_846,H097,Neurologist,11,True,+91 9897689346
+D0936,Dr_Name_936,H097,Orthopedic Surgeon,13,True,+91 9820447168
+D1349,Dr_Name_1349,H097,Pulmonologist,4,True,+91 9879345320
+D1354,Dr_Name_1354,H097,General Physician,3,True,+91 9843767356
+D1550,Dr_Name_1550,H097,Neurologist,12,True,+91 9860509993
+D1626,Dr_Name_1626,H097,Cardiologist,1,True,+91 9839917031
+D1774,Dr_Name_1774,H097,Orthopedic Surgeon,4,True,+91 9879306247
+D0306,Dr_Name_306,H098,Cardiologist,27,True,+91 9864471218
+D0332,Dr_Name_332,H098,General Physician,21,True,+91 9857365168
+D0363,Dr_Name_363,H098,Neurologist,23,True,+91 9856309454
+D0394,Dr_Name_394,H098,General Physician,7,False,+91 9875345452
+D0457,Dr_Name_457,H098,General Physician,15,True,+91 9874707720
+D0583,Dr_Name_583,H098,Orthopedic Surgeon,26,True,+91 9891095825
+D0625,Dr_Name_625,H098,General Physician,6,True,+91 9810885526
+D0677,Dr_Name_677,H098,Pediatrician,8,True,+91 9877355419
+D0960,Dr_Name_960,H098,Neurologist,12,False,+91 9828652010
+D1143,Dr_Name_1143,H098,Orthopedic Surgeon,23,True,+91 9869042204
+D1384,Dr_Name_1384,H098,General Physician,2,False,+91 9832227237
+D1803,Dr_Name_1803,H098,Gastroenterologist,18,True,+91 9840868838
+D0283,Dr_Name_283,H099,Gastroenterologist,6,True,+91 9820346606
+D0563,Dr_Name_563,H099,Gastroenterologist,20,True,+91 9879060560
+D0729,Dr_Name_729,H099,Neurologist,15,True,+91 9896366021
+D0977,Dr_Name_977,H099,Cardiologist,25,True,+91 9847689614
+D1176,Dr_Name_1176,H099,Pediatrician,11,False,+91 9838389345
+D1541,Dr_Name_1541,H099,Neurologist,15,True,+91 9830164926
+D0093,Dr_Name_93,H100,Gastroenterologist,9,True,+91 9835086055
+D0314,Dr_Name_314,H100,Orthopedic Surgeon,20,True,+91 9831120146
+D0645,Dr_Name_645,H100,Neurologist,23,False,+91 9858616740
+D0665,Dr_Name_665,H100,Orthopedic Surgeon,5,True,+91 9890801793
+D0911,Dr_Name_911,H100,Pediatrician,15,True,+91 9825882013
+D0980,Dr_Name_980,H100,Neurologist,19,True,+91 9898732634
+D1298,Dr_Name_1298,H100,General Physician,26,False,+91 9840916561
+D1882,Dr_Name_1882,H100,Oncologist,27,False,+91 9865648506
+D1942,Dr_Name_1942,H100,Gastroenterologist,22,True,+91 9854322017
+D1952,Dr_Name_1952,H100,General Physician,28,True,+91 9825212062
+D0113,Dr_Name_113,H101,Oncologist,22,False,+91 9874628070
+D0397,Dr_Name_397,H101,General Physician,22,False,+91 9874265413
+D0582,Dr_Name_582,H101,Cardiologist,21,True,+91 9874293132
+D0751,Dr_Name_751,H101,Orthopedic Surgeon,20,False,+91 9838280205
+D1455,Dr_Name_1455,H101,Oncologist,22,True,+91 9889294612
+D1556,Dr_Name_1556,H101,Pulmonologist,16,True,+91 9831642106
+D1648,Dr_Name_1648,H101,Neurologist,25,True,+91 9896873663
+D1830,Dr_Name_1830,H101,Neurologist,27,True,+91 9865149958
+D0393,Dr_Name_393,H102,Cardiologist,14,True,+91 9813012656
+D0826,Dr_Name_826,H102,Oncologist,20,True,+91 9842704875
+D1097,Dr_Name_1097,H102,Orthopedic Surgeon,18,True,+91 9815790734
+D1145,Dr_Name_1145,H102,Pediatrician,1,False,+91 9827164449
+D1147,Dr_Name_1147,H102,General Physician,20,True,+91 9886972056
+D1174,Dr_Name_1174,H102,Gastroenterologist,11,False,+91 9889503557
+D1343,Dr_Name_1343,H102,General Physician,17,True,+91 9831626387
+D1382,Dr_Name_1382,H102,Pulmonologist,27,True,+91 9828082355
+D0212,Dr_Name_212,H103,Oncologist,10,True,+91 9894495485
+D0299,Dr_Name_299,H103,Neurologist,3,True,+91 9878805754
+D0449,Dr_Name_449,H103,Oncologist,1,True,+91 9815260108
+D0499,Dr_Name_499,H103,General Physician,2,True,+91 9886808685
+D0855,Dr_Name_855,H103,Pulmonologist,20,False,+91 9829711900
+D0858,Dr_Name_858,H103,Pediatrician,14,True,+91 9817504382
+D0875,Dr_Name_875,H103,Pulmonologist,5,True,+91 9832325960
+D1553,Dr_Name_1553,H103,Pediatrician,10,True,+91 9844663022
+D1557,Dr_Name_1557,H103,Pediatrician,3,True,+91 9834164229
+D1842,Dr_Name_1842,H103,General Physician,21,True,+91 9879342339
+D1911,Dr_Name_1911,H103,Neurologist,22,True,+91 9864419425
+D0012,Dr_Name_12,H104,Cardiologist,1,False,+91 9890444404
+D0013,Dr_Name_13,H104,Oncologist,13,False,+91 9885645742
+D0076,Dr_Name_76,H104,Oncologist,9,False,+91 9895580271
+D0087,Dr_Name_87,H104,Neurologist,22,True,+91 9812499138
+D0090,Dr_Name_90,H104,Orthopedic Surgeon,15,True,+91 9898817918
+D0178,Dr_Name_178,H104,Gastroenterologist,21,True,+91 9848044635
+D0384,Dr_Name_384,H104,General Physician,15,True,+91 9821508969
+D0676,Dr_Name_676,H104,Gastroenterologist,24,True,+91 9839070676
+D0867,Dr_Name_867,H104,Cardiologist,27,True,+91 9870291054
+D1414,Dr_Name_1414,H104,Cardiologist,1,False,+91 9891406527
+D1417,Dr_Name_1417,H104,Pulmonologist,8,True,+91 9873272042
+D1685,Dr_Name_1685,H104,General Physician,18,True,+91 9874648438
+D1751,Dr_Name_1751,H104,Cardiologist,4,False,+91 9832893086
+D1800,Dr_Name_1800,H104,Pediatrician,9,False,+91 9839442512
+D0171,Dr_Name_171,H105,Gastroenterologist,10,True,+91 9865132193
+D0585,Dr_Name_585,H105,Gastroenterologist,10,True,+91 9890643207
+D0927,Dr_Name_927,H105,Neurologist,29,True,+91 9829154498
+D0957,Dr_Name_957,H105,Neurologist,14,False,+91 9888201440
+D1025,Dr_Name_1025,H105,Pediatrician,19,True,+91 9834412077
+D1126,Dr_Name_1126,H105,Pediatrician,18,True,+91 9893646063
+D1436,Dr_Name_1436,H105,Orthopedic Surgeon,17,True,+91 9898536556
+D1615,Dr_Name_1615,H105,Pediatrician,23,True,+91 9878559074
+D1696,Dr_Name_1696,H105,Neurologist,15,True,+91 9845503367
+D0100,Dr_Name_100,H106,Pediatrician,27,False,+91 9832511225
+D0325,Dr_Name_325,H106,Cardiologist,17,True,+91 9855992559
+D0863,Dr_Name_863,H106,Neurologist,27,True,+91 9870863732
+D0900,Dr_Name_900,H106,Neurologist,7,True,+91 9890065352
+D1236,Dr_Name_1236,H106,Cardiologist,28,False,+91 9889268452
+D1271,Dr_Name_1271,H106,Oncologist,25,True,+91 9819239937
+D1397,Dr_Name_1397,H106,Neurologist,8,False,+91 9840845084
+D1790,Dr_Name_1790,H106,Orthopedic Surgeon,7,True,+91 9860762668
+D1802,Dr_Name_1802,H106,Cardiologist,18,False,+91 9861735818
+D1968,Dr_Name_1968,H106,Neurologist,22,True,+91 9827745355
+D1980,Dr_Name_1980,H106,Cardiologist,25,True,+91 9824572034
+D0084,Dr_Name_84,H107,General Physician,2,True,+91 9812222998
+D0346,Dr_Name_346,H107,Orthopedic Surgeon,17,True,+91 9837158762
+D0551,Dr_Name_551,H107,Cardiologist,16,False,+91 9880157128
+D0640,Dr_Name_640,H107,General Physician,7,True,+91 9877693989
+D0659,Dr_Name_659,H107,Pediatrician,22,False,+91 9866343932
+D1037,Dr_Name_1037,H107,Gastroenterologist,13,True,+91 9830073763
+D1210,Dr_Name_1210,H107,General Physician,17,True,+91 9891270313
+D1920,Dr_Name_1920,H107,Oncologist,26,True,+91 9822924976
+D1986,Dr_Name_1986,H107,Neurologist,6,True,+91 9833813202
+D1989,Dr_Name_1989,H107,Pediatrician,13,False,+91 9873870080
+D0150,Dr_Name_150,H108,General Physician,3,True,+91 9892510102
+D0285,Dr_Name_285,H108,Cardiologist,16,False,+91 9890505645
+D0390,Dr_Name_390,H108,Neurologist,10,True,+91 9815239398
+D0454,Dr_Name_454,H108,General Physician,27,False,+91 9881327320
+D0463,Dr_Name_463,H108,Cardiologist,16,True,+91 9877555702
+D0474,Dr_Name_474,H108,Orthopedic Surgeon,16,False,+91 9825772785
+D0948,Dr_Name_948,H108,Neurologist,2,True,+91 9822507745
+D1048,Dr_Name_1048,H108,Gastroenterologist,22,True,+91 9874725282
+D1205,Dr_Name_1205,H108,Neurologist,8,True,+91 9898502178
+D1249,Dr_Name_1249,H108,Cardiologist,18,True,+91 9827492440
+D1309,Dr_Name_1309,H108,Oncologist,23,False,+91 9890996996
+D1418,Dr_Name_1418,H108,General Physician,5,True,+91 9882381739
+D1784,Dr_Name_1784,H108,Orthopedic Surgeon,22,True,+91 9810161088
+D1795,Dr_Name_1795,H108,Oncologist,20,False,+91 9897138408
+D1958,Dr_Name_1958,H108,Gastroenterologist,10,True,+91 9867914523
+D1967,Dr_Name_1967,H108,Orthopedic Surgeon,12,True,+91 9880067590
+D0051,Dr_Name_51,H109,Neurologist,12,False,+91 9866463253
+D0305,Dr_Name_305,H109,Pediatrician,28,True,+91 9859711219
+D0375,Dr_Name_375,H109,Cardiologist,22,True,+91 9815830187
+D0423,Dr_Name_423,H109,Neurologist,1,False,+91 9881110769
+D0681,Dr_Name_681,H109,Cardiologist,13,True,+91 9867573535
+D1154,Dr_Name_1154,H109,Orthopedic Surgeon,11,False,+91 9840801123
+D1347,Dr_Name_1347,H109,Cardiologist,15,True,+91 9874709513
+D1655,Dr_Name_1655,H109,Oncologist,23,True,+91 9861168696
+D1876,Dr_Name_1876,H109,Cardiologist,11,True,+91 9857045704
+D1926,Dr_Name_1926,H109,Neurologist,12,True,+91 9889060695
+D0116,Dr_Name_116,H110,Pulmonologist,21,True,+91 9887325627
+D0216,Dr_Name_216,H110,Pediatrician,24,False,+91 9823115341
+D0549,Dr_Name_549,H110,Cardiologist,24,True,+91 9867108220
+D0819,Dr_Name_819,H110,Pediatrician,23,False,+91 9827969486
+D1178,Dr_Name_1178,H110,Orthopedic Surgeon,1,True,+91 9844160831
+D1490,Dr_Name_1490,H110,Pulmonologist,23,True,+91 9874040812
+D1665,Dr_Name_1665,H110,Pulmonologist,11,False,+91 9841207351
+D1873,Dr_Name_1873,H110,Oncologist,8,False,+91 9821249805
+D0026,Dr_Name_26,H111,Cardiologist,29,True,+91 9848019408
+D0089,Dr_Name_89,H111,Neurologist,6,True,+91 9890301439
+D0365,Dr_Name_365,H111,Cardiologist,17,True,+91 9882978342
+D0720,Dr_Name_720,H111,Neurologist,3,True,+91 9864847632
+D0886,Dr_Name_886,H111,Cardiologist,28,True,+91 9844601998
+D0995,Dr_Name_995,H111,Pediatrician,26,False,+91 9835369971
+D1046,Dr_Name_1046,H111,Pulmonologist,3,False,+91 9810734097
+D1681,Dr_Name_1681,H111,Gastroenterologist,11,True,+91 9810954835
+D1785,Dr_Name_1785,H111,General Physician,20,False,+91 9887576121
+D1788,Dr_Name_1788,H111,Pediatrician,4,False,+91 9880134216
+D1833,Dr_Name_1833,H111,Pediatrician,2,False,+91 9825814687
+D0259,Dr_Name_259,H112,General Physician,22,False,+91 9879761254
+D1605,Dr_Name_1605,H112,Oncologist,5,True,+91 9810965569
+D1682,Dr_Name_1682,H112,Oncologist,16,True,+91 9860335658
+D1811,Dr_Name_1811,H112,Orthopedic Surgeon,4,True,+91 9897851693
+D0202,Dr_Name_202,H113,Pediatrician,10,True,+91 9837570830
+D0359,Dr_Name_359,H113,Neurologist,14,True,+91 9852399610
+D0674,Dr_Name_674,H113,Pediatrician,14,True,+91 9864874257
+D1112,Dr_Name_1112,H113,Oncologist,28,True,+91 9858623028
+D1614,Dr_Name_1614,H113,Neurologist,16,True,+91 9824305357
+D1735,Dr_Name_1735,H113,Orthopedic Surgeon,15,False,+91 9830774029
+D1889,Dr_Name_1889,H113,Cardiologist,28,True,+91 9867186360
+D1894,Dr_Name_1894,H113,Orthopedic Surgeon,25,False,+91 9897453041
+D1921,Dr_Name_1921,H113,Orthopedic Surgeon,25,True,+91 9888567056
+D0166,Dr_Name_166,H114,General Physician,28,True,+91 9844042008
+D0203,Dr_Name_203,H114,Orthopedic Surgeon,18,True,+91 9845071480
+D0292,Dr_Name_292,H114,Neurologist,18,True,+91 9881954780
+D0615,Dr_Name_615,H114,Cardiologist,12,True,+91 9866849468
+D0878,Dr_Name_878,H114,Neurologist,15,True,+91 9885788756
+D1051,Dr_Name_1051,H114,Pulmonologist,22,False,+91 9859075919
+D1107,Dr_Name_1107,H114,Orthopedic Surgeon,27,True,+91 9892125234
+D1434,Dr_Name_1434,H114,Pulmonologist,8,False,+91 9846985109
+D1701,Dr_Name_1701,H114,Orthopedic Surgeon,13,False,+91 9863345392
+D1728,Dr_Name_1728,H114,General Physician,5,True,+91 9837339300
+D0066,Dr_Name_66,H115,Pulmonologist,26,True,+91 9865462544
+D0124,Dr_Name_124,H115,Pediatrician,28,True,+91 9884102271
+D0199,Dr_Name_199,H115,Cardiologist,18,False,+91 9884834795
+D0293,Dr_Name_293,H115,Cardiologist,7,True,+91 9874755726
+D0351,Dr_Name_351,H115,Pediatrician,25,True,+91 9833987338
+D0440,Dr_Name_440,H115,Cardiologist,5,False,+91 9859689143
+D0620,Dr_Name_620,H115,Oncologist,17,True,+91 9885040303
+D0968,Dr_Name_968,H115,Gastroenterologist,25,True,+91 9884478941
+D1413,Dr_Name_1413,H115,Oncologist,12,True,+91 9874929189
+D1546,Dr_Name_1546,H115,Neurologist,2,True,+91 9844061458
+D0445,Dr_Name_445,H116,Neurologist,26,True,+91 9851158280
+D0737,Dr_Name_737,H116,General Physician,29,True,+91 9887531025
+D0852,Dr_Name_852,H116,Gastroenterologist,26,False,+91 9856218720
+D1386,Dr_Name_1386,H116,Pediatrician,8,True,+91 9863436070
+D1566,Dr_Name_1566,H116,Neurologist,28,False,+91 9828531242
+D1893,Dr_Name_1893,H116,Gastroenterologist,28,True,+91 9898487446
+D0133,Dr_Name_133,H117,Orthopedic Surgeon,19,False,+91 9825983420
+D0324,Dr_Name_324,H117,Neurologist,10,True,+91 9840839382
+D0437,Dr_Name_437,H117,Gastroenterologist,17,False,+91 9869940949
+D0548,Dr_Name_548,H117,Pediatrician,29,False,+91 9831715773
+D0808,Dr_Name_808,H117,Pediatrician,18,True,+91 9823459168
+D0959,Dr_Name_959,H117,General Physician,3,True,+91 9838784084
+D1191,Dr_Name_1191,H117,Cardiologist,13,True,+91 9878228715
+D1213,Dr_Name_1213,H117,Cardiologist,24,True,+91 9863762374
+D1228,Dr_Name_1228,H117,Oncologist,26,True,+91 9855424358
+D1500,Dr_Name_1500,H117,Oncologist,20,True,+91 9883897088
+D1600,Dr_Name_1600,H117,Gastroenterologist,4,True,+91 9892413089
+D1880,Dr_Name_1880,H117,Oncologist,3,True,+91 9816986408
+D0046,Dr_Name_46,H118,Oncologist,20,True,+91 9831573890
+D0174,Dr_Name_174,H118,Neurologist,13,True,+91 9862224611
+D0414,Dr_Name_414,H118,Neurologist,15,True,+91 9895345915
+D0703,Dr_Name_703,H118,Oncologist,3,True,+91 9810710096
+D1018,Dr_Name_1018,H118,Neurologist,8,True,+91 9822225702
+D1034,Dr_Name_1034,H118,Oncologist,7,False,+91 9829505652
+D1264,Dr_Name_1264,H118,General Physician,16,False,+91 9873306295
+D1277,Dr_Name_1277,H118,Cardiologist,10,True,+91 9890563579
+D1334,Dr_Name_1334,H118,Pulmonologist,15,False,+91 9868435370
+D1415,Dr_Name_1415,H118,Oncologist,23,True,+91 9821830043
+D1708,Dr_Name_1708,H118,General Physician,27,True,+91 9818600733
+D1778,Dr_Name_1778,H118,Oncologist,2,False,+91 9845311610
+D1897,Dr_Name_1897,H118,Gastroenterologist,28,False,+91 9839765498
+D1923,Dr_Name_1923,H118,Gastroenterologist,12,True,+91 9859772648
+D0274,Dr_Name_274,H119,Cardiologist,1,True,+91 9820742751
+D0733,Dr_Name_733,H119,Neurologist,3,False,+91 9891742470
+D0864,Dr_Name_864,H119,Orthopedic Surgeon,15,False,+91 9815067435
+D0914,Dr_Name_914,H119,Neurologist,3,False,+91 9861583363
+D0987,Dr_Name_987,H119,Orthopedic Surgeon,15,True,+91 9863773642
+D1059,Dr_Name_1059,H119,Neurologist,14,True,+91 9892405066
+D1090,Dr_Name_1090,H119,Orthopedic Surgeon,1,True,+91 9898070348
+D1104,Dr_Name_1104,H119,Oncologist,27,True,+91 9879928180
+D1275,Dr_Name_1275,H119,Pulmonologist,24,True,+91 9848449249
+D1311,Dr_Name_1311,H119,Neurologist,1,True,+91 9890191410
+D1699,Dr_Name_1699,H119,Orthopedic Surgeon,12,True,+91 9817712557
+D1740,Dr_Name_1740,H119,Oncologist,14,True,+91 9833524492
+D1852,Dr_Name_1852,H119,Cardiologist,15,True,+91 9895938445
+D0096,Dr_Name_96,H120,General Physician,6,True,+91 9876353000
+D0243,Dr_Name_243,H120,Pediatrician,26,False,+91 9868917831
+D0289,Dr_Name_289,H120,Pediatrician,10,True,+91 9811437525
+D0466,Dr_Name_466,H120,Cardiologist,28,True,+91 9837072687
+D0507,Dr_Name_507,H120,General Physician,4,False,+91 9898165507
+D0555,Dr_Name_555,H120,General Physician,9,True,+91 9879545356
+D0576,Dr_Name_576,H120,Gastroenterologist,29,False,+91 9848387144
+D0706,Dr_Name_706,H120,Pulmonologist,29,False,+91 9836138432
+D1042,Dr_Name_1042,H120,Orthopedic Surgeon,28,True,+91 9814510970
+D1269,Dr_Name_1269,H120,Oncologist,14,True,+91 9890465529
+D1584,Dr_Name_1584,H120,Orthopedic Surgeon,15,True,+91 9878524572
+D1618,Dr_Name_1618,H120,Cardiologist,27,False,+91 9879231333
+D1736,Dr_Name_1736,H120,Gastroenterologist,12,True,+91 9841094351
+D1861,Dr_Name_1861,H120,Pulmonologist,28,True,+91 9892569402
+D1975,Dr_Name_1975,H120,General Physician,14,True,+91 9832747608
+D0495,Dr_Name_495,H121,Neurologist,8,True,+91 9814840043
+D0520,Dr_Name_520,H121,Cardiologist,20,True,+91 9858283485
+D0835,Dr_Name_835,H121,Pediatrician,5,True,+91 9842112480
+D1036,Dr_Name_1036,H121,Gastroenterologist,25,True,+91 9897915178
+D1285,Dr_Name_1285,H121,General Physician,24,True,+91 9810038556
+D1400,Dr_Name_1400,H121,Neurologist,22,True,+91 9831131878
+D1420,Dr_Name_1420,H121,Orthopedic Surgeon,1,True,+91 9821655844
+D1821,Dr_Name_1821,H121,Gastroenterologist,19,True,+91 9847035619
+D1824,Dr_Name_1824,H121,Neurologist,25,True,+91 9863611082
+D0103,Dr_Name_103,H122,Orthopedic Surgeon,29,False,+91 9857395992
+D0321,Dr_Name_321,H122,Orthopedic Surgeon,5,False,+91 9899880518
+D0341,Dr_Name_341,H122,Neurologist,9,True,+91 9863035211
+D0565,Dr_Name_565,H122,Pulmonologist,3,False,+91 9864418707
+D0793,Dr_Name_793,H122,Pulmonologist,25,False,+91 9888662348
+D0861,Dr_Name_861,H122,Oncologist,16,True,+91 9836885204
+D0908,Dr_Name_908,H122,Oncologist,24,False,+91 9879490249
+D1284,Dr_Name_1284,H122,Cardiologist,3,True,+91 9812062459
+D1698,Dr_Name_1698,H122,General Physician,10,True,+91 9819209640
+D1738,Dr_Name_1738,H122,Gastroenterologist,23,False,+91 9822101856
+D0043,Dr_Name_43,H123,Cardiologist,5,True,+91 9883765077
+D0184,Dr_Name_184,H123,Gastroenterologist,25,True,+91 9848184109
+D0486,Dr_Name_486,H123,Oncologist,2,True,+91 9885042992
+D0567,Dr_Name_567,H123,Pediatrician,19,True,+91 9888239864
+D0588,Dr_Name_588,H123,Neurologist,22,False,+91 9856720553
+D0870,Dr_Name_870,H123,Gastroenterologist,24,True,+91 9856637316
+D1001,Dr_Name_1001,H123,Pulmonologist,9,True,+91 9847112255
+D1206,Dr_Name_1206,H123,Cardiologist,19,True,+91 9840372869
+D1273,Dr_Name_1273,H123,General Physician,3,False,+91 9891384718
+D1355,Dr_Name_1355,H123,Orthopedic Surgeon,22,True,+91 9836108729
+D0218,Dr_Name_218,H124,Orthopedic Surgeon,14,True,+91 9871036720
+D0528,Dr_Name_528,H124,Gastroenterologist,22,False,+91 9864218119
+D0601,Dr_Name_601,H124,Oncologist,8,False,+91 9887162674
+D0761,Dr_Name_761,H124,Orthopedic Surgeon,5,False,+91 9810624307
+D1089,Dr_Name_1089,H124,Gastroenterologist,1,False,+91 9845045256
+D1214,Dr_Name_1214,H124,Pulmonologist,6,False,+91 9833492771
+D1558,Dr_Name_1558,H124,General Physician,10,False,+91 9864644684
+D1562,Dr_Name_1562,H124,Neurologist,5,False,+91 9877946127
+D1716,Dr_Name_1716,H124,Oncologist,8,True,+91 9824289484
+D1727,Dr_Name_1727,H124,Neurologist,8,True,+91 9884978145
+D1909,Dr_Name_1909,H124,Cardiologist,16,True,+91 9819715480
+D0002,Dr_Name_2,H125,Orthopedic Surgeon,16,True,+91 9877534222
+D0260,Dr_Name_260,H125,General Physician,11,True,+91 9849493811
+D0577,Dr_Name_577,H125,Oncologist,26,True,+91 9855629449
+D0714,Dr_Name_714,H125,Pulmonologist,19,True,+91 9825704681
+D0970,Dr_Name_970,H125,Cardiologist,10,True,+91 9878892172
+D0994,Dr_Name_994,H125,Gastroenterologist,20,True,+91 9844587020
+D1144,Dr_Name_1144,H125,Pediatrician,20,True,+91 9882196170
+D1226,Dr_Name_1226,H125,Orthopedic Surgeon,11,False,+91 9887160950
+D1286,Dr_Name_1286,H125,Oncologist,5,False,+91 9843573422
+D1335,Dr_Name_1335,H125,Neurologist,14,True,+91 9869427400
+D1374,Dr_Name_1374,H125,Pediatrician,5,True,+91 9860610858
+D1493,Dr_Name_1493,H125,Pulmonologist,11,True,+91 9885587210
+D1834,Dr_Name_1834,H125,Cardiologist,2,True,+91 9874911705
+D0475,Dr_Name_475,H126,Gastroenterologist,9,True,+91 9842651583
+D0746,Dr_Name_746,H126,General Physician,2,False,+91 9855588495
+D0801,Dr_Name_801,H126,Neurologist,4,True,+91 9871585593
+D0949,Dr_Name_949,H126,Gastroenterologist,23,False,+91 9871836850
+D1070,Dr_Name_1070,H126,Oncologist,25,True,+91 9888762521
+D1084,Dr_Name_1084,H126,General Physician,20,True,+91 9813670948
+D1534,Dr_Name_1534,H126,Gastroenterologist,28,True,+91 9874688940
+D1693,Dr_Name_1693,H126,General Physician,12,True,+91 9825605267
+D1748,Dr_Name_1748,H126,Neurologist,29,False,+91 9844603983
+D1946,Dr_Name_1946,H126,General Physician,14,True,+91 9819066979
+D0099,Dr_Name_99,H127,General Physician,4,True,+91 9861361533
+D0887,Dr_Name_887,H127,Gastroenterologist,7,True,+91 9895048646
+D0895,Dr_Name_895,H127,Oncologist,19,False,+91 9839579214
+D0897,Dr_Name_897,H127,Oncologist,11,True,+91 9840860700
+D1997,Dr_Name_1997,H127,Gastroenterologist,19,True,+91 9852376656
+D0147,Dr_Name_147,H128,Gastroenterologist,27,True,+91 9865354876
+D0291,Dr_Name_291,H128,Neurologist,21,True,+91 9857391778
+D0311,Dr_Name_311,H128,Orthopedic Surgeon,21,False,+91 9879324022
+D1083,Dr_Name_1083,H128,Pediatrician,20,True,+91 9881893982
+D1511,Dr_Name_1511,H128,Orthopedic Surgeon,7,True,+91 9811305024
+D1787,Dr_Name_1787,H128,General Physician,15,True,+91 9845346197
+D1806,Dr_Name_1806,H128,Pediatrician,23,True,+91 9843320572
+D0208,Dr_Name_208,H129,Orthopedic Surgeon,13,True,+91 9848559355
+D0267,Dr_Name_267,H129,Pulmonologist,29,True,+91 9822483514
+D0381,Dr_Name_381,H129,Neurologist,14,True,+91 9863543563
+D1093,Dr_Name_1093,H129,Pulmonologist,17,True,+91 9855901507
+D1156,Dr_Name_1156,H129,Pediatrician,16,True,+91 9820204415
+D1267,Dr_Name_1267,H129,Orthopedic Surgeon,24,True,+91 9884430642
+D1621,Dr_Name_1621,H129,General Physician,9,True,+91 9833955951
+D1654,Dr_Name_1654,H129,General Physician,26,True,+91 9873962190
+D1794,Dr_Name_1794,H129,Oncologist,6,True,+91 9852127291
+D1949,Dr_Name_1949,H129,Neurologist,15,True,+91 9857451057
+D0063,Dr_Name_63,H130,Pulmonologist,10,False,+91 9839335449
+D0142,Dr_Name_142,H130,Neurologist,16,True,+91 9887002404
+D0272,Dr_Name_272,H130,General Physician,28,True,+91 9846114740
+D0344,Dr_Name_344,H130,Neurologist,10,True,+91 9834532913
+D0739,Dr_Name_739,H130,Gastroenterologist,19,True,+91 9835523849
+D0809,Dr_Name_809,H130,Pulmonologist,15,True,+91 9876974557
+D0998,Dr_Name_998,H130,Neurologist,18,True,+91 9836798789
+D1053,Dr_Name_1053,H130,Pediatrician,6,True,+91 9841522559
+D1362,Dr_Name_1362,H130,Pulmonologist,25,True,+91 9842488275
+D1379,Dr_Name_1379,H130,Cardiologist,29,False,+91 9845622106
+D1477,Dr_Name_1477,H130,Pediatrician,6,False,+91 9837753358
+D1525,Dr_Name_1525,H130,Neurologist,4,True,+91 9840763714
+D1533,Dr_Name_1533,H130,Cardiologist,26,True,+91 9837214866
+D1577,Dr_Name_1577,H130,Pediatrician,12,False,+91 9843513553
+D1622,Dr_Name_1622,H130,Oncologist,28,False,+91 9893026670
+D0213,Dr_Name_213,H131,Pulmonologist,6,False,+91 9857785185
+D0389,Dr_Name_389,H131,Cardiologist,9,True,+91 9830937370
+D0458,Dr_Name_458,H131,Cardiologist,29,True,+91 9824319594
+D0758,Dr_Name_758,H131,General Physician,2,False,+91 9826089818
+D0786,Dr_Name_786,H131,Gastroenterologist,11,True,+91 9820534423
+D0794,Dr_Name_794,H131,Neurologist,9,True,+91 9899043272
+D0929,Dr_Name_929,H131,Pulmonologist,28,False,+91 9876124358
+D0972,Dr_Name_972,H131,General Physician,24,False,+91 9892386462
+D1351,Dr_Name_1351,H131,Pulmonologist,18,True,+91 9810889014
+D1495,Dr_Name_1495,H131,Gastroenterologist,12,True,+91 9882675403
+D0207,Dr_Name_207,H132,Oncologist,27,True,+91 9815672460
+D0890,Dr_Name_890,H132,Oncologist,12,False,+91 9874732147
+D1146,Dr_Name_1146,H132,Orthopedic Surgeon,25,True,+91 9859821155
+D1243,Dr_Name_1243,H132,General Physician,8,True,+91 9893304578
+D1799,Dr_Name_1799,H132,Pediatrician,20,False,+91 9852334540
+D1832,Dr_Name_1832,H132,Orthopedic Surgeon,10,True,+91 9876080806
+D1835,Dr_Name_1835,H132,Cardiologist,28,False,+91 9887110685
+D1860,Dr_Name_1860,H132,Gastroenterologist,15,True,+91 9846874043
+D0095,Dr_Name_95,H133,Oncologist,16,False,+91 9875874779
+D0501,Dr_Name_501,H133,General Physician,22,True,+91 9834544645
+D0604,Dr_Name_604,H133,General Physician,2,True,+91 9878603195
+D0651,Dr_Name_651,H133,Oncologist,5,True,+91 9847616749
+D1027,Dr_Name_1027,H133,Neurologist,25,True,+91 9863402482
+D1195,Dr_Name_1195,H133,Cardiologist,9,True,+91 9839808788
+D1575,Dr_Name_1575,H133,Pulmonologist,29,False,+91 9887398691
+D1586,Dr_Name_1586,H133,Neurologist,26,True,+91 9827212880
+D1660,Dr_Name_1660,H133,General Physician,20,True,+91 9817267644
+D0018,Dr_Name_18,H134,Neurologist,23,True,+91 9880563016
+D0078,Dr_Name_78,H134,Pediatrician,20,True,+91 9866797703
+D0330,Dr_Name_330,H134,Pediatrician,1,False,+91 9874199033
+D0719,Dr_Name_719,H134,Gastroenterologist,21,True,+91 9882580645
+D0871,Dr_Name_871,H134,Oncologist,9,True,+91 9814370484
+D0891,Dr_Name_891,H134,Orthopedic Surgeon,17,True,+91 9877441081
+D1047,Dr_Name_1047,H134,Orthopedic Surgeon,13,False,+91 9856612335
+D1465,Dr_Name_1465,H134,Cardiologist,5,False,+91 9862843790
+D1497,Dr_Name_1497,H134,Pulmonologist,17,True,+91 9833461307
+D1521,Dr_Name_1521,H134,General Physician,5,False,+91 9871363812
+D0020,Dr_Name_20,H135,Pulmonologist,23,True,+91 9826155543
+D0143,Dr_Name_143,H135,Neurologist,6,True,+91 9879552316
+D0223,Dr_Name_223,H135,Oncologist,17,True,+91 9871749629
+D0434,Dr_Name_434,H135,Orthopedic Surgeon,7,True,+91 9852365995
+D0937,Dr_Name_937,H135,Orthopedic Surgeon,4,True,+91 9811129926
+D1669,Dr_Name_1669,H135,Orthopedic Surgeon,22,True,+91 9811586450
+D1752,Dr_Name_1752,H135,Orthopedic Surgeon,15,True,+91 9838286706
+D1971,Dr_Name_1971,H135,Orthopedic Surgeon,4,True,+91 9860925964
+D0056,Dr_Name_56,H136,Cardiologist,2,True,+91 9887981603
+D0828,Dr_Name_828,H136,Orthopedic Surgeon,3,True,+91 9823522144
+D0913,Dr_Name_913,H136,Pediatrician,20,True,+91 9853679307
+D1110,Dr_Name_1110,H136,Cardiologist,5,True,+91 9858533442
+D1234,Dr_Name_1234,H136,General Physician,4,False,+91 9892245683
+D1353,Dr_Name_1353,H136,Cardiologist,28,True,+91 9844856447
+D1407,Dr_Name_1407,H136,Oncologist,24,True,+91 9835119175
+D1501,Dr_Name_1501,H136,Pediatrician,4,False,+91 9883626933
+D1684,Dr_Name_1684,H136,Oncologist,19,True,+91 9845279000
+D1749,Dr_Name_1749,H136,Pulmonologist,3,True,+91 9841828278
+D1789,Dr_Name_1789,H136,Neurologist,9,True,+91 9846159360
+D0104,Dr_Name_104,H137,Gastroenterologist,4,True,+91 9873262903
+D0130,Dr_Name_130,H137,General Physician,17,False,+91 9892286747
+D0280,Dr_Name_280,H137,Cardiologist,25,True,+91 9856049627
+D0439,Dr_Name_439,H137,Pediatrician,13,True,+91 9859113508
+D0590,Dr_Name_590,H137,Oncologist,12,True,+91 9834684475
+D1279,Dr_Name_1279,H137,Pediatrician,26,False,+91 9876943778
+D1540,Dr_Name_1540,H137,Gastroenterologist,24,True,+91 9866900650
+D1619,Dr_Name_1619,H137,Oncologist,10,True,+91 9838257191
+D1813,Dr_Name_1813,H137,General Physician,12,True,+91 9866249702
+D1912,Dr_Name_1912,H137,General Physician,25,True,+91 9859970552
+D0336,Dr_Name_336,H138,Neurologist,19,False,+91 9858999937
+D0657,Dr_Name_657,H138,Oncologist,1,True,+91 9863766628
+D0702,Dr_Name_702,H138,General Physician,27,False,+91 9847531240
+D1321,Dr_Name_1321,H138,Orthopedic Surgeon,20,True,+91 9870495821
+D1582,Dr_Name_1582,H138,Cardiologist,10,True,+91 9834144323
+D1679,Dr_Name_1679,H138,Pediatrician,22,False,+91 9886693314
+D1837,Dr_Name_1837,H138,Gastroenterologist,17,True,+91 9827601200
+D1917,Dr_Name_1917,H138,Cardiologist,9,True,+91 9887295013
+D1976,Dr_Name_1976,H138,Gastroenterologist,16,True,+91 9840677709
+D0599,Dr_Name_599,H139,Gastroenterologist,27,True,+91 9823404289
+D0717,Dr_Name_717,H139,General Physician,28,True,+91 9846231955
+D0812,Dr_Name_812,H139,Oncologist,14,True,+91 9841649234
+D1015,Dr_Name_1015,H139,Pediatrician,4,True,+91 9884536479
+D1595,Dr_Name_1595,H139,Oncologist,3,False,+91 9868011418
+D1666,Dr_Name_1666,H139,Oncologist,11,True,+91 9861121302
+D0085,Dr_Name_85,H140,Neurologist,21,True,+91 9836315159
+D0275,Dr_Name_275,H140,Neurologist,23,True,+91 9829574814
+D0523,Dr_Name_523,H140,Oncologist,10,True,+91 9830072000
+D1406,Dr_Name_1406,H140,Gastroenterologist,21,True,+91 9873483243
+D1705,Dr_Name_1705,H140,Oncologist,2,False,+91 9811307588
+D0048,Dr_Name_48,H141,Pulmonologist,17,True,+91 9833703827
+D0086,Dr_Name_86,H141,Pulmonologist,2,True,+91 9866575546
+D0182,Dr_Name_182,H141,Cardiologist,15,True,+91 9877054885
+D0470,Dr_Name_470,H141,Cardiologist,1,False,+91 9828048483
+D0482,Dr_Name_482,H141,Cardiologist,14,False,+91 9894644676
+D0730,Dr_Name_730,H141,Gastroenterologist,11,True,+91 9879391501
+D0905,Dr_Name_905,H141,Pulmonologist,20,True,+91 9881669929
+D1151,Dr_Name_1151,H141,Gastroenterologist,1,True,+91 9852376193
+D1222,Dr_Name_1222,H141,Gastroenterologist,4,True,+91 9875313057
+D1252,Dr_Name_1252,H141,Gastroenterologist,1,True,+91 9850269906
+D1274,Dr_Name_1274,H141,Orthopedic Surgeon,26,False,+91 9843685164
+D1499,Dr_Name_1499,H141,Pediatrician,19,True,+91 9885448945
+D1514,Dr_Name_1514,H141,Pediatrician,1,False,+91 9886213459
+D1613,Dr_Name_1613,H141,Gastroenterologist,22,True,+91 9816403434
+D1746,Dr_Name_1746,H141,Pulmonologist,29,True,+91 9863472598
+D0249,Dr_Name_249,H142,Pulmonologist,8,True,+91 9823284172
+D0506,Dr_Name_506,H142,Pediatrician,8,True,+91 9831923376
+D0581,Dr_Name_581,H142,Orthopedic Surgeon,3,True,+91 9818057946
+D1122,Dr_Name_1122,H142,Cardiologist,13,True,+91 9838919534
+D1431,Dr_Name_1431,H142,Gastroenterologist,3,True,+91 9844130183
+D0007,Dr_Name_7,H143,Pulmonologist,27,True,+91 9873960038
+D0126,Dr_Name_126,H143,Gastroenterologist,17,True,+91 9894538675
+D0420,Dr_Name_420,H143,Pediatrician,19,True,+91 9822925420
+D0518,Dr_Name_518,H143,Pediatrician,22,True,+91 9870378491
+D0862,Dr_Name_862,H143,General Physician,13,False,+91 9854916840
+D0976,Dr_Name_976,H143,Cardiologist,13,True,+91 9844865621
+D1161,Dr_Name_1161,H143,Orthopedic Surgeon,13,True,+91 9858447502
+D1165,Dr_Name_1165,H143,Cardiologist,8,True,+91 9858359530
+D1215,Dr_Name_1215,H143,Orthopedic Surgeon,28,False,+91 9885208908
+D1316,Dr_Name_1316,H143,Pediatrician,26,False,+91 9884825240
+D1452,Dr_Name_1452,H143,Oncologist,8,True,+91 9844589898
+D1472,Dr_Name_1472,H143,General Physician,26,True,+91 9856189726
+D1668,Dr_Name_1668,H143,General Physician,21,False,+91 9812662253
+D1905,Dr_Name_1905,H143,Gastroenterologist,10,True,+91 9865265613
+D1998,Dr_Name_1998,H143,Neurologist,14,True,+91 9826272220
+D0193,Dr_Name_193,H144,Pediatrician,18,True,+91 9857122567
+D0245,Dr_Name_245,H144,General Physician,27,True,+91 9891279039
+D1235,Dr_Name_1235,H144,Neurologist,23,True,+91 9836703705
+D1402,Dr_Name_1402,H144,Cardiologist,26,False,+91 9887424000
+D1405,Dr_Name_1405,H144,Gastroenterologist,26,False,+91 9887295245
+D1409,Dr_Name_1409,H144,Neurologist,2,True,+91 9897223468
+D1549,Dr_Name_1549,H144,Pulmonologist,24,True,+91 9897124881
+D1713,Dr_Name_1713,H144,Pulmonologist,15,False,+91 9882267959
+D1792,Dr_Name_1792,H144,Orthopedic Surgeon,19,True,+91 9833426205
+D1827,Dr_Name_1827,H144,Pulmonologist,19,True,+91 9848199537
+D1914,Dr_Name_1914,H144,Gastroenterologist,18,True,+91 9857661928
+D1978,Dr_Name_1978,H144,General Physician,4,True,+91 9853632879
+D0009,Dr_Name_9,H145,Gastroenterologist,15,True,+91 9878510704
+D0338,Dr_Name_338,H145,Oncologist,3,True,+91 9875430302
+D0430,Dr_Name_430,H145,Pediatrician,17,True,+91 9869985944
+D0572,Dr_Name_572,H145,Oncologist,28,True,+91 9820523679
+D0701,Dr_Name_701,H145,Pediatrician,13,False,+91 9861146483
+D0777,Dr_Name_777,H145,Pediatrician,11,True,+91 9892364557
+D0833,Dr_Name_833,H145,Gastroenterologist,13,False,+91 9848456543
+D1000,Dr_Name_1000,H145,Pediatrician,16,False,+91 9872243750
+D1108,Dr_Name_1108,H145,Cardiologist,13,False,+91 9894786974
+D1404,Dr_Name_1404,H145,Cardiologist,7,True,+91 9829441214
+D1638,Dr_Name_1638,H145,Cardiologist,15,True,+91 9832491607
+D1900,Dr_Name_1900,H145,Neurologist,1,True,+91 9895977279
+D0310,Dr_Name_310,H146,Gastroenterologist,25,True,+91 9855283492
+D0447,Dr_Name_447,H146,Pediatrician,7,True,+91 9866615250
+D0510,Dr_Name_510,H146,Pulmonologist,20,True,+91 9894728082
+D0607,Dr_Name_607,H146,Cardiologist,12,True,+91 9892182875
+D0922,Dr_Name_922,H146,Pediatrician,23,True,+91 9886723896
+D1239,Dr_Name_1239,H146,Cardiologist,26,True,+91 9864327674
+D1302,Dr_Name_1302,H146,Oncologist,18,False,+91 9819575640
+D1331,Dr_Name_1331,H146,Cardiologist,26,True,+91 9820618223
+D1518,Dr_Name_1518,H146,General Physician,6,True,+91 9831743203
+D1722,Dr_Name_1722,H146,Orthopedic Surgeon,29,False,+91 9856120632
+D1891,Dr_Name_1891,H146,Cardiologist,20,True,+91 9840630893
+D0258,Dr_Name_258,H147,Neurologist,2,True,+91 9852074850
+D0261,Dr_Name_261,H147,Pediatrician,26,True,+91 9852530677
+D0630,Dr_Name_630,H147,Pediatrician,28,True,+91 9897645934
+D0755,Dr_Name_755,H147,Pulmonologist,24,False,+91 9849105187
+D0909,Dr_Name_909,H147,Orthopedic Surgeon,10,True,+91 9845899536
+D1120,Dr_Name_1120,H147,Pediatrician,17,False,+91 9891253395
+D1167,Dr_Name_1167,H147,Cardiologist,27,True,+91 9896522692
+D1303,Dr_Name_1303,H147,General Physician,20,True,+91 9863077115
+D1866,Dr_Name_1866,H147,Neurologist,10,True,+91 9846406303
+D1870,Dr_Name_1870,H147,Orthopedic Surgeon,19,True,+91 9869713250
+D1928,Dr_Name_1928,H147,Cardiologist,9,True,+91 9858743159
+D0073,Dr_Name_73,H148,Gastroenterologist,6,True,+91 9888775038
+D0173,Dr_Name_173,H148,Oncologist,20,True,+91 9879918804
+D0270,Dr_Name_270,H148,Oncologist,24,True,+91 9870436720
+D0372,Dr_Name_372,H148,Orthopedic Surgeon,12,False,+91 9865564671
+D0544,Dr_Name_544,H148,Gastroenterologist,9,True,+91 9832457056
+D0694,Dr_Name_694,H148,Cardiologist,12,True,+91 9834680787
+D0795,Dr_Name_795,H148,Pediatrician,22,True,+91 9813100576
+D0842,Dr_Name_842,H148,Pulmonologist,11,True,+91 9826782572
+D0945,Dr_Name_945,H148,Orthopedic Surgeon,24,True,+91 9841491128
+D1050,Dr_Name_1050,H148,Cardiologist,16,True,+91 9898855162
+D1661,Dr_Name_1661,H148,Cardiologist,16,True,+91 9843775489
+D1903,Dr_Name_1903,H148,General Physician,9,True,+91 9820746107
+D2000,Dr_Name_2000,H148,Pediatrician,14,True,+91 9838262427
+D0114,Dr_Name_114,H149,Cardiologist,19,False,+91 9832402343
+D0127,Dr_Name_127,H149,General Physician,13,True,+91 9863290556
+D0354,Dr_Name_354,H149,General Physician,29,True,+91 9823825676
+D0412,Dr_Name_412,H149,Cardiologist,10,True,+91 9822825003
+D1166,Dr_Name_1166,H149,Orthopedic Surgeon,8,True,+91 9818562070
+D1312,Dr_Name_1312,H149,Neurologist,22,False,+91 9873509922
+D1368,Dr_Name_1368,H149,Neurologist,29,False,+91 9883609531
+D1422,Dr_Name_1422,H149,Orthopedic Surgeon,25,True,+91 9817224328
+D1473,Dr_Name_1473,H149,Cardiologist,15,True,+91 9813538638
+D1502,Dr_Name_1502,H149,Pediatrician,3,False,+91 9863286118
+D1542,Dr_Name_1542,H149,Pulmonologist,11,True,+91 9880327779
+D1579,Dr_Name_1579,H149,General Physician,29,True,+91 9821173787
+D1581,Dr_Name_1581,H149,Pediatrician,6,True,+91 9823949034
+D1597,Dr_Name_1597,H149,General Physician,11,True,+91 9845225746
+D1703,Dr_Name_1703,H149,Pulmonologist,7,True,+91 9892960269
+D1737,Dr_Name_1737,H149,Neurologist,5,True,+91 9830840572
+D1745,Dr_Name_1745,H149,Gastroenterologist,28,True,+91 9821316066
+D1747,Dr_Name_1747,H149,General Physician,5,True,+91 9897890153
+D1805,Dr_Name_1805,H149,Neurologist,20,True,+91 9862324272
+D1843,Dr_Name_1843,H149,Gastroenterologist,11,True,+91 9851523026
+D1938,Dr_Name_1938,H149,Pediatrician,19,True,+91 9840783635
+D0163,Dr_Name_163,H150,Pulmonologist,26,True,+91 9843204998
+D0367,Dr_Name_367,H150,Gastroenterologist,8,False,+91 9848141360
+D0700,Dr_Name_700,H150,Cardiologist,3,True,+91 9869479985
+D0854,Dr_Name_854,H150,Neurologist,20,False,+91 9894084814
+D0923,Dr_Name_923,H150,Pulmonologist,8,True,+91 9826966692
+D1276,Dr_Name_1276,H150,Gastroenterologist,22,True,+91 9827619715
+D1313,Dr_Name_1313,H150,Oncologist,25,True,+91 9880698159
+D1388,Dr_Name_1388,H150,Gastroenterologist,19,False,+91 9832898616
+D1425,Dr_Name_1425,H150,General Physician,10,True,+91 9813834774
+D1450,Dr_Name_1450,H150,Pulmonologist,14,True,+91 9814718421
+D1755,Dr_Name_1755,H150,General Physician,19,True,+91 9899060057
+D1874,Dr_Name_1874,H150,Pediatrician,18,False,+91 9857894420
+D0110,Dr_Name_110,H151,General Physician,21,True,+91 9853647781
+D0256,Dr_Name_256,H151,Pulmonologist,28,True,+91 9873908407
+D0431,Dr_Name_431,H151,Pediatrician,21,True,+91 9872705646
+D1012,Dr_Name_1012,H151,Gastroenterologist,16,True,+91 9882555977
+D1078,Dr_Name_1078,H151,Orthopedic Surgeon,13,True,+91 9846562845
+D1082,Dr_Name_1082,H151,Gastroenterologist,17,True,+91 9883624500
+D1209,Dr_Name_1209,H151,Gastroenterologist,27,True,+91 9869706076
+D1433,Dr_Name_1433,H151,General Physician,16,True,+91 9828134815
+D1444,Dr_Name_1444,H151,General Physician,16,True,+91 9882381952
+D1527,Dr_Name_1527,H151,Pulmonologist,27,False,+91 9833761455
+D1753,Dr_Name_1753,H151,Oncologist,14,True,+91 9889299984
+D1767,Dr_Name_1767,H151,General Physician,4,False,+91 9890206393
+D0153,Dr_Name_153,H152,Oncologist,21,True,+91 9871276220
+D0366,Dr_Name_366,H152,Cardiologist,23,True,+91 9894697764
+D0453,Dr_Name_453,H152,Gastroenterologist,25,True,+91 9895342494
+D0952,Dr_Name_952,H152,Pulmonologist,14,True,+91 9885696716
+D1289,Dr_Name_1289,H152,Oncologist,27,False,+91 9868381674
+D1296,Dr_Name_1296,H152,Pulmonologist,21,True,+91 9880257585
+D1657,Dr_Name_1657,H152,Oncologist,25,True,+91 9895870691
+D1658,Dr_Name_1658,H152,Neurologist,14,True,+91 9895836028
+D1875,Dr_Name_1875,H152,Cardiologist,11,True,+91 9881643293
+D1963,Dr_Name_1963,H152,Gastroenterologist,24,True,+91 9851562039
+D1966,Dr_Name_1966,H152,Gastroenterologist,26,True,+91 9856596140
+D0008,Dr_Name_8,H153,General Physician,2,False,+91 9874646194
+D0320,Dr_Name_320,H153,Pediatrician,23,True,+91 9882433029
+D0469,Dr_Name_469,H153,Gastroenterologist,24,False,+91 9840484663
+D0498,Dr_Name_498,H153,Orthopedic Surgeon,16,True,+91 9822019737
+D0513,Dr_Name_513,H153,Cardiologist,13,True,+91 9869305486
+D0538,Dr_Name_538,H153,Gastroenterologist,26,True,+91 9851321368
+D0592,Dr_Name_592,H153,Pediatrician,29,True,+91 9859094606
+D0798,Dr_Name_798,H153,Gastroenterologist,19,False,+91 9865325058
+D1193,Dr_Name_1193,H153,Neurologist,22,True,+91 9844870711
+D1325,Dr_Name_1325,H153,Oncologist,1,True,+91 9830900054
+D1686,Dr_Name_1686,H153,Oncologist,3,True,+91 9850744867
+D1724,Dr_Name_1724,H153,General Physician,24,True,+91 9811416778
+D0134,Dr_Name_134,H154,General Physician,1,True,+91 9810012394
+D0164,Dr_Name_164,H154,Pulmonologist,19,True,+91 9880238316
+D0302,Dr_Name_302,H154,General Physician,1,False,+91 9828293937
+D0339,Dr_Name_339,H154,Orthopedic Surgeon,7,True,+91 9856155452
+D0376,Dr_Name_376,H154,Neurologist,1,True,+91 9848488577
+D0422,Dr_Name_422,H154,General Physician,22,True,+91 9872974683
+D0853,Dr_Name_853,H154,Oncologist,17,True,+91 9881819757
+D0894,Dr_Name_894,H154,General Physician,29,False,+91 9811116303
+D1192,Dr_Name_1192,H154,Cardiologist,19,False,+91 9876025948
+D1291,Dr_Name_1291,H154,Cardiologist,17,True,+91 9874030858
+D1445,Dr_Name_1445,H154,Orthopedic Surgeon,14,True,+91 9850213043
+D1839,Dr_Name_1839,H154,Pediatrician,16,True,+91 9811225756
+D1932,Dr_Name_1932,H154,Neurologist,16,True,+91 9867772049
+D0029,Dr_Name_29,H155,General Physician,10,True,+91 9849315407
+D0035,Dr_Name_35,H155,Oncologist,10,True,+91 9890128487
+D0064,Dr_Name_64,H155,Oncologist,6,False,+91 9841033204
+D0647,Dr_Name_647,H155,Cardiologist,6,True,+91 9810968781
+D0673,Dr_Name_673,H155,Oncologist,24,False,+91 9883579795
+D1570,Dr_Name_1570,H155,Pulmonologist,23,True,+91 9860149632
+D1808,Dr_Name_1808,H155,Pediatrician,5,True,+91 9835309568
+D0165,Dr_Name_165,H156,General Physician,24,True,+91 9865262252
+D0688,Dr_Name_688,H156,Oncologist,22,False,+91 9885236332
+D0930,Dr_Name_930,H156,Gastroenterologist,10,True,+91 9868667423
+D1045,Dr_Name_1045,H156,Neurologist,28,True,+91 9862982727
+D1190,Dr_Name_1190,H156,Neurologist,5,False,+91 9843540489
+D1232,Dr_Name_1232,H156,Cardiologist,17,True,+91 9831913660
+D1544,Dr_Name_1544,H156,Cardiologist,7,True,+91 9896703417
+D0027,Dr_Name_27,H157,Oncologist,24,True,+91 9862307771
+D0031,Dr_Name_31,H157,Oncologist,25,True,+91 9860782359
+D0055,Dr_Name_55,H157,Cardiologist,10,True,+91 9839607414
+D0058,Dr_Name_58,H157,Pediatrician,3,False,+91 9845296615
+D0210,Dr_Name_210,H157,Oncologist,14,True,+91 9820631350
+D0735,Dr_Name_735,H157,Pediatrician,5,True,+91 9866672010
+D1095,Dr_Name_1095,H157,Neurologist,26,False,+91 9893929434
+D1231,Dr_Name_1231,H157,Oncologist,26,True,+91 9842153442
+D1608,Dr_Name_1608,H157,General Physician,6,True,+91 9879338228
+D1781,Dr_Name_1781,H157,Gastroenterologist,22,True,+91 9892304487
+D0188,Dr_Name_188,H158,General Physician,16,True,+91 9846489118
+D0288,Dr_Name_288,H158,Neurologist,17,True,+91 9848208680
+D0480,Dr_Name_480,H158,Orthopedic Surgeon,9,True,+91 9897034430
+D0497,Dr_Name_497,H158,Orthopedic Surgeon,19,True,+91 9881396350
+D0508,Dr_Name_508,H158,Pulmonologist,15,True,+91 9846080681
+D0661,Dr_Name_661,H158,Neurologist,29,True,+91 9865419020
+D0684,Dr_Name_684,H158,Neurologist,2,False,+91 9835233016
+D0849,Dr_Name_849,H158,Neurologist,8,False,+91 9819189076
+D1106,Dr_Name_1106,H158,Oncologist,15,True,+91 9834482277
+D1238,Dr_Name_1238,H158,Orthopedic Surgeon,19,False,+91 9828337367
+D1399,Dr_Name_1399,H158,Gastroenterologist,29,True,+91 9848868823
+D1463,Dr_Name_1463,H158,Neurologist,28,True,+91 9824811778
+D1464,Dr_Name_1464,H158,Neurologist,6,True,+91 9895482292
+D1730,Dr_Name_1730,H158,Orthopedic Surgeon,16,False,+91 9871115104
+D1864,Dr_Name_1864,H158,Gastroenterologist,7,True,+91 9892910238
+D1965,Dr_Name_1965,H158,Pediatrician,2,False,+91 9870769389
+D1969,Dr_Name_1969,H158,Pulmonologist,24,True,+91 9846525224
+D0049,Dr_Name_49,H159,General Physician,27,True,+91 9893584597
+D0452,Dr_Name_452,H159,Oncologist,11,True,+91 9876034587
+D0663,Dr_Name_663,H159,Cardiologist,3,True,+91 9835204672
+D0941,Dr_Name_941,H159,Neurologist,4,True,+91 9853036072
+D1141,Dr_Name_1141,H159,Oncologist,12,True,+91 9812603206
+D1253,Dr_Name_1253,H159,Orthopedic Surgeon,12,True,+91 9830421134
+D1537,Dr_Name_1537,H159,General Physician,3,True,+91 9816661503
+D1664,Dr_Name_1664,H159,Pulmonologist,3,True,+91 9881802559
+D1867,Dr_Name_1867,H159,Pediatrician,24,True,+91 9812970357
+D1881,Dr_Name_1881,H159,Cardiologist,10,True,+91 9834956121
+D0484,Dr_Name_484,H160,Pulmonologist,19,True,+91 9823726915
+D0574,Dr_Name_574,H160,Cardiologist,28,False,+91 9847864772
+D0658,Dr_Name_658,H160,Pulmonologist,5,True,+91 9846130759
+D0722,Dr_Name_722,H160,General Physician,6,True,+91 9826782477
+D0837,Dr_Name_837,H160,Oncologist,6,True,+91 9868843284
+D0845,Dr_Name_845,H160,Oncologist,8,True,+91 9811101134
+D0876,Dr_Name_876,H160,Neurologist,10,True,+91 9841247296
+D1319,Dr_Name_1319,H160,Oncologist,20,False,+91 9822106034
+D1367,Dr_Name_1367,H160,Pulmonologist,11,False,+91 9830224423
+D1522,Dr_Name_1522,H160,Cardiologist,16,True,+91 9811976335
+D1592,Dr_Name_1592,H160,Pediatrician,16,True,+91 9876247126
+D1644,Dr_Name_1644,H160,Neurologist,13,False,+91 9839150491
+D1711,Dr_Name_1711,H160,General Physician,8,True,+91 9855890766
+D1999,Dr_Name_1999,H160,Cardiologist,7,True,+91 9866404064
+D0159,Dr_Name_159,H161,Orthopedic Surgeon,29,True,+91 9851819114
+D0255,Dr_Name_255,H161,Gastroenterologist,15,True,+91 9876893545
+D0471,Dr_Name_471,H161,Gastroenterologist,29,True,+91 9859848072
+D0843,Dr_Name_843,H161,Oncologist,8,True,+91 9872234675
+D0850,Dr_Name_850,H161,Pulmonologist,29,True,+91 9814259684
+D1064,Dr_Name_1064,H161,General Physician,12,True,+91 9854325223
+D1134,Dr_Name_1134,H161,Gastroenterologist,8,False,+91 9820767361
+D1170,Dr_Name_1170,H161,Pulmonologist,11,True,+91 9829607576
+D1310,Dr_Name_1310,H161,General Physician,16,True,+91 9817521339
+D1428,Dr_Name_1428,H161,Cardiologist,17,True,+91 9845769504
+D1899,Dr_Name_1899,H161,Cardiologist,8,True,+91 9862669959
+D1994,Dr_Name_1994,H161,Pediatrician,4,True,+91 9819581091
+D0144,Dr_Name_144,H162,Gastroenterologist,17,True,+91 9882905989
+D0217,Dr_Name_217,H162,Pulmonologist,27,True,+91 9873102032
+D0237,Dr_Name_237,H162,General Physician,18,False,+91 9834374441
+D0764,Dr_Name_764,H162,Pediatrician,19,True,+91 9835795612
+D0963,Dr_Name_963,H162,Orthopedic Surgeon,23,True,+91 9843565097
+D1530,Dr_Name_1530,H162,General Physician,16,True,+91 9861214452
+D1822,Dr_Name_1822,H162,Cardiologist,10,True,+91 9811693222
+D1863,Dr_Name_1863,H162,Orthopedic Surgeon,10,True,+91 9826369402
+D0568,Dr_Name_568,H163,Pediatrician,12,False,+91 9843415162
+D0682,Dr_Name_682,H163,Pediatrician,6,True,+91 9861646699
+D0766,Dr_Name_766,H163,Cardiologist,12,True,+91 9869453211
+D1005,Dr_Name_1005,H163,Oncologist,19,False,+91 9843173547
+D1317,Dr_Name_1317,H163,Pediatrician,21,False,+91 9814497675
+D1449,Dr_Name_1449,H163,Cardiologist,14,False,+91 9836733470
+D1474,Dr_Name_1474,H163,Orthopedic Surgeon,5,True,+91 9871852177
+D1478,Dr_Name_1478,H163,Pulmonologist,6,False,+91 9822611138
+D1948,Dr_Name_1948,H163,Neurologist,29,False,+91 9879946108
+D1972,Dr_Name_1972,H163,Neurologist,13,True,+91 9899390064
+D0030,Dr_Name_30,H164,Cardiologist,9,True,+91 9837977300
+D0067,Dr_Name_67,H164,Pediatrician,11,True,+91 9873461570
+D0117,Dr_Name_117,H164,General Physician,27,True,+91 9862227199
+D0358,Dr_Name_358,H164,Neurologist,13,True,+91 9851890609
+D0712,Dr_Name_712,H164,Oncologist,27,True,+91 9853360807
+D0958,Dr_Name_958,H164,Pulmonologist,24,False,+91 9831288466
+D0964,Dr_Name_964,H164,General Physician,17,True,+91 9894444996
+D1010,Dr_Name_1010,H164,Gastroenterologist,16,True,+91 9815662097
+D1237,Dr_Name_1237,H164,General Physician,14,True,+91 9883763371
+D1304,Dr_Name_1304,H164,Gastroenterologist,12,True,+91 9879917538
+D1350,Dr_Name_1350,H164,General Physician,27,False,+91 9826393556
+D1486,Dr_Name_1486,H164,Neurologist,14,False,+91 9843999060
+D1561,Dr_Name_1561,H164,Oncologist,18,False,+91 9874589542
+D1593,Dr_Name_1593,H164,General Physician,24,True,+91 9895700705
+D1704,Dr_Name_1704,H164,Gastroenterologist,22,True,+91 9850106013
+D1814,Dr_Name_1814,H164,Orthopedic Surgeon,2,True,+91 9836672234
+D0247,Dr_Name_247,H165,Cardiologist,6,False,+91 9858375646
+D0319,Dr_Name_319,H165,Orthopedic Surgeon,14,True,+91 9816991067
+D1038,Dr_Name_1038,H165,Oncologist,27,False,+91 9899482259
+D1040,Dr_Name_1040,H165,Gastroenterologist,6,True,+91 9839231043
+D1772,Dr_Name_1772,H165,Pulmonologist,5,True,+91 9825157001
+D1936,Dr_Name_1936,H165,Neurologist,2,True,+91 9841670798
+D0003,Dr_Name_3,H166,Gastroenterologist,9,False,+91 9894947603
+D0204,Dr_Name_204,H166,Gastroenterologist,6,True,+91 9868272190
+D0279,Dr_Name_279,H166,Neurologist,18,False,+91 9853555463
+D0316,Dr_Name_316,H166,General Physician,25,False,+91 9812022353
+D0648,Dr_Name_648,H166,Orthopedic Surgeon,24,True,+91 9832462726
+D0762,Dr_Name_762,H166,Orthopedic Surgeon,27,True,+91 9847057520
+D0804,Dr_Name_804,H166,Neurologist,8,False,+91 9888476684
+D0821,Dr_Name_821,H166,Pulmonologist,11,True,+91 9826059096
+D0857,Dr_Name_857,H166,Oncologist,16,True,+91 9863124490
+D0990,Dr_Name_990,H166,Orthopedic Surgeon,13,True,+91 9842626898
+D1459,Dr_Name_1459,H166,General Physician,17,True,+91 9811198544
+D1563,Dr_Name_1563,H166,Oncologist,21,True,+91 9815636254
+D1609,Dr_Name_1609,H166,Gastroenterologist,3,True,+91 9887990837
+D0446,Dr_Name_446,H167,Gastroenterologist,17,True,+91 9873789750
+D1300,Dr_Name_1300,H167,General Physician,2,True,+91 9890022258
+D1336,Dr_Name_1336,H167,Cardiologist,25,False,+91 9830802666
+D1346,Dr_Name_1346,H167,Neurologist,12,True,+91 9859848284
+D1585,Dr_Name_1585,H167,Cardiologist,8,True,+91 9822009789
+D0125,Dr_Name_125,H168,Neurologist,1,True,+91 9843382936
+D0194,Dr_Name_194,H168,Pediatrician,3,True,+91 9831165928
+D0331,Dr_Name_331,H168,General Physician,17,True,+91 9877098020
+D0461,Dr_Name_461,H168,Cardiologist,26,True,+91 9822267708
+D0632,Dr_Name_632,H168,Orthopedic Surgeon,26,True,+91 9893033107
+D0844,Dr_Name_844,H168,Pediatrician,12,True,+91 9855422244
+D1008,Dr_Name_1008,H168,Pulmonologist,25,True,+91 9893903841
+D1721,Dr_Name_1721,H168,Gastroenterologist,17,False,+91 9818060088
+D0135,Dr_Name_135,H169,Orthopedic Surgeon,10,True,+91 9818022882
+D0553,Dr_Name_553,H169,Gastroenterologist,4,True,+91 9857716774
+D0638,Dr_Name_638,H169,General Physician,22,True,+91 9896513378
+D0827,Dr_Name_827,H169,Neurologist,6,True,+91 9830658582
+D1135,Dr_Name_1135,H169,Pulmonologist,19,True,+91 9881988124
+D1337,Dr_Name_1337,H169,Neurologist,21,True,+91 9824413864
+D1357,Dr_Name_1357,H169,Gastroenterologist,23,True,+91 9826888275
+D1496,Dr_Name_1496,H169,Oncologist,3,True,+91 9875477163
+D1620,Dr_Name_1620,H169,Neurologist,3,True,+91 9841229060
+D1697,Dr_Name_1697,H169,Oncologist,16,True,+91 9852512063
+D1810,Dr_Name_1810,H169,Neurologist,26,False,+91 9884940527
+D0473,Dr_Name_473,H170,Orthopedic Surgeon,22,True,+91 9896522918
+D0478,Dr_Name_478,H170,General Physician,19,True,+91 9856616197
+D0594,Dr_Name_594,H170,Cardiologist,11,False,+91 9868883853
+D0644,Dr_Name_644,H170,Pulmonologist,4,True,+91 9835899364
+D0656,Dr_Name_656,H170,Neurologist,8,True,+91 9812865928
+D0967,Dr_Name_967,H170,Neurologist,10,True,+91 9860703288
+D1257,Dr_Name_1257,H170,Neurologist,18,True,+91 9858072427
+D1287,Dr_Name_1287,H170,Orthopedic Surgeon,3,True,+91 9828083446
+D1929,Dr_Name_1929,H170,Cardiologist,10,True,+91 9843647879
+D0092,Dr_Name_92,H171,Gastroenterologist,10,False,+91 9815300062
+D0148,Dr_Name_148,H171,Gastroenterologist,22,True,+91 9875136149
+D0383,Dr_Name_383,H171,General Physician,10,True,+91 9868720256
+D0460,Dr_Name_460,H171,Oncologist,11,True,+91 9885031037
+D0527,Dr_Name_527,H171,Neurologist,3,True,+91 9849555923
+D1030,Dr_Name_1030,H171,Cardiologist,14,True,+91 9882844534
+D1076,Dr_Name_1076,H171,Gastroenterologist,22,True,+91 9875779034
+D1105,Dr_Name_1105,H171,Orthopedic Surgeon,26,True,+91 9835471281
+D1207,Dr_Name_1207,H171,Pediatrician,7,True,+91 9886061419
+D1451,Dr_Name_1451,H171,Neurologist,15,True,+91 9835048615
+D1771,Dr_Name_1771,H171,Cardiologist,18,True,+91 9882963514
+D0282,Dr_Name_282,H172,Gastroenterologist,6,True,+91 9856662763
+D0391,Dr_Name_391,H172,General Physician,28,True,+91 9853443711
+D0789,Dr_Name_789,H172,Neurologist,5,True,+91 9872866875
+D0865,Dr_Name_865,H172,General Physician,24,True,+91 9846953423
+D0983,Dr_Name_983,H172,Neurologist,17,True,+91 9890353461
+D1079,Dr_Name_1079,H172,Pulmonologist,13,False,+91 9884426456
+D1173,Dr_Name_1173,H172,Pulmonologist,19,True,+91 9831520928
+D1268,Dr_Name_1268,H172,Cardiologist,23,True,+91 9819244458
+D1365,Dr_Name_1365,H172,Pediatrician,8,True,+91 9881288059
+D1380,Dr_Name_1380,H172,Cardiologist,5,True,+91 9830807167
+D1645,Dr_Name_1645,H172,Neurologist,24,True,+91 9870315326
+D1731,Dr_Name_1731,H172,Neurologist,4,True,+91 9849684512
+D0062,Dr_Name_62,H173,Cardiologist,24,False,+91 9845346140
+D0191,Dr_Name_191,H173,Oncologist,11,False,+91 9882693120
+D0337,Dr_Name_337,H173,General Physician,13,True,+91 9859273033
+D0505,Dr_Name_505,H173,Neurologist,25,True,+91 9870945449
+D0912,Dr_Name_912,H173,Oncologist,5,True,+91 9810096613
+D1270,Dr_Name_1270,H173,Pulmonologist,13,True,+91 9895634408
+D1461,Dr_Name_1461,H173,Orthopedic Surgeon,24,True,+91 9877908497
+D1507,Dr_Name_1507,H173,Pediatrician,24,False,+91 9860874366
+D1591,Dr_Name_1591,H173,Oncologist,6,True,+91 9834901990
+D1642,Dr_Name_1642,H173,Oncologist,28,True,+91 9812512536
+D1849,Dr_Name_1849,H173,Oncologist,4,True,+91 9893179370
+D1886,Dr_Name_1886,H173,General Physician,17,True,+91 9858865345
+D0726,Dr_Name_726,H174,Orthopedic Surgeon,17,True,+91 9893241474
+D0776,Dr_Name_776,H174,General Physician,11,False,+91 9842049389
+D0783,Dr_Name_783,H174,Pulmonologist,18,True,+91 9853042832
+D0860,Dr_Name_860,H174,General Physician,7,True,+91 9818501586
+D1181,Dr_Name_1181,H174,Gastroenterologist,21,True,+91 9898354109
+D1734,Dr_Name_1734,H174,Neurologist,29,True,+91 9882337519
+D1845,Dr_Name_1845,H174,Orthopedic Surgeon,1,True,+91 9862008140
+D1956,Dr_Name_1956,H174,Orthopedic Surgeon,24,False,+91 9835483846
+D0128,Dr_Name_128,H175,Cardiologist,4,True,+91 9880339453
+D0200,Dr_Name_200,H175,General Physician,16,True,+91 9876779917
+D0710,Dr_Name_710,H175,Orthopedic Surgeon,20,True,+91 9884016756
+D0740,Dr_Name_740,H175,Orthopedic Surgeon,25,True,+91 9830687181
+D1039,Dr_Name_1039,H175,General Physician,6,True,+91 9892280734
+D1100,Dr_Name_1100,H175,Pediatrician,23,True,+91 9848000942
+D1307,Dr_Name_1307,H175,Cardiologist,23,True,+91 9853298644
+D1743,Dr_Name_1743,H175,Oncologist,13,True,+91 9865003032
+D0251,Dr_Name_251,H176,General Physician,18,True,+91 9896020669
+D0441,Dr_Name_441,H176,Gastroenterologist,26,False,+91 9853221337
+D0514,Dr_Name_514,H176,Cardiologist,18,True,+91 9824826245
+D0605,Dr_Name_605,H176,Oncologist,12,True,+91 9822919301
+D0611,Dr_Name_611,H176,General Physician,17,True,+91 9880222787
+D0805,Dr_Name_805,H176,Oncologist,12,True,+91 9898434857
+D1137,Dr_Name_1137,H176,Pulmonologist,15,True,+91 9818949617
+D1201,Dr_Name_1201,H176,Pulmonologist,17,True,+91 9815875684
+D1314,Dr_Name_1314,H176,Cardiologist,2,True,+91 9827418007
+D1885,Dr_Name_1885,H176,General Physician,2,True,+91 9833976493
+D0160,Dr_Name_160,H177,Gastroenterologist,27,True,+91 9814197492
+D0172,Dr_Name_172,H177,Neurologist,18,True,+91 9837122588
+D0503,Dr_Name_503,H177,General Physician,12,False,+91 9824368701
+D0561,Dr_Name_561,H177,Oncologist,7,False,+91 9875145297
+D0954,Dr_Name_954,H177,Neurologist,6,False,+91 9835718350
+D1241,Dr_Name_1241,H177,Cardiologist,3,True,+91 9823254482
+D1636,Dr_Name_1636,H177,Oncologist,15,False,+91 9814270425
+D0222,Dr_Name_222,H178,Neurologist,10,False,+91 9886639957
+D0569,Dr_Name_569,H178,Cardiologist,29,False,+91 9896134450
+D0881,Dr_Name_881,H178,Neurologist,8,True,+91 9862156850
+D1077,Dr_Name_1077,H178,Cardiologist,4,False,+91 9898304696
+D1088,Dr_Name_1088,H178,Oncologist,4,True,+91 9875754558
+D1536,Dr_Name_1536,H178,Neurologist,2,False,+91 9880574548
+D1564,Dr_Name_1564,H178,Pulmonologist,29,True,+91 9893747900
+D1689,Dr_Name_1689,H178,Gastroenterologist,26,True,+91 9889228847
+D1993,Dr_Name_1993,H178,General Physician,5,False,+91 9844351488
+D0001,Dr_Name_1,H179,Gastroenterologist,18,True,+91 9816588161
+D0014,Dr_Name_14,H179,Pulmonologist,20,True,+91 9859171204
+D0016,Dr_Name_16,H179,Pulmonologist,7,True,+91 9839624910
+D0021,Dr_Name_21,H179,Oncologist,19,True,+91 9891329718
+D0151,Dr_Name_151,H179,Cardiologist,20,True,+91 9819512542
+D0183,Dr_Name_183,H179,Orthopedic Surgeon,1,True,+91 9811756387
+D0205,Dr_Name_205,H179,Cardiologist,19,True,+91 9838016352
+D0392,Dr_Name_392,H179,Orthopedic Surgeon,11,True,+91 9898013189
+D0723,Dr_Name_723,H179,General Physician,14,True,+91 9875955329
+D0830,Dr_Name_830,H179,General Physician,24,True,+91 9820731620
+D0955,Dr_Name_955,H179,Oncologist,10,False,+91 9872821834
+D1065,Dr_Name_1065,H179,Oncologist,17,True,+91 9895753950
+D1656,Dr_Name_1656,H179,General Physician,9,True,+91 9818147041
+D1733,Dr_Name_1733,H179,Cardiologist,22,True,+91 9858442674
+D0052,Dr_Name_52,H180,Cardiologist,7,True,+91 9884896161
+D0131,Dr_Name_131,H180,Neurologist,9,False,+91 9865828293
+D0156,Dr_Name_156,H180,Orthopedic Surgeon,15,True,+91 9859535555
+D0713,Dr_Name_713,H180,Pediatrician,21,False,+91 9817824896
+D1442,Dr_Name_1442,H180,Neurologist,6,True,+91 9892803389
+D1469,Dr_Name_1469,H180,Pediatrician,23,False,+91 9845677170
+D1494,Dr_Name_1494,H180,Orthopedic Surgeon,15,True,+91 9881003974
+D1607,Dr_Name_1607,H180,Pulmonologist,24,True,+91 9815456373
+D1667,Dr_Name_1667,H180,General Physician,21,True,+91 9819447334
+D1763,Dr_Name_1763,H180,Cardiologist,29,True,+91 9850789378
+D0349,Dr_Name_349,H181,Pulmonologist,16,True,+91 9820460308
+D0516,Dr_Name_516,H181,Orthopedic Surgeon,13,True,+91 9838977615
+D0643,Dr_Name_643,H181,General Physician,15,False,+91 9879724133
+D0660,Dr_Name_660,H181,Pulmonologist,6,True,+91 9823035125
+D0790,Dr_Name_790,H181,Neurologist,23,True,+91 9823586205
+D1068,Dr_Name_1068,H181,Pulmonologist,5,True,+91 9841006711
+D1589,Dr_Name_1589,H181,Pulmonologist,10,True,+91 9881358338
+D1710,Dr_Name_1710,H181,Pulmonologist,15,True,+91 9861718263
+D1823,Dr_Name_1823,H181,Gastroenterologist,3,True,+91 9835428946
+D0118,Dr_Name_118,H182,Pulmonologist,24,False,+91 9835920053
+D0122,Dr_Name_122,H182,Cardiologist,25,False,+91 9880624297
+D0152,Dr_Name_152,H182,General Physician,27,True,+91 9898164473
+D0248,Dr_Name_248,H182,Neurologist,26,True,+91 9843388408
+D0934,Dr_Name_934,H182,Gastroenterologist,4,True,+91 9886507818
+D1955,Dr_Name_1955,H182,General Physician,7,True,+91 9893929707
+D1979,Dr_Name_1979,H182,Cardiologist,24,False,+91 9834011268
+D0036,Dr_Name_36,H183,General Physician,17,True,+91 9884950330
+D0462,Dr_Name_462,H183,Oncologist,28,True,+91 9884912498
+D0916,Dr_Name_916,H183,General Physician,25,False,+91 9865725133
+D1305,Dr_Name_1305,H183,Pediatrician,23,True,+91 9824161873
+D1576,Dr_Name_1576,H183,Gastroenterologist,14,True,+91 9895714702
+D1599,Dr_Name_1599,H183,General Physician,17,True,+91 9887385064
+D1723,Dr_Name_1723,H183,Pediatrician,17,True,+91 9858045029
+D1888,Dr_Name_1888,H183,Neurologist,2,True,+91 9871568435
+D1890,Dr_Name_1890,H183,Orthopedic Surgeon,22,True,+91 9899287317
+D1973,Dr_Name_1973,H183,Neurologist,4,True,+91 9867321034
+D0053,Dr_Name_53,H184,Orthopedic Surgeon,27,False,+91 9823972387
+D0185,Dr_Name_185,H184,Gastroenterologist,14,True,+91 9832388767
+D0494,Dr_Name_494,H184,Oncologist,25,True,+91 9834212413
+D0531,Dr_Name_531,H184,Pulmonologist,27,False,+91 9883815115
+D0586,Dr_Name_586,H184,Neurologist,5,False,+91 9863896091
+D0747,Dr_Name_747,H184,Oncologist,10,False,+91 9877738718
+D1009,Dr_Name_1009,H184,Cardiologist,3,True,+91 9855300210
+D1075,Dr_Name_1075,H184,Pulmonologist,7,True,+91 9898252435
+D1260,Dr_Name_1260,H184,Pulmonologist,12,False,+91 9831230084
+D1775,Dr_Name_1775,H184,Orthopedic Surgeon,13,True,+91 9881658908
+D1985,Dr_Name_1985,H184,Oncologist,18,True,+91 9890519326
+D0033,Dr_Name_33,H185,Cardiologist,26,False,+91 9869460086
+D0492,Dr_Name_492,H185,General Physician,21,True,+91 9857288136
+D0756,Dr_Name_756,H185,General Physician,11,True,+91 9852299387
+D1073,Dr_Name_1073,H185,Pediatrician,26,False,+91 9883830667
+D1324,Dr_Name_1324,H185,Pediatrician,29,True,+91 9853574336
+D1990,Dr_Name_1990,H185,Cardiologist,27,True,+91 9859891348
+D0303,Dr_Name_303,H186,Orthopedic Surgeon,4,False,+91 9865343779
+D0621,Dr_Name_621,H186,Orthopedic Surgeon,6,False,+91 9894992144
+D0942,Dr_Name_942,H186,Cardiologist,18,True,+91 9867792552
+D0969,Dr_Name_969,H186,Orthopedic Surgeon,23,True,+91 9853412847
+D1390,Dr_Name_1390,H186,Neurologist,28,True,+91 9891659860
+D1672,Dr_Name_1672,H186,Neurologist,23,True,+91 9842309234
+D1791,Dr_Name_1791,H186,General Physician,19,True,+91 9885584002
+D1831,Dr_Name_1831,H186,Pulmonologist,20,True,+91 9883232714
+D1858,Dr_Name_1858,H186,Cardiologist,28,True,+91 9838712948
+D0149,Dr_Name_149,H187,General Physician,18,True,+91 9860340113
+D0229,Dr_Name_229,H187,General Physician,7,False,+91 9883851788
+D0360,Dr_Name_360,H187,Pediatrician,20,True,+91 9844103265
+D0399,Dr_Name_399,H187,Gastroenterologist,22,True,+91 9858319528
+D0448,Dr_Name_448,H187,Pulmonologist,21,False,+91 9870720566
+D0524,Dr_Name_524,H187,General Physician,29,False,+91 9870062404
+D0600,Dr_Name_600,H187,Gastroenterologist,25,False,+91 9863296593
+D0752,Dr_Name_752,H187,General Physician,16,True,+91 9810026256
+D1634,Dr_Name_1634,H187,Gastroenterologist,19,False,+91 9814652375
+D0264,Dr_Name_264,H188,Oncologist,4,True,+91 9848182550
+D0455,Dr_Name_455,H188,Oncologist,29,True,+91 9889961933
+D0649,Dr_Name_649,H188,Pulmonologist,20,False,+91 9812188077
+D0678,Dr_Name_678,H188,Gastroenterologist,29,True,+91 9879472352
+D0806,Dr_Name_806,H188,Orthopedic Surgeon,22,True,+91 9828130896
+D0899,Dr_Name_899,H188,Pediatrician,18,True,+91 9850512501
+D0951,Dr_Name_951,H188,Neurologist,28,False,+91 9810881653
+D1339,Dr_Name_1339,H188,Pediatrician,25,True,+91 9850310141
+D1363,Dr_Name_1363,H188,General Physician,20,True,+91 9839781129
+D1508,Dr_Name_1508,H188,Pulmonologist,29,True,+91 9838833029
+D1594,Dr_Name_1594,H188,Cardiologist,27,True,+91 9852265790
+D1629,Dr_Name_1629,H188,Orthopedic Surgeon,27,True,+91 9812912708
+D1639,Dr_Name_1639,H188,Neurologist,20,True,+91 9847038339
+D1847,Dr_Name_1847,H188,Neurologist,23,False,+91 9884311410
+D1868,Dr_Name_1868,H188,Cardiologist,4,True,+91 9878621697
+D1959,Dr_Name_1959,H188,Pediatrician,14,False,+91 9884668420
+D0177,Dr_Name_177,H189,Neurologist,17,True,+91 9886593789
+D0401,Dr_Name_401,H189,Oncologist,28,True,+91 9886720441
+D0765,Dr_Name_765,H189,Neurologist,21,True,+91 9830765467
+D0932,Dr_Name_932,H189,General Physician,28,True,+91 9822655004
+D0943,Dr_Name_943,H189,Pediatrician,6,True,+91 9815064880
+D1049,Dr_Name_1049,H189,Orthopedic Surgeon,2,True,+91 9871789789
+D1258,Dr_Name_1258,H189,Orthopedic Surgeon,4,False,+91 9857735307
+D1773,Dr_Name_1773,H189,Gastroenterologist,22,False,+91 9830952341
+D0088,Dr_Name_88,H190,Gastroenterologist,3,True,+91 9828576833
+D0340,Dr_Name_340,H190,Pulmonologist,22,True,+91 9845566111
+D0374,Dr_Name_374,H190,Gastroenterologist,22,False,+91 9859269031
+D0490,Dr_Name_490,H190,Neurologist,3,True,+91 9888135616
+D0511,Dr_Name_511,H190,Neurologist,25,False,+91 9843535226
+D1128,Dr_Name_1128,H190,Pulmonologist,11,True,+91 9841271945
+D1398,Dr_Name_1398,H190,Cardiologist,29,False,+91 9844392465
+D1443,Dr_Name_1443,H190,Pulmonologist,17,True,+91 9850305910
+D1545,Dr_Name_1545,H190,General Physician,13,True,+91 9822335296
+D1700,Dr_Name_1700,H190,Orthopedic Surgeon,28,True,+91 9886569490
+D0646,Dr_Name_646,H191,Orthopedic Surgeon,23,True,+91 9863660012
+D0935,Dr_Name_935,H191,Pediatrician,29,True,+91 9886378602
+D1255,Dr_Name_1255,H191,Gastroenterologist,24,True,+91 9839183937
+D1520,Dr_Name_1520,H191,Neurologist,14,True,+91 9820361818
+D1567,Dr_Name_1567,H191,Neurologist,2,False,+91 9853579429
+D1596,Dr_Name_1596,H191,Pulmonologist,10,True,+91 9874764506
+D1777,Dr_Name_1777,H191,Oncologist,23,False,+91 9833206579
+D0024,Dr_Name_24,H192,Neurologist,24,False,+91 9875535348
+D0679,Dr_Name_679,H192,Pulmonologist,7,False,+91 9887340611
+D0697,Dr_Name_697,H192,Cardiologist,27,True,+91 9822799546
+D0709,Dr_Name_709,H192,Oncologist,3,True,+91 9889890579
+D0788,Dr_Name_788,H192,Neurologist,12,True,+91 9896201956
+D1130,Dr_Name_1130,H192,Gastroenterologist,21,False,+91 9850318100
+D1616,Dr_Name_1616,H192,Oncologist,11,True,+91 9815015930
+D1883,Dr_Name_1883,H192,Pediatrician,17,False,+91 9887347488
+D1940,Dr_Name_1940,H192,Oncologist,4,True,+91 9861210252
+D0347,Dr_Name_347,H193,Neurologist,12,False,+91 9820533057
+D0515,Dr_Name_515,H193,Gastroenterologist,2,True,+91 9817505818
+D0704,Dr_Name_704,H193,Pediatrician,15,True,+91 9854881018
+D1007,Dr_Name_1007,H193,General Physician,7,True,+91 9856698401
+D1102,Dr_Name_1102,H193,Neurologist,8,False,+91 9868291349
+D1439,Dr_Name_1439,H193,Pediatrician,26,True,+91 9865904597
+D1646,Dr_Name_1646,H193,Cardiologist,16,True,+91 9826178675
+D1798,Dr_Name_1798,H193,Pulmonologist,25,True,+91 9840429530
+D0010,Dr_Name_10,H194,Gastroenterologist,7,True,+91 9897614538
+D0201,Dr_Name_201,H194,Neurologist,23,True,+91 9890839556
+D0297,Dr_Name_297,H194,Pulmonologist,20,True,+91 9811534696
+D0377,Dr_Name_377,H194,Pediatrician,17,True,+91 9895078886
+D0476,Dr_Name_476,H194,General Physician,19,False,+91 9894851591
+D0670,Dr_Name_670,H194,Neurologist,16,True,+91 9861336531
+D0856,Dr_Name_856,H194,Cardiologist,23,True,+91 9817264930
+D1129,Dr_Name_1129,H194,General Physician,21,True,+91 9850907334
+D1180,Dr_Name_1180,H194,Pulmonologist,29,True,+91 9880381542
+D1188,Dr_Name_1188,H194,Oncologist,18,False,+91 9815527388
+D1482,Dr_Name_1482,H194,Oncologist,4,True,+91 9852857940
+D1688,Dr_Name_1688,H194,Neurologist,27,True,+91 9882468141
+D0273,Dr_Name_273,H195,Pulmonologist,15,False,+91 9885821325
+D0591,Dr_Name_591,H195,Orthopedic Surgeon,10,True,+91 9830076290
+D0744,Dr_Name_744,H195,Oncologist,19,True,+91 9853866598
+D0869,Dr_Name_869,H195,Orthopedic Surgeon,23,False,+91 9877431202
+D1017,Dr_Name_1017,H195,Neurologist,25,True,+91 9839634895
+D1690,Dr_Name_1690,H195,Neurologist,16,False,+91 9830561818
+D0038,Dr_Name_38,H196,Pulmonologist,6,False,+91 9816780654
+D0246,Dr_Name_246,H196,General Physician,28,True,+91 9862731823
+D0522,Dr_Name_522,H196,Cardiologist,27,True,+91 9869809598
+D0693,Dr_Name_693,H196,Pediatrician,20,True,+91 9889877290
+D1117,Dr_Name_1117,H196,Neurologist,2,True,+91 9887209399
+D1227,Dr_Name_1227,H196,Oncologist,4,True,+91 9877743626
+D1263,Dr_Name_1263,H196,Neurologist,15,False,+91 9822090729
+D1358,Dr_Name_1358,H196,Orthopedic Surgeon,3,True,+91 9839807828
+D1446,Dr_Name_1446,H196,Pulmonologist,13,True,+91 9867973424
+D1503,Dr_Name_1503,H196,Pediatrician,26,True,+91 9848894019
+D1602,Dr_Name_1602,H196,Pulmonologist,17,True,+91 9862925057
+D1992,Dr_Name_1992,H196,Cardiologist,27,True,+91 9829865888
+D0269,Dr_Name_269,H197,Cardiologist,22,True,+91 9827742113
+D0613,Dr_Name_613,H197,Oncologist,2,True,+91 9855119729
+D0757,Dr_Name_757,H197,Pulmonologist,14,True,+91 9821079017
+D1392,Dr_Name_1392,H197,General Physician,12,False,+91 9873868130
+D0017,Dr_Name_17,H198,Oncologist,15,True,+91 9886697457
+D0157,Dr_Name_157,H198,Cardiologist,15,True,+91 9816618423
+D0415,Dr_Name_415,H198,Oncologist,10,True,+91 9883571770
+D0529,Dr_Name_529,H198,Neurologist,14,True,+91 9863578549
+D0608,Dr_Name_608,H198,Oncologist,11,True,+91 9845239935
+D0921,Dr_Name_921,H198,Cardiologist,24,False,+91 9821419108
+D1061,Dr_Name_1061,H198,Gastroenterologist,10,False,+91 9863489393
+D1131,Dr_Name_1131,H198,Pediatrician,16,True,+91 9877353558
+D1149,Dr_Name_1149,H198,Neurologist,22,True,+91 9868316409
+D1189,Dr_Name_1189,H198,General Physician,6,True,+91 9827498659
+D1424,Dr_Name_1424,H198,Pulmonologist,22,True,+91 9828102047
+D1901,Dr_Name_1901,H198,Pulmonologist,13,False,+91 9874548325
+D1906,Dr_Name_1906,H198,Gastroenterologist,15,False,+91 9885067462
+D1924,Dr_Name_1924,H198,Neurologist,8,True,+91 9836589676
+D0155,Dr_Name_155,H199,Gastroenterologist,28,False,+91 9875479608
+D0168,Dr_Name_168,H199,General Physician,11,True,+91 9863058791
+D0335,Dr_Name_335,H199,Cardiologist,6,True,+91 9897543303
+D0429,Dr_Name_429,H199,Oncologist,16,True,+91 9886682706
+D0539,Dr_Name_539,H199,Pediatrician,11,True,+91 9836320002
+D0685,Dr_Name_685,H199,Neurologist,8,True,+91 9885318641
+D0785,Dr_Name_785,H199,Pediatrician,23,True,+91 9892677695
+D0799,Dr_Name_799,H199,Neurologist,1,True,+91 9880363346
+D1159,Dr_Name_1159,H199,Gastroenterologist,12,False,+91 9843050557
+D1164,Dr_Name_1164,H199,General Physician,25,True,+91 9842522981
+D1318,Dr_Name_1318,H199,Pulmonologist,25,True,+91 9819615892
+D1573,Dr_Name_1573,H199,Gastroenterologist,24,True,+91 9845736421
+D0022,Dr_Name_22,H200,Gastroenterologist,22,True,+91 9867722445
+D0079,Dr_Name_79,H200,General Physician,12,True,+91 9853407575
+D0416,Dr_Name_416,H200,Neurologist,1,True,+91 9887311859
+D1177,Dr_Name_1177,H200,Cardiologist,17,True,+91 9822025190
+D1370,Dr_Name_1370,H200,Pediatrician,26,False,+91 9825103503
+D1426,Dr_Name_1426,H200,Pulmonologist,21,True,+91 9865510043
+D1635,Dr_Name_1635,H200,Cardiologist,29,True,+91 9866846657
+D1651,Dr_Name_1651,H200,Cardiologist,10,False,+91 9859025393

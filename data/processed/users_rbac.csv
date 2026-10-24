@@ -1,0 +1,5 @@
+user_id,username,full_name,role,title,hospital_id,access_level
+1,admin,Dr. N.K. Syam Sundar Reddy,admin,Director & Emergency System Administrator,ALL,Full System Access (Read/Write/Dispatch/Override)
+2,pharmacy,K. Vishal (R.Ph.),pharmacy,Chief Pharmacist & Blood Bank Incharge,H001,Pharmacy & Blood Bank Management
+3,reception,S. Nikhil,reception,Emergency Triage & Bed Allocation Officer,H001,"Bed Tracking, Patient Admissions, Doctor Roster"
+4,manager,K. Ramesh (Dispatcher),manager,Fleet Command & 108 Dispatch Manager,FLEET_108,"Ambulance Routing, Allocation, Hotspot Staging"

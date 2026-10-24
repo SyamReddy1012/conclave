@@ -1,0 +1,5 @@
+# TechHunters Smart Hospital Optimization & Emergency Response System
+# Python Dependencies
+pandas>=2.0.0
+numpy>=1.24.0
+matplotlib>=3.7.0

@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechHunters · Smart Hospital Optimization & Emergency Response System</title>
+  <meta name="description" content="One live view of beds, medicines, and ambulances, so the right help reaches the right hospital faster. Built by Team TechHunters.">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Leaflet Map CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+
+  <!-- Chart.js for Power BI Dashboard Analytics -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <!-- Leaflet Map JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+  <!-- Application Styling -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="theme-cream">
+
+  <!-- ======================================================== -->
+  <!-- LOGIN PAGE VIEW -->
+  <!-- ======================================================== -->
+  <div id="login-view" class="login-wrapper">
+    <!-- Login Header Bar -->
+    <header class="login-header-bar">
+      <div class="login-header-left">
+        <div class="logo-badge">
+          <i class="fa-solid fa-heart-pulse pulse-icon"></i>
+        </div>
+        <div class="brand-info">
+          <div class="brand-title">
+            <span>TechHunters</span> Smart Hospital System
+          </div>
+          <div class="brand-tagline">
+            Right ambulance. Right hospital. Right medicine.
+          </div>
+        </div>
+      </div>
+      <div class="login-header-right">
+        <!-- Theme Toggle Button on Login Screen -->
+        <button id="login-theme-toggle" class="btn btn-theme-toggle" onclick="toggleTheme()" title="Toggle Theme (Cream, Green, White / Dark)">
+          <i class="fa-solid fa-moon"></i> <span class="theme-label-text">Dark Mode</span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Login Main Container -->
+    <div class="login-container">
+      <!-- Left Column: Hero Showcase -->
+      <div class="login-hero-card">
+        <div class="hero-badge">
+          <i class="fa-solid fa-shield-halved"></i> Innovative Conclave · Emergency Healthcare Platform
+        </div>
+        <h1 class="hero-title">
+          Unified Command for <span class="highlight-green">Beds, Medicines & Ambulances</span>
+        </h1>
+        <p class="hero-desc">
+          Connecting 200 hospitals, 108 emergency fleet ambulances, and real-time pharmaceutical inventory across 8 Indian metropolitan zones to deliver life-saving care within minutes.
+        </p>
+
+        <!-- Live Statistics Counter Chips -->
+        <div class="hero-stats-grid">
+          <div class="hero-stat-chip">
+            <i class="fa-solid fa-hospital"></i>
+            <div>
+              <strong>200</strong>
+              <small>Hospitals</small>
+            </div>
+          </div>
+          <div class="hero-stat-chip">
+            <i class="fa-solid fa-bed-pulse"></i>
+            <div>
+              <strong>176,375</strong>
+              <small>Total Beds</small>
+            </div>
+          </div>
+          <div class="hero-stat-chip">
+            <i class="fa-solid fa-truck-medical"></i>
+            <div>
+              <strong>49</strong>
+              <small>108 & Fleet</small>
+            </div>
+          </div>
+          <div class="hero-stat-chip">
+            <i class="fa-solid fa-pills"></i>
+            <div>
+              <strong>2,000+</strong>
+              <small>Drug Batches</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-quote">
+          <i class="fa-solid fa-quote-left quote-icon"></i>
+          <p>"One live view so the right help reaches the right hospital faster."</p>
+          <span>— Team TechHunters (Syam Sundar Reddy, Vishal, Nikhil)</span>
+        </div>
+      </div>
+
+      <!-- Right Column: Authentication Form -->
+      <div class="login-form-card">
+        <div class="login-card-header">
+          <div class="login-card-icon">
+            <i class="fa-solid fa-user-shield"></i>
+          </div>
+          <h2>Staff Portal Login</h2>
+          <p>Sign in with your role credentials or use 1-click demo access below.</p>
+        </div>
+
+        <!-- Error Banner -->
+        <div id="login-error-alert" class="login-error-alert hidden">
+          <i class="fa-solid fa-circle-exclamation"></i>
+          <span id="login-error-text">Invalid credentials. Please try again.</span>
+        </div>
+
+        <!-- Form -->
+        <form id="auth-login-form" onsubmit="handleLoginSubmit(event)">
+          <div class="form-group">
+            <label for="login-username"><i class="fa-solid fa-user"></i> Username or Role ID:</label>
+            <input type="text" id="login-username" class="form-input" placeholder="e.g. admin, pharmacy, reception, manager" required autocomplete="username">
+          </div>
+
+          <div class="form-group">
+            <label for="login-password"><i class="fa-solid fa-lock"></i> Password:</label>
+            <div class="password-input-wrap">
+              <input type="password" id="login-password" class="form-input" placeholder="Enter password (e.g. admin123)" required autocomplete="current-password">
+              <button type="button" class="btn-toggle-pw" onclick="togglePasswordVisibility()" title="Show/Hide Password">
+                <i class="fa-solid fa-eye" id="pw-eye-icon"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="login-options-row">
+            <label class="remember-label">
+              <input type="checkbox" id="login-remember" checked> Remember this device
+            </label>
+            <span class="password-hint">Default password: <code>[role]123</code></span>
+          </div>
+
+          <button type="submit" id="btn-submit-login" class="btn btn-login-submit">
+            <i class="fa-solid fa-right-to-bracket"></i> Sign In to Command Center
+          </button>
+        </form>
+
+        <!-- Divider -->
+        <div class="login-divider">
+          <span>OR 1-CLICK DEMO LOGIN AS:</span>
+        </div>
+
+        <!-- 4 Role Demo Quick Login Cards -->
+        <div class="demo-roles-grid">
+          <button type="button" class="demo-role-pill role-admin" onclick="quickLogin('admin')" title="Sign in as Director / Admin">
+            <div class="role-pill-icon"><i class="fa-solid fa-user-doctor"></i></div>
+            <div class="role-pill-info">
+              <strong>Director (Admin)</strong>
+              <small>Dr. N.K. Syam Sundar Reddy</small>
+            </div>
+            <span class="pill-badge">Full Access</span>
+          </button>
+
+          <button type="button" class="demo-role-pill role-pharmacy" onclick="quickLogin('pharmacy')" title="Sign in as Chief Pharmacist">
+            <div class="role-pill-icon"><i class="fa-solid fa-prescription-bottle-medical"></i></div>
+            <div class="role-pill-info">
+              <strong>Chief Pharmacist</strong>
+              <small>K. Vishal, R.Ph.</small>
+            </div>
+            <span class="pill-badge">Pharma & Blood</span>
+          </button>
+
+          <button type="button" class="demo-role-pill role-reception" onclick="quickLogin('reception')" title="Sign in as Triage & Bed Officer">
+            <div class="role-pill-icon"><i class="fa-solid fa-bed-pulse"></i></div>
+            <div class="role-pill-info">
+              <strong>Emergency Triage</strong>
+              <small>S. Nikhil</small>
+            </div>
+            <span class="pill-badge">Beds & Doctors</span>
+          </button>
+
+          <button type="button" class="demo-role-pill role-manager" onclick="quickLogin('manager')" title="Sign in as 108 Fleet Dispatch Manager">
+            <div class="role-pill-icon"><i class="fa-solid fa-truck-medical"></i></div>
+            <div class="role-pill-info">
+              <strong>Fleet Dispatch</strong>
+              <small>K. Ramesh</small>
+            </div>
+            <span class="pill-badge">108 Fleet</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================================================== -->
+  <!-- COMMAND CENTER APPLICATION VIEW (AUTHENTICATED) -->
+  <!-- ======================================================== -->
+  <div id="app-view" class="hidden">
+    <!-- TOP NAVIGATION HEADER -->
+    <header class="app-header">
+      <div class="header-left">
+        <div class="logo-badge">
+          <i class="fa-solid fa-heart-pulse pulse-icon"></i>
+        </div>
+        <div class="brand-info">
+          <div class="brand-title">
+            <span>TechHunters</span> Smart Hospital System
+          </div>
+          <div class="brand-tagline">
+            Right ambulance. Right hospital. Right medicine.
+          </div>
+        </div>
+      </div>
+
+      <!-- LIVE DEMO SCENARIO SHORTCUT -->
+      <div class="header-center">
+        <button id="btn-run-demo" class="btn btn-demo pulse-button" title="Execute README Section 9 Highway Accident Simulation">
+          <i class="fa-solid fa-play"></i> Run Highway Demo Scenario
+        </button>
+        <button id="btn-run-fallback-demo" class="btn btn-outline-warning" title="Test Bed Shortage Radius Expansion & Fallback">
+          <i class="fa-solid fa-triangle-exclamation"></i> Test Fallback Scenario
+        </button>
+      </div>
+
+      <!-- ROLE-BASED ACCESS CONTROL (RBAC) & CONTROLS -->
+      <div class="header-right">
+        <!-- Live Clock -->
+        <div class="live-clock" id="live-clock">
+          <i class="fa-regular fa-clock"></i> <span id="clock-display">--:--:--</span>
+        </div>
+
+        <!-- Theme Toggle Button -->
+        <button id="theme-toggle-btn" class="btn btn-theme-toggle" onclick="toggleTheme()" title="Toggle Theme (Cream, Green, White / Dark)">
+          <i class="fa-solid fa-moon"></i> <span class="theme-label-text">Dark Mode</span>
+        </button>
+
+        <!-- Role Selector Switcher -->
+        <div class="role-selector-wrap">
+          <label for="role-select" class="role-label"><i class="fa-solid fa-id-badge"></i> Role:</label>
+          <select id="role-select" class="role-select">
+            <option value="admin" selected>Admin (Director)</option>
+            <option value="pharmacy">Pharmacy & Blood Bank</option>
+            <option value="reception">Reception & Beds</option>
+            <option value="manager">Manager (Dispatch/108)</option>
+          </select>
+        </div>
+
+        <!-- Active User Profile Pill -->
+        <div class="user-pill" id="user-badge" title="Active user profile">
+          <span class="user-avatar"><i class="fa-solid fa-user-doctor"></i></span>
+          <span class="user-name" id="current-user-name">Director Dr. Reddy</span>
+        </div>
+
+        <!-- Logout Button -->
+        <button id="btn-logout" class="btn btn-logout-sm" onclick="logoutUser()" title="Sign out of command center">
+          <i class="fa-solid fa-right-from-bracket"></i> Logout
+        </button>
+      </div>
+    </header>
+
+    <!-- SYSTEM ALERT BANNER -->
+    <div id="system-alert-banner" class="alert-banner hidden">
+      <div class="alert-content">
+        <i class="fa-solid fa-circle-exclamation alert-icon"></i>
+        <span id="alert-banner-text">Critical shortage alert active in 12 partner hospitals.</span>
+      </div>
+      <button class="alert-close" onclick="document.getElementById('system-alert-banner').classList.add('hidden')">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+
+    <!-- MAIN APPLICATION LAYOUT -->
+    <div class="app-container">
+
+      <!-- SIDE NAVIGATION MENU -->
+      <aside class="app-sidebar">
+        <nav class="nav-menu">
+          <button class="nav-item active" data-tab="overview">
+            <i class="fa-solid fa-chart-line"></i>
+            <span>Live Command Overview</span>
+          </button>
+          <button class="nav-item" data-tab="beds">
+            <i class="fa-solid fa-bed-pulse"></i>
+            <span>Bed Management</span>
+            <span class="badge badge-alert" id="bed-alert-count">0</span>
+          </button>
+          <button class="nav-item" data-tab="pharmacy">
+            <i class="fa-solid fa-prescription-bottle-medical"></i>
+            <span>Medicine Inventory</span>
+            <span class="badge badge-warning" id="pharma-alert-count">0</span>
+          </button>
+          <button class="nav-item" data-tab="hotspots">
+            <i class="fa-solid fa-map-location-dot"></i>
+            <span>Accident Hotspots</span>
+            <span class="badge badge-info" id="hotspot-count">17</span>
+          </button>
+          <button class="nav-item" data-tab="ambulances">
+            <i class="fa-solid fa-truck-medical"></i>
+            <span>Smart Ambulance Allocation</span>
+            <span class="badge badge-success" id="amb-free-count">0</span>
+          </button>
+          <button class="nav-item" data-tab="powerbi">
+            <i class="fa-solid fa-chart-pie"></i>
+            <span>Power BI Analytics</span>
+          </button>
+          <button class="nav-item" data-tab="dispatch-log">
+            <i class="fa-solid fa-clipboard-list"></i>
+            <span>Emergency Audit Log</span>
+          </button>
+        </nav>
+
+        <!-- METROPOLITAN CITY FILTER -->
+        <div class="sidebar-city-filter">
+          <label for="city-filter"><i class="fa-solid fa-city"></i> Metro Region:</label>
+          <select id="city-filter" class="city-select">
+            <option value="ALL">All Metropolitan Hubs</option>
+            <option value="Mumbai">Mumbai (Maharashtra)</option>
+            <option value="New Delhi">New Delhi (NCR)</option>
+            <option value="Noida">Noida (Uttar Pradesh)</option>
+            <option value="Bangalore">Bangalore (Karnataka)</option>
+            <option value="Hyderabad">Hyderabad (Telangana)</option>
+            <option value="Chennai">Chennai (Tamil Nadu)</option>
+            <option value="Ahmedabad">Ahmedabad (Gujarat)</option>
+            <option value="Kochi">Kochi (Kerala)</option>
+          </select>
+        </div>
+
+        <!-- ACTIVE ROLE PERMISSION SUMMARY -->
+        <div class="role-permission-card" id="role-card">
+          <div class="role-card-title"><i class="fa-solid fa-shield-halved"></i> Active Access Level</div>
+          <div class="role-desc" id="role-description">Full System Access: Director controls all modules, overrides dispatches, and manages hospital resources.</div>
+        </div>
+
+        <div class="sidebar-footer">
+          <div><strong>Team TechHunters</strong></div>
+          <small>Syam Sundar Reddy · Vishal · Nikhil</small>
+        </div>
+      </aside>
+
+      <!-- CONTENT WORKSPACE -->
+      <main class="app-content">
+
+        <!-- ======================================================== -->
+        <!-- TAB 1: LIVE COMMAND OVERVIEW -->
+        <!-- ======================================================== -->
+        <section id="tab-overview" class="tab-pane active">
+          <div class="pane-header">
+            <div>
+              <h1 class="pane-title">Executive Command Center</h1>
+              <p class="pane-subtitle">Real-time telemetry across hospitals, bed availability, emergency ambulances, and pharmacy reserves</p>
+            </div>
+            <div class="pane-actions">
+              <button class="btn btn-secondary" onclick="loadOverviewData()"><i class="fa-solid fa-rotate"></i> Refresh Telemetry</button>
+            </div>
+          </div>
+
+          <!-- KPI STATS CARDS -->
+          <div class="kpi-grid">
+            <div class="kpi-card border-green">
+              <div class="kpi-header">
+                <span class="kpi-label">Total Beds Monitored</span>
+                <span class="kpi-icon icon-green"><i class="fa-solid fa-hospital"></i></span>
+              </div>
+              <div class="kpi-value" id="kpi-total-beds">--</div>
+              <div class="kpi-sub">
+                <span>Occupied: <strong id="kpi-occ-beds">--</strong></span> · 
+                <span class="text-success">Free: <strong id="kpi-free-beds">--</strong></span>
+              </div>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar bg-green" id="kpi-bed-progress" style="width: 80%"></div>
+              </div>
+            </div>
+
+            <div class="kpi-card border-rose">
+              <div class="kpi-header">
+                <span class="kpi-label">Free ICU Beds</span>
+                <span class="kpi-icon icon-rose"><i class="fa-solid fa-lungs"></i></span>
+              </div>
+              <div class="kpi-value text-rose" id="kpi-free-icu">--</div>
+              <div class="kpi-sub">
+                <span>Ventilators Avail: <strong id="kpi-avail-vent">--</strong></span> · 
+                <span class="text-danger" id="kpi-crit-hosp">-- shortage alerts</span>
+              </div>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar bg-rose" id="kpi-icu-progress" style="width: 25%"></div>
+              </div>
+            </div>
+
+            <div class="kpi-card border-emerald">
+              <div class="kpi-header">
+                <span class="kpi-label">108 & Hospital Fleet</span>
+                <span class="kpi-icon icon-emerald"><i class="fa-solid fa-truck-medical"></i></span>
+              </div>
+              <div class="kpi-value text-emerald" id="kpi-free-amb">--</div>
+              <div class="kpi-sub">
+                <span>Active Dispatches: <strong id="kpi-busy-amb">--</strong></span> · 
+                <span>Fleet: <strong id="kpi-total-amb">--</strong></span>
+              </div>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar bg-emerald" id="kpi-amb-progress" style="width: 75%"></div>
+              </div>
+            </div>
+
+            <div class="kpi-card border-amber">
+              <div class="kpi-header">
+                <span class="kpi-label">Pharma Expiry & Stock Risk</span>
+                <span class="kpi-icon icon-amber"><i class="fa-solid fa-triangle-exclamation"></i></span>
+              </div>
+              <div class="kpi-value text-amber" id="kpi-pharma-alerts">--</div>
+              <div class="kpi-sub">
+                <span class="text-danger">Expired: <strong id="kpi-expired-batches">--</strong></span> · 
+                <span class="text-warning">Near-Expiry: <strong id="kpi-near-expiry-batches">--</strong></span>
+              </div>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar bg-amber" id="kpi-pharma-progress" style="width: 15%"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- INTEGRATED MAP & HIGH-PRIORITY FEED -->
+          <div class="overview-grid">
+            <!-- MAP CONTAINER -->
+            <div class="dashboard-card map-card">
+              <div class="card-header">
+                <div class="card-title"><i class="fa-solid fa-map"></i> Live Geospatial Emergency Radar (OpenStreetMap)</div>
+                <div class="map-legend">
+                  <span class="legend-item"><span class="dot dot-red"></span> Hotspot</span>
+                  <span class="legend-item"><span class="dot dot-green"></span> Free Ambulance</span>
+                  <span class="legend-item"><span class="dot dot-orange"></span> Busy Ambulance</span>
+                  <span class="legend-item"><span class="dot dot-blue"></span> Hospital</span>
+                </div>
+              </div>
+              <div id="overview-map" class="map-view"></div>
+            </div>
+
+            <!-- RECENT EMERGENCY DISPATCHES FEED -->
+            <div class="dashboard-card feed-card">
+              <div class="card-header">
+                <div class="card-title"><i class="fa-solid fa-bolt"></i> Real-time Incident Feed</div>
+                <button class="btn btn-xs btn-outline-green" onclick="switchTab('ambulances')"><i class="fa-solid fa-plus"></i> New Incident</button>
+              </div>
+              <div class="feed-list" id="recent-dispatch-feed">
+                <div class="feed-empty">No active dispatches yet. Run the demo scenario to simulate a highway incident.</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ======================================================== -->
+        <!-- TAB 2: BED MANAGEMENT -->
+        <!-- ======================================================== -->
+        <section id="tab-beds" class="tab-pane">
+          <div class="pane-header">
+            <div>
+              <h1 class="pane-title">Hospital Bed & Capacity Management</h1>
+              <p class="pane-subtitle">Live tracking of General, ICU, and Emergency beds with low-availability threshold triggers</p>
+            </div>
+            <div class="pane-actions">
+              <select id="bed-status-filter" class="form-select-sm" onchange="loadBedTable()">
+                <option value="ALL">All Hospitals</option>
+                <option value="Critical Alert">Critical Low-Availability Only</option>
+                <option value="Normal">Normal Capacity</option>
+              </select>
+              <input type="text" id="bed-search-input" class="form-input-sm" placeholder="Search hospital..." onkeyup="filterBedTable()">
+            </div>
+          </div>
+
+          <!-- BED METRIC HIGHLIGHTS -->
+          <div class="stats-mini-row">
+            <div class="stat-mini-pill">
+              <span class="stat-mini-title">General Wards:</span>
+              <span class="stat-mini-val" id="gen-bed-stat">-- Free</span>
+            </div>
+            <div class="stat-mini-pill alert-pill">
+              <span class="stat-mini-title">ICU Emergency Wards:</span>
+              <span class="stat-mini-val text-rose" id="icu-bed-stat">-- Free</span>
+            </div>
+            <div class="stat-mini-pill">
+              <span class="stat-mini-title">Emergency Trauma Wards:</span>
+              <span class="stat-mini-val text-amber" id="emerg-bed-stat">-- Free</span>
+            </div>
+            <div class="stat-mini-pill">
+              <span class="stat-mini-title">Mechanical Ventilators:</span>
+              <span class="stat-mini-val text-green" id="vent-stat">-- Available</span>
+            </div>
+          </div>
+
+          <!-- BED TABLE -->
+          <div class="dashboard-card table-card">
+            <div class="table-responsive">
+              <table class="data-table" id="hospitals-table">
+                <thead>
+                  <tr>
+                    <th>Hospital ID & Name</th>
+                    <th>Location</th>
+                    <th>Type</th>
+                    <th>General Beds</th>
+                    <th>ICU Beds</th>
+                    <th>Emergency Beds</th>
+                    <th>Ventilators</th>
+                    <th>Free %</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                  </tr>
+                </thead>
+                <tbody id="beds-tbody">
+                  <tr><td colspan="10" class="text-center">Loading bed records...</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        <!-- ======================================================== -->
+        <!-- TAB 3: MEDICINE INVENTORY -->
+        <!-- ======================================================== -->
+        <section id="tab-pharmacy" class="tab-pane">
+          <div class="pane-header">
+            <div>
+              <h1 class="pane-title">Medicine & Critical Supplies Inventory</h1>
+              <p class="pane-subtitle">Live tracking of 2,000+ pharmaceutical batches, stock quantities, expiry dates, and blood bank units</p>
+            </div>
+            <div class="pane-actions">
+              <select id="pharma-filter-status" class="form-select-sm" onchange="loadPharmaTable()">
+                <option value="ALL">All Batches</option>
+                <option value="EXPIRED">Expired Batches (Quarantine)</option>
+                <option value="NEAR_EXPIRY">Near Expiry (&le; 30 Days)</option>
+                <option value="LOW_STOCK">Low Stock (&lt; 50 Units)</option>
+                <option value="ADEQUATE">Adequate Stock</option>
+              </select>
+              <select id="pharma-filter-category" class="form-select-sm" onchange="loadPharmaTable()">
+                <option value="ALL">All Categories</option>
+                <option value="Injection">Injections</option>
+                <option value="Tablet">Tablets</option>
+                <option value="Syrup">Syrups</option>
+                <option value="Capsule">Capsules</option>
+              </select>
+              <input type="text" id="pharma-search" class="form-input-sm" placeholder="Search drug or distributor..." onkeyup="loadPharmaTable()">
+            </div>
+          </div>
+
+          <!-- BLOOD BANK MINI WIDGET -->
+          <div class="dashboard-card mb-20">
+            <div class="card-header">
+              <div class="card-title"><i class="fa-solid fa-droplet text-rose"></i> Emergency Blood Bank Reserves</div>
+              <span class="badge badge-success">e-RaktKosh Sync Active</span>
+            </div>
+            <div class="blood-grid" id="blood-bank-grid">
+              <!-- Blood group cards dynamically rendered -->
+            </div>
+          </div>
+
+          <!-- PHARMACEUTICAL TABLE -->
+          <div class="dashboard-card table-card">
+            <div class="table-responsive">
+              <table class="data-table" id="pharma-table">
+                <thead>
+                  <tr>
+                    <th>Batch ID</th>
+                    <th>Drug Name</th>
+                    <th>Category</th>
+                    <th>Distributor</th>
+                    <th>Quantity</th>
+                    <th>Expiry Days Left</th>
+                    <th>Expiry Date</th>
+                    <th>Unit Price</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                  </tr>
+                </thead>
+                <tbody id="pharma-tbody">
+                  <tr><td colspan="10" class="text-center">Loading pharmaceutical records...</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        <!-- ======================================================== -->
+        <!-- TAB 4: ACCIDENT HOTSPOTS -->
+        <!-- ======================================================== -->
+        <section id="tab-hotspots" class="tab-pane">
+          <div class="pane-header">
+            <div>
+              <h1 class="pane-title">Accident Hotspots & Corridor Analysis</h1>
+              <p class="pane-subtitle">MoRTH accident database intelligence, high-incident highway corridors, and pre-emptive 108 ambulance staging</p>
+            </div>
+            <div class="pane-actions">
+              <button class="btn btn-primary" onclick="dispatchAtHotspot(null)"><i class="fa-solid fa-triangle-exclamation"></i> Report Incident at Hotspot</button>
+            </div>
+          </div>
+
+          <!-- HOTSPOT MAP & DETAILS -->
+          <div class="overview-grid">
+            <div class="dashboard-card map-card">
+              <div class="card-header">
+                <div class="card-title"><i class="fa-solid fa-crosshairs"></i> High-Risk Corridor Radar</div>
+              </div>
+              <div id="hotspots-map" class="map-view"></div>
+            </div>
+
+            <div class="dashboard-card">
+              <div class="card-header">
+                <div class="card-title"><i class="fa-solid fa-shield-virus"></i> Corridor Risk Breakdown</div>
+              </div>
+              <div class="hotspots-list" id="hotspots-list-cards">
+                <!-- Dynamically populated hotspot cards -->
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ======================================================== -->
+        <!-- TAB 5: SMART AMBULANCE ALLOCATION -->
+        <!-- ======================================================== -->
+        <section id="tab-ambulances" class="tab-pane">
+          <div class="pane-header">
+            <div>
+              <h1 class="pane-title">Smart Ambulance Dispatch Console</h1>
+              <p class="pane-subtitle">Autonomous 4-stage allocation engine: Filter &rarr; Rank by Travel Time &rarr; Match Hospital &rarr; State Update</p>
+            </div>
+          </div>
+
+          <div class="dispatch-container">
+            <!-- LEFT: DISPATCH INTAKE FORM -->
+            <div class="dashboard-card dispatch-form-card">
+              <div class="card-header">
+                <div class="card-title"><i class="fa-solid fa-phone-volume text-rose"></i> Emergency Call Intake (108 SOS)</div>
+              </div>
+              <form id="dispatch-form" onsubmit="executeAllocationForm(event)">
+                <div class="form-group">
+                  <label for="disp-hotspot">Select Known Hotspot / Corridor:</label>
+                  <select id="disp-hotspot" class="form-select" onchange="onHotspotSelectChange()">
+                    <!-- Dynamically populated -->
+                  </select>
+                </div>
+
+                <div class="form-row">
+                  <div class="form-group col-6">
+                    <label for="disp-lat">Latitude:</label>
+                    <input type="number" step="0.0001" id="disp-lat" class="form-input" required value="19.1663">
+                  </div>
+                  <div class="form-group col-6">
+                    <label for="disp-lon">Longitude:</label>
+                    <input type="number" step="0.0001" id="disp-lon" class="form-input" required value="72.8526">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="disp-loc-name">Accident Location Description:</label>
+                  <input type="text" id="disp-loc-name" class="form-input" value="Western Express Highway near Goregaon Flyover" required>
+                </div>
+
+                <div class="form-row">
+                  <div class="form-group col-6">
+                    <label for="disp-ward">Required Bed Type:</label>
+                    <select id="disp-ward" class="form-select">
+                      <option value="ICU" selected>ICU (Intensive Care)</option>
+                      <option value="Emergency">Emergency Trauma Ward</option>
+                      <option value="General">General Inpatient Ward</option>
+                    </select>
+                  </div>
+                  <div class="form-group col-6">
+                    <label for="disp-severity">Triage Severity Level:</label>
+                    <select id="disp-severity" class="form-select">
+                      <option value="Critical - Level 1 Trauma" selected>Level 1 Trauma (Critical)</option>
+                      <option value="Severe - Multiple Casualties">Multiple Casualties</option>
+                      <option value="Moderate - Stretcher Required">Moderate Injury</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="disp-radius">Initial Search Radius (km):</label>
+                  <input type="range" id="disp-radius" min="5" max="50" value="20" class="form-range" oninput="document.getElementById('radius-val').innerText = this.value">
+                  <span class="range-display"><strong id="radius-val">20</strong> km radius</span>
+                </div>
+
+                <div class="form-group checkbox-group">
+                  <label>
+                    <input type="checkbox" id="disp-simulate-fallback"> Simulate Zero ICU Bed Shortage (Force Fallback Mode)
+                  </label>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-block">
+                  <i class="fa-solid fa-paper-plane"></i> Execute 4-Stage Allocation Engine
+                </button>
+              </form>
+            </div>
+
+            <!-- RIGHT: LIVE ALLOCATION BREAKDOWN & MAP -->
+            <div class="dashboard-card dispatch-result-card">
+              <div class="card-header">
+                <div class="card-title"><i class="fa-solid fa-route"></i> Live Allocation Engine Execution Steps</div>
+                <span class="badge badge-info" id="allocation-status-badge">Standby</span>
+              </div>
+
+              <div class="allocation-steps-wrap" id="allocation-steps-container">
+                <div class="step-card standby">
+                  <div class="step-num">1</div>
+                  <div class="step-content">
+                    <div class="step-title">Stage 1: Filter Active Fleet</div>
+                    <div class="step-desc">Identifies all ambulances flagged free and currently in-service.</div>
+                  </div>
+                </div>
+                <div class="step-card standby">
+                  <div class="step-num">2</div>
+                  <div class="step-content">
+                    <div class="step-title">Stage 2: Rank by Estimated Travel Time</div>
+                    <div class="step-desc">Computes real-time road distance and ETA to incident scene.</div>
+                  </div>
+                </div>
+                <div class="step-card standby">
+                  <div class="step-num">3</div>
+                  <div class="step-content">
+                    <div class="step-title">Stage 3: Match Hospital with Capacity</div>
+                    <div class="step-desc">Matches closest hospital with verified free ICU/Emergency beds and ventilator equipment.</div>
+                  </div>
+                </div>
+                <div class="step-card standby">
+                  <div class="step-num">4</div>
+                  <div class="step-content">
+                    <div class="step-title">Stage 4: State Update & Reservation</div>
+                    <div class="step-desc">Dispatches ambulance, locks bed reservation, and alerts trauma emergency team.</div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- RESULT HIGHLIGHT -->
+              <div id="allocation-result-box" class="result-box hidden">
+                <!-- Populated upon dispatch -->
+              </div>
+            </div>
+          </div>
+
+          <!-- FLEET STATUS TABLE -->
+          <div class="dashboard-card table-card mt-20">
+            <div class="card-header">
+              <div class="card-title"><i class="fa-solid fa-ambulance"></i> Registered Fleet Telemetry</div>
+            </div>
+            <div class="table-responsive">
+              <table class="data-table" id="fleet-table">
+                <thead>
+                  <tr>
+                    <th>Vehicle Code</th>
+                    <th>Plate Number</th>
+                    <th>Vehicle Type</th>
+                    <th>Base / Staging Location</th>
+                    <th>Driver Pilot</th>
+                    <th>Equipment Level</th>
+                    <th>Fleet Status</th>
+                    <th>Actions</th>
+                  </tr>
+                </thead>
+                <tbody id="fleet-tbody">
+                  <tr><td colspan="8" class="text-center">Loading ambulance fleet...</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        <!-- ======================================================== -->
+        <!-- TAB 6: POWER BI ANALYTICS -->
+        <!-- ======================================================== -->
+        <section id="tab-powerbi" class="tab-pane">
+          <div class="pane-header">
+            <div>
+              <h1 class="pane-title">Power BI Analytics & Executive Dashboard</h1>
+              <p class="pane-subtitle">Live DAX analytical models mirroring Power BI Desktop reports with star-schema data exports</p>
+            </div>
+            <div class="pane-actions">
+              <a href="dashboard/POWER_BI_GUIDE.md" target="_blank" class="btn btn-secondary">
+                <i class="fa-solid fa-book"></i> Open Power BI Architecture Guide
+              </a>
+            </div>
+          </div>
+
+          <!-- ANALYTICAL CHARTS GRID -->
+          <div class="powerbi-grid">
+            <div class="dashboard-card chart-card">
+              <div class="card-header">
+                <div class="card-title"><i class="fa-solid fa-chart-bar"></i> Bed Capacity & Occupancy by Ward (DAX Model)</div>
+              </div>
+              <div class="chart-wrap">
+                <canvas id="chart-bed-wards"></canvas>
+              </div>
+            </div>
+
+            <div class="dashboard-card chart-card">
+              <div class="card-header">
+                <div class="card-title"><i class="fa-solid fa-chart-pie"></i> Pharma Stock Status Distribution</div>
+              </div>
+              <div class="chart-wrap">
+                <canvas id="chart-pharma-status"></canvas>
+              </div>
+            </div>
+
+            <div class="dashboard-card chart-card">
+              <div class="card-header">
+                <div class="card-title"><i class="fa-solid fa-chart-column"></i> Annual Accidents & Fatalities by Metro Hub</div>
+              </div>
+              <div class="chart-wrap">
+                <canvas id="chart-hotspots-city"></canvas>
+              </div>
+            </div>
+
+            <div class="dashboard-card chart-card">
+              <div class="card-header">
+                <div class="card-title"><i class="fa-solid fa-gauge-high"></i> Ambulance Fleet Readiness %</div>
+              </div>
+              <div class="chart-wrap">
+                <canvas id="chart-amb-status"></canvas>
+              </div>
+            </div>
+          </div>
+
+          <!-- POWER BI STAR SCHEMA EXPORT CENTER -->
+          <div class="dashboard-card mt-20">
+            <div class="card-header">
+              <div class="card-title"><i class="fa-solid fa-file-csv"></i> Power BI Desktop Star-Schema Data Pipeline</div>
+            </div>
+            <p class="mb-15 text-muted">Ready-to-import CSV files structured in a star schema for Power BI Desktop data modeling:</p>
+            <div class="dataset-export-grid">
+              <div class="dataset-chip">
+                <i class="fa-solid fa-table"></i>
+                <div>
+                  <strong>dim_hospitals.csv</strong>
+                  <small>200 Hospitals · Geo-Coordinates</small>
+                </div>
+              </div>
+              <div class="dataset-chip">
+                <i class="fa-solid fa-table"></i>
+                <div>
+                  <strong>dim_doctors.csv</strong>
+                  <small>2000 Doctors · Specializations</small>
+                </div>
+              </div>
+              <div class="dataset-chip">
+                <i class="fa-solid fa-table"></i>
+                <div>
+                  <strong>dim_accident_hotspots.csv</strong>
+                  <small>17 High-Risk Highway Corridors</small>
+                </div>
+              </div>
+              <div class="dataset-chip">
+                <i class="fa-solid fa-table"></i>
+                <div>
+                  <strong>fact_bed_occupancy.csv</strong>
+                  <small>Ward Occupancy & Shortage Flags</small>
+                </div>
+              </div>
+              <div class="dataset-chip">
+                <i class="fa-solid fa-table"></i>
+                <div>
+                  <strong>fact_pharma_inventory.csv</strong>
+                  <small>2000 Drug Batches · Expiry Days</small>
+                </div>
+              </div>
+              <div class="dataset-chip">
+                <i class="fa-solid fa-table"></i>
+                <div>
+                  <strong>fact_ambulance_fleet.csv</strong>
+                  <small>49 Fleet Vehicles · Staging Posts</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ======================================================== -->
+        <!-- TAB 7: EMERGENCY AUDIT LOG -->
+        <!-- ======================================================== -->
+        <section id="tab-dispatch-log" class="tab-pane">
+          <div class="pane-header">
+            <div>
+              <h1 class="pane-title">Emergency Response Audit Log</h1>
+              <p class="pane-subtitle">Permanent cryptographic event log of all 108 dispatches, bed allocations, fallbacks, and response times</p>
+            </div>
+          </div>
+
+          <div class="dashboard-card table-card">
+            <div class="table-responsive">
+              <table class="data-table" id="audit-table">
+                <thead>
+                  <tr>
+                    <th>Dispatch ID</th>
+                    <th>Timestamp</th>
+                    <th>Incident Location</th>
+                    <th>Required Ward</th>
+                    <th>Ambulance Assigned</th>
+                    <th>ETA (mins)</th>
+                    <th>Matched Hospital</th>
+                    <th>Fallback Triggered?</th>
+                    <th>Status</th>
+                  </tr>
+                </thead>
+                <tbody id="audit-tbody">
+                  <tr><td colspan="9" class="text-center">Loading audit log...</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+      </main>
+    </div>
+  </div>
+
+  <!-- DEMO SCENARIO MODAL (SECTION 9 WALKTHROUGH) -->
+  <div id="demo-modal" class="modal hidden">
+    <div class="modal-backdrop" onclick="closeDemoModal()"></div>
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <div class="modal-title">
+          <i class="fa-solid fa-film text-green"></i> Highway Accident Live Demo Walkthrough (Section 9)
+        </div>
+        <button class="modal-close" onclick="closeDemoModal()"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div class="modal-body" id="demo-modal-body">
+        <p class="demo-narrative-intro">Simulating real-time Highway Emergency scenario from project specifications:</p>
+        <div class="demo-timeline" id="demo-timeline">
+          <!-- Step items dynamically populated during walkthrough -->
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" onclick="closeDemoModal()">Close Walkthrough</button>
+        <button id="btn-next-demo-step" class="btn btn-primary" onclick="proceedDemoStep()">Next Phase &rarr;</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- HOSPITAL DETAILS MODAL -->
+  <div id="hospital-modal" class="modal hidden">
+    <div class="modal-backdrop" onclick="closeHospitalModal()"></div>
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <div class="modal-title" id="hosp-modal-title">Hospital Details</div>
+        <button class="modal-close" onclick="closeHospitalModal()"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div class="modal-body" id="hosp-modal-body">
+        <!-- Content loaded dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <!-- NOTIFICATION TOAST CONTAINER -->
+  <div id="toast-container" class="toast-container"></div>
+
+  <!-- APPLICATION JAVASCRIPT -->
+  <script src="js/app.js"></script>
+</body>
+</html>

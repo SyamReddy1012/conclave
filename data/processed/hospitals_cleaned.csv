@@ -1,0 +1,201 @@
+HospitalID,HospitalName,City,State,Type,Latitude,Longitude,Beds,General_Beds_Total,General_Beds_Occupied,General_Beds_Free,ICU_Beds_Total,ICU_Beds_Occupied,ICU_Beds_Free,Emergency_Beds_Total,Emergency_Beds_Occupied,Emergency_Beds_Free,Ventilators_Total,Ventilators_In_Use,Ventilators_Available,Free_Beds_Percentage,Bed_Availability_Status
+H001,Hospital_1,Ahmedabad,Gujarat,Government,23.04202,72.504902,976,705,568,137,154,110,44,117,89,28,115,101,14,21.4,Normal
+H002,Hospital_2,Noida,Uttar Pradesh,Government,28.504004,77.35225,1091,881,785,96,80,56,24,130,81,49,84,62,22,15.5,Normal
+H003,Hospital_3,Ahmedabad,Gujarat,Private,23.055606,72.596138,983,812,691,121,54,40,14,117,103,14,99,81,18,15.2,Normal
+H004,Hospital_4,Hyderabad,Telangana,Private,17.439905,78.428871,1473,1156,995,161,141,101,40,176,117,59,122,68,54,17.7,Normal
+H005,Hospital_5,Mumbai,Maharashtra,Government,19.065069,72.811872,146,84,63,21,45,35,10,17,15,2,148,85,63,22.6,Critical Alert
+H006,Hospital_6,Kochi,Kerala,Government,9.891809,76.26805,966,772,617,155,79,66,13,115,76,39,12,9,3,21.4,Normal
+H007,Hospital_7,Noida,Uttar Pradesh,Government,28.469215,77.348837,922,644,527,117,168,121,47,110,91,19,136,75,61,19.8,Normal
+H008,Hospital_8,Mumbai,Maharashtra,Government,19.096984,72.883992,1035,883,777,106,28,24,4,124,79,45,108,76,32,15.0,Critical Alert
+H009,Hospital_9,Chennai,Tamil Nadu,Government,13.043562,80.283197,755,467,346,121,198,187,11,90,70,20,136,77,59,20.1,Normal
+H010,Hospital_10,Kochi,Kerala,Government,9.97452,76.19821,368,207,157,50,117,106,11,44,33,11,29,24,5,19.6,Normal
+H011,Hospital_11,Ahmedabad,Gujarat,Private,23.065315,72.59914,469,222,190,32,191,182,9,56,45,11,100,90,10,11.1,Critical Alert
+H012,Hospital_12,Ahmedabad,Gujarat,Government,23.000135,72.523167,735,471,430,41,176,147,29,88,74,14,97,71,26,11.4,Critical Alert
+H013,Hospital_13,Kochi,Kerala,Government,9.99521,76.244423,1229,982,883,99,100,81,19,147,134,13,65,53,12,10.7,Critical Alert
+H014,Hospital_14,Ahmedabad,Gujarat,Private,22.965484,72.51494,756,567,461,106,99,72,27,90,61,29,126,99,27,21.4,Normal
+H015,Hospital_15,Bangalore,Karnataka,Private,13.020249,77.609122,219,165,145,20,28,22,6,26,21,5,55,35,20,14.2,Critical Alert
+H016,Hospital_16,Kochi,Kerala,Private,9.974198,76.299462,930,771,554,217,48,35,13,111,77,34,25,16,9,28.4,Normal
+H017,Hospital_17,Mumbai,Maharashtra,Private,19.081072,72.943936,1181,905,750,155,135,93,42,141,96,45,9,7,2,20.5,Normal
+H018,Hospital_18,Kochi,Kerala,Government,9.914195,76.274586,1469,1111,966,145,182,121,61,176,130,46,96,72,24,17.2,Normal
+H019,Hospital_19,Noida,Uttar Pradesh,Government,28.581617,77.407593,840,590,471,119,150,107,43,100,74,26,65,57,8,22.4,Normal
+H020,Hospital_20,Ahmedabad,Gujarat,Government,23.073139,72.582229,216,56,47,9,135,116,19,25,22,3,26,21,5,14.4,Critical Alert
+H021,Hospital_21,Bangalore,Karnataka,Government,13.00024,77.531015,890,717,567,150,67,43,24,106,76,30,74,61,13,22.9,Normal
+H022,Hospital_22,Bangalore,Karnataka,Government,12.933506,77.565114,1250,943,853,90,157,148,9,150,111,39,5,4,1,11.0,Critical Alert
+H023,Hospital_23,Chennai,Tamil Nadu,Government,13.023871,80.233291,1112,909,755,154,70,58,12,133,90,43,137,86,51,18.8,Normal
+H024,Hospital_24,Mumbai,Maharashtra,Private,19.02014,72.846616,1181,904,727,177,136,89,47,141,101,40,16,12,4,22.4,Normal
+H025,Hospital_25,New Delhi,Delhi,Government,28.632896,77.190077,733,532,424,108,114,79,35,87,66,21,94,56,38,22.4,Normal
+H026,Hospital_26,New Delhi,Delhi,Private,28.595725,77.168331,612,363,308,55,176,115,61,73,53,20,50,37,13,22.2,Normal
+H027,Hospital_27,Kochi,Kerala,Private,9.898577,76.328432,901,783,553,230,10,8,2,108,69,39,38,27,11,30.1,Critical Alert
+H028,Hospital_28,Chennai,Tamil Nadu,Government,13.103425,80.285978,1219,933,664,269,140,107,33,146,98,48,82,55,27,28.7,Normal
+H029,Hospital_29,Hyderabad,Telangana,Private,17.338959,78.518778,1241,992,875,117,101,77,24,148,127,21,49,42,7,13.1,Critical Alert
+H030,Hospital_30,Kochi,Kerala,Government,9.884076,76.250424,659,381,289,92,199,134,65,79,47,32,77,57,20,28.7,Normal
+H031,Hospital_31,Chennai,Tamil Nadu,Private,13.151233,80.2903,587,395,371,24,122,92,30,70,57,13,30,25,5,11.4,Critical Alert
+H032,Hospital_32,Mumbai,Maharashtra,Government,19.083973,72.903546,1360,1035,886,149,162,143,19,163,151,12,51,31,20,13.2,Critical Alert
+H033,Hospital_33,Mumbai,Maharashtra,Private,19.123999,72.91634,996,812,572,240,65,45,20,119,76,43,125,99,26,30.4,Normal
+H034,Hospital_34,Mumbai,Maharashtra,Government,19.038067,72.812194,1395,1058,883,175,170,121,49,167,141,26,60,50,10,17.9,Normal
+H035,Hospital_35,Mumbai,Maharashtra,Government,19.050163,72.845184,1312,980,725,255,175,146,29,157,135,22,98,58,40,23.3,Normal
+H036,Hospital_36,Mumbai,Maharashtra,Government,19.035538,72.939707,803,581,520,61,126,119,7,96,61,35,111,62,49,12.8,Critical Alert
+H037,Hospital_37,Chennai,Tamil Nadu,Government,13.135391,80.244755,680,456,353,103,143,122,21,81,75,6,67,46,21,19.1,Normal
+H038,Hospital_38,Chennai,Tamil Nadu,Government,13.104461,80.256088,889,716,624,92,67,45,22,106,89,17,52,40,12,14.7,Critical Alert
+H039,Hospital_39,Bangalore,Karnataka,Private,13.029637,77.588839,960,792,573,219,53,47,6,115,103,12,65,50,15,24.7,Normal
+H040,Hospital_40,Noida,Uttar Pradesh,Private,28.502583,77.355528,346,123,89,34,182,173,9,41,35,6,85,57,28,14.2,Critical Alert
+H041,Hospital_41,New Delhi,Delhi,Private,28.622492,77.175784,1199,887,712,175,169,129,40,143,111,32,30,20,10,20.6,Normal
+H042,Hospital_42,Ahmedabad,Gujarat,Government,23.034342,72.627095,253,41,37,4,182,164,18,30,19,11,40,36,4,13.0,Critical Alert
+H043,Hospital_43,Mumbai,Maharashtra,Private,19.061916,72.838405,1096,895,763,132,70,63,7,131,111,20,5,3,2,14.5,Critical Alert
+H044,Hospital_44,Hyderabad,Telangana,Government,17.454655,78.488034,1209,1008,883,125,56,53,3,145,100,45,12,10,2,14.3,Critical Alert
+H045,Hospital_45,Ahmedabad,Gujarat,Government,22.965227,72.507996,796,543,450,93,158,126,32,95,71,24,117,95,22,18.7,Normal
+H046,Hospital_46,Chennai,Tamil Nadu,Private,13.028051,80.288542,1408,1151,879,272,89,81,8,168,149,19,103,59,44,21.2,Normal
+H047,Hospital_47,Hyderabad,Telangana,Private,17.425891,78.475802,1343,1055,961,94,127,92,35,161,122,39,51,39,12,12.5,Critical Alert
+H048,Hospital_48,Hyderabad,Telangana,Government,17.323894,78.470127,1192,876,692,184,173,113,60,143,128,15,131,80,51,21.7,Normal
+H049,Hospital_49,Hyderabad,Telangana,Private,17.454457,78.490776,1170,874,656,218,156,139,17,140,100,40,60,52,8,23.5,Normal
+H050,Hospital_50,Bangalore,Karnataka,Government,13.037551,77.645109,1108,947,822,125,29,21,8,132,79,53,18,16,2,16.8,Normal
+H051,Hospital_51,Chennai,Tamil Nadu,Government,13.014307,80.301601,193,20,14,6,194,169,25,23,17,6,32,26,6,19.2,Normal
+H052,Hospital_52,Hyderabad,Telangana,Government,17.410439,78.491876,1057,776,671,105,155,131,24,126,97,29,82,69,13,14.9,Critical Alert
+H053,Hospital_53,Mumbai,Maharashtra,Government,19.043356,72.897435,1111,922,665,257,56,40,16,133,112,21,134,88,46,26.5,Normal
+H054,Hospital_54,Kochi,Kerala,Government,9.876817,76.258167,552,428,359,69,58,46,12,66,51,15,113,79,34,17.4,Normal
+H055,Hospital_55,Hyderabad,Telangana,Private,17.378521,78.550234,1327,1145,1006,139,23,17,6,159,134,25,18,11,7,12.8,Critical Alert
+H056,Hospital_56,Bangalore,Karnataka,Private,13.024219,77.561474,1011,738,561,177,152,104,48,121,80,41,60,35,25,26.3,Normal
+H057,Hospital_57,Ahmedabad,Gujarat,Government,23.022582,72.526411,317,111,91,20,168,148,20,38,25,13,119,74,45,16.7,Normal
+H058,Hospital_58,Chennai,Tamil Nadu,Government,13.140468,80.322573,573,495,404,91,10,8,2,68,64,4,11,8,3,16.9,Critical Alert
+H059,Hospital_59,Noida,Uttar Pradesh,Private,28.507282,77.410453,531,342,262,80,126,85,41,63,42,21,7,4,3,26.7,Normal
+H060,Hospital_60,Bangalore,Karnataka,Private,12.986856,77.545997,440,325,241,84,63,41,22,52,40,12,115,74,41,26.8,Normal
+H061,Hospital_61,Hyderabad,Telangana,Government,17.421752,78.492213,650,445,415,30,127,104,23,78,65,13,111,66,45,10.2,Critical Alert
+H062,Hospital_62,Chennai,Tamil Nadu,Private,13.121708,80.27495,1412,1231,1118,113,12,9,3,169,153,16,22,16,6,9.3,Critical Alert
+H063,Hospital_63,Kochi,Kerala,Government,9.86128,76.242682,1377,1059,860,199,153,120,33,165,109,56,42,23,19,20.9,Normal
+H064,Hospital_64,Hyderabad,Telangana,Private,17.317727,78.546774,456,208,192,16,194,154,40,54,47,7,119,83,36,13.8,Critical Alert
+H065,Hospital_65,Bangalore,Karnataka,Government,13.024621,77.641033,122,86,61,25,21,17,4,15,9,6,19,11,8,28.7,Critical Alert
+H066,Hospital_66,New Delhi,Delhi,Private,28.586952,77.14711,621,464,387,77,83,61,22,74,70,4,123,73,50,16.6,Normal
+H067,Hospital_67,Mumbai,Maharashtra,Government,19.128921,72.940273,1223,1052,929,123,25,20,5,146,128,18,32,20,12,11.9,Critical Alert
+H068,Hospital_68,Noida,Uttar Pradesh,Private,28.477491,77.389039,901,682,562,120,111,87,24,108,81,27,43,37,6,19.0,Normal
+H069,Hospital_69,Ahmedabad,Gujarat,Private,22.96219,72.607884,1303,986,924,62,161,119,42,156,127,29,21,16,5,10.2,Critical Alert
+H070,Hospital_70,Bangalore,Karnataka,Government,13.008817,77.542575,1346,1020,895,125,165,155,10,161,108,53,90,56,34,14.0,Critical Alert
+H071,Hospital_71,Chennai,Tamil Nadu,Private,13.07924,80.277673,861,632,542,90,126,88,38,103,68,35,130,75,55,18.9,Normal
+H072,Hospital_72,Noida,Uttar Pradesh,Government,28.502608,77.443141,541,460,322,138,17,13,4,64,51,13,48,31,17,28.7,Critical Alert
+H073,Hospital_73,Noida,Uttar Pradesh,Private,28.524739,77.350652,868,633,478,155,131,113,18,104,87,17,29,20,9,21.9,Normal
+H074,Hospital_74,Noida,Uttar Pradesh,Government,28.541001,77.42319,1115,881,762,119,101,94,7,133,116,17,149,116,33,12.8,Critical Alert
+H075,Hospital_75,Hyderabad,Telangana,Private,17.343161,78.46034,1448,1102,946,156,173,162,11,173,129,44,17,12,5,14.6,Critical Alert
+H076,Hospital_76,Mumbai,Maharashtra,Government,19.145321,72.898683,615,443,378,65,99,92,7,73,64,9,29,16,13,13.2,Critical Alert
+H077,Hospital_77,Hyderabad,Telangana,Private,17.376334,78.489161,1139,858,634,224,145,108,37,136,117,19,72,54,18,24.6,Normal
+H078,Hospital_78,Chennai,Tamil Nadu,Government,13.029641,80.232158,891,590,453,137,195,134,61,106,89,17,142,114,28,24.1,Normal
+H079,Hospital_79,Hyderabad,Telangana,Private,17.362332,78.499063,435,314,290,24,69,55,14,52,40,12,71,41,30,11.5,Critical Alert
+H080,Hospital_80,New Delhi,Delhi,Government,28.576116,77.16983,357,128,90,38,187,146,41,42,29,13,113,72,41,25.8,Normal
+H081,Hospital_81,Mumbai,Maharashtra,Government,19.015939,72.896054,596,488,352,136,37,35,2,71,63,8,115,87,28,24.5,Critical Alert
+H082,Hospital_82,Mumbai,Maharashtra,Government,19.038052,72.934459,995,766,710,56,110,105,5,119,99,20,115,74,41,8.1,Critical Alert
+H083,Hospital_83,Chennai,Tamil Nadu,Private,13.133049,80.21062,259,178,126,52,50,44,6,31,23,8,38,30,8,25.5,Normal
+H084,Hospital_84,Ahmedabad,Gujarat,Government,22.985821,72.595057,951,673,619,54,164,115,49,114,91,23,115,90,25,13.2,Critical Alert
+H085,Hospital_85,New Delhi,Delhi,Private,28.573893,77.157524,789,541,442,99,154,104,50,94,67,27,12,8,4,22.3,Normal
+H086,Hospital_86,Bangalore,Karnataka,Government,13.032572,77.604546,479,252,216,36,170,155,15,57,40,17,117,94,23,14.2,Critical Alert
+H087,Hospital_87,Hyderabad,Telangana,Private,17.381174,78.526547,1056,764,587,177,166,156,10,126,111,15,87,65,22,19.1,Normal
+H088,Hospital_88,Kochi,Kerala,Government,9.97425,76.223957,790,546,441,105,150,112,38,94,67,27,46,41,5,21.5,Normal
+H089,Hospital_89,Hyderabad,Telangana,Private,17.32857,78.477047,1391,1170,932,238,55,44,11,166,157,9,105,83,22,18.5,Normal
+H090,Hospital_90,Noida,Uttar Pradesh,Private,28.524801,77.386383,1291,1093,907,186,44,34,10,154,102,52,10,6,4,19.2,Normal
+H091,Hospital_91,Hyderabad,Telangana,Government,17.417071,78.510971,1166,884,779,105,143,120,23,139,120,19,30,18,12,12.6,Critical Alert
+H092,Hospital_92,Bangalore,Karnataka,Private,13.039383,77.538379,384,247,205,42,91,85,6,46,34,12,68,54,14,15.6,Normal
+H093,Hospital_93,Hyderabad,Telangana,Private,17.371367,78.464202,496,313,228,85,124,118,6,59,47,12,63,40,23,20.8,Normal
+H094,Hospital_94,New Delhi,Delhi,Government,28.664534,77.173812,111,40,29,11,56,45,11,15,11,4,113,66,47,23.4,Normal
+H095,Hospital_95,New Delhi,Delhi,Private,28.570529,77.201806,1425,1092,1024,68,162,151,11,171,130,41,125,74,51,8.4,Critical Alert
+H096,Hospital_96,Mumbai,Maharashtra,Private,19.065063,72.846696,1376,1192,1072,120,19,15,4,165,140,25,37,27,10,10.8,Critical Alert
+H097,Hospital_97,Chennai,Tamil Nadu,Private,13.047673,80.329957,598,462,353,109,65,59,6,71,66,5,25,16,9,20.1,Normal
+H098,Hospital_98,Ahmedabad,Gujarat,Government,23.014538,72.621989,853,712,592,120,39,29,10,102,94,8,74,54,20,16.2,Normal
+H099,Hospital_99,Kochi,Kerala,Private,9.938246,76.204382,134,20,18,2,118,108,10,16,11,5,116,97,19,12.7,Critical Alert
+H100,Hospital_100,Noida,Uttar Pradesh,Government,28.6054,77.438044,826,713,570,143,14,13,1,99,76,23,8,6,2,20.2,Critical Alert
+H101,Hospital_101,Hyderabad,Telangana,Private,17.450659,78.546391,948,707,542,165,128,95,33,113,91,22,98,90,8,23.2,Normal
+H102,Hospital_102,Hyderabad,Telangana,Private,17.433817,78.439984,189,125,102,23,42,29,13,22,17,5,79,53,26,21.7,Normal
+H103,Hospital_103,Bangalore,Karnataka,Private,12.96959,77.554525,875,643,535,108,127,103,24,105,79,26,66,44,22,18.1,Normal
+H104,Hospital_104,Chennai,Tamil Nadu,Government,13.068846,80.208909,704,546,406,140,74,64,10,84,67,17,98,62,36,23.7,Normal
+H105,Hospital_105,New Delhi,Delhi,Private,28.596956,77.276943,1069,786,696,90,155,102,53,128,110,18,99,80,19,15.1,Normal
+H106,Hospital_106,Kochi,Kerala,Private,9.898328,76.30707,1121,801,716,85,186,143,43,134,111,23,59,50,9,13.5,Critical Alert
+H107,Hospital_107,Mumbai,Maharashtra,Government,19.069701,72.866921,517,435,406,29,20,16,4,62,38,24,141,103,38,11.0,Critical Alert
+H108,Hospital_108,New Delhi,Delhi,Private,28.677924,77.278359,214,95,79,16,94,86,8,25,22,3,135,96,39,12.6,Critical Alert
+H109,Hospital_109,Noida,Uttar Pradesh,Government,28.543308,77.421577,716,596,492,104,35,27,8,85,72,13,35,24,11,17.5,Normal
+H110,Hospital_110,Chennai,Tamil Nadu,Government,13.034372,80.242239,1319,1089,933,156,72,50,22,158,120,38,44,39,5,16.4,Normal
+H111,Hospital_111,Noida,Uttar Pradesh,Private,28.601119,77.402085,925,719,561,158,95,82,13,111,91,20,40,34,6,20.6,Normal
+H112,Hospital_112,Ahmedabad,Gujarat,Government,23.028407,72.606117,1198,987,892,95,68,62,6,143,104,39,10,6,4,11.7,Critical Alert
+H113,Hospital_113,Mumbai,Maharashtra,Private,19.014003,72.889485,512,415,362,53,36,31,5,61,55,6,70,39,31,12.5,Critical Alert
+H114,Hospital_114,Ahmedabad,Gujarat,Government,23.022899,72.620781,1499,1134,812,322,186,157,29,179,165,14,79,72,7,24.3,Normal
+H115,Hospital_115,Bangalore,Karnataka,Government,12.923641,77.659109,828,559,491,68,170,133,37,99,62,37,8,6,2,17.1,Normal
+H116,Hospital_116,Noida,Uttar Pradesh,Private,28.476716,77.347015,1400,1125,1023,102,107,84,23,168,141,27,83,73,10,10.9,Critical Alert
+H117,Hospital_117,Bangalore,Karnataka,Government,12.984905,77.61913,1120,872,620,252,114,102,12,134,94,40,138,95,43,27.1,Normal
+H118,Hospital_118,Hyderabad,Telangana,Government,17.347929,78.433484,860,649,476,173,108,87,21,103,82,21,122,102,20,25.0,Normal
+H119,Hospital_119,Ahmedabad,Gujarat,Government,23.07714,72.53587,775,544,402,142,138,93,45,93,84,9,117,91,26,25.3,Normal
+H120,Hospital_120,Chennai,Tamil Nadu,Government,13.095933,80.287413,556,332,251,81,158,147,11,66,42,24,98,70,28,20.9,Normal
+H121,Hospital_121,Noida,Uttar Pradesh,Government,28.524191,77.402714,1019,833,633,200,64,46,18,122,73,49,66,55,11,26.2,Normal
+H122,Hospital_122,Kochi,Kerala,Private,9.93439,76.328159,291,242,221,21,15,12,3,34,22,12,83,59,24,12.4,Critical Alert
+H123,Hospital_123,Mumbai,Maharashtra,Government,19.034596,72.907967,838,634,496,138,104,86,18,100,82,18,140,98,42,20.8,Normal
+H124,Hospital_124,New Delhi,Delhi,Private,28.577316,77.19441,1222,934,709,225,142,129,13,146,97,49,30,20,10,23.5,Normal
+H125,Hospital_125,Chennai,Tamil Nadu,Government,13.106737,80.2427,1077,837,682,155,111,80,31,129,103,26,48,36,12,19.7,Normal
+H126,Hospital_126,Chennai,Tamil Nadu,Private,13.056965,80.305961,1108,964,904,60,12,8,4,132,124,8,137,108,29,6.5,Critical Alert
+H127,Hospital_127,Bangalore,Karnataka,Private,12.911756,77.58876,195,20,15,5,190,156,34,23,19,4,74,61,13,22.1,Normal
+H128,Hospital_128,Ahmedabad,Gujarat,Government,23.092284,72.640854,762,639,454,185,32,26,6,91,70,21,122,107,15,27.8,Normal
+H129,Hospital_129,Noida,Uttar Pradesh,Government,28.475757,77.350842,1313,1094,840,254,62,55,7,157,127,30,72,48,24,22.2,Normal
+H130,Hospital_130,Noida,Uttar Pradesh,Government,28.502628,77.451656,136,20,17,3,174,146,28,16,13,3,23,18,5,25.0,Critical Alert
+H131,Hospital_131,Hyderabad,Telangana,Private,17.438321,78.539798,1492,1221,1047,174,92,83,9,179,146,33,24,21,3,14.5,Critical Alert
+H132,Hospital_132,Hyderabad,Telangana,Government,17.366734,78.438785,378,179,153,26,154,114,40,45,33,12,117,89,28,20.6,Normal
+H133,Hospital_133,Mumbai,Maharashtra,Private,19.122724,72.906196,316,185,162,23,94,63,31,37,26,11,144,119,25,20.6,Normal
+H134,Hospital_134,Bangalore,Karnataka,Private,12.987235,77.662813,966,764,567,197,87,60,27,115,90,25,51,46,5,25.8,Normal
+H135,Hospital_135,Chennai,Tamil Nadu,Private,13.104257,80.201795,972,737,609,128,119,111,8,116,103,13,5,3,2,15.3,Normal
+H136,Hospital_136,Noida,Uttar Pradesh,Government,28.579895,77.362913,1396,1219,1094,125,10,7,3,167,147,20,94,77,17,10.6,Critical Alert
+H137,Hospital_137,Kochi,Kerala,Government,9.954074,76.32875,161,82,64,18,60,41,19,19,17,2,146,87,59,24.2,Critical Alert
+H138,Hospital_138,Bangalore,Karnataka,Private,12.920401,77.54076,695,430,400,30,182,166,16,83,70,13,68,62,6,8.5,Critical Alert
+H139,Hospital_139,Mumbai,Maharashtra,Private,19.020985,72.885151,828,716,667,49,13,11,2,99,72,27,42,35,7,9.4,Critical Alert
+H140,Hospital_140,Mumbai,Maharashtra,Government,19.044129,72.892376,1465,1091,767,324,199,162,37,175,132,43,41,32,9,27.6,Normal
+H141,Hospital_141,Bangalore,Karnataka,Private,13.002066,77.553104,496,315,271,44,122,101,21,59,52,7,130,116,14,14.5,Critical Alert
+H142,Hospital_142,Mumbai,Maharashtra,Government,19.094793,72.844658,798,662,480,182,41,29,12,95,57,38,143,125,18,29.1,Normal
+H143,Hospital_143,Bangalore,Karnataka,Private,12.969994,77.651347,1142,962,803,159,43,40,3,137,92,45,104,59,45,18.1,Critical Alert
+H144,Hospital_144,New Delhi,Delhi,Government,28.662355,77.151922,276,142,127,15,101,94,7,33,23,10,81,56,25,11.6,Critical Alert
+H145,Hospital_145,Bangalore,Karnataka,Private,12.960901,77.563335,495,332,243,89,104,98,6,59,41,18,7,5,2,22.8,Normal
+H146,Hospital_146,Ahmedabad,Gujarat,Government,22.952996,72.609357,544,398,287,111,81,74,7,65,42,23,138,99,39,25.9,Normal
+H147,Hospital_147,Bangalore,Karnataka,Private,12.990796,77.561274,1356,1146,986,160,48,42,6,162,150,12,14,9,5,13.1,Critical Alert
+H148,Hospital_148,Mumbai,Maharashtra,Government,19.109772,72.884935,175,20,17,3,163,113,50,21,15,6,9,5,4,33.7,Normal
+H149,Hospital_149,Noida,Uttar Pradesh,Government,28.525376,77.322354,364,150,122,28,171,132,39,43,40,3,142,79,63,19.2,Critical Alert
+H150,Hospital_150,Ahmedabad,Gujarat,Private,22.963034,72.625035,554,297,234,63,191,150,41,66,61,5,134,116,18,19.7,Normal
+H151,Hospital_151,Mumbai,Maharashtra,Private,19.13255,72.884083,817,592,428,164,127,109,18,98,77,21,17,15,2,24.8,Normal
+H152,Hospital_152,Hyderabad,Telangana,Government,17.431843,78.498251,834,722,567,155,12,9,3,100,66,34,134,79,55,23.0,Critical Alert
+H153,Hospital_153,Hyderabad,Telangana,Private,17.335733,78.434542,950,704,636,68,132,104,28,114,94,20,88,69,19,12.2,Critical Alert
+H154,Hospital_154,Noida,Uttar Pradesh,Government,28.508656,77.446857,1490,1253,1056,197,59,38,21,178,155,23,69,44,25,16.2,Normal
+H155,Hospital_155,Noida,Uttar Pradesh,Private,28.576957,77.441498,243,193,140,53,21,17,4,29,18,11,67,55,12,28.0,Critical Alert
+H156,Hospital_156,Ahmedabad,Gujarat,Government,23.078349,72.530811,984,803,602,201,63,45,18,118,106,12,105,70,35,23.5,Normal
+H157,Hospital_157,New Delhi,Delhi,Government,28.578834,77.153391,1192,907,667,240,142,131,11,143,85,58,77,66,11,25.9,Normal
+H158,Hospital_158,Noida,Uttar Pradesh,Government,28.574716,77.444779,1222,1010,742,268,66,45,21,146,100,46,21,12,9,27.4,Normal
+H159,Hospital_159,Hyderabad,Telangana,Government,17.371893,78.503593,495,282,242,40,154,101,53,59,35,24,13,10,3,23.6,Normal
+H160,Hospital_160,Bangalore,Karnataka,Government,12.923237,77.654783,1148,890,673,217,121,90,31,137,90,47,147,83,64,25.7,Normal
+H161,Hospital_161,Mumbai,Maharashtra,Government,19.127045,72.944369,1047,866,760,106,56,45,11,125,107,18,42,30,12,12.9,Critical Alert
+H162,Hospital_162,Hyderabad,Telangana,Private,17.428508,78.540098,990,712,631,81,160,129,31,118,75,43,98,72,26,15.7,Normal
+H163,Hospital_163,Hyderabad,Telangana,Private,17.31847,78.519819,1274,1028,952,76,94,62,32,152,132,20,99,86,13,10.0,Critical Alert
+H164,Hospital_164,New Delhi,Delhi,Private,28.590406,77.269314,1267,964,795,169,151,119,32,152,142,10,53,30,23,16.7,Normal
+H165,Hospital_165,Ahmedabad,Gujarat,Government,23.064813,72.622369,668,513,418,95,75,58,17,80,67,13,73,53,20,18.7,Normal
+H166,Hospital_166,Ahmedabad,Gujarat,Government,23.066005,72.538753,1162,939,862,77,84,56,28,139,87,52,66,51,15,13.5,Critical Alert
+H167,Hospital_167,Chennai,Tamil Nadu,Government,13.122932,80.215833,208,20,14,6,188,138,50,24,19,5,82,61,21,29.3,Normal
+H168,Hospital_168,New Delhi,Delhi,Government,28.666003,77.259203,1165,914,711,203,112,107,5,139,109,30,121,86,35,20.4,Normal
+H169,Hospital_169,Bangalore,Karnataka,Private,12.932741,77.638922,1309,977,825,152,175,119,56,157,132,25,124,107,17,17.8,Normal
+H170,Hospital_170,Ahmedabad,Gujarat,Private,23.016942,72.544127,1034,863,738,125,47,41,6,124,105,19,141,88,53,14.5,Critical Alert
+H171,Hospital_171,Mumbai,Maharashtra,Government,19.117348,72.839563,497,379,306,73,59,42,17,59,42,17,80,57,23,21.5,Normal
+H172,Hospital_172,Noida,Uttar Pradesh,Private,28.468813,77.348038,1346,1078,862,216,107,72,35,161,120,41,39,31,8,21.7,Normal
+H173,Hospital_173,New Delhi,Delhi,Private,28.589857,77.260009,733,555,438,117,91,63,28,87,80,7,5,2,3,20.7,Normal
+H174,Hospital_174,Noida,Uttar Pradesh,Government,28.600864,77.360077,1256,1067,959,108,39,26,13,150,95,55,44,36,8,14.0,Critical Alert
+H175,Hospital_175,Hyderabad,Telangana,Private,17.404807,78.472655,1286,1044,934,110,88,72,16,154,124,30,68,51,17,12.1,Critical Alert
+H176,Hospital_176,Mumbai,Maharashtra,Government,19.143361,72.88277,1338,1078,839,239,100,68,32,160,115,45,64,50,14,23.6,Normal
+H177,Hospital_177,Mumbai,Maharashtra,Private,19.137493,72.823848,832,545,479,66,188,172,16,99,84,15,68,61,7,11.7,Critical Alert
+H178,Hospital_178,Hyderabad,Telangana,Government,17.450856,78.441699,334,233,196,37,61,46,15,40,32,8,97,60,37,18.0,Normal
+H179,Hospital_179,New Delhi,Delhi,Government,28.678655,77.176165,757,492,421,71,175,125,50,90,57,33,76,65,11,20.3,Normal
+H180,Hospital_180,Hyderabad,Telangana,Government,17.330176,78.477539,850,660,520,140,88,78,10,102,81,21,15,12,3,20.1,Normal
+H181,Hospital_181,Noida,Uttar Pradesh,Government,28.567496,77.364915,687,566,511,55,39,37,2,82,72,10,109,84,25,9.8,Critical Alert
+H182,Hospital_182,Chennai,Tamil Nadu,Private,13.097569,80.272299,1132,882,753,129,115,75,40,135,124,11,18,15,3,15.9,Normal
+H183,Hospital_183,Mumbai,Maharashtra,Government,19.059927,72.888422,1197,994,759,235,60,42,18,143,120,23,64,42,22,23.1,Normal
+H184,Hospital_184,Kochi,Kerala,Government,9.896861,76.29653,1053,837,654,183,90,58,32,126,113,13,34,25,9,21.7,Normal
+H185,Hospital_185,Kochi,Kerala,Government,9.861437,76.326881,591,379,301,78,142,98,44,70,57,13,39,21,18,22.8,Normal
+H186,Hospital_186,Noida,Uttar Pradesh,Private,28.540883,77.42172,1012,853,749,104,38,27,11,121,90,31,9,6,3,14.4,Critical Alert
+H187,Hospital_187,Bangalore,Karnataka,Government,13.005473,77.618488,1376,1070,844,226,141,123,18,165,143,22,87,66,21,19.3,Normal
+H188,Hospital_188,Ahmedabad,Gujarat,Private,23.003491,72.511196,1353,1044,752,292,147,97,50,162,106,56,127,98,29,29.4,Normal
+H189,Hospital_189,Hyderabad,Telangana,Government,17.407993,78.462928,1297,949,817,132,193,141,52,155,128,27,82,59,23,16.3,Normal
+H190,Hospital_190,Hyderabad,Telangana,Private,17.358948,78.535422,1291,983,792,191,154,113,41,154,133,21,66,39,27,19.6,Normal
+H191,Hospital_191,Bangalore,Karnataka,Private,13.002366,77.566645,269,154,123,31,83,61,22,32,26,6,136,99,37,21.9,Normal
+H192,Hospital_192,Bangalore,Karnataka,Government,12.9449,77.581775,1045,894,768,126,26,17,9,125,92,33,93,71,22,16.1,Normal
+H193,Hospital_193,Noida,Uttar Pradesh,Private,28.521836,77.362392,894,694,487,207,93,69,24,107,72,35,46,27,19,29.8,Normal
+H194,Hospital_194,Noida,Uttar Pradesh,Government,28.48332,77.379862,733,568,432,136,78,58,20,87,52,35,93,76,17,26.1,Normal
+H195,Hospital_195,Bangalore,Karnataka,Government,13.033251,77.619425,1317,1116,828,288,43,33,10,158,133,25,44,32,12,24.5,Normal
+H196,Hospital_196,Mumbai,Maharashtra,Government,19.132393,72.893872,128,98,88,10,15,13,2,15,9,6,76,66,10,14.1,Critical Alert
+H197,Hospital_197,Noida,Uttar Pradesh,Private,28.507633,77.397711,1288,1072,761,311,62,40,22,154,142,12,43,37,6,26.8,Normal
+H198,Hospital_198,Chennai,Tamil Nadu,Private,13.012757,80.240868,438,251,210,41,135,111,24,52,44,8,108,76,32,16.7,Normal
+H199,Hospital_199,Noida,Uttar Pradesh,Government,28.525684,77.402198,1488,1258,915,343,52,34,18,178,127,51,18,15,3,27.7,Normal
+H200,Hospital_200,Hyderabad,Telangana,Government,17.406659,78.481798,1465,1166,989,177,124,112,12,175,161,14,36,20,16,13.9,Critical Alert

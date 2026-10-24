@@ -1,0 +1,201 @@
+HospitalKey,hospital_id,hospital_name,city,state,type,latitude,longitude,total_beds,ventilators_total
+H001,H001,Hospital_1,Ahmedabad,Gujarat,Government,23.04202,72.504902,976,115
+H002,H002,Hospital_2,Noida,Uttar Pradesh,Government,28.504004,77.35225,1091,84
+H003,H003,Hospital_3,Ahmedabad,Gujarat,Private,23.055606,72.596138,983,99
+H004,H004,Hospital_4,Hyderabad,Telangana,Private,17.439905,78.428871,1473,122
+H005,H005,Hospital_5,Mumbai,Maharashtra,Government,19.065069,72.811872,146,148
+H006,H006,Hospital_6,Kochi,Kerala,Government,9.891809,76.26805,966,12
+H007,H007,Hospital_7,Noida,Uttar Pradesh,Government,28.469215,77.348837,922,136
+H008,H008,Hospital_8,Mumbai,Maharashtra,Government,19.096984,72.883992,1035,108
+H009,H009,Hospital_9,Chennai,Tamil Nadu,Government,13.043562,80.283197,755,136
+H010,H010,Hospital_10,Kochi,Kerala,Government,9.97452,76.19821,368,29
+H011,H011,Hospital_11,Ahmedabad,Gujarat,Private,23.065315,72.59914,469,100
+H012,H012,Hospital_12,Ahmedabad,Gujarat,Government,23.000135,72.523167,735,97
+H013,H013,Hospital_13,Kochi,Kerala,Government,9.99521,76.244423,1229,65
+H014,H014,Hospital_14,Ahmedabad,Gujarat,Private,22.965484,72.51494,756,126
+H015,H015,Hospital_15,Bangalore,Karnataka,Private,13.020249,77.609122,219,55
+H016,H016,Hospital_16,Kochi,Kerala,Private,9.974198,76.299462,930,25
+H017,H017,Hospital_17,Mumbai,Maharashtra,Private,19.081072,72.943936,1181,9
+H018,H018,Hospital_18,Kochi,Kerala,Government,9.914195,76.274586,1469,96
+H019,H019,Hospital_19,Noida,Uttar Pradesh,Government,28.581617,77.407593,840,65
+H020,H020,Hospital_20,Ahmedabad,Gujarat,Government,23.073139,72.582229,216,26
+H021,H021,Hospital_21,Bangalore,Karnataka,Government,13.00024,77.531015,890,74
+H022,H022,Hospital_22,Bangalore,Karnataka,Government,12.933506,77.565114,1250,5
+H023,H023,Hospital_23,Chennai,Tamil Nadu,Government,13.023871,80.233291,1112,137
+H024,H024,Hospital_24,Mumbai,Maharashtra,Private,19.02014,72.846616,1181,16
+H025,H025,Hospital_25,New Delhi,Delhi,Government,28.632896,77.190077,733,94
+H026,H026,Hospital_26,New Delhi,Delhi,Private,28.595725,77.168331,612,50
+H027,H027,Hospital_27,Kochi,Kerala,Private,9.898577,76.328432,901,38
+H028,H028,Hospital_28,Chennai,Tamil Nadu,Government,13.103425,80.285978,1219,82
+H029,H029,Hospital_29,Hyderabad,Telangana,Private,17.338959,78.518778,1241,49
+H030,H030,Hospital_30,Kochi,Kerala,Government,9.884076,76.250424,659,77
+H031,H031,Hospital_31,Chennai,Tamil Nadu,Private,13.151233,80.2903,587,30
+H032,H032,Hospital_32,Mumbai,Maharashtra,Government,19.083973,72.903546,1360,51
+H033,H033,Hospital_33,Mumbai,Maharashtra,Private,19.123999,72.91634,996,125
+H034,H034,Hospital_34,Mumbai,Maharashtra,Government,19.038067,72.812194,1395,60
+H035,H035,Hospital_35,Mumbai,Maharashtra,Government,19.050163,72.845184,1312,98
+H036,H036,Hospital_36,Mumbai,Maharashtra,Government,19.035538,72.939707,803,111
+H037,H037,Hospital_37,Chennai,Tamil Nadu,Government,13.135391,80.244755,680,67
+H038,H038,Hospital_38,Chennai,Tamil Nadu,Government,13.104461,80.256088,889,52
+H039,H039,Hospital_39,Bangalore,Karnataka,Private,13.029637,77.588839,960,65
+H040,H040,Hospital_40,Noida,Uttar Pradesh,Private,28.502583,77.355528,346,85
+H041,H041,Hospital_41,New Delhi,Delhi,Private,28.622492,77.175784,1199,30
+H042,H042,Hospital_42,Ahmedabad,Gujarat,Government,23.034342,72.627095,253,40
+H043,H043,Hospital_43,Mumbai,Maharashtra,Private,19.061916,72.838405,1096,5
+H044,H044,Hospital_44,Hyderabad,Telangana,Government,17.454655,78.488034,1209,12
+H045,H045,Hospital_45,Ahmedabad,Gujarat,Government,22.965227,72.507996,796,117
+H046,H046,Hospital_46,Chennai,Tamil Nadu,Private,13.028051,80.288542,1408,103
+H047,H047,Hospital_47,Hyderabad,Telangana,Private,17.425891,78.475802,1343,51
+H048,H048,Hospital_48,Hyderabad,Telangana,Government,17.323894,78.470127,1192,131
+H049,H049,Hospital_49,Hyderabad,Telangana,Private,17.454457,78.490776,1170,60
+H050,H050,Hospital_50,Bangalore,Karnataka,Government,13.037551,77.645109,1108,18
+H051,H051,Hospital_51,Chennai,Tamil Nadu,Government,13.014307,80.301601,193,32
+H052,H052,Hospital_52,Hyderabad,Telangana,Government,17.410439,78.491876,1057,82
+H053,H053,Hospital_53,Mumbai,Maharashtra,Government,19.043356,72.897435,1111,134
+H054,H054,Hospital_54,Kochi,Kerala,Government,9.876817,76.258167,552,113
+H055,H055,Hospital_55,Hyderabad,Telangana,Private,17.378521,78.550234,1327,18
+H056,H056,Hospital_56,Bangalore,Karnataka,Private,13.024219,77.561474,1011,60
+H057,H057,Hospital_57,Ahmedabad,Gujarat,Government,23.022582,72.526411,317,119
+H058,H058,Hospital_58,Chennai,Tamil Nadu,Government,13.140468,80.322573,573,11
+H059,H059,Hospital_59,Noida,Uttar Pradesh,Private,28.507282,77.410453,531,7
+H060,H060,Hospital_60,Bangalore,Karnataka,Private,12.986856,77.545997,440,115
+H061,H061,Hospital_61,Hyderabad,Telangana,Government,17.421752,78.492213,650,111
+H062,H062,Hospital_62,Chennai,Tamil Nadu,Private,13.121708,80.27495,1412,22
+H063,H063,Hospital_63,Kochi,Kerala,Government,9.86128,76.242682,1377,42
+H064,H064,Hospital_64,Hyderabad,Telangana,Private,17.317727,78.546774,456,119
+H065,H065,Hospital_65,Bangalore,Karnataka,Government,13.024621,77.641033,122,19
+H066,H066,Hospital_66,New Delhi,Delhi,Private,28.586952,77.14711,621,123
+H067,H067,Hospital_67,Mumbai,Maharashtra,Government,19.128921,72.940273,1223,32
+H068,H068,Hospital_68,Noida,Uttar Pradesh,Private,28.477491,77.389039,901,43
+H069,H069,Hospital_69,Ahmedabad,Gujarat,Private,22.96219,72.607884,1303,21
+H070,H070,Hospital_70,Bangalore,Karnataka,Government,13.008817,77.542575,1346,90
+H071,H071,Hospital_71,Chennai,Tamil Nadu,Private,13.07924,80.277673,861,130
+H072,H072,Hospital_72,Noida,Uttar Pradesh,Government,28.502608,77.443141,541,48
+H073,H073,Hospital_73,Noida,Uttar Pradesh,Private,28.524739,77.350652,868,29
+H074,H074,Hospital_74,Noida,Uttar Pradesh,Government,28.541001,77.42319,1115,149
+H075,H075,Hospital_75,Hyderabad,Telangana,Private,17.343161,78.46034,1448,17
+H076,H076,Hospital_76,Mumbai,Maharashtra,Government,19.145321,72.898683,615,29
+H077,H077,Hospital_77,Hyderabad,Telangana,Private,17.376334,78.489161,1139,72
+H078,H078,Hospital_78,Chennai,Tamil Nadu,Government,13.029641,80.232158,891,142
+H079,H079,Hospital_79,Hyderabad,Telangana,Private,17.362332,78.499063,435,71
+H080,H080,Hospital_80,New Delhi,Delhi,Government,28.576116,77.16983,357,113
+H081,H081,Hospital_81,Mumbai,Maharashtra,Government,19.015939,72.896054,596,115
+H082,H082,Hospital_82,Mumbai,Maharashtra,Government,19.038052,72.934459,995,115
+H083,H083,Hospital_83,Chennai,Tamil Nadu,Private,13.133049,80.21062,259,38
+H084,H084,Hospital_84,Ahmedabad,Gujarat,Government,22.985821,72.595057,951,115
+H085,H085,Hospital_85,New Delhi,Delhi,Private,28.573893,77.157524,789,12
+H086,H086,Hospital_86,Bangalore,Karnataka,Government,13.032572,77.604546,479,117
+H087,H087,Hospital_87,Hyderabad,Telangana,Private,17.381174,78.526547,1056,87
+H088,H088,Hospital_88,Kochi,Kerala,Government,9.97425,76.223957,790,46
+H089,H089,Hospital_89,Hyderabad,Telangana,Private,17.32857,78.477047,1391,105
+H090,H090,Hospital_90,Noida,Uttar Pradesh,Private,28.524801,77.386383,1291,10
+H091,H091,Hospital_91,Hyderabad,Telangana,Government,17.417071,78.510971,1166,30
+H092,H092,Hospital_92,Bangalore,Karnataka,Private,13.039383,77.538379,384,68
+H093,H093,Hospital_93,Hyderabad,Telangana,Private,17.371367,78.464202,496,63
+H094,H094,Hospital_94,New Delhi,Delhi,Government,28.664534,77.173812,111,113
+H095,H095,Hospital_95,New Delhi,Delhi,Private,28.570529,77.201806,1425,125
+H096,H096,Hospital_96,Mumbai,Maharashtra,Private,19.065063,72.846696,1376,37
+H097,H097,Hospital_97,Chennai,Tamil Nadu,Private,13.047673,80.329957,598,25
+H098,H098,Hospital_98,Ahmedabad,Gujarat,Government,23.014538,72.621989,853,74
+H099,H099,Hospital_99,Kochi,Kerala,Private,9.938246,76.204382,134,116
+H100,H100,Hospital_100,Noida,Uttar Pradesh,Government,28.6054,77.438044,826,8
+H101,H101,Hospital_101,Hyderabad,Telangana,Private,17.450659,78.546391,948,98
+H102,H102,Hospital_102,Hyderabad,Telangana,Private,17.433817,78.439984,189,79
+H103,H103,Hospital_103,Bangalore,Karnataka,Private,12.96959,77.554525,875,66
+H104,H104,Hospital_104,Chennai,Tamil Nadu,Government,13.068846,80.208909,704,98
+H105,H105,Hospital_105,New Delhi,Delhi,Private,28.596956,77.276943,1069,99
+H106,H106,Hospital_106,Kochi,Kerala,Private,9.898328,76.30707,1121,59
+H107,H107,Hospital_107,Mumbai,Maharashtra,Government,19.069701,72.866921,517,141
+H108,H108,Hospital_108,New Delhi,Delhi,Private,28.677924,77.278359,214,135
+H109,H109,Hospital_109,Noida,Uttar Pradesh,Government,28.543308,77.421577,716,35
+H110,H110,Hospital_110,Chennai,Tamil Nadu,Government,13.034372,80.242239,1319,44
+H111,H111,Hospital_111,Noida,Uttar Pradesh,Private,28.601119,77.402085,925,40
+H112,H112,Hospital_112,Ahmedabad,Gujarat,Government,23.028407,72.606117,1198,10
+H113,H113,Hospital_113,Mumbai,Maharashtra,Private,19.014003,72.889485,512,70
+H114,H114,Hospital_114,Ahmedabad,Gujarat,Government,23.022899,72.620781,1499,79
+H115,H115,Hospital_115,Bangalore,Karnataka,Government,12.923641,77.659109,828,8
+H116,H116,Hospital_116,Noida,Uttar Pradesh,Private,28.476716,77.347015,1400,83
+H117,H117,Hospital_117,Bangalore,Karnataka,Government,12.984905,77.61913,1120,138
+H118,H118,Hospital_118,Hyderabad,Telangana,Government,17.347929,78.433484,860,122
+H119,H119,Hospital_119,Ahmedabad,Gujarat,Government,23.07714,72.53587,775,117
+H120,H120,Hospital_120,Chennai,Tamil Nadu,Government,13.095933,80.287413,556,98
+H121,H121,Hospital_121,Noida,Uttar Pradesh,Government,28.524191,77.402714,1019,66
+H122,H122,Hospital_122,Kochi,Kerala,Private,9.93439,76.328159,291,83
+H123,H123,Hospital_123,Mumbai,Maharashtra,Government,19.034596,72.907967,838,140
+H124,H124,Hospital_124,New Delhi,Delhi,Private,28.577316,77.19441,1222,30
+H125,H125,Hospital_125,Chennai,Tamil Nadu,Government,13.106737,80.2427,1077,48
+H126,H126,Hospital_126,Chennai,Tamil Nadu,Private,13.056965,80.305961,1108,137
+H127,H127,Hospital_127,Bangalore,Karnataka,Private,12.911756,77.58876,195,74
+H128,H128,Hospital_128,Ahmedabad,Gujarat,Government,23.092284,72.640854,762,122
+H129,H129,Hospital_129,Noida,Uttar Pradesh,Government,28.475757,77.350842,1313,72
+H130,H130,Hospital_130,Noida,Uttar Pradesh,Government,28.502628,77.451656,136,23
+H131,H131,Hospital_131,Hyderabad,Telangana,Private,17.438321,78.539798,1492,24
+H132,H132,Hospital_132,Hyderabad,Telangana,Government,17.366734,78.438785,378,117
+H133,H133,Hospital_133,Mumbai,Maharashtra,Private,19.122724,72.906196,316,144
+H134,H134,Hospital_134,Bangalore,Karnataka,Private,12.987235,77.662813,966,51
+H135,H135,Hospital_135,Chennai,Tamil Nadu,Private,13.104257,80.201795,972,5
+H136,H136,Hospital_136,Noida,Uttar Pradesh,Government,28.579895,77.362913,1396,94
+H137,H137,Hospital_137,Kochi,Kerala,Government,9.954074,76.32875,161,146
+H138,H138,Hospital_138,Bangalore,Karnataka,Private,12.920401,77.54076,695,68
+H139,H139,Hospital_139,Mumbai,Maharashtra,Private,19.020985,72.885151,828,42
+H140,H140,Hospital_140,Mumbai,Maharashtra,Government,19.044129,72.892376,1465,41
+H141,H141,Hospital_141,Bangalore,Karnataka,Private,13.002066,77.553104,496,130
+H142,H142,Hospital_142,Mumbai,Maharashtra,Government,19.094793,72.844658,798,143
+H143,H143,Hospital_143,Bangalore,Karnataka,Private,12.969994,77.651347,1142,104
+H144,H144,Hospital_144,New Delhi,Delhi,Government,28.662355,77.151922,276,81
+H145,H145,Hospital_145,Bangalore,Karnataka,Private,12.960901,77.563335,495,7
+H146,H146,Hospital_146,Ahmedabad,Gujarat,Government,22.952996,72.609357,544,138
+H147,H147,Hospital_147,Bangalore,Karnataka,Private,12.990796,77.561274,1356,14
+H148,H148,Hospital_148,Mumbai,Maharashtra,Government,19.109772,72.884935,175,9
+H149,H149,Hospital_149,Noida,Uttar Pradesh,Government,28.525376,77.322354,364,142
+H150,H150,Hospital_150,Ahmedabad,Gujarat,Private,22.963034,72.625035,554,134
+H151,H151,Hospital_151,Mumbai,Maharashtra,Private,19.13255,72.884083,817,17
+H152,H152,Hospital_152,Hyderabad,Telangana,Government,17.431843,78.498251,834,134
+H153,H153,Hospital_153,Hyderabad,Telangana,Private,17.335733,78.434542,950,88
+H154,H154,Hospital_154,Noida,Uttar Pradesh,Government,28.508656,77.446857,1490,69
+H155,H155,Hospital_155,Noida,Uttar Pradesh,Private,28.576957,77.441498,243,67
+H156,H156,Hospital_156,Ahmedabad,Gujarat,Government,23.078349,72.530811,984,105
+H157,H157,Hospital_157,New Delhi,Delhi,Government,28.578834,77.153391,1192,77
+H158,H158,Hospital_158,Noida,Uttar Pradesh,Government,28.574716,77.444779,1222,21
+H159,H159,Hospital_159,Hyderabad,Telangana,Government,17.371893,78.503593,495,13
+H160,H160,Hospital_160,Bangalore,Karnataka,Government,12.923237,77.654783,1148,147
+H161,H161,Hospital_161,Mumbai,Maharashtra,Government,19.127045,72.944369,1047,42
+H162,H162,Hospital_162,Hyderabad,Telangana,Private,17.428508,78.540098,990,98
+H163,H163,Hospital_163,Hyderabad,Telangana,Private,17.31847,78.519819,1274,99
+H164,H164,Hospital_164,New Delhi,Delhi,Private,28.590406,77.269314,1267,53
+H165,H165,Hospital_165,Ahmedabad,Gujarat,Government,23.064813,72.622369,668,73
+H166,H166,Hospital_166,Ahmedabad,Gujarat,Government,23.066005,72.538753,1162,66
+H167,H167,Hospital_167,Chennai,Tamil Nadu,Government,13.122932,80.215833,208,82
+H168,H168,Hospital_168,New Delhi,Delhi,Government,28.666003,77.259203,1165,121
+H169,H169,Hospital_169,Bangalore,Karnataka,Private,12.932741,77.638922,1309,124
+H170,H170,Hospital_170,Ahmedabad,Gujarat,Private,23.016942,72.544127,1034,141
+H171,H171,Hospital_171,Mumbai,Maharashtra,Government,19.117348,72.839563,497,80
+H172,H172,Hospital_172,Noida,Uttar Pradesh,Private,28.468813,77.348038,1346,39
+H173,H173,Hospital_173,New Delhi,Delhi,Private,28.589857,77.260009,733,5
+H174,H174,Hospital_174,Noida,Uttar Pradesh,Government,28.600864,77.360077,1256,44
+H175,H175,Hospital_175,Hyderabad,Telangana,Private,17.404807,78.472655,1286,68
+H176,H176,Hospital_176,Mumbai,Maharashtra,Government,19.143361,72.88277,1338,64
+H177,H177,Hospital_177,Mumbai,Maharashtra,Private,19.137493,72.823848,832,68
+H178,H178,Hospital_178,Hyderabad,Telangana,Government,17.450856,78.441699,334,97
+H179,H179,Hospital_179,New Delhi,Delhi,Government,28.678655,77.176165,757,76
+H180,H180,Hospital_180,Hyderabad,Telangana,Government,17.330176,78.477539,850,15
+H181,H181,Hospital_181,Noida,Uttar Pradesh,Government,28.567496,77.364915,687,109
+H182,H182,Hospital_182,Chennai,Tamil Nadu,Private,13.097569,80.272299,1132,18
+H183,H183,Hospital_183,Mumbai,Maharashtra,Government,19.059927,72.888422,1197,64
+H184,H184,Hospital_184,Kochi,Kerala,Government,9.896861,76.29653,1053,34
+H185,H185,Hospital_185,Kochi,Kerala,Government,9.861437,76.326881,591,39
+H186,H186,Hospital_186,Noida,Uttar Pradesh,Private,28.540883,77.42172,1012,9
+H187,H187,Hospital_187,Bangalore,Karnataka,Government,13.005473,77.618488,1376,87
+H188,H188,Hospital_188,Ahmedabad,Gujarat,Private,23.003491,72.511196,1353,127
+H189,H189,Hospital_189,Hyderabad,Telangana,Government,17.407993,78.462928,1297,82
+H190,H190,Hospital_190,Hyderabad,Telangana,Private,17.358948,78.535422,1291,66
+H191,H191,Hospital_191,Bangalore,Karnataka,Private,13.002366,77.566645,269,136
+H192,H192,Hospital_192,Bangalore,Karnataka,Government,12.9449,77.581775,1045,93
+H193,H193,Hospital_193,Noida,Uttar Pradesh,Private,28.521836,77.362392,894,46
+H194,H194,Hospital_194,Noida,Uttar Pradesh,Government,28.48332,77.379862,733,93
+H195,H195,Hospital_195,Bangalore,Karnataka,Government,13.033251,77.619425,1317,44
+H196,H196,Hospital_196,Mumbai,Maharashtra,Government,19.132393,72.893872,128,76
+H197,H197,Hospital_197,Noida,Uttar Pradesh,Private,28.507633,77.397711,1288,43
+H198,H198,Hospital_198,Chennai,Tamil Nadu,Private,13.012757,80.240868,438,108
+H199,H199,Hospital_199,Noida,Uttar Pradesh,Government,28.525684,77.402198,1488,18
+H200,H200,Hospital_200,Hyderabad,Telangana,Government,17.406659,78.481798,1465,36
