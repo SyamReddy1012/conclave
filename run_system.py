@@ -23,7 +23,7 @@ def main():
 
     # 2. Run Server
     import app.server
-    port = int(os.environ.get("PORT", 8080))
+    port = int(os.environ.get("PORT", 3000))
     if len(sys.argv) > 1:
         try:
             port = int(sys.argv[1])
@@ -32,13 +32,16 @@ def main():
 
     host = os.environ.get("HOST", "0.0.0.0")
 
-    print(f"\n>>> Launching application server on http://{host}:{port}")
+    display_host = "localhost" if host == "0.0.0.0" else host
+    print(f"\n>>> Starting server for Smart Hospital System...")
+    print(f">>> Primary Localhost: http://{display_host}:{port}")
+    print(f">>> Localhost IP:      http://127.0.0.1:{port}")
     print(f">>> Press Ctrl+C to terminate the server.\n")
 
     # Only open browser automatically on local desktop, not in cloud containers
-    if not os.environ.get("RENDER") and not os.environ.get("DYNO") and not os.environ.get("CI"):
+    if not os.environ.get("RENDER") and not os.environ.get("DYNO") and not os.environ.get("CI") and not os.environ.get("NO_BROWSER"):
         try:
-            webbrowser.open(f"http://127.0.0.1:{port}")
+            webbrowser.open(f"http://localhost:{port}")
         except Exception:
             pass
 

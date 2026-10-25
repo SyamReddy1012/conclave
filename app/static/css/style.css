@@ -159,20 +159,100 @@ body.theme-dark {
 
 .login-container {
   flex: 1;
-  display: grid;
-  grid-template-columns: 1.15fr 1fr;
-  max-width: 1240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   margin: 40px auto;
   padding: 0 24px;
+  transition: all 0.4s ease;
+}
+
+/* 1. Full-Page Splash Mode (First 3-4s showcase of the platform) */
+.login-container.splash-mode {
+  max-width: 1040px;
+}
+
+.login-container.splash-mode .login-hero-card {
+  display: block;
+  width: 100%;
+  max-width: 980px;
+  animation: heroSplashFadeIn 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.login-container.splash-mode .login-form-card {
+  display: none !important;
+}
+
+/* 2. Centered Login Mode (Automatically entered after 3-4s) */
+.login-container.login-mode {
+  max-width: 640px;
+}
+
+.login-container.login-mode .login-hero-card {
+  display: none !important;
+}
+
+.login-container.login-mode .login-form-card {
+  display: block !important;
+  width: 100%;
+  max-width: 580px;
+  animation: loginCardEnter 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Fallback if neither class is set */
+.login-container:not(.splash-mode):not(.login-mode) {
+  display: grid;
+  grid-template-columns: 1.15fr 1fr;
+  max-width: 1240px;
   gap: 36px;
-  align-items: center;
 }
 
 @media (max-width: 960px) {
   .login-container {
-    grid-template-columns: 1fr;
     margin: 20px auto;
+    padding: 0 16px;
+  }
+  .login-container:not(.splash-mode):not(.login-mode) {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Transitions & Animations for Splash and Login */
+.login-hero-card.splash-fading {
+  animation: heroSplashFadeOut 0.35s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes heroSplashFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes heroSplashFadeOut {
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: scale(0.96) translateY(-12px);
+  }
+}
+
+@keyframes loginCardEnter {
+  from {
+    opacity: 0;
+    transform: translateY(24px) scale(0.97);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
   }
 }
 
@@ -288,6 +368,122 @@ body.theme-dark {
   font-weight: 600;
   color: var(--text-muted);
   margin-top: 4px;
+}
+
+/* HERO SPLASH COUNTDOWN & PROGRESS BAR */
+.hero-splash-action-bar {
+  margin-top: 32px;
+  padding-top: 22px;
+  border-top: 1px dashed var(--border-color);
+}
+
+.splash-progress-track {
+  height: 6px;
+  background: var(--bg-primary);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-full);
+  overflow: hidden;
+  margin-bottom: 14px;
+}
+
+.splash-progress-fill {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, var(--color-green-emerald), #10b981, #34d399);
+  border-radius: var(--radius-full);
+  box-shadow: 0 0 10px rgba(16, 185, 129, 0.4);
+}
+
+.splash-action-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.splash-status-text {
+  font-size: 13.5px;
+  color: var(--text-secondary);
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 500;
+}
+
+.splash-pulse-dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background-color: var(--color-green-emerald);
+  box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7);
+  animation: splashPulseDot 1.6s infinite;
+  display: inline-block;
+}
+
+@keyframes splashPulseDot {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7);
+  }
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 8px rgba(16, 185, 129, 0);
+  }
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(16, 185, 129, 0);
+  }
+}
+
+.btn-enter-portal {
+  background: var(--color-green-emerald);
+  color: #ffffff;
+  border: none;
+  padding: 8px 18px;
+  border-radius: var(--radius-full);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.2s ease;
+  box-shadow: var(--shadow-sm);
+}
+
+.btn-enter-portal:hover {
+  background: var(--color-green-forest);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 14px rgba(16, 185, 129, 0.35);
+}
+
+/* Re-view Showcase Link */
+.login-showcase-toggle-wrap {
+  text-align: center;
+  margin-top: 22px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border-color);
+}
+
+.btn-link-showcase {
+  background: transparent;
+  border: none;
+  color: var(--color-green-emerald);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border-radius: var(--radius-sm);
+  transition: all 0.2s ease;
+}
+
+.btn-link-showcase:hover {
+  background: var(--color-green-light);
+  color: var(--color-green-forest);
 }
 
 /* RIGHT AUTH FORM CARD */

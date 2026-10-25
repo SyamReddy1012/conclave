@@ -881,19 +881,33 @@ def run_server(host=None, port=None):
     if host is None:
         host = os.environ.get("HOST", "0.0.0.0")
     if port is None:
-        port = int(os.environ.get("PORT", 8080))
+        port = int(os.environ.get("PORT", 3000))
     os.chdir(WORKSPACE_DIR)
     # Ensure DB is ready
     import app.database
     app.database.init_db()
 
-    server_address = (host, port)
-    httpd = ThreadedHTTPServer(server_address, HospitalRequestHandler)
+    httpd = None
+    start_port = port
+    while httpd is None and port < start_port + 100:
+        try:
+            server_address = (host, port)
+            httpd = ThreadedHTTPServer(server_address, HospitalRequestHandler)
+        except OSError as e:
+            if getattr(e, 'errno', None) in (48, 98, 10048) or "10048" in str(e):
+                print(f"[!] Port {port} is already in use. Retrying with fresh port {port + 1}...")
+                port += 1
+            else:
+                raise e
+
+    display_host = "localhost" if host == "0.0.0.0" else host
     print(f"================================================================")
     print(f"  Smart Hospital Optimization & Emergency Response System")
     print(f"  Team TechHunters · Innovative Conclave")
-    print(f"  Live Web Server running at: http://{host}:{port}")
+    print(f"  Live Local Server running at: http://{display_host}:{port}")
+    print(f"  Loopback Link:               http://127.0.0.1:{port}")
     print(f"================================================================")
+    sys.stdout.flush()
     try:
         httpd.serve_forever()
     except KeyboardInterrupt:
@@ -901,8 +915,11 @@ def run_server(host=None, port=None):
         httpd.server_close()
 
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 8080))
+    port = int(os.environ.get("PORT", 3000))
     if len(sys.argv) > 1:
-        port = int(sys.argv[1])
+        try:
+            port = int(sys.argv[1])
+        except ValueError:
+            pass
     host = os.environ.get("HOST", "0.0.0.0")
     run_server(host=host, port=port)
