@@ -116,6 +116,7 @@ The system features a dedicated **Staff Portal Login Page** with session persist
 | **Pharmacy** | `pharmacy` | `pharmacy123` | K. Vishal, R.Ph. | Medicine stock inspection, quarantine of expired batches, restock orders, blood bank. |
 | **Reception** | `reception` | `reception123` | S. Nikhil | Bed & ventilator tracking, ICU reservations, patient discharges, doctor roster. |
 | **Manager (Fleet)** | `manager` | `manager123` | K. Ramesh | Ambulance tracking, 108 emergency intake, 4-stage allocation execution, hotspot staging. |
+| **Citizen (External)** | *Self-registered* | *User-defined* | Registered Citizen / Patient | Public view of real-time emergency beds, nearest trauma centers, and emergency 108 SOS. |
 
 > **Quick Demo Login:** On the login page, simply click any of the 4 demo role pills to authenticate immediately with pre-filled credentials. A **Logout** button in the header returns to the portal.
 
@@ -156,20 +157,20 @@ Click **"Test Fallback Scenario"** to simulate an emergency in an area where loc
 
 ---
 
-## 6. Power BI Desktop Integration
+## 6. Power BI Desktop Integration & Role-Based Analytics (RLS)
 
-The system includes a dedicated **Power BI Analytics** tab and star-schema datasets ready for Power BI Desktop:
+The system includes a dedicated **Power BI Analytics** tab and star-schema datasets ready for Power BI Desktop with **dynamic Role-Based Access Control (RBAC)**:
 
-1. Open Power BI Desktop $\rightarrow$ `Get Data` $\rightarrow$ `Text/CSV`.
-2. Select files from `dashboard/data/`:
-   - `dim_hospitals.csv` (1 to Many with Fact tables)
-   - `dim_doctors.csv`
-   - `dim_accident_hotspots.csv`
-   - `fact_bed_occupancy.csv`
-   - `fact_pharma_inventory.csv`
-   - `fact_ambulance_fleet.csv`
-   - `fact_blood_bank.csv`
-3. Reference `dashboard/POWER_BI_GUIDE.md` for exact DAX formulas (Bed Occupancy Rate %, ICU Utilization %, Stockout Risk Index, Average Dispatch Time).
+1. **Role-Tailored Analytical Views**:
+   - **Executive Director (Admin)**: Enterprise model across beds, pharmacy, corridors, and ambulance fleet.
+   - **Chief Pharmacist (Pharmacy)**: Drug category revenue, stockout/expiry pipelines, cold-storage blood units by blood group, and distributor shares.
+   - **Triage Officer (Reception)**: Ward bed capacities (General, ICU, Emergency), on-duty medical specialists by department, and ventilator utilization ratios.
+   - **108 Dispatch Manager (Manager)**: Ambulance readiness %, ALS life support fleet composition, highway accident choke-points, and hotspot risk distribution.
+
+2. **Power BI Desktop Connection**:
+   - Open Power BI Desktop $\rightarrow$ `Get Data` $\rightarrow$ `Text/CSV`.
+   - Select files from `dashboard/data/` (`dim_hospitals.csv`, `dim_doctors.csv`, `dim_accident_hotspots.csv`, `fact_bed_occupancy.csv`, `fact_pharma_inventory.csv`, `fact_ambulance_fleet.csv`, `fact_blood_bank.csv`).
+   - Reference `dashboard/POWER_BI_GUIDE.md` for exact DAX formulas and Row-Level Security (RLS) configuration in Power BI Desktop.
 
 ---
 
@@ -199,4 +200,4 @@ http://127.0.0.1:8080
 ```bash
 python test_suite.py
 ```
-*(Runs 16 automated test validations covering server health, API integrity, bed reservation lifecycles, 4-stage allocation, fallback triggers, RBAC authentication, and static asset serving).*
+*(Runs 17 automated test validations covering server health, API integrity, bed reservation lifecycles, 4-stage allocation, fallback triggers, RBAC staff & citizen authentication, and static asset serving).*

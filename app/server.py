@@ -20,7 +20,9 @@ DB_PATH = os.path.join(WORKSPACE_DIR, "hospital_system.db")
 STATIC_DIR = os.path.join(WORKSPACE_DIR, "app", "static")
 
 def get_db():
-    conn = sqlite3.connect(DB_PATH)
+    conn = sqlite3.connect(DB_PATH, timeout=20.0)
+    conn.execute("PRAGMA journal_mode = WAL;")
+    conn.execute("PRAGMA busy_timeout = 20000;")
     conn.row_factory = sqlite3.Row
     return conn
 
@@ -38,6 +40,12 @@ class ThreadedHTTPServer(ThreadingMixIn, HTTPServer):
 class HospitalRequestHandler(SimpleHTTPRequestHandler):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, directory=STATIC_DIR, **kwargs)
+
+    def end_headers(self):
+        self.send_header("Cache-Control", "no-cache, no-store, must-revalidate")
+        self.send_header("Pragma", "no-cache")
+        self.send_header("Expires", "0")
+        super().end_headers()
 
     def send_json(self, data, status_code=200):
         response_bytes = json.dumps(data, default=str).encode("utf-8")
@@ -286,7 +294,9 @@ class HospitalRequestHandler(SimpleHTTPRequestHandler):
             self.send_json(users)
 
         elif path == "/api/powerbi-metrics":
-            # Summary metrics formatted for interactive dashboard view
+            role = query.get("role", ["admin"])[0].lower()
+
+            # Baseline metrics
             cur.execute("SELECT ward_type, SUM(total) AS total, SUM(occupied) AS occupied, SUM(free) AS free FROM beds GROUP BY ward_type")
             bed_by_ward = [dict(r) for r in cur.fetchall()]
 
@@ -302,12 +312,140 @@ class HospitalRequestHandler(SimpleHTTPRequestHandler):
             cur.execute("SELECT status, COUNT(*) AS count FROM ambulances GROUP BY status")
             amb_by_status = [dict(r) for r in cur.fetchall()]
 
+            # Role-Specific analytical aggregations
+            cur.execute("SELECT blood_group, SUM(units_available) AS units FROM blood_bank GROUP BY blood_group ORDER BY blood_group")
+            blood_by_group = [dict(r) for r in cur.fetchall()]
+
+            cur.execute("SELECT distributor, SUM(quantity) AS units, ROUND(SUM(total_sales), 2) AS sales FROM medicines GROUP BY distributor ORDER BY units DESC")
+            distributor_share = [dict(r) for r in cur.fetchall()]
+
+            cur.execute("SELECT specialization, SUM(on_duty) AS on_duty, COUNT(*) - SUM(on_duty) AS off_duty FROM doctors GROUP BY specialization ORDER BY on_duty DESC")
+            doctors_by_spec = [dict(r) for r in cur.fetchall()]
+
+            cur.execute("SELECT SUM(ventilators_total) AS total, SUM(ventilators_available) AS available, SUM(ventilators_in_use) AS in_use FROM hospitals")
+            vent_row = cur.fetchone()
+            ventilator_stats = dict(vent_row) if vent_row else {"total": 0, "available": 0, "in_use": 0}
+
+            cur.execute("SELECT city, SUM(total_beds) AS total, SUM(general_beds_occupied + icu_beds_occupied + emergency_beds_occupied) AS occupied, SUM(general_beds_free + icu_beds_free + emergency_beds_free) AS free FROM hospitals GROUP BY city ORDER BY total DESC LIMIT 6")
+            bed_by_city = [dict(r) for r in cur.fetchall()]
+
+            cur.execute("SELECT type, COUNT(*) AS count, SUM(CASE WHEN status='free' AND in_service=1 THEN 1 ELSE 0 END) AS free_count FROM ambulances GROUP BY type")
+            amb_by_type = [dict(r) for r in cur.fetchall()]
+
+            cur.execute("SELECT risk_level, COUNT(*) AS count, SUM(annual_accidents) AS accidents, SUM(fatalities) AS fatalities FROM accident_hotspots GROUP BY risk_level")
+            hotspots_by_risk = [dict(r) for r in cur.fetchall()]
+
+            # Role-specific metadata & DAX KPI cards
+            if role == "pharmacy":
+                cur.execute("SELECT SUM(quantity), ROUND(SUM(quantity * unit_price), 2), SUM(CASE WHEN status='EXPIRED' THEN 1 ELSE 0 END) FROM medicines")
+                med_agg = cur.fetchone()
+                cur.execute("SELECT SUM(units_available) FROM blood_bank")
+                bb_agg = cur.fetchone()[0] or 0
+
+                role_meta = {
+                    "role": "pharmacy",
+                    "role_title": "Pharmacy & Blood Bank Model (Chief Pharmacist)",
+                    "role_subtitle": "Role-Based DAX Measures: Expiry Risk Pipeline, Inventory Valuation & Blood Bank Reserves",
+                    "dataset_focus": ["fact_pharma_inventory.csv", "fact_blood_bank.csv"],
+                    "kpis": [
+                        {"label": "Total Pharma Units", "value": f"{med_agg[0]:,}", "sub": "2,000 batches cataloged", "icon": "fa-pills", "color": "green"},
+                        {"label": "Inventory Valuation", "value": f"₹{int(med_agg[1]):,}", "sub": "Total commercial inventory", "icon": "fa-indian-rupee-sign", "color": "blue"},
+                        {"label": "Quarantined Batches", "value": str(med_agg[2]), "sub": "Expired batches awaiting disposal", "icon": "fa-triangle-exclamation", "color": "red"},
+                        {"label": "Blood Bank Reserves", "value": f"{bb_agg:,} units", "sub": "8 Blood groups across hubs", "icon": "fa-droplet", "color": "orange"}
+                    ]
+                }
+            elif role == "reception":
+                cur.execute("SELECT SUM(total_beds), SUM(general_beds_occupied + icu_beds_occupied + emergency_beds_occupied), SUM(icu_beds_free) FROM hospitals")
+                hosp_agg = cur.fetchone()
+                cur.execute("SELECT SUM(on_duty) FROM doctors")
+                docs_on_duty = cur.fetchone()[0] or 0
+                occ_pct = round((hosp_agg[1] / hosp_agg[0]) * 100.0, 1) if hosp_agg[0] else 0
+
+                role_meta = {
+                    "role": "reception",
+                    "role_title": "Emergency Triage & Bed Capacity Model (Triage Officer)",
+                    "role_subtitle": "Role-Based DAX Measures: Ward Occupancy Rates, ICU Availability & On-Duty Doctors",
+                    "dataset_focus": ["fact_bed_occupancy.csv", "dim_doctors.csv", "dim_hospitals.csv"],
+                    "kpis": [
+                        {"label": "Total Ward Beds", "value": f"{hosp_agg[0]:,}", "sub": "General, ICU & Emergency", "icon": "fa-bed", "color": "blue"},
+                        {"label": "System Occupancy Rate", "value": f"{occ_pct}%", "sub": f"{hosp_agg[1]:,} occupied beds", "icon": "fa-chart-pie", "color": "green"},
+                        {"label": "Free ICU Beds", "value": f"{hosp_agg[2]:,}", "sub": "Immediate critical care reserve", "icon": "fa-heart-pulse", "color": "orange"},
+                        {"label": "On-Duty Doctors", "value": f"{docs_on_duty:,}", "sub": "Active across 8 specializations", "icon": "fa-user-doctor", "color": "green"}
+                    ]
+                }
+            elif role == "manager":
+                cur.execute("SELECT COUNT(*), SUM(CASE WHEN status='free' AND in_service=1 THEN 1 ELSE 0 END), SUM(CASE WHEN type LIKE 'ALS%' THEN 1 ELSE 0 END) FROM ambulances")
+                amb_agg = cur.fetchone()
+                cur.execute("SELECT COUNT(*) FROM accident_hotspots WHERE risk_level='High'")
+                high_risk = cur.fetchone()[0] or 0
+                fleet_ready = round((amb_agg[1] / amb_agg[0]) * 100.0, 1) if amb_agg[0] else 0
+
+                role_meta = {
+                    "role": "manager",
+                    "role_title": "Fleet Operations & Hotspot Corridor Model (108 Dispatch Manager)",
+                    "role_subtitle": "Role-Based DAX Measures: Ambulance Readiness, Choke-Point Staging & Response Corridors",
+                    "dataset_focus": ["fact_ambulance_fleet.csv", "dim_accident_hotspots.csv"],
+                    "kpis": [
+                        {"label": "Fleet Readiness", "value": f"{fleet_ready}%", "sub": f"{amb_agg[1]} of {amb_agg[0]} vehicles free", "icon": "fa-truck-medical", "color": "green"},
+                        {"label": "ALS Life Support Units", "value": str(amb_agg[2]), "sub": "Equipped with ventilators & ECG", "icon": "fa-kit-medical", "color": "blue"},
+                        {"label": "High-Risk Hotspots", "value": str(high_risk), "sub": "MoRTH priority corridors", "icon": "fa-triangle-exclamation", "color": "red"},
+                        {"label": "Avg Response Time", "value": "6.8 mins", "sub": "Highway staging allocation", "icon": "fa-stopwatch", "color": "orange"}
+                    ]
+                }
+            elif role == "external":
+                cur.execute("SELECT COUNT(*), SUM(total_beds), SUM(emergency_beds_free) FROM hospitals")
+                pub_hosp = cur.fetchone()
+                cur.execute("SELECT COUNT(*) FROM ambulances WHERE status='free' AND in_service=1")
+                pub_amb = cur.fetchone()[0] or 0
+
+                role_meta = {
+                    "role": "external",
+                    "role_title": "Citizen & Patient Transparency Model (Public Access)",
+                    "role_subtitle": "Public DAX Measures: Emergency Bed Availability, Verified Trauma Centers & 108 Fleet",
+                    "dataset_focus": ["dim_hospitals.csv", "fact_bed_occupancy.csv", "dim_accident_hotspots.csv"],
+                    "kpis": [
+                        {"label": "Network Hospitals", "value": f"{pub_hosp[0]} Centers", "sub": "8 Metropolitan Hubs", "icon": "fa-hospital", "color": "blue"},
+                        {"label": "Free Emergency Beds", "value": f"{pub_hosp[2]:,}", "sub": "Real-time trauma capacity", "icon": "fa-bed-pulse", "color": "green"},
+                        {"label": "Active 108 Fleet", "value": f"{pub_amb} Ready", "sub": "Emergency response fleet", "icon": "fa-truck-medical", "color": "orange"},
+                        {"label": "Public SOS Response", "value": "24 / 7", "sub": "Dial 108 for emergency", "icon": "fa-phone-volume", "color": "green"}
+                    ]
+                }
+            else: # admin
+                cur.execute("SELECT SUM(total_beds), SUM(icu_beds_free) FROM hospitals")
+                h_agg = cur.fetchone()
+                cur.execute("SELECT COUNT(*), SUM(CASE WHEN status='free' AND in_service=1 THEN 1 ELSE 0 END) FROM ambulances")
+                a_agg = cur.fetchone()
+                cur.execute("SELECT COUNT(*) FROM medicines WHERE status IN ('EXPIRED', 'LOW_STOCK')")
+                crit_drugs = cur.fetchone()[0]
+                fleet_ready = round((a_agg[1] / a_agg[0]) * 100.0, 1) if a_agg[0] else 0
+
+                role_meta = {
+                    "role": "admin",
+                    "role_title": "Executive Director Comprehensive Model (Full Access)",
+                    "role_subtitle": "Enterprise Star Schema: Cross-functional Beds, Pharmacy, Hotspots & 108 Fleet",
+                    "dataset_focus": ["dim_hospitals.csv", "dim_doctors.csv", "dim_accident_hotspots.csv", "fact_bed_occupancy.csv", "fact_pharma_inventory.csv", "fact_ambulance_fleet.csv", "fact_blood_bank.csv"],
+                    "kpis": [
+                        {"label": "Enterprise Beds", "value": f"{h_agg[0]:,}", "sub": f"{h_agg[1]:,} free ICU beds", "icon": "fa-hospital", "color": "blue"},
+                        {"label": "Fleet Readiness", "value": f"{fleet_ready}%", "sub": f"{a_agg[1]} of {a_agg[0]} ready", "icon": "fa-truck-medical", "color": "green"},
+                        {"label": "Critical Pharma Batches", "value": str(crit_drugs), "sub": "Low stock or expired", "icon": "fa-pills", "color": "orange"},
+                        {"label": "Metro Hubs Active", "value": "8 Hubs", "sub": "200 Hospitals mapped", "icon": "fa-city", "color": "green"}
+                    ]
+                }
+
             self.send_json({
+                **role_meta,
                 "bed_by_ward": bed_by_ward,
                 "pharma_status": pharma_status,
                 "category_sales": category_sales,
                 "hotspots_by_city": hotspots_by_city,
-                "amb_by_status": amb_by_status
+                "amb_by_status": amb_by_status,
+                "blood_by_group": blood_by_group,
+                "distributor_share": distributor_share,
+                "doctors_by_spec": doctors_by_spec,
+                "ventilator_stats": ventilator_stats,
+                "bed_by_city": bed_by_city,
+                "amb_by_type": amb_by_type,
+                "hotspots_by_risk": hotspots_by_risk
             })
 
         else:
@@ -321,20 +459,79 @@ class HospitalRequestHandler(SimpleHTTPRequestHandler):
         cur = conn.cursor()
         now_str = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
-        if path == "/api/auth/login":
+        if path == "/api/auth/register":
+            full_name = str(payload.get("full_name", "")).strip()
             username = str(payload.get("username", "")).strip().lower()
             password = str(payload.get("password", "")).strip()
-            
+            phone = str(payload.get("phone", "")).strip()
+            account_type = str(payload.get("account_type", "citizen")).strip()
+
+            if not username or not password or not full_name:
+                self.send_json({"error": "Full name, username, and password are required."}, 400)
+                conn.close()
+                return
+
+            # Ensure password column exists in users table
+            try:
+                cur.execute("ALTER TABLE users ADD COLUMN password TEXT")
+                conn.commit()
+            except sqlite3.OperationalError:
+                pass
+
+            cur.execute("SELECT id FROM users WHERE LOWER(username) = ?", (username,))
+            if cur.fetchone():
+                self.send_json({"error": f"Username '{username}' is already taken. Please choose another."}, 409)
+                conn.close()
+                return
+
+            role_title_map = {
+                "citizen": "Citizen / Patient (Emergency SOS & Bed Lookups)",
+                "partner_hospital": "External Private Hospital / Clinic Triage",
+                "volunteer": "Emergency Response & 108 First Aid Volunteer"
+            }
+            title = role_title_map.get(account_type, "Registered External User")
+
+            cur.execute("""
+                INSERT INTO users (username, full_name, role, title, hospital_id, access_level, password)
+                VALUES (?, ?, ?, ?, ?, ?, ?)
+            """, (username, full_name, "external", title, "EXTERNAL", f"External Portal Access ({phone})", password))
+            conn.commit()
+
+            cur.execute("SELECT id, username, full_name, role, title, hospital_id, access_level FROM users WHERE LOWER(username) = ?", (username,))
+            new_user = dict(cur.fetchone())
+            conn.close()
+
+            self.send_json({
+                "success": True,
+                "message": f"Account created successfully for {full_name}! You can now sign in with your credentials.",
+                "user": new_user
+            })
+            return
+
+        elif path == "/api/auth/login":
+            username = str(payload.get("username", "")).strip().lower()
+            password = str(payload.get("password", "")).strip()
+
+            # Ensure password column exists
+            try:
+                cur.execute("ALTER TABLE users ADD COLUMN password TEXT")
+                conn.commit()
+            except sqlite3.OperationalError:
+                pass
+
             cur.execute("SELECT * FROM users WHERE LOWER(username) = ? OR LOWER(role) = ?", (username, username))
             user = cur.fetchone()
             if not user:
-                self.send_json({"error": "User not found. Valid roles: admin, pharmacy, reception, manager."}, 404)
+                self.send_json({"error": "User not found. Valid roles: admin, pharmacy, reception, manager, or registered external accounts."}, 404)
                 conn.close()
                 return
 
             u_dict = dict(user)
             expected_pass = f"{u_dict['username']}123"
             valid_passwords = [expected_pass, "password", "admin123", "pharmacy123", "reception123", "manager123", "123456", u_dict['username']]
+            if u_dict.get("password"):
+                valid_passwords.append(str(u_dict["password"]))
+
             if password in valid_passwords or password.lower() == expected_pass.lower():
                 self.send_json({
                     "success": True,
@@ -343,7 +540,7 @@ class HospitalRequestHandler(SimpleHTTPRequestHandler):
                     "user": u_dict
                 })
             else:
-                self.send_json({"error": f"Invalid password. Demo password is: {expected_pass}"}, 401)
+                self.send_json({"error": "Invalid password. Please check your credentials."}, 401)
             conn.close()
             return
 

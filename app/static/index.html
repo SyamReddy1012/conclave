@@ -24,7 +24,7 @@
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 
   <!-- Application Styling -->
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css?v=2.2">
 </head>
 <body class="theme-cream">
 
@@ -110,25 +110,35 @@
 
       <!-- Right Column: Authentication Form -->
       <div class="login-form-card">
-        <div class="login-card-header">
-          <div class="login-card-icon">
-            <i class="fa-solid fa-user-shield"></i>
-          </div>
-          <h2>Staff Portal Login</h2>
-          <p>Sign in with your role credentials or use 1-click demo access below.</p>
+        <!-- Auth Tabs (Sign In / Create Account) -->
+        <div class="auth-tabs">
+          <button type="button" class="auth-tab-btn active" id="tab-btn-signin" onclick="switchAuthTab('signin')">
+            <i class="fa-solid fa-right-to-bracket"></i> Sign In
+          </button>
+          <button type="button" class="auth-tab-btn" id="tab-btn-create" onclick="switchAuthTab('create')">
+            <i class="fa-solid fa-user-plus"></i> Create Account
+          </button>
         </div>
 
-        <!-- Error Banner -->
+        <div class="login-card-header">
+          <div class="login-card-icon">
+            <i class="fa-solid fa-user-shield" id="auth-header-icon"></i>
+          </div>
+          <h2 id="auth-header-title">Portal Sign In</h2>
+          <p id="auth-header-subtitle">Sign in with staff role credentials or your registered external account.</p>
+        </div>
+
+        <!-- Alert / Feedback Banner -->
         <div id="login-error-alert" class="login-error-alert hidden">
           <i class="fa-solid fa-circle-exclamation"></i>
           <span id="login-error-text">Invalid credentials. Please try again.</span>
         </div>
 
-        <!-- Form -->
+        <!-- 1. SIGN IN FORM -->
         <form id="auth-login-form" onsubmit="handleLoginSubmit(event)">
           <div class="form-group">
             <label for="login-username"><i class="fa-solid fa-user"></i> Username or Role ID:</label>
-            <input type="text" id="login-username" class="form-input" placeholder="e.g. admin, pharmacy, reception, manager" required autocomplete="username">
+            <input type="text" id="login-username" class="form-input" placeholder="e.g. admin, pharmacy, reception, manager, or external" required autocomplete="username">
           </div>
 
           <div class="form-group">
@@ -149,8 +159,66 @@
           </div>
 
           <button type="submit" id="btn-submit-login" class="btn btn-login-submit">
-            <i class="fa-solid fa-right-to-bracket"></i> Sign In to Command Center
+            <i class="fa-solid fa-right-to-bracket"></i> Sign In to Portal
           </button>
+
+          <!-- External Account Prompt -->
+          <div class="external-account-box">
+            <span>New patient or citizen?</span>
+            <button type="button" class="btn-create-external" onclick="switchAuthTab('create')">
+              <i class="fa-solid fa-user-plus"></i> Create an External Account
+            </button>
+          </div>
+        </form>
+
+        <!-- 2. CREATE EXTERNAL ACCOUNT FORM -->
+        <form id="auth-create-form" class="hidden" onsubmit="handleCreateAccountSubmit(event)">
+          <div class="form-group">
+            <label for="reg-fullname"><i class="fa-solid fa-id-card"></i> Full Name:</label>
+            <input type="text" id="reg-fullname" class="form-input" placeholder="e.g. Ramesh Kumar" required>
+          </div>
+
+          <div class="form-row-2col">
+            <div class="form-group">
+              <label for="reg-username"><i class="fa-solid fa-user"></i> Username:</label>
+              <input type="text" id="reg-username" class="form-input" placeholder="e.g. ramesh_k" required autocomplete="username">
+            </div>
+            <div class="form-group">
+              <label for="reg-phone"><i class="fa-solid fa-phone"></i> Phone / Emergency:</label>
+              <input type="tel" id="reg-phone" class="form-input" placeholder="e.g. +91 98765 43210" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="reg-account-type"><i class="fa-solid fa-users-gear"></i> External Role Type:</label>
+            <select id="reg-account-type" class="form-select">
+              <option value="citizen">Citizen / Patient (Emergency SOS & Bed Lookups)</option>
+              <option value="partner_hospital">External Private Hospital / Clinic Triage</option>
+              <option value="volunteer">Emergency Response & 108 First Aid Volunteer</option>
+            </select>
+          </div>
+
+          <div class="form-row-2col">
+            <div class="form-group">
+              <label for="reg-password"><i class="fa-solid fa-lock"></i> Password:</label>
+              <input type="password" id="reg-password" class="form-input" placeholder="Create password" required autocomplete="new-password">
+            </div>
+            <div class="form-group">
+              <label for="reg-confirm-password"><i class="fa-solid fa-shield-halved"></i> Confirm:</label>
+              <input type="password" id="reg-confirm-password" class="form-input" placeholder="Repeat password" required autocomplete="new-password">
+            </div>
+          </div>
+
+          <button type="submit" id="btn-submit-register" class="btn btn-login-submit">
+            <i class="fa-solid fa-user-plus"></i> Create External Account
+          </button>
+
+          <div class="external-account-box" style="justify-content: center;">
+            <span>Already registered?</span>
+            <button type="button" class="btn-create-external" onclick="switchAuthTab('signin')">
+              <i class="fa-solid fa-arrow-right-to-bracket"></i> Sign In to Portal
+            </button>
+          </div>
         </form>
 
         <!-- Divider -->
@@ -250,6 +318,7 @@
             <option value="pharmacy">Pharmacy & Blood Bank</option>
             <option value="reception">Reception & Beds</option>
             <option value="manager">Manager (Dispatch/108)</option>
+            <option value="external">External Citizen / Patient</option>
           </select>
         </div>
 
@@ -347,6 +416,20 @@
 
       <!-- CONTENT WORKSPACE -->
       <main class="app-content">
+
+        <!-- ACTIVE ROLE DASHBOARD BANNER -->
+        <div class="role-dashboard-banner" id="role-dashboard-banner">
+          <div class="role-banner-left">
+            <span class="role-banner-badge" id="role-banner-badge">DIRECTOR</span>
+            <div class="role-banner-details">
+              <h2 class="role-banner-title" id="role-banner-title">Executive Master Command Center</h2>
+              <p class="role-banner-sub" id="role-banner-sub">Dr. N.K. Syam Sundar Reddy · Complete system oversight across 200 hospitals, 8 metropolitan zones & emergency fleet</p>
+            </div>
+          </div>
+          <div class="role-banner-right" id="role-banner-actions">
+            <div class="role-user-tag"><i class="fa-solid fa-circle-check text-green"></i> <span id="role-banner-user">Session: Dr. Reddy (Director)</span></div>
+          </div>
+        </div>
 
         <!-- ======================================================== -->
         <!-- TAB 1: LIVE COMMAND OVERVIEW -->
@@ -774,8 +857,8 @@
         <section id="tab-powerbi" class="tab-pane">
           <div class="pane-header">
             <div>
-              <h1 class="pane-title">Power BI Analytics & Executive Dashboard</h1>
-              <p class="pane-subtitle">Live DAX analytical models mirroring Power BI Desktop reports with star-schema data exports</p>
+              <h1 class="pane-title" id="powerbi-pane-title">Power BI Analytics & Executive Dashboard</h1>
+              <p class="pane-subtitle" id="powerbi-pane-subtitle">Live DAX analytical models mirroring Power BI Desktop reports with star-schema data exports</p>
             </div>
             <div class="pane-actions">
               <a href="dashboard/POWER_BI_GUIDE.md" target="_blank" class="btn btn-secondary">
@@ -784,11 +867,26 @@
             </div>
           </div>
 
+          <!-- ROLE CONTEXT BANNER (DYNAMIC BY LOGGED-IN ROLE) -->
+          <div class="powerbi-role-banner" id="powerbi-role-banner">
+            <div class="role-badge" id="powerbi-role-badge">
+              <i class="fa-solid fa-user-shield"></i> Executive Director View
+            </div>
+            <div class="role-meta" id="powerbi-role-meta">
+              Enterprise Star Schema: Cross-functional Beds, Pharmacy, Hotspots & 108 Fleet
+            </div>
+          </div>
+
+          <!-- ROLE DAX KPI CARDS -->
+          <div class="kpi-grid mb-20" id="powerbi-kpis">
+            <!-- Dynamically populated based on logged-in role -->
+          </div>
+
           <!-- ANALYTICAL CHARTS GRID -->
           <div class="powerbi-grid">
             <div class="dashboard-card chart-card">
               <div class="card-header">
-                <div class="card-title"><i class="fa-solid fa-chart-bar"></i> Bed Capacity & Occupancy by Ward (DAX Model)</div>
+                <div class="card-title" id="chart-title-1"><i class="fa-solid fa-chart-bar"></i> Bed Capacity & Occupancy by Ward (DAX Model)</div>
               </div>
               <div class="chart-wrap">
                 <canvas id="chart-bed-wards"></canvas>
@@ -797,7 +895,7 @@
 
             <div class="dashboard-card chart-card">
               <div class="card-header">
-                <div class="card-title"><i class="fa-solid fa-chart-pie"></i> Pharma Stock Status Distribution</div>
+                <div class="card-title" id="chart-title-2"><i class="fa-solid fa-chart-pie"></i> Pharma Stock Status Distribution</div>
               </div>
               <div class="chart-wrap">
                 <canvas id="chart-pharma-status"></canvas>
@@ -806,7 +904,7 @@
 
             <div class="dashboard-card chart-card">
               <div class="card-header">
-                <div class="card-title"><i class="fa-solid fa-chart-column"></i> Annual Accidents & Fatalities by Metro Hub</div>
+                <div class="card-title" id="chart-title-3"><i class="fa-solid fa-chart-column"></i> Annual Accidents & Fatalities by Metro Hub</div>
               </div>
               <div class="chart-wrap">
                 <canvas id="chart-hotspots-city"></canvas>
@@ -815,7 +913,7 @@
 
             <div class="dashboard-card chart-card">
               <div class="card-header">
-                <div class="card-title"><i class="fa-solid fa-gauge-high"></i> Ambulance Fleet Readiness %</div>
+                <div class="card-title" id="chart-title-4"><i class="fa-solid fa-gauge-high"></i> Ambulance Fleet Readiness %</div>
               </div>
               <div class="chart-wrap">
                 <canvas id="chart-amb-status"></canvas>
@@ -826,50 +924,57 @@
           <!-- POWER BI STAR SCHEMA EXPORT CENTER -->
           <div class="dashboard-card mt-20">
             <div class="card-header">
-              <div class="card-title"><i class="fa-solid fa-file-csv"></i> Power BI Desktop Star-Schema Data Pipeline</div>
+              <div class="card-title"><i class="fa-solid fa-file-csv"></i> Power BI Desktop Star-Schema Data Pipeline (Row-Level Security)</div>
             </div>
-            <p class="mb-15 text-muted">Ready-to-import CSV files structured in a star schema for Power BI Desktop data modeling:</p>
-            <div class="dataset-export-grid">
-              <div class="dataset-chip">
+            <p class="mb-15 text-muted" id="dataset-role-desc">Ready-to-import CSV files structured in a star schema for Power BI Desktop data modeling:</p>
+            <div class="dataset-export-grid" id="dataset-chips-container">
+              <div class="dataset-chip" data-file="dim_hospitals.csv">
                 <i class="fa-solid fa-table"></i>
                 <div>
                   <strong>dim_hospitals.csv</strong>
                   <small>200 Hospitals · Geo-Coordinates</small>
                 </div>
               </div>
-              <div class="dataset-chip">
+              <div class="dataset-chip" data-file="dim_doctors.csv">
                 <i class="fa-solid fa-table"></i>
                 <div>
                   <strong>dim_doctors.csv</strong>
                   <small>2000 Doctors · Specializations</small>
                 </div>
               </div>
-              <div class="dataset-chip">
+              <div class="dataset-chip" data-file="dim_accident_hotspots.csv">
                 <i class="fa-solid fa-table"></i>
                 <div>
                   <strong>dim_accident_hotspots.csv</strong>
                   <small>17 High-Risk Highway Corridors</small>
                 </div>
               </div>
-              <div class="dataset-chip">
+              <div class="dataset-chip" data-file="fact_bed_occupancy.csv">
                 <i class="fa-solid fa-table"></i>
                 <div>
                   <strong>fact_bed_occupancy.csv</strong>
                   <small>Ward Occupancy & Shortage Flags</small>
                 </div>
               </div>
-              <div class="dataset-chip">
+              <div class="dataset-chip" data-file="fact_pharma_inventory.csv">
                 <i class="fa-solid fa-table"></i>
                 <div>
                   <strong>fact_pharma_inventory.csv</strong>
                   <small>2000 Drug Batches · Expiry Days</small>
                 </div>
               </div>
-              <div class="dataset-chip">
+              <div class="dataset-chip" data-file="fact_ambulance_fleet.csv">
                 <i class="fa-solid fa-table"></i>
                 <div>
                   <strong>fact_ambulance_fleet.csv</strong>
                   <small>49 Fleet Vehicles · Staging Posts</small>
+                </div>
+              </div>
+              <div class="dataset-chip" data-file="fact_blood_bank.csv">
+                <i class="fa-solid fa-table"></i>
+                <div>
+                  <strong>fact_blood_bank.csv</strong>
+                  <small>400 Blood Unit Reserves by Group</small>
                 </div>
               </div>
             </div>
@@ -956,6 +1061,6 @@
   <div id="toast-container" class="toast-container"></div>
 
   <!-- APPLICATION JAVASCRIPT -->
-  <script src="js/app.js"></script>
+  <script src="js/app.js?v=2.2"></script>
 </body>
 </html>

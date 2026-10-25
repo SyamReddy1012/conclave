@@ -14,7 +14,9 @@ DB_PATH = os.path.join(WORKSPACE_DIR, "hospital_system.db")
 DATA_PROC_DIR = os.path.join(WORKSPACE_DIR, "data", "processed")
 
 def get_connection():
-    conn = sqlite3.connect(DB_PATH)
+    conn = sqlite3.connect(DB_PATH, timeout=20.0)
+    conn.execute("PRAGMA journal_mode = WAL;")
+    conn.execute("PRAGMA busy_timeout = 20000;")
     conn.row_factory = sqlite3.Row
     return conn
 
