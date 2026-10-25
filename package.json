@@ -1,0 +1,19 @@
+{
+  "name": "techhunters-smart-hospital",
+  "version": "1.0.0",
+  "description": "Smart Hospital Optimization & Emergency Response System - Innovative Conclave",
+  "main": "run_system.py",
+  "scripts": {
+    "dev": "python run_system.py 3000",
+    "start": "python run_system.py 3000",
+    "test": "python test_suite.py 3000"
+  },
+  "keywords": [
+    "smart-hospital",
+    "emergency-response",
+    "bed-management",
+    "ambulance-allocation"
+  ],
+  "author": "TechHunters",
+  "license": "ISC"
+}

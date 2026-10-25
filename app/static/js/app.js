@@ -183,6 +183,9 @@ function setTheme(theme) {
 // ==========================================
 // AUTHENTICATION & LOGIN FLOW
 // ==========================================
+let splashTimer = null;
+let splashInterval = null;
+
 function checkAuthSession() {
   const savedUser = localStorage.getItem('techhunters_user') || sessionStorage.getItem('techhunters_user');
   if (savedUser) {
@@ -194,12 +197,127 @@ function checkAuthSession() {
       console.warn('Session parsing error:', e);
     }
   }
-  showLoginView();
+  // Fresh arrival: Show left-side showcase as full-page for 3.5s then auto-enter login
+  showLoginView(true);
 }
 
-function showLoginView() {
+function showLoginView(showSplash = false) {
   document.getElementById('login-view').classList.remove('hidden');
   document.getElementById('app-view').classList.add('hidden');
+  if (showSplash) {
+    startHeroSplashTimer();
+  } else {
+    enterLoginPage(true);
+  }
+}
+
+function startHeroSplashTimer() {
+  clearSplashTimers();
+
+  const container = document.getElementById('login-container');
+  const heroCard = document.getElementById('login-hero-card');
+  const progressFill = document.getElementById('splash-progress-fill');
+  const statusText = document.getElementById('splash-status-text');
+
+  if (!container || !heroCard) return;
+
+  container.classList.remove('login-mode');
+  container.classList.add('splash-mode');
+  heroCard.classList.remove('splash-fading');
+
+  if (statusText) {
+    statusText.innerHTML = '<span class="splash-pulse-dot"></span> <span>Entering login portal in <strong id="splash-countdown-num">3</strong>s...</span>';
+  }
+
+  const updatedCountdownEl = document.getElementById('splash-countdown-num');
+
+  if (progressFill) {
+    progressFill.style.transition = 'none';
+    progressFill.style.width = '0%';
+    void progressFill.offsetWidth;
+    progressFill.style.transition = 'width 3.5s linear';
+    progressFill.style.width = '100%';
+  }
+
+  let remaining = 3;
+  if (updatedCountdownEl) updatedCountdownEl.innerText = remaining;
+
+  splashInterval = setInterval(() => {
+    remaining--;
+    const el = document.getElementById('splash-countdown-num');
+    if (el && remaining > 0) {
+      el.innerText = remaining;
+    }
+  }, 1000);
+
+  splashTimer = setTimeout(() => {
+    enterLoginPage(false);
+  }, 3500);
+}
+
+function clearSplashTimers() {
+  if (splashTimer) {
+    clearTimeout(splashTimer);
+    splashTimer = null;
+  }
+  if (splashInterval) {
+    clearInterval(splashInterval);
+    splashInterval = null;
+  }
+}
+
+function enterLoginPage(immediate = false) {
+  clearSplashTimers();
+
+  const container = document.getElementById('login-container');
+  const heroCard = document.getElementById('login-hero-card');
+  if (!container) return;
+
+  if (immediate) {
+    container.classList.remove('splash-mode');
+    container.classList.add('login-mode');
+    const userField = document.getElementById('login-username');
+    if (userField) userField.focus();
+    return;
+  }
+
+  if (heroCard) {
+    heroCard.classList.add('splash-fading');
+  }
+
+  setTimeout(() => {
+    container.classList.remove('splash-mode');
+    container.classList.add('login-mode');
+    if (heroCard) {
+      heroCard.classList.remove('splash-fading');
+    }
+    const userField = document.getElementById('login-username');
+    if (userField) userField.focus();
+  }, 350);
+}
+
+function showHeroSplash() {
+  clearSplashTimers();
+
+  const container = document.getElementById('login-container');
+  const heroCard = document.getElementById('login-hero-card');
+  const progressFill = document.getElementById('splash-progress-fill');
+  const statusText = document.getElementById('splash-status-text');
+
+  if (!container || !heroCard) return;
+
+  container.classList.remove('login-mode');
+  container.classList.add('splash-mode');
+  heroCard.classList.remove('splash-fading');
+
+  if (progressFill) {
+    progressFill.style.transition = 'none';
+    progressFill.style.width = '100%';
+  }
+
+  if (statusText) {
+    statusText.innerHTML = '<span class="splash-pulse-dot"></span> <span>Platform Overview Mode</span>';
+  }
 }
 
 function showAppView(user) {
@@ -374,7 +492,7 @@ function logoutUser() {
   document.getElementById('login-username').value = '';
   document.getElementById('login-password').value = '';
   showToast('Logged out of Smart Hospital Command Center', 'info');
-  showLoginView();
+  showLoginView(false);
 }
 
 function togglePasswordVisibility() {

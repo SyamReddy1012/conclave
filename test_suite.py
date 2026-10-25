@@ -5,10 +5,12 @@ Validates all REST endpoints, data pipelines, allocation logic, and scenario tri
 
 import urllib.request
 import urllib.parse
-import json
 import sys
+import os
+import json
 
-BASE_URL = "http://127.0.0.1:8080"
+PORT = os.environ.get("PORT", sys.argv[1] if len(sys.argv) > 1 and sys.argv[1].isdigit() else "3000")
+BASE_URL = os.environ.get("BASE_URL", sys.argv[1] if len(sys.argv) > 1 and sys.argv[1].startswith("http") else f"http://127.0.0.1:{PORT}")
 
 def get(path):
     req = urllib.request.Request(f"{BASE_URL}{path}")

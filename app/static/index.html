@@ -24,7 +24,7 @@
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 
   <!-- Application Styling -->
-  <link rel="stylesheet" href="css/style.css?v=2.2">
+  <link rel="stylesheet" href="css/style.css?v=2.3">
 </head>
 <body class="theme-cream">
 
@@ -55,10 +55,10 @@
       </div>
     </header>
 
-    <!-- Login Main Container -->
-    <div class="login-container">
-      <!-- Left Column: Hero Showcase -->
-      <div class="login-hero-card">
+    <!-- Login Main Container (Starts in full-page splash mode, then transitions to centered login) -->
+    <div class="login-container splash-mode" id="login-container">
+      <!-- Left Column / Full Page Splash: Hero Showcase -->
+      <div class="login-hero-card" id="login-hero-card">
         <div class="hero-badge">
           <i class="fa-solid fa-shield-halved"></i> Innovative Conclave · Emergency Healthcare Platform
         </div>
@@ -106,10 +106,26 @@
           <p>"One live view so the right help reaches the right hospital faster."</p>
           <span>— Team TechHunters (Syam Sundar Reddy, Vishal, Nikhil)</span>
         </div>
+
+        <!-- Splash Countdown & Progress Bar (Full Page Mode for 3-4s) -->
+        <div class="hero-splash-action-bar" id="hero-splash-bar">
+          <div class="splash-progress-track">
+            <div class="splash-progress-fill" id="splash-progress-fill"></div>
+          </div>
+          <div class="splash-action-row">
+            <div class="splash-status-text" id="splash-status-text">
+              <span class="splash-pulse-dot"></span>
+              <span>Entering login portal in <strong id="splash-countdown-num">3</strong>s...</span>
+            </div>
+            <button type="button" class="btn btn-sm btn-enter-portal" onclick="enterLoginPage(false)" title="Skip countdown and enter login immediately">
+              <span>Enter Login Portal</span> <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
       </div>
 
-      <!-- Right Column: Authentication Form -->
-      <div class="login-form-card">
+      <!-- Right Column: Authentication Form (Centered after 3-4s) -->
+      <div class="login-form-card" id="login-form-card">
         <!-- Auth Tabs (Sign In / Create Account) -->
         <div class="auth-tabs">
           <button type="button" class="auth-tab-btn active" id="tab-btn-signin" onclick="switchAuthTab('signin')">
@@ -262,6 +278,13 @@
               <small>K. Ramesh</small>
             </div>
             <span class="pill-badge">108 Fleet</span>
+          </button>
+        </div>
+
+        <!-- Option to Re-view System Showcase -->
+        <div class="login-showcase-toggle-wrap">
+          <button type="button" class="btn-link-showcase" onclick="showHeroSplash()" title="View full presentation showcase">
+            <i class="fa-solid fa-circle-info"></i> View Platform Overview &amp; Live Stats
           </button>
         </div>
       </div>
@@ -1061,6 +1084,6 @@
   <div id="toast-container" class="toast-container"></div>
 
   <!-- APPLICATION JAVASCRIPT -->
-  <script src="js/app.js?v=2.2"></script>
+  <script src="js/app.js?v=2.3"></script>
 </body>
 </html>
