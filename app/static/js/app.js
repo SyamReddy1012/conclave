@@ -33,10 +33,16 @@ const AppState = {
   demoData: null
 };
 
-// Role permissions mapping
+// Role permissions & dashboard partitions mapping
 const ROLE_PERMISSIONS = {
   admin: {
     name: 'Dr. N.K. Syam Sundar Reddy (Director)',
+    roleTitle: 'Executive Director & Chief Medical Officer',
+    badge: 'DIRECTOR',
+    dashboardTitle: 'Executive Master Command Center',
+    allowedTabs: ['overview', 'beds', 'pharmacy', 'hotspots', 'ambulances', 'powerbi', 'dispatch-log'],
+    defaultTab: 'overview',
+    icon: 'fa-user-doctor',
     desc: 'Full System Access: Director controls all modules, overrides dispatches, and manages hospital resources.',
     canReserveBed: true,
     canDischarge: true,
@@ -47,6 +53,12 @@ const ROLE_PERMISSIONS = {
   },
   pharmacy: {
     name: 'K. Vishal, R.Ph. (Chief Pharmacist)',
+    roleTitle: 'Chief Hospital Pharmacist & Supply Chain Head',
+    badge: 'PHARMACY',
+    dashboardTitle: 'Pharmacy & Blood Bank Command Center',
+    allowedTabs: ['pharmacy', 'powerbi'],
+    defaultTab: 'pharmacy',
+    icon: 'fa-prescription-bottle-medical',
     desc: 'Pharmacy & Blood Bank: Manages pharmaceutical batches, inspects expiry alerts, safe quarantine/disposal, and restocks critical supplies.',
     canReserveBed: false,
     canDischarge: false,
@@ -57,6 +69,12 @@ const ROLE_PERMISSIONS = {
   },
   reception: {
     name: 'S. Nikhil (Emergency Triage Officer)',
+    roleTitle: 'Emergency Reception & Triage Officer',
+    badge: 'TRIAGE',
+    dashboardTitle: 'Emergency Bed Triage & Doctor Roster Center',
+    allowedTabs: ['beds', 'powerbi'],
+    defaultTab: 'beds',
+    icon: 'fa-hospital-user',
     desc: 'Reception & Triage: Monitors ward beds, verifies ICU/emergency capacity, checks on-duty doctors, and manages patient admissions/discharges.',
     canReserveBed: true,
     canDischarge: true,
@@ -67,6 +85,12 @@ const ROLE_PERMISSIONS = {
   },
   manager: {
     name: 'K. Ramesh (108 Fleet Dispatch Manager)',
+    roleTitle: '108 Fleet Operations & Incident Commander',
+    badge: 'DISPATCH',
+    dashboardTitle: '108 Emergency Fleet & Hotspot Operations',
+    allowedTabs: ['ambulances', 'hotspots', 'dispatch-log', 'powerbi'],
+    defaultTab: 'ambulances',
+    icon: 'fa-truck-medical',
     desc: 'Fleet Operations: Controls ambulance deployment, executes 4-stage allocation, routes emergency calls, and stages vehicles at high-risk hotspots.',
     canReserveBed: false,
     canDischarge: false,
@@ -74,6 +98,22 @@ const ROLE_PERMISSIONS = {
     canDispose: false,
     canDispatch: true,
     canStage: true
+  },
+  external: {
+    name: 'External Citizen / Patient Portal',
+    roleTitle: 'Citizen & Patient Public Healthcare Portal',
+    badge: 'CITIZEN',
+    dashboardTitle: 'Public Healthcare & Emergency Triage Portal',
+    allowedTabs: ['overview', 'beds', 'hotspots', 'powerbi'],
+    defaultTab: 'overview',
+    icon: 'fa-user',
+    desc: 'Citizen Access: Real-time public view of emergency beds, nearest trauma centers, accident corridors, and 108 emergency SOS.',
+    canReserveBed: false,
+    canDischarge: false,
+    canRestock: false,
+    canDispose: false,
+    canDispatch: false,
+    canStage: false
   }
 };
 
@@ -167,10 +207,13 @@ function showAppView(user) {
   document.getElementById('login-view').classList.add('hidden');
   document.getElementById('app-view').classList.remove('hidden');
 
-  // Set role from user object
+  // Set role from user object and immediately switch to that role's dedicated dashboard
   if (user && user.role) {
-    document.getElementById('role-select').value = user.role;
-    setRole(user.role);
+    const roleSelect = document.getElementById('role-select');
+    if (roleSelect) roleSelect.value = user.role;
+    setRole(user.role, true);
+  } else {
+    setRole('admin', true);
   }
 
   // Adjust Leaflet maps now that app-view is visible
@@ -178,6 +221,37 @@ function showAppView(user) {
     if (AppState.overviewMap) AppState.overviewMap.invalidateSize();
     if (AppState.hotspotsMap) AppState.hotspotsMap.invalidateSize();
   }, 200);
+}
+
+function switchAuthTab(tab) {
+  const tabSignIn = document.getElementById('tab-btn-signin');
+  const tabCreate = document.getElementById('tab-btn-create');
+  const formLogin = document.getElementById('auth-login-form');
+  const formCreate = document.getElementById('auth-create-form');
+  const headerTitle = document.getElementById('auth-header-title');
+  const headerSubtitle = document.getElementById('auth-header-subtitle');
+  const headerIcon = document.getElementById('auth-header-icon');
+  const errorAlert = document.getElementById('login-error-alert');
+
+  if (errorAlert) errorAlert.classList.add('hidden');
+
+  if (tab === 'create') {
+    if (tabCreate) tabCreate.classList.add('active');
+    if (tabSignIn) tabSignIn.classList.remove('active');
+    if (formCreate) formCreate.classList.remove('hidden');
+    if (formLogin) formLogin.classList.add('hidden');
+    if (headerTitle) headerTitle.innerText = 'Create External Account';
+    if (headerSubtitle) headerSubtitle.innerText = 'Register as a citizen, patient, or emergency partner.';
+    if (headerIcon) headerIcon.className = 'fa-solid fa-user-plus';
+  } else {
+    if (tabSignIn) tabSignIn.classList.add('active');
+    if (tabCreate) tabCreate.classList.remove('active');
+    if (formLogin) formLogin.classList.remove('hidden');
+    if (formCreate) formCreate.classList.add('hidden');
+    if (headerTitle) headerTitle.innerText = 'Portal Sign In';
+    if (headerSubtitle) headerSubtitle.innerText = 'Sign in with staff role credentials or your registered external account.';
+    if (headerIcon) headerIcon.className = 'fa-solid fa-user-shield';
+  }
 }
 
 async function handleLoginSubmit(event) {
@@ -201,7 +275,7 @@ async function handleLoginSubmit(event) {
     });
     const data = await res.json();
     btn.disabled = false;
-    btn.innerHTML = `<i class="fa-solid fa-right-to-bracket"></i> Sign In to Command Center`;
+    btn.innerHTML = `<i class="fa-solid fa-right-to-bracket"></i> Sign In to Portal`;
 
     if (!data.success) {
       errorText.innerText = data.error || 'Authentication failed. Please verify credentials.';
@@ -215,18 +289,79 @@ async function handleLoginSubmit(event) {
       sessionStorage.setItem('techhunters_user', JSON.stringify(data.user));
     }
 
-    showToast(`Authenticated as ${data.user.full_name} (${data.user.role.toUpperCase()})`, 'success');
+    showToast(`Authenticated as ${data.user.full_name} (${(data.user.role || 'USER').toUpperCase()})`, 'success');
     showAppView(data.user);
 
   } catch (err) {
     btn.disabled = false;
-    btn.innerHTML = `<i class="fa-solid fa-right-to-bracket"></i> Sign In to Command Center`;
+    btn.innerHTML = `<i class="fa-solid fa-right-to-bracket"></i> Sign In to Portal`;
     errorText.innerText = 'Network error connecting to authentication server.';
     errorAlert.classList.remove('hidden');
   }
 }
 
+async function handleCreateAccountSubmit(event) {
+  if (event) event.preventDefault();
+  const fullName = document.getElementById('reg-fullname').value.trim();
+  const username = document.getElementById('reg-username').value.trim();
+  const phone = document.getElementById('reg-phone').value.trim();
+  const accountType = document.getElementById('reg-account-type').value;
+  const password = document.getElementById('reg-password').value.trim();
+  const confirmPassword = document.getElementById('reg-confirm-password').value.trim();
+  const errorAlert = document.getElementById('login-error-alert');
+  const errorText = document.getElementById('login-error-text');
+
+  errorAlert.classList.add('hidden');
+
+  if (password !== confirmPassword) {
+    errorText.innerText = 'Passwords do not match. Please verify.';
+    errorAlert.classList.remove('hidden');
+    return;
+  }
+
+  const btn = document.getElementById('btn-submit-register');
+  btn.disabled = true;
+  btn.innerHTML = `<i class="fa-solid fa-spinner fa-spin"></i> Creating Account...`;
+
+  try {
+    const res = await fetch('/api/auth/register', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        full_name: fullName,
+        username,
+        phone,
+        account_type: accountType,
+        password
+      })
+    });
+    const data = await res.json();
+    btn.disabled = false;
+    btn.innerHTML = `<i class="fa-solid fa-user-plus"></i> Create External Account`;
+
+    if (!data.success) {
+      errorText.innerText = data.error || 'Registration failed. Please try another username.';
+      errorAlert.classList.remove('hidden');
+      return;
+    }
+
+    showToast(data.message || 'External account created successfully! Please sign in.', 'success');
+
+    // Switch to sign in tab and populate username & password
+    switchAuthTab('signin');
+    document.getElementById('login-username').value = username;
+    document.getElementById('login-password').value = password;
+
+  } catch (err) {
+    btn.disabled = false;
+    btn.innerHTML = `<i class="fa-solid fa-user-plus"></i> Create External Account`;
+    errorText.innerText = 'Network error connecting to server.';
+    errorAlert.classList.remove('hidden');
+  }
+}
+
 function quickLogin(role) {
+  switchAuthTab('signin');
   document.getElementById('login-username').value = role;
   document.getElementById('login-password').value = `${role}123`;
   handleLoginSubmit();
@@ -305,18 +440,85 @@ function initRoleSelector() {
   setRole('admin');
 }
 
-function setRole(role) {
+function setRole(role, forceSwitchTab = false) {
   AppState.currentRole = role;
   const p = ROLE_PERMISSIONS[role] || ROLE_PERMISSIONS.admin;
-  document.getElementById('current-user-name').innerText = p.name;
-  document.getElementById('role-description').innerText = p.desc;
 
-  showToast(`Switched active role: ${p.name}`, 'info');
+  // 1. Update User Profile Pill in Header
+  const userNameEl = document.getElementById('current-user-name');
+  if (userNameEl) userNameEl.innerText = p.name;
+  const userAvatar = document.querySelector('#user-badge .user-avatar i');
+  if (userAvatar) userAvatar.className = `fa-solid ${p.icon || 'fa-user-doctor'}`;
 
-  // Re-render tables to enable/disable authorized action buttons
+  // 2. Update Role Permission Card in Sidebar
+  const roleDescEl = document.getElementById('role-description');
+  if (roleDescEl) roleDescEl.innerText = p.desc;
+
+  // 3. Update Active Role Dashboard Banner at Top of Main Workspace
+  const badgeEl = document.getElementById('role-banner-badge');
+  const titleEl = document.getElementById('role-banner-title');
+  const subEl = document.getElementById('role-banner-sub');
+  const userTagEl = document.getElementById('role-banner-user');
+
+  if (badgeEl) badgeEl.innerText = p.badge;
+  if (titleEl) titleEl.innerText = p.dashboardTitle;
+  if (subEl) subEl.innerText = `${p.roleTitle}: ${p.desc}`;
+  if (userTagEl) userTagEl.innerText = `Active Session: ${p.name}`;
+
+  // 4. Role-Based Sidebar Navigation Filtering (Strict RBAC Partitioning)
+  const navItems = document.querySelectorAll('.nav-item[data-tab]');
+  navItems.forEach(item => {
+    const tabName = item.getAttribute('data-tab');
+    if (p.allowedTabs.includes(tabName)) {
+      item.classList.remove('hidden');
+      item.style.display = 'flex';
+    } else {
+      item.classList.add('hidden');
+      item.style.display = 'none';
+    }
+  });
+
+  // 5. Header Controls Adaptation
+  const headerCenter = document.querySelector('.header-center');
+  if (headerCenter) {
+    // Only show highway demo buttons to Admin and 108 Dispatch Manager
+    if (role === 'admin' || role === 'manager') {
+      headerCenter.style.display = 'flex';
+    } else {
+      headerCenter.style.display = 'none';
+    }
+  }
+
+  // Role selector dropdown in header: only display for Admin
+  const roleSelectorWrap = document.querySelector('.role-selector-wrap');
+  if (roleSelectorWrap) {
+    if (AppState.currentUser && AppState.currentUser.role === 'admin') {
+      roleSelectorWrap.style.display = 'flex';
+    } else {
+      roleSelectorWrap.style.display = 'none';
+    }
+  }
+
+  // 6. Navigate to Role's Dedicated Dashboard
+  const activePane = document.querySelector('.tab-pane.active');
+  const currentActiveTab = activePane ? activePane.id.replace('tab-', '') : '';
+
+  if (forceSwitchTab || !p.allowedTabs.includes(currentActiveTab)) {
+    switchTab(p.defaultTab);
+  }
+
+  showToast(`Loaded ${p.dashboardTitle} (${p.badge})`, 'info');
+
+  // 7. Re-render tables to enable/disable authorized action buttons
   renderBedRows(AppState.hospitals);
   renderFleetRows(AppState.ambulances);
   renderPharmaRows(AppState.medicines);
+
+  // 8. Refresh Power BI tab with role-based models if active or loaded
+  const pbiTab = document.getElementById('tab-powerbi');
+  if (pbiTab && (pbiTab.classList.contains('active') || AppState.charts.bedWards)) {
+    loadPowerBiCharts();
+  }
 }
 
 // Metro City Filter
@@ -1201,11 +1403,12 @@ async function toggleFleetStatus(ambulanceCode, newStatus) {
 }
 
 // ==========================================
-// MODULE 6: POWER BI ANALYTICS (CHART.JS)
+// MODULE 6: POWER BI ANALYTICS (ROLE-BASED & CHART.JS)
 // ==========================================
 async function loadPowerBiCharts() {
   try {
-    const res = await fetch('/api/powerbi-metrics');
+    const role = AppState.currentRole || 'admin';
+    const res = await fetch(`/api/powerbi-metrics?role=${encodeURIComponent(role)}`);
     const data = await res.json();
 
     const isCream = document.body.classList.contains('theme-cream');
@@ -1214,125 +1417,404 @@ async function loadPowerBiCharts() {
     const colorPrimary = isCream ? '#0f5132' : '#06b6d4';
     const colorSecondary = isCream ? '#198754' : '#10b981';
 
-    // Chart 1: Bed Capacity & Occupancy by Ward (DAX model)
+    // 1. Role Banner & Dynamic Titles
+    const bannerBadge = document.getElementById('powerbi-role-badge');
+    const bannerMeta = document.getElementById('powerbi-role-meta');
+    const paneTitle = document.getElementById('powerbi-pane-title');
+    const paneSubtitle = document.getElementById('powerbi-pane-subtitle');
+
+    const roleIcons = {
+      admin: 'fa-user-shield',
+      pharmacy: 'fa-prescription-bottle-medical',
+      reception: 'fa-hospital-user',
+      manager: 'fa-truck-medical'
+    };
+
+    if (bannerBadge) {
+      bannerBadge.innerHTML = `<i class="fa-solid ${roleIcons[role] || 'fa-user-shield'}"></i> ${data.role_title || 'Executive View'}`;
+    }
+    if (bannerMeta) bannerMeta.innerText = data.role_subtitle || '';
+    if (paneTitle) paneTitle.innerText = `Power BI Analytics · ${data.role_title || 'Dashboard'}`;
+    if (paneSubtitle) paneSubtitle.innerText = data.role_subtitle || '';
+
+    // 2. Render Role-specific DAX KPI Cards
+    const kpisContainer = document.getElementById('powerbi-kpis');
+    if (kpisContainer && data.kpis) {
+      kpisContainer.innerHTML = data.kpis.map(k => `
+        <div class="kpi-card">
+          <div class="kpi-header">
+            <span class="kpi-label">${k.label}</span>
+            <div class="kpi-icon ${k.color}"><i class="fa-solid ${k.icon}"></i></div>
+          </div>
+          <div class="kpi-value">${k.value}</div>
+          <div class="kpi-subtext">${k.sub}</div>
+        </div>
+      `).join('');
+    }
+
+    // 3. Highlight Role-relevant Star Schema Datasets
+    const chipsContainer = document.getElementById('dataset-chips-container');
+    const roleDesc = document.getElementById('dataset-role-desc');
+    if (roleDesc && data.role_title) {
+      roleDesc.innerHTML = `<strong>Role Partition (${data.role_title}):</strong> Highlighted star-schema tables match your active Row-Level Security (RLS) partition:`;
+    }
+    if (chipsContainer && data.dataset_focus) {
+      const chips = chipsContainer.querySelectorAll('.dataset-chip');
+      chips.forEach(chip => {
+        const file = chip.getAttribute('data-file');
+        if (data.dataset_focus.includes(file)) {
+          chip.classList.add('chip-highlight');
+          chip.classList.remove('chip-dimmed');
+        } else {
+          chip.classList.remove('chip-highlight');
+          chip.classList.add('chip-dimmed');
+        }
+      });
+    }
+
+    // 4. Destroy existing charts safely
+    if (AppState.charts.bedWards) { AppState.charts.bedWards.destroy(); AppState.charts.bedWards = null; }
+    if (AppState.charts.pharmaStatus) { AppState.charts.pharmaStatus.destroy(); AppState.charts.pharmaStatus = null; }
+    if (AppState.charts.hotspotsCity) { AppState.charts.hotspotsCity.destroy(); AppState.charts.hotspotsCity = null; }
+    if (AppState.charts.ambStatus) { AppState.charts.ambStatus.destroy(); AppState.charts.ambStatus = null; }
+
     const ctx1 = document.getElementById('chart-bed-wards').getContext('2d');
-    if (AppState.charts.bedWards) AppState.charts.bedWards.destroy();
+    const ctx2 = document.getElementById('chart-pharma-status').getContext('2d');
+    const ctx3 = document.getElementById('chart-hotspots-city').getContext('2d');
+    const ctx4 = document.getElementById('chart-amb-status').getContext('2d');
 
-    const wardLabels = data.bed_by_ward.map(w => `${w.ward_type} Ward`);
-    const wardOccupied = data.bed_by_ward.map(w => w.occupied);
-    const wardFree = data.bed_by_ward.map(w => w.free);
+    const t1 = document.getElementById('chart-title-1');
+    const t2 = document.getElementById('chart-title-2');
+    const t3 = document.getElementById('chart-title-3');
+    const t4 = document.getElementById('chart-title-4');
 
-    AppState.charts.bedWards = new Chart(ctx1, {
-      type: 'bar',
-      data: {
-        labels: wardLabels,
-        datasets: [
-          {
-            label: 'Occupied Beds',
-            data: wardOccupied,
+    if (role === 'pharmacy') {
+      // Pharmacy Chart 1: Drug Categories & Sales Volume
+      t1.innerHTML = '<i class="fa-solid fa-pills text-green"></i> Drug Category Sales & Volume (DAX Model)';
+      AppState.charts.bedWards = new Chart(ctx1, {
+        type: 'bar',
+        data: {
+          labels: (data.category_sales || []).map(c => c.category),
+          datasets: [{
+            label: 'Sales Revenue (₹)',
+            data: (data.category_sales || []).map(c => c.sales),
             backgroundColor: colorPrimary,
             borderRadius: 4
-          },
-          {
-            label: 'Free Beds',
-            data: wardFree,
-            backgroundColor: colorSecondary,
-            borderRadius: 4
-          }
-        ]
-      },
-      options: {
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: {
-          legend: { labels: { color: textColor } }
+          }]
         },
-        scales: {
-          x: { ticks: { color: textColor }, grid: { color: gridColor } },
-          y: { ticks: { color: textColor }, grid: { color: gridColor } }
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { labels: { color: textColor } } },
+          scales: {
+            x: { ticks: { color: textColor }, grid: { color: gridColor } },
+            y: { ticks: { color: textColor }, grid: { color: gridColor } }
+          }
         }
-      }
-    });
+      });
 
-    // Chart 2: Pharma Status Donut
-    const ctx2 = document.getElementById('chart-pharma-status').getContext('2d');
-    if (AppState.charts.pharmaStatus) AppState.charts.pharmaStatus.destroy();
-
-    AppState.charts.pharmaStatus = new Chart(ctx2, {
-      type: 'doughnut',
-      data: {
-        labels: data.pharma_status.map(s => s.status),
-        datasets: [{
-          data: data.pharma_status.map(s => s.count),
-          backgroundColor: ['#198754', '#dc2626', '#d97706', '#7c3aed']
-        }]
-      },
-      options: {
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: {
-          legend: { labels: { color: textColor } }
+      // Pharmacy Chart 2: Expiry & Stock Risk Status
+      t2.innerHTML = '<i class="fa-solid fa-hourglass-half text-orange"></i> Batch Expiry & Stock Risk Pipeline';
+      AppState.charts.pharmaStatus = new Chart(ctx2, {
+        type: 'doughnut',
+        data: {
+          labels: (data.pharma_status || []).map(s => s.status),
+          datasets: [{
+            data: (data.pharma_status || []).map(s => s.count),
+            backgroundColor: ['#198754', '#dc2626', '#d97706', '#7c3aed']
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { labels: { color: textColor } } }
         }
-      }
-    });
+      });
 
-    // Chart 3: Accidents by Metro Hub
-    const ctx3 = document.getElementById('chart-hotspots-city').getContext('2d');
-    if (AppState.charts.hotspotsCity) AppState.charts.hotspotsCity.destroy();
-
-    AppState.charts.hotspotsCity = new Chart(ctx3, {
-      type: 'bar',
-      data: {
-        labels: data.hotspots_by_city.map(c => c.city),
-        datasets: [
-          {
-            label: 'Annual Accidents',
-            data: data.hotspots_by_city.map(c => c.accidents),
-            backgroundColor: '#d97706',
-            borderRadius: 4
-          },
-          {
-            label: 'Fatalities',
-            data: data.hotspots_by_city.map(c => c.fatalities),
+      // Pharmacy Chart 3: Blood Group Reserves
+      t3.innerHTML = '<i class="fa-solid fa-droplet text-red"></i> Blood Bank Reserves by Blood Group (Cold Storage)';
+      AppState.charts.hotspotsCity = new Chart(ctx3, {
+        type: 'bar',
+        data: {
+          labels: (data.blood_by_group || []).map(b => `Group ${b.blood_group}`),
+          datasets: [{
+            label: 'Units in Cold Storage',
+            data: (data.blood_by_group || []).map(b => b.units),
             backgroundColor: '#dc2626',
             borderRadius: 4
-          }
-        ]
-      },
-      options: {
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: {
-          legend: { labels: { color: textColor } }
+          }]
         },
-        scales: {
-          x: { ticks: { color: textColor }, grid: { color: gridColor } },
-          y: { ticks: { color: textColor }, grid: { color: gridColor } }
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { labels: { color: textColor } } },
+          scales: {
+            x: { ticks: { color: textColor }, grid: { color: gridColor } },
+            y: { ticks: { color: textColor }, grid: { color: gridColor } }
+          }
         }
-      }
-    });
+      });
 
-    // Chart 4: Fleet Utilization
-    const ctx4 = document.getElementById('chart-amb-status').getContext('2d');
-    if (AppState.charts.ambStatus) AppState.charts.ambStatus.destroy();
-
-    AppState.charts.ambStatus = new Chart(ctx4, {
-      type: 'pie',
-      data: {
-        labels: data.amb_by_status.map(a => `${a.status.toUpperCase()}`),
-        datasets: [{
-          data: data.amb_by_status.map(a => a.count),
-          backgroundColor: ['#198754', '#d97706', '#dc2626']
-        }]
-      },
-      options: {
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: {
-          legend: { labels: { color: textColor } }
+      // Pharmacy Chart 4: Distributor Supply Share
+      t4.innerHTML = '<i class="fa-solid fa-truck-ramp-box text-blue"></i> Supply Volume by Distributor Partner';
+      AppState.charts.ambStatus = new Chart(ctx4, {
+        type: 'pie',
+        data: {
+          labels: (data.distributor_share || []).map(d => d.distributor),
+          datasets: [{
+            data: (data.distributor_share || []).map(d => d.units),
+            backgroundColor: ['#0f5132', '#198754', '#06b6d4', '#d97706']
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { labels: { color: textColor } } }
         }
-      }
-    });
+      });
+
+    } else if (role === 'reception') {
+      // Reception Chart 1: Bed Capacity & Occupancy by Ward
+      t1.innerHTML = '<i class="fa-solid fa-bed text-blue"></i> Ward Bed Allocation (General, ICU & Emergency)';
+      AppState.charts.bedWards = new Chart(ctx1, {
+        type: 'bar',
+        data: {
+          labels: (data.bed_by_ward || []).map(w => `${w.ward_type} Ward`),
+          datasets: [
+            { label: 'Occupied Beds', data: (data.bed_by_ward || []).map(w => w.occupied), backgroundColor: '#d97706', borderRadius: 4 },
+            { label: 'Free Beds', data: (data.bed_by_ward || []).map(w => w.free), backgroundColor: colorSecondary, borderRadius: 4 }
+          ]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { labels: { color: textColor } } },
+          scales: {
+            x: { ticks: { color: textColor }, grid: { color: gridColor } },
+            y: { ticks: { color: textColor }, grid: { color: gridColor } }
+          }
+        }
+      });
+
+      // Reception Chart 2: Ventilators
+      t2.innerHTML = '<i class="fa-solid fa-lungs text-green"></i> Critical Care Ventilators (Available vs In-Use)';
+      AppState.charts.pharmaStatus = new Chart(ctx2, {
+        type: 'doughnut',
+        data: {
+          labels: ['Available', 'In Use'],
+          datasets: [{
+            data: [data.ventilator_stats.available, data.ventilator_stats.in_use],
+            backgroundColor: ['#198754', '#dc2626']
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { labels: { color: textColor } } }
+        }
+      });
+
+      // Reception Chart 3: On-Duty Medical Specialists
+      t3.innerHTML = '<i class="fa-solid fa-user-doctor text-blue"></i> On-Duty Medical Specialists by Department';
+      AppState.charts.hotspotsCity = new Chart(ctx3, {
+        type: 'bar',
+        data: {
+          labels: (data.doctors_by_spec || []).map(d => d.specialization),
+          datasets: [
+            { label: 'On-Duty', data: (data.doctors_by_spec || []).map(d => d.on_duty), backgroundColor: colorPrimary, borderRadius: 4 },
+            { label: 'Off-Duty', data: (data.doctors_by_spec || []).map(d => d.off_duty), backgroundColor: '#94a3b8', borderRadius: 4 }
+          ]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { labels: { color: textColor } } },
+          scales: {
+            x: { ticks: { color: textColor }, grid: { color: gridColor } },
+            y: { ticks: { color: textColor }, grid: { color: gridColor } }
+          }
+        }
+      });
+
+      // Reception Chart 4: Beds by Metro City
+      t4.innerHTML = '<i class="fa-solid fa-city text-orange"></i> Bed Capacity Distribution by Metro Hub';
+      AppState.charts.ambStatus = new Chart(ctx4, {
+        type: 'pie',
+        data: {
+          labels: (data.bed_by_city || []).map(c => c.city),
+          datasets: [{
+            data: (data.bed_by_city || []).map(c => c.total),
+            backgroundColor: ['#0f5132', '#198754', '#06b6d4', '#d97706', '#7c3aed', '#dc2626']
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { labels: { color: textColor } } }
+        }
+      });
+
+    } else if (role === 'manager') {
+      // Manager Chart 1: Ambulance Readiness
+      t1.innerHTML = '<i class="fa-solid fa-truck-medical text-green"></i> Ambulance Fleet Readiness %';
+      AppState.charts.bedWards = new Chart(ctx1, {
+        type: 'doughnut',
+        data: {
+          labels: (data.amb_by_status || []).map(a => `${a.status.toUpperCase()}`),
+          datasets: [{
+            data: (data.amb_by_status || []).map(a => a.count),
+            backgroundColor: ['#198754', '#dc2626', '#d97706']
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { labels: { color: textColor } } }
+        }
+      });
+
+      // Manager Chart 2: Fleet by Equipment Type
+      t2.innerHTML = '<i class="fa-solid fa-kit-medical text-blue"></i> Fleet Capability (ALS vs BLS vs Patient Transport)';
+      AppState.charts.pharmaStatus = new Chart(ctx2, {
+        type: 'pie',
+        data: {
+          labels: (data.amb_by_type || []).map(t => t.type),
+          datasets: [{
+            data: (data.amb_by_type || []).map(t => t.count),
+            backgroundColor: ['#0f5132', '#06b6d4', '#7c3aed']
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { labels: { color: textColor } } }
+        }
+      });
+
+      // Manager Chart 3: Highway Accidents & Fatalities by City
+      t3.innerHTML = '<i class="fa-solid fa-road-circle-exclamation text-orange"></i> Accidents & Fatalities by Highway Corridor Hub';
+      AppState.charts.hotspotsCity = new Chart(ctx3, {
+        type: 'bar',
+        data: {
+          labels: (data.hotspots_by_city || []).map(c => c.city),
+          datasets: [
+            { label: 'Annual Accidents', data: (data.hotspots_by_city || []).map(c => c.accidents), backgroundColor: '#d97706', borderRadius: 4 },
+            { label: 'Fatalities', data: (data.hotspots_by_city || []).map(c => c.fatalities), backgroundColor: '#dc2626', borderRadius: 4 }
+          ]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { labels: { color: textColor } } },
+          scales: {
+            x: { ticks: { color: textColor }, grid: { color: gridColor } },
+            y: { ticks: { color: textColor }, grid: { color: gridColor } }
+          }
+        }
+      });
+
+      // Manager Chart 4: Hotspots by Risk Severity
+      t4.innerHTML = '<i class="fa-solid fa-triangle-exclamation text-red"></i> Highway Choke Points by Risk Level (MoRTH)';
+      AppState.charts.ambStatus = new Chart(ctx4, {
+        type: 'bar',
+        data: {
+          labels: (data.hotspots_by_risk || []).map(r => `${r.risk_level} Risk`),
+          datasets: [{
+            label: 'Corridor Hotspots',
+            data: (data.hotspots_by_risk || []).map(r => r.count),
+            backgroundColor: ['#dc2626', '#d97706'],
+            borderRadius: 4
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { labels: { color: textColor } } },
+          scales: {
+            x: { ticks: { color: textColor }, grid: { color: gridColor } },
+            y: { ticks: { color: textColor }, grid: { color: gridColor } }
+          }
+        }
+      });
+
+    } else {
+      // Default / Admin: Comprehensive Enterprise Model
+      t1.innerHTML = '<i class="fa-solid fa-chart-bar text-green"></i> Bed Capacity & Occupancy by Ward (DAX Model)';
+      AppState.charts.bedWards = new Chart(ctx1, {
+        type: 'bar',
+        data: {
+          labels: (data.bed_by_ward || []).map(w => `${w.ward_type} Ward`),
+          datasets: [
+            { label: 'Occupied Beds', data: (data.bed_by_ward || []).map(w => w.occupied), backgroundColor: colorPrimary, borderRadius: 4 },
+            { label: 'Free Beds', data: (data.bed_by_ward || []).map(w => w.free), backgroundColor: colorSecondary, borderRadius: 4 }
+          ]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { labels: { color: textColor } } },
+          scales: {
+            x: { ticks: { color: textColor }, grid: { color: gridColor } },
+            y: { ticks: { color: textColor }, grid: { color: gridColor } }
+          }
+        }
+      });
+
+      t2.innerHTML = '<i class="fa-solid fa-chart-pie text-orange"></i> Pharma Stock Status Distribution';
+      AppState.charts.pharmaStatus = new Chart(ctx2, {
+        type: 'doughnut',
+        data: {
+          labels: (data.pharma_status || []).map(s => s.status),
+          datasets: [{
+            data: (data.pharma_status || []).map(s => s.count),
+            backgroundColor: ['#198754', '#dc2626', '#d97706', '#7c3aed']
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { labels: { color: textColor } } }
+        }
+      });
+
+      t3.innerHTML = '<i class="fa-solid fa-chart-column text-red"></i> Annual Accidents & Fatalities by Metro Hub';
+      AppState.charts.hotspotsCity = new Chart(ctx3, {
+        type: 'bar',
+        data: {
+          labels: (data.hotspots_by_city || []).map(c => c.city),
+          datasets: [
+            { label: 'Annual Accidents', data: (data.hotspots_by_city || []).map(c => c.accidents), backgroundColor: '#d97706', borderRadius: 4 },
+            { label: 'Fatalities', data: (data.hotspots_by_city || []).map(c => c.fatalities), backgroundColor: '#dc2626', borderRadius: 4 }
+          ]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { labels: { color: textColor } } },
+          scales: {
+            x: { ticks: { color: textColor }, grid: { color: gridColor } },
+            y: { ticks: { color: textColor }, grid: { color: gridColor } }
+          }
+        }
+      });
+
+      t4.innerHTML = '<i class="fa-solid fa-gauge-high text-green"></i> Ambulance Fleet Readiness %';
+      AppState.charts.ambStatus = new Chart(ctx4, {
+        type: 'pie',
+        data: {
+          labels: (data.amb_by_status || []).map(a => `${a.status.toUpperCase()}`),
+          datasets: [{
+            data: (data.amb_by_status || []).map(a => a.count),
+            backgroundColor: ['#198754', '#dc2626', '#d97706']
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { labels: { color: textColor } } }
+        }
+      });
+    }
 
   } catch (err) {
     console.error('Error loading Power BI charts:', err);

@@ -135,11 +135,22 @@ def run_tests():
     print("[PASS] Test 12: Medicine Restock Lifecycle passed")
     passed += 1
 
-    # 13. Power BI Metrics
+    # 13. Power BI Role-Based Metrics
     total += 1
     status, data = get("/api/powerbi-metrics")
     assert status == 200 and "bed_by_ward" in data and "pharma_status" in data
-    print("[PASS] Test 13: Power BI Analytical Model Metrics passed")
+    assert data["role"] == "admin" and len(data["kpis"]) == 4
+
+    p_status, p_data = get("/api/powerbi-metrics?role=pharmacy")
+    assert p_status == 200 and p_data["role"] == "pharmacy" and len(p_data["blood_by_group"]) > 0
+
+    r_status, r_data = get("/api/powerbi-metrics?role=reception")
+    assert r_status == 200 and r_data["role"] == "reception" and len(r_data["doctors_by_spec"]) > 0
+
+    m_status, m_data = get("/api/powerbi-metrics?role=manager")
+    assert m_status == 200 and m_data["role"] == "manager" and len(m_data["amb_by_type"]) > 0
+
+    print("[PASS] Test 13: Power BI Role-Based Analytical Models passed (Admin, Pharmacy, Reception, Manager partitions)")
     passed += 1
 
     # 14. Static HTML Index Serving
@@ -148,7 +159,7 @@ def run_tests():
     with urllib.request.urlopen(req) as resp:
         html = resp.read().decode('utf-8')
         assert resp.status == 200 and "TechHunters" in html and "Smart Hospital" in html
-        assert "login-view" in html and "Staff Portal Login" in html
+        assert "login-view" in html and ("Portal Sign In" in html or "Staff Portal Login" in html)
     print("[PASS] Test 14: Frontend HTML5 Shell with Login Portal correctly served")
     passed += 1
 
@@ -162,8 +173,26 @@ def run_tests():
     # 16. Demo Users List
     total += 1
     users_status, users_data = get("/api/auth/users")
-    assert users_status == 200 and len(users_data) == 4
+    assert users_status == 200 and len(users_data) >= 4
     print(f"[PASS] Test 16: RBAC Demo Accounts API passed ({len(users_data)} roles registered)")
+    passed += 1
+
+    # 17. External Citizen Account Registration & Login
+    total += 1
+    import time
+    reg_username = f"citizen_{int(time.time())}"
+    reg_status, reg_data = post("/api/auth/register", {
+        "full_name": "Citizen User",
+        "username": reg_username,
+        "password": "mypassword123",
+        "phone": "+91 91234 56789",
+        "account_type": "citizen"
+    })
+    assert reg_status == 200 and reg_data["success"] is True and reg_data["user"]["role"] == "external"
+
+    cit_login_status, cit_login_data = post("/api/auth/login", {"username": reg_username, "password": "mypassword123"})
+    assert cit_login_status == 200 and cit_login_data["success"] is True and cit_login_data["user"]["role"] == "external"
+    print(f"[PASS] Test 17: External Citizen Account Registration & Authentication passed ({reg_username})")
     passed += 1
 
     print("==================================================================")

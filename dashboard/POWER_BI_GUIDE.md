@@ -148,3 +148,25 @@ DIVIDE([Total Fatalities], [Total Annual Accidents], 0) * 100
    - Hotspot Risk Matrix: Fatalities vs Accidents by Highway Corridor
    - Donut Chart: Ambulance Readiness (Free vs Busy vs Maintenance)
    - Staging Coverage Table: Proximity of 108 ALS ambulances to Critical Hotspots
+
+---
+
+### 5. Role-Based Access Control & Row-Level Security (RLS)
+
+The system supports **Row-Level Security (RLS)** in Power BI Desktop to automatically partition data based on the authenticated staff member's role:
+
+#### Configuring Roles in Power BI Desktop
+1. Navigate to **Modeling** tab $\rightarrow$ click **Manage Roles**.
+2. Click **Create** to define the four roles:
+
+| Role Name | Table | DAX Filter Expression | Visible Scope |
+|---|---|---|---|
+| **Executive Director (Admin)** | *(All Tables)* | *None (Unrestricted)* | Full access across all 200 hospitals, 2,000 doctors, fleet and pharma datasets. |
+| **Chief Pharmacist (Pharmacy)** | `fact_pharma_inventory`<br>`fact_blood_bank` | `[quantity] > 0 || [is_expired] = 1`<br>`[units_available] >= 0` | Pharma inventory, expiry timelines, drug valuation, and cold storage blood units. |
+| **Triage Officer (Reception)** | `fact_bed_occupancy`<br>`dim_doctors` | `[total_beds] > 0`<br>`[on_duty] == 1` | Ward capacity (General, ICU, Emergency), hospital occupancy rates, and on-duty doctors. |
+| **Fleet Dispatch Manager (Manager)** | `fact_ambulance_fleet`<br>`dim_accident_hotspots` | `[in_service] == 1`<br>`[annual_accidents] > 0` | Ambulance fleet readiness (Free/Busy/Maintenance), vehicle capabilities (ALS/BLS), and highway corridors. |
+
+#### Testing RLS in Power BI Desktop
+1. Go to **Modeling** tab $\rightarrow$ click **View as**.
+2. Check the desired role (e.g., `Chief Pharmacist` or `Fleet Dispatch Manager`).
+3. Observe all report visuals instantly filter to the role-specific datasets matching the web app.
